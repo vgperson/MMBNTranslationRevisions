@@ -14,7 +14,7 @@ When working with the BN2 Revision scripts, you should replace TextPet's default
 
 ## basepatches folder
 
-The GBA versions of both the BN2 and BN3 revisions make slight edits to the font graphics, with BN2 in particular adding a whole new character. To include these, you must first apply these patches to the unmodified North American ROMs (using an IPS patcher such as Lunar IPS) and use those as your "base" ROMs. If you don't, BN2's ellipses will display as blank spaces, and BN3 will keep the original single-pixel period.
+The GBA versions of the BN2, BN3, and BN4 revisions make slight edits to the font graphics, with BN2 in particular adding a whole new character. To include these, you must first apply these patches to the unmodified North American ROMs (using an IPS patcher such as Lunar IPS) and use those as your "base" ROMs. If you don't, BN2's ellipses will display as blank spaces, BN3 will keep the original single-pixel period, and BN4 will keep a single-pixel period and weirder-looking "j."
 
 ## Notes on running TextPet scripts
 
@@ -98,10 +98,12 @@ Once you have the new MPAK and MAP files, you can go into the .dat archive (by o
 
 ## Other notes
 
-For transparency: while I only included here the "final step" of the TPL scripts that are then imported into the games, I used a custom program of my own to perform various helpful functions, such as converting a singular "base" script out to TPLs for different game versions (i.e. BN3 Blue to White) or the Legacy Collection. This program is not ready for a public release (having lots of things hardcoded), and probably won't get one unless there's significant demand.
+For transparency: while I only included here the "final step" of the TPL scripts that are then imported into the games, I used a custom program of my own to perform various helpful functions, such as converting a singular "combined" script out to TPLs for different game versions or the Legacy Collection. This program is not ready for a public release (having lots of things hardcoded), and probably won't get one unless there's significant demand.
 
 ## Links
 
 [MMBN2 Translation Revision official page](https://vgperson.com/games/bn2revision.htm)
 
 [MMBN3 Translation Revision official page](https://vgperson.com/games/bn3revision.htm)
+
+[MMBN4 Translation Revision official page](https://vgperson.com/games/bn4revision.htm)
