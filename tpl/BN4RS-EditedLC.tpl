@@ -42757,7 +42757,7 @@ script 131 mmbn4s {
 	end
 }
 script 132 mmbn4s {
-	"GutsMan"
+	"GutsMn"
 	end
 }
 script 133 mmbn4s {
@@ -42773,7 +42773,7 @@ script 135 mmbn4s {
 	end
 }
 script 136 mmbn4s {
-	"WindMan"
+	"WindMn"
 	end
 }
 script 137 mmbn4s {
@@ -42789,7 +42789,7 @@ script 139 mmbn4s {
 	end
 }
 script 140 mmbn4s {
-	"SrchMan"
+	"SrchMn"
 	end
 }
 script 141 mmbn4s {
@@ -42805,7 +42805,7 @@ script 143 mmbn4s {
 	end
 }
 script 144 mmbn4s {
-	"FireMan"
+	"FireMn"
 	end
 }
 script 145 mmbn4s {
@@ -42821,7 +42821,7 @@ script 147 mmbn4s {
 	end
 }
 script 148 mmbn4s {
-	"ThunMan"
+	"ThunMn"
 	end
 }
 script 149 mmbn4s {
@@ -42837,7 +42837,7 @@ script 151 mmbn4s {
 	end
 }
 script 152 mmbn4s {
-	"ProtoMn"
+	"ProtMn"
 	end
 }
 script 153 mmbn4s {
@@ -42853,7 +42853,7 @@ script 155 mmbn4s {
 	end
 }
 script 156 mmbn4s {
-	"NumbrMn"
+	"NmbrMn"
 	end
 }
 script 157 mmbn4s {
@@ -42869,7 +42869,7 @@ script 159 mmbn4s {
 	end
 }
 script 160 mmbn4s {
-	"MetalMn"
+	"MetlMn"
 	end
 }
 script 161 mmbn4s {
@@ -42885,7 +42885,7 @@ script 163 mmbn4s {
 	end
 }
 script 164 mmbn4s {
-	"JunkMan"
+	"JunkMn"
 	end
 }
 script 165 mmbn4s {
@@ -42901,7 +42901,7 @@ script 167 mmbn4s {
 	end
 }
 script 168 mmbn4s {
-	"AquaMan"
+	"AquaMn"
 	end
 }
 script 169 mmbn4s {
@@ -42917,7 +42917,7 @@ script 171 mmbn4s {
 	end
 }
 script 172 mmbn4s {
-	"WoodMan"
+	"WoodMn"
 	end
 }
 script 173 mmbn4s {
@@ -42949,7 +42949,7 @@ script 179 mmbn4s {
 	end
 }
 script 180 mmbn4s {
-	"ShadeMan"
+	"ShdeMn"
 	end
 }
 script 181 mmbn4s {
@@ -42965,7 +42965,7 @@ script 183 mmbn4s {
 	end
 }
 script 184 mmbn4s {
-	"BurnerMn"
+	"BurnMn"
 	end
 }
 script 185 mmbn4s {
@@ -42981,7 +42981,7 @@ script 187 mmbn4s {
 	end
 }
 script 188 mmbn4s {
-	"ColdMan"
+	"ColdMn"
 	end
 }
 script 189 mmbn4s {
@@ -42997,7 +42997,7 @@ script 191 mmbn4s {
 	end
 }
 script 192 mmbn4s {
-	"SparkMan"
+	"SprkMn"
 	end
 }
 script 193 mmbn4s {
@@ -43061,7 +43061,7 @@ script 207 mmbn4s {
 	end
 }
 script 208 mmbn4s {
-	"LaserMan"
+	"LasrMn"
 	end
 }
 script 209 mmbn4s {
@@ -43077,7 +43077,7 @@ script 211 mmbn4s {
 	end
 }
 script 212 mmbn4s {
-	"KendoMan"
+	"KndoMn"
 	end
 }
 script 213 mmbn4s {
@@ -43093,7 +43093,7 @@ script 215 mmbn4s {
 	end
 }
 script 216 mmbn4s {
-	"VideoMan"
+	"VideoM"
 	end
 }
 script 217 mmbn4s {
