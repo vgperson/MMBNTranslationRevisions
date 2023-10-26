@@ -7564,7 +7564,10 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan,should we run?\n"
+	"""
+	Lan,should we run?
+	
+	"""
 	option
 		left = 0
 		right = 1
@@ -7572,7 +7575,9 @@ script 2 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 1
@@ -7580,7 +7585,9 @@ script 2 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -7603,13 +7610,19 @@ script 3 mmbn3 {
 	msgOpen
 	wait
 		frames = 18
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 18
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 18
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 18
 	"""
@@ -7625,13 +7638,19 @@ script 4 mmbn3 {
 	msgOpen
 	wait
 		frames = 18
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 18
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 18
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 18
 	"""
@@ -7647,7 +7666,9 @@ script 5 mmbn3s {
 		minLength = 8
 		padZeros = false
 		padLeft = true
-	"z"
+	"""
+	z
+	"""
 	end
 }
 script 6 mmbn3s {
@@ -7659,19 +7680,27 @@ script 6 mmbn3s {
 	end
 }
 script 7 mmbn3s {
-	"      HP+"
+	"""
+	      HP+
+	"""
 	end
 }
 script 8 mmbn3s {
-	"     HP+"
+	"""
+	     HP+
+	"""
 	end
 }
 script 9 mmbn3s {
-	"    HP+"
+	"""
+	    HP+
+	"""
 	end
 }
 script 10 mmbn3s {
-	"    HP Max"
+	"""
+	    HP Max
+	"""
 	end
 }
 script 11 mmbn3 {
@@ -7684,22 +7713,32 @@ script 11 mmbn3 {
 	"""
 	keyWait
 	end
-	"4"
+	"""
+	4
+	"""
 }
 script 12 mmbn3s {
-	"VS"
+	"""
+	VS
+	"""
 	end
 }
 script 45 mmbn3s {
-	"DOUBLE DELETE!"
+	"""
+	DOUBLE DELETE!
+	"""
 	end
 }
 script 46 mmbn3s {
-	"TRIPLE DELETE!"
+	"""
+	TRIPLE DELETE!
+	"""
 	end
 }
 script 47 mmbn3s {
-	"BugFrag "
+	"""
+	BugFrag 
+	"""
 	end
 }
 script 48 mmbn3 {
@@ -7718,7 +7757,9 @@ script 48 mmbn3 {
 		buffer = 1
 	keyWait
 	end
-	"4"
+	"""
+	4
+	"""
 }
 script 49 mmbn3 {
 	mugshotShow
@@ -7736,7 +7777,9 @@ script 49 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Run "
+	"""
+	Run 
+	"""
 	option
 		left = 0
 		right = 1
@@ -7744,7 +7787,9 @@ script 49 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Fight!"
+	"""
+	Fight!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -7763,13 +7808,19 @@ script 50 mmbn3 {
 	msgOpen
 	wait
 		frames = 18
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 18
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 18
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 18
 	"""
@@ -7805,7 +7856,9 @@ script 0 mmbn3 {
 		program = 4
 		color = 4
 		amount = 1
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -7834,7 +7887,9 @@ script 1 mmbn3 {
 		program = 8
 		color = 4
 		amount = 1
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -7864,7 +7919,9 @@ script 2 mmbn3 {
 		program = 12
 		color = 4
 		amount = 1
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -7893,7 +7950,9 @@ script 8 mmbn3 {
 		program = 40
 		color = 5
 		amount = 1
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -7922,7 +7981,9 @@ script 9 mmbn3 {
 		program = 40
 		color = 3
 		amount = 1
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -7952,7 +8013,9 @@ script 10 mmbn3 {
 		program = 44
 		color = 5
 		amount = 1
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -7981,7 +8044,9 @@ script 16 mmbn3 {
 		program = 48
 		color = 6
 		amount = 1
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -8010,7 +8075,9 @@ script 17 mmbn3 {
 		program = 48
 		color = 2
 		amount = 1
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -8040,7 +8107,9 @@ script 18 mmbn3 {
 		program = 52
 		color = 6
 		amount = 1
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -8069,7 +8138,9 @@ script 24 mmbn3 {
 		program = 56
 		color = 5
 		amount = 1
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -8098,7 +8169,9 @@ script 25 mmbn3 {
 		program = 60
 		color = 5
 		amount = 1
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -8128,7 +8201,9 @@ script 26 mmbn3 {
 		program = 64
 		color = 5
 		amount = 1
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -8157,7 +8232,9 @@ script 32 mmbn3 {
 		program = 16
 		color = 6
 		amount = 1
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -8186,7 +8263,9 @@ script 33 mmbn3 {
 		program = 20
 		color = 6
 		amount = 1
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -8215,7 +8294,9 @@ script 34 mmbn3 {
 		program = 24
 		color = 6
 		amount = 1
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -8245,7 +8326,9 @@ script 35 mmbn3 {
 		program = 36
 		color = 6
 		amount = 1
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -8274,7 +8357,9 @@ script 40 mmbn3 {
 		program = 68
 		color = 4
 		amount = 1
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -8303,7 +8388,9 @@ script 41 mmbn3 {
 		program = 72
 		color = 4
 		amount = 1
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -8333,7 +8420,9 @@ script 42 mmbn3 {
 		program = 76
 		color = 4
 		amount = 1
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -8362,7 +8451,9 @@ script 48 mmbn3 {
 		program = 176
 		color = 1
 		amount = 1
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -8392,14 +8483,19 @@ script 49 mmbn3 {
 		program = 200
 		color = 9
 		amount = 1
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	jump
 		target = 57
 }
 script 56 mmbn3 {
-	"Keep this style?\n"
+	"""
+	Keep this style?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -8407,7 +8503,10 @@ script 56 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Keep advancing!\n"
+	"""
+	Keep advancing!
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -8415,7 +8514,9 @@ script 56 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"New style!"
+	"""
+	New style!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -8448,7 +8549,9 @@ script 58 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"OK!"
+	"""
+	OK!
+	"""
 	keyWait
 	end
 }
@@ -8462,7 +8565,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"What the…?!"
+	"""
+	What the…?!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -8487,7 +8592,9 @@ script 2 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -8504,7 +8611,9 @@ script 3 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -8516,7 +8625,9 @@ script 4 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -8533,7 +8644,9 @@ script 5 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -8545,7 +8658,9 @@ script 6 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -8562,7 +8677,9 @@ script 7 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -8574,7 +8691,9 @@ script 8 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -8591,7 +8710,9 @@ script 9 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -8614,7 +8735,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Electric Guts…"
+	"""
+	Electric Guts…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -8624,7 +8747,9 @@ script 12 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Style…?"
+	"""
+	Style…?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -8707,7 +8832,9 @@ script 21 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Heat Guts…"
+	"""
+	Heat Guts…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -8717,7 +8844,9 @@ script 22 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Style?"
+	"""
+	Style?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -8787,7 +8916,9 @@ script 30 mmbn3 {
 	mugshotShow
 		mugshot = Dad
 	msgOpen
-	"Aqua Guts Style!"
+	"""
+	Aqua Guts Style!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -8797,7 +8928,9 @@ script 31 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Aqua Guts…"
+	"""
+	Aqua Guts…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -8807,7 +8940,9 @@ script 32 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Style…?"
+	"""
+	Style…?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -8877,7 +9012,9 @@ script 40 mmbn3 {
 	mugshotShow
 		mugshot = Dad
 	msgOpen
-	"Wood Guts Style!"
+	"""
+	Wood Guts Style!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -8887,7 +9024,9 @@ script 41 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Wood Guts…"
+	"""
+	Wood Guts…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -8897,7 +9036,9 @@ script 42 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Style…?"
+	"""
+	Style…?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -8967,7 +9108,9 @@ script 50 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Is this another…?"
+	"""
+	Is this another…?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -8979,7 +9122,9 @@ script 51 mmbn3 {
 	msgOpen
 	flagSet
 		flag = 139
-	"…style change?!"
+	"""
+	…style change?!
+	"""
 	keyWait
 	end
 }
@@ -8989,7 +9134,9 @@ script 52 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -9006,7 +9153,9 @@ script 53 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -9018,7 +9167,9 @@ script 54 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -9035,7 +9186,9 @@ script 55 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -9047,7 +9200,9 @@ script 56 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -9064,7 +9219,9 @@ script 57 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -9076,7 +9233,9 @@ script 58 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -9093,7 +9252,9 @@ script 59 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -9120,7 +9281,10 @@ script 60 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Improve this one\n"
+	"""
+	Improve this one
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -9128,7 +9292,9 @@ script 60 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Find another"
+	"""
+	Find another
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -9187,7 +9353,10 @@ script 70 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Change to this\n"
+	"""
+	Change to this
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -9195,7 +9364,9 @@ script 70 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Use the other"
+	"""
+	Use the other
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -9219,7 +9390,10 @@ script 71 mmbn3 {
 	keyWait
 	clearMsg
 	mugshotHide
-	"Overwrite?\n"
+	"""
+	Overwrite?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -9227,7 +9401,10 @@ script 71 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Overwrite!\n"
+	"""
+	Overwrite!
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -9235,7 +9412,9 @@ script 71 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Never mind!"
+	"""
+	Never mind!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -9271,7 +9450,10 @@ script 72 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Improve this one\n"
+	"""
+	Improve this one
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -9279,7 +9461,9 @@ script 72 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Find another"
+	"""
+	Find another
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -9313,7 +9497,10 @@ script 73 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Improve this one\n"
+	"""
+	Improve this one
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -9321,7 +9508,9 @@ script 73 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Find another"
+	"""
+	Find another
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -9353,7 +9542,10 @@ script 80 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Change to this\n"
+	"""
+	Change to this
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -9361,7 +9553,9 @@ script 80 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Use the other"
+	"""
+	Use the other
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -9385,7 +9579,10 @@ script 81 mmbn3 {
 	keyWait
 	clearMsg
 	mugshotHide
-	"Overwrite?\n"
+	"""
+	Overwrite?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -9393,7 +9590,10 @@ script 81 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Overwrite!\n"
+	"""
+	Overwrite!
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -9401,7 +9601,9 @@ script 81 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Never mind!"
+	"""
+	Never mind!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -9437,7 +9639,10 @@ script 82 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Improve this one\n"
+	"""
+	Improve this one
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -9445,7 +9650,9 @@ script 82 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Find another"
+	"""
+	Find another
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -9479,7 +9686,9 @@ script 84 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Roger!"
+	"""
+	Roger!
+	"""
 	keyWait
 	end
 }
@@ -9490,7 +9699,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"What the…?!"
+	"""
+	What the…?!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -9515,7 +9726,9 @@ script 2 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -9532,7 +9745,9 @@ script 3 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -9544,7 +9759,9 @@ script 4 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -9561,7 +9778,9 @@ script 5 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -9573,7 +9792,9 @@ script 6 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -9590,7 +9811,9 @@ script 7 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -9602,7 +9825,9 @@ script 8 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -9619,7 +9844,9 @@ script 9 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -9642,7 +9869,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Electric Custom…"
+	"""
+	Electric Custom…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -9652,7 +9881,9 @@ script 12 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Style…?"
+	"""
+	Style…?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -9735,7 +9966,9 @@ script 21 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Heat Custom…"
+	"""
+	Heat Custom…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -9745,7 +9978,9 @@ script 22 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Style…?"
+	"""
+	Style…?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -9815,7 +10050,9 @@ script 30 mmbn3 {
 	mugshotShow
 		mugshot = Dad
 	msgOpen
-	"Aqua Custom Style!"
+	"""
+	Aqua Custom Style!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -9825,7 +10062,9 @@ script 31 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Aqua Custom…"
+	"""
+	Aqua Custom…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -9835,7 +10074,9 @@ script 32 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Style…?"
+	"""
+	Style…?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -9905,7 +10146,9 @@ script 40 mmbn3 {
 	mugshotShow
 		mugshot = Dad
 	msgOpen
-	"Wood Custom Style!"
+	"""
+	Wood Custom Style!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -9915,7 +10158,9 @@ script 41 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Wood Custom…"
+	"""
+	Wood Custom…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -9925,7 +10170,9 @@ script 42 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Style…?"
+	"""
+	Style…?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -9995,7 +10242,9 @@ script 50 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Is this another…?"
+	"""
+	Is this another…?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -10007,7 +10256,9 @@ script 51 mmbn3 {
 	msgOpen
 	flagSet
 		flag = 139
-	"…style change?!"
+	"""
+	…style change?!
+	"""
 	keyWait
 	end
 }
@@ -10017,7 +10268,9 @@ script 52 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -10034,7 +10287,9 @@ script 53 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -10046,7 +10301,9 @@ script 54 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -10063,7 +10320,9 @@ script 55 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -10075,7 +10334,9 @@ script 56 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -10092,7 +10353,9 @@ script 57 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -10104,7 +10367,9 @@ script 58 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -10121,7 +10386,9 @@ script 59 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -10148,7 +10415,10 @@ script 60 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Improve this one\n"
+	"""
+	Improve this one
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -10156,7 +10426,9 @@ script 60 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Find another"
+	"""
+	Find another
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -10215,7 +10487,10 @@ script 70 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Change to this\n"
+	"""
+	Change to this
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -10223,7 +10498,9 @@ script 70 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Use the other"
+	"""
+	Use the other
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -10247,7 +10524,10 @@ script 71 mmbn3 {
 	keyWait
 	clearMsg
 	mugshotHide
-	"Overwrite?\n"
+	"""
+	Overwrite?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -10255,7 +10535,10 @@ script 71 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Overwrite!\n"
+	"""
+	Overwrite!
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -10263,7 +10546,9 @@ script 71 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Never mind!"
+	"""
+	Never mind!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -10299,7 +10584,10 @@ script 72 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Improve this one\n"
+	"""
+	Improve this one
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -10307,7 +10595,9 @@ script 72 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Find another"
+	"""
+	Find another
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -10341,7 +10631,10 @@ script 73 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Improve this one\n"
+	"""
+	Improve this one
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -10349,7 +10642,9 @@ script 73 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Find another"
+	"""
+	Find another
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -10380,7 +10675,10 @@ script 80 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Change to this\n"
+	"""
+	Change to this
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -10388,7 +10686,9 @@ script 80 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Use the other"
+	"""
+	Use the other
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -10412,7 +10712,10 @@ script 81 mmbn3 {
 	keyWait
 	clearMsg
 	mugshotHide
-	"Overwrite?\n"
+	"""
+	Overwrite?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -10420,7 +10723,10 @@ script 81 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Overwrite!\n"
+	"""
+	Overwrite!
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -10428,7 +10734,9 @@ script 81 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Never mind!"
+	"""
+	Never mind!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -10464,7 +10772,10 @@ script 82 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Improve this one\n"
+	"""
+	Improve this one
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -10472,7 +10783,9 @@ script 82 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Find another"
+	"""
+	Find another
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -10506,7 +10819,9 @@ script 84 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Roger!"
+	"""
+	Roger!
+	"""
 	keyWait
 	end
 }
@@ -10517,7 +10832,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"What the…?!"
+	"""
+	What the…?!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -10542,7 +10859,9 @@ script 2 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -10559,7 +10878,9 @@ script 3 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -10571,7 +10892,9 @@ script 4 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -10588,7 +10911,9 @@ script 5 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -10600,7 +10925,9 @@ script 6 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -10617,7 +10944,9 @@ script 7 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -10629,7 +10958,9 @@ script 8 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -10646,7 +10977,9 @@ script 9 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -10669,7 +11002,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Electric Team…"
+	"""
+	Electric Team…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -10679,7 +11014,9 @@ script 12 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Style…?"
+	"""
+	Style…?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -10762,7 +11099,9 @@ script 21 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Heat Team…"
+	"""
+	Heat Team…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -10772,7 +11111,9 @@ script 22 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Style?"
+	"""
+	Style?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -10842,7 +11183,9 @@ script 30 mmbn3 {
 	mugshotShow
 		mugshot = Dad
 	msgOpen
-	"Aqua Team Style!"
+	"""
+	Aqua Team Style!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -10852,7 +11195,9 @@ script 31 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Aqua Team…"
+	"""
+	Aqua Team…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -10862,7 +11207,9 @@ script 32 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Style…?"
+	"""
+	Style…?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -10932,7 +11279,9 @@ script 40 mmbn3 {
 	mugshotShow
 		mugshot = Dad
 	msgOpen
-	"Wood Team Style!"
+	"""
+	Wood Team Style!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -10942,7 +11291,9 @@ script 41 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Wood Team…"
+	"""
+	Wood Team…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -10952,7 +11303,9 @@ script 42 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Style…?"
+	"""
+	Style…?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -11022,7 +11375,9 @@ script 50 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Is this another…?"
+	"""
+	Is this another…?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -11034,7 +11389,9 @@ script 51 mmbn3 {
 	msgOpen
 	flagSet
 		flag = 139
-	"…style change?!"
+	"""
+	…style change?!
+	"""
 	keyWait
 	end
 }
@@ -11044,7 +11401,9 @@ script 52 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -11061,7 +11420,9 @@ script 53 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -11073,7 +11434,9 @@ script 54 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -11090,7 +11453,9 @@ script 55 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -11102,7 +11467,9 @@ script 56 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -11119,7 +11486,9 @@ script 57 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -11131,7 +11500,9 @@ script 58 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -11148,7 +11519,9 @@ script 59 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -11175,7 +11548,10 @@ script 60 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Improve this one\n"
+	"""
+	Improve this one
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -11183,7 +11559,9 @@ script 60 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Find another"
+	"""
+	Find another
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -11242,7 +11620,10 @@ script 70 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Change to this\n"
+	"""
+	Change to this
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -11250,7 +11631,9 @@ script 70 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Use the other"
+	"""
+	Use the other
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -11274,7 +11657,10 @@ script 71 mmbn3 {
 	keyWait
 	clearMsg
 	mugshotHide
-	"Overwrite?\n"
+	"""
+	Overwrite?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -11282,7 +11668,10 @@ script 71 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Overwrite!\n"
+	"""
+	Overwrite!
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -11290,7 +11679,9 @@ script 71 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Never mind!"
+	"""
+	Never mind!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -11326,7 +11717,10 @@ script 72 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Improve this one\n"
+	"""
+	Improve this one
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -11334,7 +11728,9 @@ script 72 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Find another"
+	"""
+	Find another
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -11368,7 +11764,10 @@ script 73 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Improve this one\n"
+	"""
+	Improve this one
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -11376,7 +11775,9 @@ script 73 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Find another"
+	"""
+	Find another
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -11407,7 +11808,10 @@ script 80 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Change to this\n"
+	"""
+	Change to this
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -11415,7 +11819,9 @@ script 80 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Use the other"
+	"""
+	Use the other
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -11439,7 +11845,10 @@ script 81 mmbn3 {
 	keyWait
 	clearMsg
 	mugshotHide
-	"Overwrite?\n"
+	"""
+	Overwrite?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -11447,7 +11856,10 @@ script 81 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Overwrite!\n"
+	"""
+	Overwrite!
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -11455,7 +11867,9 @@ script 81 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Never mind!"
+	"""
+	Never mind!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -11491,7 +11905,10 @@ script 82 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Improve this one\n"
+	"""
+	Improve this one
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -11499,7 +11916,9 @@ script 82 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Find another"
+	"""
+	Find another
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -11533,7 +11952,9 @@ script 84 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Roger!"
+	"""
+	Roger!
+	"""
 	keyWait
 	end
 }
@@ -11544,7 +11965,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"What the…?!"
+	"""
+	What the…?!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -11569,7 +11992,9 @@ script 2 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -11586,7 +12011,9 @@ script 3 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -11598,7 +12025,9 @@ script 4 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -11615,7 +12044,9 @@ script 5 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -11627,7 +12058,9 @@ script 6 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -11644,7 +12077,9 @@ script 7 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -11656,7 +12091,9 @@ script 8 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -11673,7 +12110,9 @@ script 9 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -11696,7 +12135,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Electric Shield…"
+	"""
+	Electric Shield…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -11706,7 +12147,9 @@ script 12 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Style…?"
+	"""
+	Style…?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -11789,7 +12232,9 @@ script 21 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Heat Shield…"
+	"""
+	Heat Shield…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -11799,7 +12244,9 @@ script 22 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Style?"
+	"""
+	Style?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -11869,7 +12316,9 @@ script 30 mmbn3 {
 	mugshotShow
 		mugshot = Dad
 	msgOpen
-	"Aqua Shield Style!"
+	"""
+	Aqua Shield Style!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -11879,7 +12328,9 @@ script 31 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Aqua Shield…"
+	"""
+	Aqua Shield…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -11889,7 +12340,9 @@ script 32 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Style…?"
+	"""
+	Style…?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -11959,7 +12412,9 @@ script 40 mmbn3 {
 	mugshotShow
 		mugshot = Dad
 	msgOpen
-	"Wood Shield Style!"
+	"""
+	Wood Shield Style!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -11969,7 +12424,9 @@ script 41 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Wood Shield…"
+	"""
+	Wood Shield…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -11979,7 +12436,9 @@ script 42 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Style…?"
+	"""
+	Style…?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -12049,7 +12508,9 @@ script 50 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Is this another…?"
+	"""
+	Is this another…?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -12061,7 +12522,9 @@ script 51 mmbn3 {
 	msgOpen
 	flagSet
 		flag = 139
-	"…style change?!"
+	"""
+	…style change?!
+	"""
 	keyWait
 	end
 }
@@ -12071,7 +12534,9 @@ script 52 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -12088,7 +12553,9 @@ script 53 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -12100,7 +12567,9 @@ script 54 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -12117,7 +12586,9 @@ script 55 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -12129,7 +12600,9 @@ script 56 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -12146,7 +12619,9 @@ script 57 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -12158,7 +12633,9 @@ script 58 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -12175,7 +12652,9 @@ script 59 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -12202,7 +12681,10 @@ script 60 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Improve this one\n"
+	"""
+	Improve this one
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -12210,7 +12692,9 @@ script 60 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Find another"
+	"""
+	Find another
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -12269,7 +12753,10 @@ script 70 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Change to this\n"
+	"""
+	Change to this
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -12277,7 +12764,9 @@ script 70 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Use the other"
+	"""
+	Use the other
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -12301,7 +12790,10 @@ script 71 mmbn3 {
 	keyWait
 	clearMsg
 	mugshotHide
-	"Overwrite?\n"
+	"""
+	Overwrite?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -12309,7 +12801,10 @@ script 71 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Overwrite!\n"
+	"""
+	Overwrite!
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -12317,7 +12812,9 @@ script 71 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Never mind!"
+	"""
+	Never mind!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -12353,7 +12850,10 @@ script 72 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Improve this one\n"
+	"""
+	Improve this one
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -12361,7 +12861,9 @@ script 72 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Find another"
+	"""
+	Find another
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -12395,7 +12897,10 @@ script 73 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Improve this one\n"
+	"""
+	Improve this one
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -12403,7 +12908,9 @@ script 73 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Find another"
+	"""
+	Find another
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -12435,7 +12942,10 @@ script 80 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Change to this\n"
+	"""
+	Change to this
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -12443,7 +12953,9 @@ script 80 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Use the other"
+	"""
+	Use the other
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -12467,7 +12979,10 @@ script 81 mmbn3 {
 	keyWait
 	clearMsg
 	mugshotHide
-	"Overwrite?\n"
+	"""
+	Overwrite?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -12475,7 +12990,10 @@ script 81 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Overwrite!\n"
+	"""
+	Overwrite!
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -12483,7 +13001,9 @@ script 81 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Never mind!"
+	"""
+	Never mind!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -12519,7 +13039,10 @@ script 82 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Improve this one\n"
+	"""
+	Improve this one
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -12527,7 +13050,9 @@ script 82 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Find another"
+	"""
+	Find another
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -12561,7 +13086,9 @@ script 84 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Roger!"
+	"""
+	Roger!
+	"""
 	keyWait
 	end
 }
@@ -12572,7 +13099,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"What the…?!"
+	"""
+	What the…?!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -12597,7 +13126,9 @@ script 2 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -12614,7 +13145,9 @@ script 3 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -12626,7 +13159,9 @@ script 4 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -12643,7 +13178,9 @@ script 5 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -12655,7 +13192,9 @@ script 6 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -12672,7 +13211,9 @@ script 7 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -12684,7 +13225,9 @@ script 8 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -12701,7 +13244,9 @@ script 9 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -12724,7 +13269,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Electric Ground…"
+	"""
+	Electric Ground…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -12734,7 +13281,9 @@ script 12 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Style…?"
+	"""
+	Style…?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -12817,7 +13366,9 @@ script 21 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Heat Ground…"
+	"""
+	Heat Ground…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -12827,7 +13378,9 @@ script 22 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Style?"
+	"""
+	Style?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -12897,7 +13450,9 @@ script 30 mmbn3 {
 	mugshotShow
 		mugshot = Dad
 	msgOpen
-	"Aqua Ground Style!"
+	"""
+	Aqua Ground Style!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -12907,7 +13462,9 @@ script 31 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Aqua Ground…"
+	"""
+	Aqua Ground…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -12917,7 +13474,9 @@ script 32 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Style…?"
+	"""
+	Style…?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -12987,7 +13546,9 @@ script 40 mmbn3 {
 	mugshotShow
 		mugshot = Dad
 	msgOpen
-	"Wood Ground Style!"
+	"""
+	Wood Ground Style!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -12997,7 +13558,9 @@ script 41 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Wood Ground…"
+	"""
+	Wood Ground…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -13007,7 +13570,9 @@ script 42 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Style…?"
+	"""
+	Style…?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -13077,7 +13642,9 @@ script 50 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Is this another…?"
+	"""
+	Is this another…?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -13089,7 +13656,9 @@ script 51 mmbn3 {
 	msgOpen
 	flagSet
 		flag = 139
-	"…style change?!"
+	"""
+	…style change?!
+	"""
 	keyWait
 	end
 }
@@ -13099,7 +13668,9 @@ script 52 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -13116,7 +13687,9 @@ script 53 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -13128,7 +13701,9 @@ script 54 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -13145,7 +13720,9 @@ script 55 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -13157,7 +13734,9 @@ script 56 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -13174,7 +13753,9 @@ script 57 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -13186,7 +13767,9 @@ script 58 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -13203,7 +13786,9 @@ script 59 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -13230,7 +13815,10 @@ script 60 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Improve this one\n"
+	"""
+	Improve this one
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -13238,7 +13826,9 @@ script 60 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Find another"
+	"""
+	Find another
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -13297,7 +13887,10 @@ script 70 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Change to this\n"
+	"""
+	Change to this
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -13305,7 +13898,9 @@ script 70 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Use the other"
+	"""
+	Use the other
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -13329,7 +13924,10 @@ script 71 mmbn3 {
 	keyWait
 	clearMsg
 	mugshotHide
-	"Overwrite?\n"
+	"""
+	Overwrite?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -13337,7 +13935,10 @@ script 71 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Overwrite!\n"
+	"""
+	Overwrite!
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -13345,7 +13946,9 @@ script 71 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Never mind!"
+	"""
+	Never mind!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -13381,7 +13984,10 @@ script 72 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Improve this one\n"
+	"""
+	Improve this one
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -13389,7 +13995,9 @@ script 72 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Find another"
+	"""
+	Find another
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -13423,7 +14031,10 @@ script 73 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Improve this one\n"
+	"""
+	Improve this one
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -13431,7 +14042,9 @@ script 73 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Find another"
+	"""
+	Find another
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -13463,7 +14076,10 @@ script 80 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Change to this\n"
+	"""
+	Change to this
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -13471,7 +14087,9 @@ script 80 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Use the other"
+	"""
+	Use the other
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -13495,7 +14113,10 @@ script 81 mmbn3 {
 	keyWait
 	clearMsg
 	mugshotHide
-	"Overwrite?\n"
+	"""
+	Overwrite?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -13503,7 +14124,10 @@ script 81 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Overwrite!\n"
+	"""
+	Overwrite!
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -13511,7 +14135,9 @@ script 81 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Never mind!"
+	"""
+	Never mind!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -13547,7 +14173,10 @@ script 82 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Improve this one\n"
+	"""
+	Improve this one
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -13555,7 +14184,9 @@ script 82 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Find another"
+	"""
+	Find another
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -13589,7 +14220,9 @@ script 84 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Roger!"
+	"""
+	Roger!
+	"""
 	keyWait
 	end
 }
@@ -13600,7 +14233,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"What the…?!"
+	"""
+	What the…?!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -13625,7 +14260,9 @@ script 2 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -13642,7 +14279,9 @@ script 3 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -13654,7 +14293,9 @@ script 4 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -13671,7 +14312,9 @@ script 5 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -13683,7 +14326,9 @@ script 6 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -13700,7 +14345,9 @@ script 7 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -13712,7 +14359,9 @@ script 8 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -13729,7 +14378,9 @@ script 9 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -13752,7 +14403,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Electric Shadow…"
+	"""
+	Electric Shadow…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -13762,7 +14415,9 @@ script 12 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Style…?"
+	"""
+	Style…?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -13845,7 +14500,9 @@ script 21 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Heat Shadow…"
+	"""
+	Heat Shadow…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -13855,7 +14512,9 @@ script 22 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Style?"
+	"""
+	Style?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -13925,7 +14584,9 @@ script 30 mmbn3 {
 	mugshotShow
 		mugshot = Dad
 	msgOpen
-	"Aqua Shadow Style!"
+	"""
+	Aqua Shadow Style!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -13935,7 +14596,9 @@ script 31 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Aqua Shadow…"
+	"""
+	Aqua Shadow…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -13945,7 +14608,9 @@ script 32 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Style…?"
+	"""
+	Style…?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -14015,7 +14680,9 @@ script 40 mmbn3 {
 	mugshotShow
 		mugshot = Dad
 	msgOpen
-	"Wood Shadow Style!"
+	"""
+	Wood Shadow Style!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -14025,7 +14692,9 @@ script 41 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Wood Shadow…"
+	"""
+	Wood Shadow…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -14035,7 +14704,9 @@ script 42 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Style…?"
+	"""
+	Style…?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -14105,7 +14776,9 @@ script 50 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Is this another…?"
+	"""
+	Is this another…?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -14117,7 +14790,9 @@ script 51 mmbn3 {
 	msgOpen
 	flagSet
 		flag = 139
-	"…style change?!"
+	"""
+	…style change?!
+	"""
 	keyWait
 	end
 }
@@ -14127,7 +14802,9 @@ script 52 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -14144,7 +14821,9 @@ script 53 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -14156,7 +14835,9 @@ script 54 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -14173,7 +14854,9 @@ script 55 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -14185,7 +14868,9 @@ script 56 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -14202,7 +14887,9 @@ script 57 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -14214,7 +14901,9 @@ script 58 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -14231,7 +14920,9 @@ script 59 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -14258,7 +14949,10 @@ script 60 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Improve this one\n"
+	"""
+	Improve this one
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -14266,7 +14960,9 @@ script 60 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Find another"
+	"""
+	Find another
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -14325,7 +15021,10 @@ script 70 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Change to this\n"
+	"""
+	Change to this
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -14333,7 +15032,9 @@ script 70 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Use the other"
+	"""
+	Use the other
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -14357,7 +15058,10 @@ script 71 mmbn3 {
 	keyWait
 	clearMsg
 	mugshotHide
-	"Overwrite?\n"
+	"""
+	Overwrite?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -14365,7 +15069,10 @@ script 71 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Overwrite!\n"
+	"""
+	Overwrite!
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -14373,7 +15080,9 @@ script 71 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Never mind!"
+	"""
+	Never mind!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -14409,7 +15118,10 @@ script 72 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Improve this one\n"
+	"""
+	Improve this one
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -14417,7 +15129,9 @@ script 72 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Find another"
+	"""
+	Find another
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -14451,7 +15165,10 @@ script 73 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Improve this one\n"
+	"""
+	Improve this one
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -14459,7 +15176,9 @@ script 73 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Find another"
+	"""
+	Find another
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -14491,7 +15210,10 @@ script 80 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Change to this\n"
+	"""
+	Change to this
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -14499,7 +15221,9 @@ script 80 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Use the other"
+	"""
+	Use the other
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -14523,7 +15247,10 @@ script 81 mmbn3 {
 	keyWait
 	clearMsg
 	mugshotHide
-	"Overwrite?\n"
+	"""
+	Overwrite?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -14531,7 +15258,10 @@ script 81 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Overwrite!\n"
+	"""
+	Overwrite!
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -14539,7 +15269,9 @@ script 81 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Never mind!"
+	"""
+	Never mind!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -14575,7 +15307,10 @@ script 82 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Improve this one\n"
+	"""
+	Improve this one
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -14583,7 +15318,9 @@ script 82 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Find another"
+	"""
+	Find another
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -14617,7 +15354,9 @@ script 84 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Roger!"
+	"""
+	Roger!
+	"""
 	keyWait
 	end
 }
@@ -14628,7 +15367,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"What the…?!"
+	"""
+	What the…?!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -14653,7 +15394,9 @@ script 2 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -14670,7 +15413,9 @@ script 3 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -14682,7 +15427,9 @@ script 4 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -14699,7 +15446,9 @@ script 5 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -14711,7 +15460,9 @@ script 6 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -14728,7 +15479,9 @@ script 7 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -14740,7 +15493,9 @@ script 8 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -14757,7 +15512,9 @@ script 9 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -14780,7 +15537,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Electric Bug…"
+	"""
+	Electric Bug…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -14790,7 +15549,9 @@ script 12 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Style…?"
+	"""
+	Style…?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -14873,7 +15634,9 @@ script 21 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Heat Bug…"
+	"""
+	Heat Bug…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -14883,7 +15646,9 @@ script 22 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Style?"
+	"""
+	Style?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -14953,7 +15718,9 @@ script 30 mmbn3 {
 	mugshotShow
 		mugshot = Dad
 	msgOpen
-	"Aqua Bug Style!"
+	"""
+	Aqua Bug Style!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -14963,7 +15730,9 @@ script 31 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Aqua Bug…"
+	"""
+	Aqua Bug…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -14973,7 +15742,9 @@ script 32 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Style…?"
+	"""
+	Style…?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -15043,7 +15814,9 @@ script 40 mmbn3 {
 	mugshotShow
 		mugshot = Dad
 	msgOpen
-	"Wood Bug Style!"
+	"""
+	Wood Bug Style!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -15053,7 +15826,9 @@ script 41 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Wood Bug…"
+	"""
+	Wood Bug…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -15063,7 +15838,9 @@ script 42 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Style…?"
+	"""
+	Style…?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -15133,7 +15910,9 @@ script 50 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Is this another…?"
+	"""
+	Is this another…?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -15145,7 +15924,9 @@ script 51 mmbn3 {
 	msgOpen
 	flagSet
 		flag = 139
-	"…style change?!"
+	"""
+	…style change?!
+	"""
 	keyWait
 	end
 }
@@ -15155,7 +15936,9 @@ script 52 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -15172,7 +15955,9 @@ script 53 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -15184,7 +15969,9 @@ script 54 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -15201,7 +15988,9 @@ script 55 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -15213,7 +16002,9 @@ script 56 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -15230,7 +16021,9 @@ script 57 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -15242,7 +16035,9 @@ script 58 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"…beep beep beep…"
+	"""
+	…beep beep beep…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -15259,7 +16054,9 @@ script 59 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That would be the…"
+	"""
+	That would be the…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -15286,7 +16083,10 @@ script 60 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Improve this one\n"
+	"""
+	Improve this one
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -15294,7 +16094,9 @@ script 60 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Find another"
+	"""
+	Find another
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -15353,7 +16155,10 @@ script 70 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Change to this\n"
+	"""
+	Change to this
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -15361,7 +16166,9 @@ script 70 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Use the other"
+	"""
+	Use the other
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -15385,7 +16192,10 @@ script 71 mmbn3 {
 	keyWait
 	clearMsg
 	mugshotHide
-	"Overwrite?\n"
+	"""
+	Overwrite?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -15393,7 +16203,10 @@ script 71 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Overwrite!\n"
+	"""
+	Overwrite!
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -15401,7 +16214,9 @@ script 71 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Never mind!"
+	"""
+	Never mind!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -15437,7 +16252,10 @@ script 72 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Improve this one\n"
+	"""
+	Improve this one
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -15445,7 +16263,9 @@ script 72 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Find another"
+	"""
+	Find another
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -15479,7 +16299,10 @@ script 73 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Improve this one\n"
+	"""
+	Improve this one
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -15487,7 +16310,9 @@ script 73 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Find another"
+	"""
+	Find another
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -15519,7 +16344,10 @@ script 80 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Change to this\n"
+	"""
+	Change to this
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -15527,7 +16355,9 @@ script 80 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Use the other"
+	"""
+	Use the other
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -15551,7 +16381,10 @@ script 81 mmbn3 {
 	keyWait
 	clearMsg
 	mugshotHide
-	"Overwrite?\n"
+	"""
+	Overwrite?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -15559,7 +16392,10 @@ script 81 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Overwrite!\n"
+	"""
+	Overwrite!
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -15567,7 +16403,9 @@ script 81 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Never mind!"
+	"""
+	Never mind!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -15603,7 +16441,10 @@ script 82 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Improve this one\n"
+	"""
+	Improve this one
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -15611,7 +16452,9 @@ script 82 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Find another"
+	"""
+	Find another
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -15645,7 +16488,9 @@ script 84 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Roger!"
+	"""
+	Roger!
+	"""
 	keyWait
 	end
 }
@@ -15995,7 +16840,9 @@ script 18 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"I know! I know!!"
+	"""
+	I know! I know!!
+	"""
 	keyWait
 	end
 }
@@ -16029,7 +16876,9 @@ script 21 mmbn3 {
 	mugshotShow
 		mugshot = Scientist
 	msgOpen
-	"Choose the Cannon!"
+	"""
+	Choose the Cannon!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -16044,7 +16893,9 @@ script 22 mmbn3 {
 	mugshotShow
 		mugshot = Scientist
 	msgOpen
-	"Choose the Cannon!"
+	"""
+	Choose the Cannon!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -16095,7 +16946,10 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"For example,the chip\n"
+	"""
+	For example,the chip
+	
+	"""
 	printChip
 		buffer = 0
 		chip = 130
@@ -16150,15 +17004,23 @@ script 3 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"If you will notice,\n"
+	"""
+	If you will notice,
+	
+	"""
 	printChip
 		buffer = 0
 		chip = 130
-	" and "
+	"""
+	 and 
+	"""
 	printChip
 		buffer = 0
 		chip = 31
-	"\nare both \"L.\""
+	"""
+	
+	are both "L."
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -16182,15 +17044,23 @@ script 3 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Let's try using the\n"
+	"""
+	Let's try using the
+	
+	"""
 	printChip
 		buffer = 0
 		chip = 130
-	" and "
+	"""
+	 and 
+	"""
 	printChip
 		buffer = 0
 		chip = 31
-	"\nwith the same code!"
+	"""
+	
+	with the same code!
+	"""
 	keyWait
 	end
 }
@@ -16198,11 +17068,16 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = Scientist
 	msgOpen
-	"OK! Next,choose\n"
+	"""
+	OK! Next,choose
+	
+	"""
 	printChip
 		buffer = 0
 		chip = 31
-	"!"
+	"""
+	!
+	"""
 	keyWait
 	end
 }
@@ -16210,7 +17085,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = Scientist
 	msgOpen
-	"Choose "
+	"""
+	Choose 
+	"""
 	printChip
 		buffer = 0
 		chip = 130
@@ -16226,7 +17103,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = Scientist
 	msgOpen
-	"Choose "
+	"""
+	Choose 
+	"""
 	printChip
 		buffer = 0
 		chip = 130
@@ -16242,7 +17121,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = Scientist
 	msgOpen
-	"Choose "
+	"""
+	Choose 
+	"""
 	printChip
 		buffer = 0
 		chip = 130
@@ -16300,7 +17181,10 @@ script 12 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 31
-	"\nas I asked."
+	"""
+	
+	as I asked.
+	"""
 	keyWait
 	end
 }
@@ -16327,7 +17211,10 @@ script 14 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 31
-	"\ndata,too."
+	"""
+	
+	data,too.
+	"""
 	keyWait
 	end
 }
@@ -16382,7 +17269,10 @@ script 19 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"First,we will use\n"
+	"""
+	First,we will use
+	
+	"""
 	printChip
 		buffer = 0
 		chip = 130
@@ -16418,7 +17308,9 @@ script 20 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"OK! Good luck!!"
+	"""
+	OK! Good luck!!
+	"""
 	keyWait
 	end
 }
@@ -16434,7 +17326,9 @@ script 22 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 31
-	"!"
+	"""
+	!
+	"""
 	keyWait
 	end
 }
@@ -16456,15 +17350,23 @@ script 23 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Let's try using the\n"
+	"""
+	Let's try using the
+	
+	"""
 	printChip
 		buffer = 0
 		chip = 130
-	" & "
+	"""
+	 & 
+	"""
 	printChip
 		buffer = 0
 		chip = 31
-	"\nwith the same code!"
+	"""
+	
+	with the same code!
+	"""
 	keyWait
 	end
 }
@@ -16634,7 +17536,9 @@ script 7 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Ta-daaaa!"
+	"""
+	Ta-daaaa!
+	"""
 	keyWait
 	end
 }
@@ -19571,7 +20475,9 @@ script 46 mmbn3 {
 	repaired many times.
 	"""
 	waitHold
-	"It resembles Chisao!"
+	"""
+	It resembles Chisao!
+	"""
 }
 script 47 mmbn3 {
 	positionText
@@ -19722,7 +20628,11 @@ script 52 mmbn3 {
 		delay = 0
 	color
 		palette = 3
-	"\"sierrarrypl\n qrlmhtgglia\n uraoeeaoelr\""
+	"""
+	"sierrarrypl
+	 qrlmhtgglia
+	 uraoeeaoelr"
+	"""
 	waitHold
 }
 script 53 mmbn3 {
@@ -20547,7 +21457,9 @@ script 112 mmbn3 {
 	positionText
 		left = 10
 		top = 1
-	"Recovers 50HP!"
+	"""
+	Recovers 50HP!
+	"""
 	waitHold
 }
 script 113 mmbn3 {
@@ -20557,7 +21469,9 @@ script 113 mmbn3 {
 	positionText
 		left = 10
 		top = 1
-	"Recovers max HP!"
+	"""
+	Recovers max HP!
+	"""
 	waitHold
 }
 script 114 mmbn3 {
@@ -21309,7 +22223,9 @@ script 112 mmbn3 {
 	positionText
 		left = 10
 		top = 1
-	"Recovers 50HP!"
+	"""
+	Recovers 50HP!
+	"""
 	waitHold
 }
 script 113 mmbn3 {
@@ -21319,7 +22235,9 @@ script 113 mmbn3 {
 	positionText
 		left = 10
 		top = 1
-	"Recovers max HP!"
+	"""
+	Recovers max HP!
+	"""
 	waitHold
 }
 script 114 mmbn3 {
@@ -21413,7 +22331,9 @@ script 0 mmbn3 {
 	printItem
 		buffer = 0
 		item = 0
-	"\""
+	"""
+	"
+	"""
 	end
 }
 script 1 mmbn3 {
@@ -21428,7 +22348,9 @@ script 1 mmbn3 {
 	printItem
 		buffer = 0
 		item = 1
-	"\""
+	"""
+	"
+	"""
 	end
 }
 script 2 mmbn3 {
@@ -21443,7 +22365,9 @@ script 2 mmbn3 {
 	printItem
 		buffer = 0
 		item = 2
-	"\""
+	"""
+	"
+	"""
 	end
 }
 script 3 mmbn3 {
@@ -21458,7 +22382,9 @@ script 3 mmbn3 {
 	printItem
 		buffer = 0
 		item = 3
-	"\""
+	"""
+	"
+	"""
 	end
 }
 script 4 mmbn3 {
@@ -21506,7 +22432,9 @@ script 5 mmbn3 {
 	flagSet
 		flag = 20
 	msgOpen
-	"Link open!!"
+	"""
+	Link open!!
+	"""
 	end
 }
 script 6 mmbn3 {
@@ -21521,7 +22449,9 @@ script 6 mmbn3 {
 	printItem
 		buffer = 0
 		item = 100
-	"\""
+	"""
+	"
+	"""
 	end
 }
 script 7 mmbn3 {
@@ -21548,7 +22478,9 @@ script 10 mmbn3 {
 	printItem
 		buffer = 0
 		item = 10
-	"\""
+	"""
+	"
+	"""
 	end
 }
 script 13 mmbn3 {
@@ -21563,7 +22495,9 @@ script 13 mmbn3 {
 	printItem
 		buffer = 0
 		item = 15
-	"\""
+	"""
+	"
+	"""
 	end
 }
 script 16 mmbn3 {
@@ -21578,7 +22512,9 @@ script 16 mmbn3 {
 	printItem
 		buffer = 0
 		item = 18
-	"\""
+	"""
+	"
+	"""
 	end
 }
 script 20 mmbn3 {
@@ -21593,7 +22529,9 @@ script 20 mmbn3 {
 	printItem
 		buffer = 0
 		item = 21
-	"\""
+	"""
+	"
+	"""
 	end
 }
 script 22 mmbn3 {
@@ -21608,7 +22546,9 @@ script 22 mmbn3 {
 	printItem
 		buffer = 0
 		item = 13
-	"\""
+	"""
+	"
+	"""
 	end
 }
 script 28 mmbn3 {
@@ -21623,7 +22563,9 @@ script 28 mmbn3 {
 	printItem
 		buffer = 0
 		item = 27
-	"\""
+	"""
+	"
+	"""
 	end
 }
 script 29 mmbn3 {
@@ -21638,7 +22580,9 @@ script 29 mmbn3 {
 	printItem
 		buffer = 0
 		item = 28
-	"\""
+	"""
+	"
+	"""
 	end
 }
 script 30 mmbn3 {
@@ -21653,7 +22597,9 @@ script 30 mmbn3 {
 	printItem
 		buffer = 0
 		item = 29
-	"\""
+	"""
+	"
+	"""
 	end
 }
 script 31 mmbn3 {
@@ -21668,7 +22614,9 @@ script 31 mmbn3 {
 	printItem
 		buffer = 0
 		item = 30
-	"\""
+	"""
+	"
+	"""
 	end
 }
 script 32 mmbn3 {
@@ -21683,7 +22631,9 @@ script 32 mmbn3 {
 	printItem
 		buffer = 0
 		item = 31
-	"\""
+	"""
+	"
+	"""
 	end
 }
 script 33 mmbn3 {
@@ -21698,7 +22648,9 @@ script 33 mmbn3 {
 	printItem
 		buffer = 0
 		item = 32
-	"\""
+	"""
+	"
+	"""
 	end
 }
 script 34 mmbn3 {
@@ -21713,7 +22665,9 @@ script 34 mmbn3 {
 	printItem
 		buffer = 0
 		item = 58
-	"\""
+	"""
+	"
+	"""
 	end
 }
 script 37 mmbn3 {
@@ -21728,7 +22682,9 @@ script 37 mmbn3 {
 	printItem
 		buffer = 0
 		item = 47
-	"\""
+	"""
+	"
+	"""
 	end
 }
 script 38 mmbn3 {
@@ -21743,7 +22699,9 @@ script 38 mmbn3 {
 	printItem
 		buffer = 0
 		item = 35
-	"\""
+	"""
+	"
+	"""
 	end
 }
 script 39 mmbn3 {
@@ -21758,7 +22716,9 @@ script 39 mmbn3 {
 	printItem
 		buffer = 0
 		item = 37
-	"\""
+	"""
+	"
+	"""
 	end
 }
 script 40 mmbn3 {
@@ -21773,7 +22733,9 @@ script 40 mmbn3 {
 	printItem
 		buffer = 0
 		item = 36
-	"\""
+	"""
+	"
+	"""
 	end
 }
 script 41 mmbn3 {
@@ -21788,7 +22750,9 @@ script 41 mmbn3 {
 	printItem
 		buffer = 0
 		item = 97
-	"\""
+	"""
+	"
+	"""
 	end
 }
 script 42 mmbn3 {
@@ -21803,7 +22767,9 @@ script 42 mmbn3 {
 	printItem
 		buffer = 0
 		item = 55
-	"\""
+	"""
+	"
+	"""
 	end
 }
 script 43 mmbn3 {
@@ -21813,7 +22779,9 @@ script 43 mmbn3 {
 		jumpIfExact = continue
 		jumpIfDeficit = continue
 	msgOpen
-	"Bug will be lost!"
+	"""
+	Bug will be lost!
+	"""
 	keyWait
 	end
 }
@@ -21824,7 +22792,9 @@ script 44 mmbn3 {
 		jumpIfExact = continue
 		jumpIfDeficit = continue
 	msgOpen
-	"Bug will be lost!"
+	"""
+	Bug will be lost!
+	"""
 	keyWait
 	end
 }
@@ -21840,7 +22810,9 @@ script 47 mmbn3 {
 	printItem
 		buffer = 0
 		item = 56
-	"\""
+	"""
+	"
+	"""
 	end
 }
 script 70 mmbn3 {
@@ -21878,7 +22850,10 @@ script 80 mmbn3 {
 	itemGive
 		item = 80
 		amount = 1
-	"Got the\n"
+	"""
+	Got the
+	
+	"""
 	printItem
 		buffer = 0
 		item = 80
@@ -21889,7 +22864,10 @@ script 81 mmbn3 {
 	itemGive
 		item = 81
 		amount = 1
-	"Got the\n"
+	"""
+	Got the
+	
+	"""
 	printItem
 		buffer = 0
 		item = 81
@@ -21900,7 +22878,10 @@ script 82 mmbn3 {
 	itemGive
 		item = 82
 		amount = 1
-	"Got the\n"
+	"""
+	Got the
+	
+	"""
 	printItem
 		buffer = 0
 		item = 82
@@ -21911,7 +22892,10 @@ script 83 mmbn3 {
 	itemGive
 		item = 83
 		amount = 1
-	"Got the\n"
+	"""
+	Got the
+	
+	"""
 	printItem
 		buffer = 0
 		item = 83
@@ -21922,7 +22906,10 @@ script 84 mmbn3 {
 	itemGive
 		item = 84
 		amount = 1
-	"Got the\n"
+	"""
+	Got the
+	
+	"""
 	printItem
 		buffer = 0
 		item = 84
@@ -21933,7 +22920,10 @@ script 88 mmbn3 {
 	itemGive
 		item = 88
 		amount = 1
-	"Got the\n"
+	"""
+	Got the
+	
+	"""
 	printItem
 		buffer = 0
 		item = 88
@@ -21944,7 +22934,10 @@ script 89 mmbn3 {
 	itemGive
 		item = 89
 		amount = 1
-	"Got the\n"
+	"""
+	Got the
+	
+	"""
 	printItem
 		buffer = 0
 		item = 89
@@ -21955,7 +22948,10 @@ script 90 mmbn3 {
 	itemGive
 		item = 90
 		amount = 1
-	"Got the\n"
+	"""
+	Got the
+	
+	"""
 	printItem
 		buffer = 0
 		item = 90
@@ -21966,7 +22962,10 @@ script 91 mmbn3 {
 	itemGive
 		item = 91
 		amount = 1
-	"Got the\n"
+	"""
+	Got the
+	
+	"""
 	printItem
 		buffer = 0
 		item = 91
@@ -21977,7 +22976,10 @@ script 92 mmbn3 {
 	itemGive
 		item = 92
 		amount = 1
-	"Got the\n"
+	"""
+	Got the
+	
+	"""
 	printItem
 		buffer = 0
 		item = 92
@@ -21988,7 +22990,10 @@ script 93 mmbn3 {
 	itemGive
 		item = 93
 		amount = 1
-	"Got the\n"
+	"""
+	Got the
+	
+	"""
 	printItem
 		buffer = 0
 		item = 93
@@ -21999,7 +23004,10 @@ script 94 mmbn3 {
 	itemGive
 		item = 94
 		amount = 1
-	"Got the\n"
+	"""
+	Got the
+	
+	"""
 	printItem
 		buffer = 0
 		item = 94
@@ -22010,7 +23018,10 @@ script 95 mmbn3 {
 	itemGive
 		item = 95
 		amount = 1
-	"Got the\n"
+	"""
+	Got the
+	
+	"""
 	printItem
 		buffer = 0
 		item = 95
@@ -22022,14 +23033,18 @@ script 96 mmbn3 {
 	flagSet
 		flag = 773
 	msgOpen
-	"Demo 00 01 start"
+	"""
+	Demo 00 01 start
+	"""
 	end
 }
 script 97 mmbn3 {
 	flagSet
 		flag = 796
 	msgOpen
-	"Demo 00 04 start"
+	"""
+	Demo 00 04 start
+	"""
 	end
 }
 script 98 mmbn3 {
@@ -22038,7 +23053,9 @@ script 98 mmbn3 {
 	flagSet
 		flag = 807
 	msgOpen
-	"Demo 00 0A start"
+	"""
+	Demo 00 0A start
+	"""
 	end
 }
 script 99 mmbn3 {
@@ -22048,28 +23065,36 @@ script 99 mmbn3 {
 		item = 3
 		amount = 1
 	msgOpen
-	"Demo 00 10 start"
+	"""
+	Demo 00 10 start
+	"""
 	end
 }
 script 100 mmbn3 {
 	flagSet
 		flag = 830
 	msgOpen
-	"Demo 00 17 start"
+	"""
+	Demo 00 17 start
+	"""
 	end
 }
 script 101 mmbn3 {
 	flagSet
 		flag = 831
 	msgOpen
-	"Demo 00 18 start"
+	"""
+	Demo 00 18 start
+	"""
 	end
 }
 script 102 mmbn3 {
 	flagSet
 		flag = 1032
 	msgOpen
-	"Demo 01 01 end"
+	"""
+	Demo 01 01 end
+	"""
 	end
 }
 script 103 mmbn3 {
@@ -22078,14 +23103,18 @@ script 103 mmbn3 {
 	flagSet
 		flag = 1032
 	msgOpen
-	"Demo 01 04 end"
+	"""
+	Demo 01 04 end
+	"""
 	end
 }
 script 104 mmbn3 {
 	flagSet
 		flag = 1049
 	msgOpen
-	"Demo 01 09 end"
+	"""
+	Demo 01 09 end
+	"""
 	end
 }
 script 105 mmbn3 {
@@ -22094,35 +23123,45 @@ script 105 mmbn3 {
 	flagSet
 		flag = 1050
 	msgOpen
-	"Demo 01 0A end"
+	"""
+	Demo 01 0A end
+	"""
 	end
 }
 script 106 mmbn3 {
 	flagSet
 		flag = 1051
 	msgOpen
-	"Start prelim ques #3"
+	"""
+	Start prelim ques #3
+	"""
 	end
 }
 script 107 mmbn3 {
 	flagSet
 		flag = 1056
 	msgOpen
-	"Demo 01 0C start"
+	"""
+	Demo 01 0C start
+	"""
 	end
 }
 script 108 mmbn3 {
 	flagSet
 		flag = 1057
 	msgOpen
-	"Demo 01 0D start"
+	"""
+	Demo 01 0D start
+	"""
 	end
 }
 script 109 mmbn3 {
 	flagSet
 		flag = 1063
 	msgOpen
-	"Demo 01 11 start"
+	"""
+	Demo 01 11 start
+	"""
 	end
 }
 script 110 mmbn3 {
@@ -22132,7 +23171,9 @@ script 110 mmbn3 {
 		item = 33
 		amount = 1
 	msgOpen
-	"Demo 06 0F start"
+	"""
+	Demo 06 0F start
+	"""
 	end
 }
 script 111 mmbn3 {
@@ -22141,7 +23182,9 @@ script 111 mmbn3 {
 	flagSet
 		flag = 1320
 	msgOpen
-	"Demo 02 0D start"
+	"""
+	Demo 02 0D start
+	"""
 	end
 }
 script 112 mmbn3 {
@@ -22150,11 +23193,15 @@ script 112 mmbn3 {
 		code = E
 		amount = 1
 	msgOpen
-	"Got the "
+	"""
+	Got the 
+	"""
 	printChip
 		buffer = 0
 		chip = 32
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = E
@@ -22164,7 +23211,9 @@ script 113 mmbn3 {
 	flagSet
 		flag = 1546
 	msgOpen
-	"Demo 03 03 start"
+	"""
+	Demo 03 03 start
+	"""
 	end
 }
 script 114 mmbn3 {
@@ -22174,7 +23223,9 @@ script 114 mmbn3 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	msgOpen
-	"Got 1000 Zennys"
+	"""
+	Got 1000 Zennys
+	"""
 	end
 }
 script 115 mmbn3 {
@@ -22184,21 +23235,27 @@ script 115 mmbn3 {
 		jumpIfExact = continue
 		jumpIfDeficit = continue
 	msgOpen
-	"Used 1000 Zennys"
+	"""
+	Used 1000 Zennys
+	"""
 	end
 }
 script 116 mmbn3 {
 	flagSet
 		flag = 1546
 	msgOpen
-	"Demo 03 03 start"
+	"""
+	Demo 03 03 start
+	"""
 	end
 }
 script 117 mmbn3 {
 	flagSet
 		flag = 1319
 	msgOpen
-	"Demo 02 0C start"
+	"""
+	Demo 02 0C start
+	"""
 	end
 }
 script 118 mmbn3 {
@@ -22239,42 +23296,54 @@ script 119 mmbn3 {
 	flagSet
 		flag = 1077
 	msgOpen
-	"Demo 01 15 start"
+	"""
+	Demo 01 15 start
+	"""
 	end
 }
 script 120 mmbn3 {
 	flagSet
 		flag = 1083
 	msgOpen
-	"Demo 01 19 start"
+	"""
+	Demo 01 19 start
+	"""
 	end
 }
 script 121 mmbn3 {
 	flagSet
 		flag = 1084
 	msgOpen
-	"Demo 01 1A start"
+	"""
+	Demo 01 1A start
+	"""
 	end
 }
 script 122 mmbn3 {
 	flagSet
 		flag = 1297
 	msgOpen
-	"Demo 02 03 start"
+	"""
+	Demo 02 03 start
+	"""
 	end
 }
 script 123 mmbn3 {
 	flagSet
 		flag = 1585
 	msgOpen
-	"Demo 03 1B start"
+	"""
+	Demo 03 1B start
+	"""
 	end
 }
 script 124 mmbn3 {
 	flagSet
 		flag = 1319
 	msgOpen
-	"Demo 02 04 start"
+	"""
+	Demo 02 04 start
+	"""
 	end
 }
 script 125 mmbn3 {
@@ -22283,63 +23352,81 @@ script 125 mmbn3 {
 	flagSet
 		flag = 1313
 	msgOpen
-	"Demo 02 0D start"
+	"""
+	Demo 02 0D start
+	"""
 	end
 }
 script 126 mmbn3 {
 	flagSet
 		flag = 1297
 	msgOpen
-	"Demo 02 03 start"
+	"""
+	Demo 02 03 start
+	"""
 	end
 }
 script 127 mmbn3 {
 	flagSet
 		flag = 1313
 	msgOpen
-	"Demo 02 04 start"
+	"""
+	Demo 02 04 start
+	"""
 	end
 }
 script 128 mmbn3 {
 	flagSet
 		flag = 133
 	msgOpen
-	"Whatever"
+	"""
+	Whatever
+	"""
 	end
 }
 script 129 mmbn3 {
 	flagSet
 		flag = 1800
 	msgOpen
-	"Demo 04 03 start"
+	"""
+	Demo 04 03 start
+	"""
 	end
 }
 script 130 mmbn3 {
 	flagSet
 		flag = 1801
 	msgOpen
-	"Demo 04 04 start"
+	"""
+	Demo 04 04 start
+	"""
 	end
 }
 script 131 mmbn3 {
 	flagSet
 		flag = 1802
 	msgOpen
-	"Demo 04 05 start"
+	"""
+	Demo 04 05 start
+	"""
 	end
 }
 script 132 mmbn3 {
 	flagSet
 		flag = 1803
 	msgOpen
-	"Demo 04 06 start"
+	"""
+	Demo 04 06 start
+	"""
 	end
 }
 script 133 mmbn3 {
 	flagSet
 		flag = 1804
 	msgOpen
-	"Demo 04 07 start"
+	"""
+	Demo 04 07 start
+	"""
 	end
 }
 script 134 mmbn3 {
@@ -22352,7 +23439,9 @@ script 134 mmbn3 {
 	flagSet
 		flag = 5763
 	msgOpen
-	"Demo 04 0A start"
+	"""
+	Demo 04 0A start
+	"""
 	end
 }
 script 135 mmbn3 {
@@ -22361,14 +23450,18 @@ script 135 mmbn3 {
 	flagSet
 		flag = 1806
 	msgOpen
-	"Setting Takeshi"
+	"""
+	Setting Takeshi
+	"""
 	end
 }
 script 136 mmbn3 {
 	flagSet
 		flag = 1808
 	msgOpen
-	"Demo 04 0B start"
+	"""
+	Demo 04 0B start
+	"""
 	end
 }
 script 137 mmbn3 {
@@ -22385,28 +23478,36 @@ script 137 mmbn3 {
 	flagSet
 		flag = 1828
 	msgOpen
-	"Demo 04 0C start"
+	"""
+	Demo 04 0C start
+	"""
 	end
 }
 script 138 mmbn3 {
 	flagSet
 		flag = 1810
 	msgOpen
-	"Demo 04 0D start"
+	"""
+	Demo 04 0D start
+	"""
 	end
 }
 script 139 mmbn3 {
 	flagSet
 		flag = 1813
 	msgOpen
-	"Setting doctor"
+	"""
+	Setting doctor
+	"""
 	end
 }
 script 140 mmbn3 {
 	flagSet
 		flag = 1830
 	msgOpen
-	"Demo 04 10 start"
+	"""
+	Demo 04 10 start
+	"""
 	end
 }
 script 141 mmbn3 {
@@ -22415,11 +23516,16 @@ script 141 mmbn3 {
 		code = M
 		amount = 1
 	msgOpen
-	"Got the\n"
+	"""
+	Got the
+	
+	"""
 	printChip
 		buffer = 0
 		chip = 25
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = M
@@ -22429,21 +23535,27 @@ script 142 mmbn3 {
 	flagSet
 		flag = 1814
 	msgOpen
-	"Setting boy"
+	"""
+	Setting boy
+	"""
 	end
 }
 script 143 mmbn3 {
 	flagSet
 		flag = 1832
 	msgOpen
-	"Demo 04 12 start"
+	"""
+	Demo 04 12 start
+	"""
 	end
 }
 script 144 mmbn3 {
 	flagSet
 		flag = 1834
 	msgOpen
-	"Demo 04 14 start"
+	"""
+	Demo 04 14 start
+	"""
 	end
 }
 script 145 mmbn3 {
@@ -22452,7 +23564,9 @@ script 145 mmbn3 {
 	flagSet
 		flag = 1835
 	msgOpen
-	"Demo 04 15 start"
+	"""
+	Demo 04 15 start
+	"""
 	end
 }
 script 146 mmbn3 {
@@ -22461,28 +23575,36 @@ script 146 mmbn3 {
 	flagClear
 		flag = 160
 	msgOpen
-	"Demo 04 16 start"
+	"""
+	Demo 04 16 start
+	"""
 	end
 }
 script 147 mmbn3 {
 	flagSet
 		flag = 1839
 	msgOpen
-	"Demo 04 19 start"
+	"""
+	Demo 04 19 start
+	"""
 	end
 }
 script 148 mmbn3 {
 	flagSet
 		flag = 1840
 	msgOpen
-	"Demo 04 1A start"
+	"""
+	Demo 04 1A start
+	"""
 	end
 }
 script 149 mmbn3 {
 	flagSet
 		flag = 1849
 	msgOpen
-	"Demo 04 23 start"
+	"""
+	Demo 04 23 start
+	"""
 	end
 }
 script 150 mmbn3 {
@@ -22493,42 +23615,54 @@ script 150 mmbn3 {
 	flagSet
 		flag = 167
 	msgOpen
-	"Erasing vines"
+	"""
+	Erasing vines
+	"""
 	end
 }
 script 151 mmbn3 {
 	flagSet
 		flag = 1837
 	msgOpen
-	"Emer exit jack ON"
+	"""
+	Emer exit jack ON
+	"""
 	end
 }
 script 152 mmbn3 {
 	flagSet
 		flag = 1306
 	msgOpen
-	"Sleep in bed"
+	"""
+	Sleep in bed
+	"""
 	end
 }
 script 153 mmbn3 {
 	flagSet
 		flag = 1551
 	msgOpen
-	"Demo 3 05 start"
+	"""
+	Demo 3 05 start
+	"""
 	end
 }
 script 154 mmbn3 {
 	flagSet
 		flag = 1564
 	msgOpen
-	"Demo 03 0B start"
+	"""
+	Demo 03 0B start
+	"""
 	end
 }
 script 155 mmbn3 {
 	flagSet
 		flag = 1586
 	msgOpen
-	"Demo 03 1C start"
+	"""
+	Demo 03 1C start
+	"""
 	end
 }
 script 156 mmbn3 {
@@ -22556,21 +23690,27 @@ script 158 mmbn3 {
 	flagSet
 		flag = 2053
 	msgOpen
-	"Demo 05 06 start"
+	"""
+	Demo 05 06 start
+	"""
 	end
 }
 script 159 mmbn3 {
 	flagSet
 		flag = 2054
 	msgOpen
-	"Demo 05 07 start"
+	"""
+	Demo 05 07 start
+	"""
 	end
 }
 script 160 mmbn3 {
 	flagSet
 		flag = 2058
 	msgOpen
-	"Demo 05 0B start"
+	"""
+	Demo 05 0B start
+	"""
 	end
 }
 script 161 mmbn3 {
@@ -22593,7 +23733,9 @@ script 161 mmbn3 {
 	flagSet
 		flag = 618
 	msgOpen
-	"Demo 05 11 start"
+	"""
+	Demo 05 11 start
+	"""
 	end
 }
 script 162 mmbn3 {
@@ -22610,7 +23752,9 @@ script 162 mmbn3 {
 	flagSet
 		flag = 624
 	msgOpen
-	"Demo 05 12 start"
+	"""
+	Demo 05 12 start
+	"""
 	end
 }
 script 163 mmbn3 {
@@ -22627,7 +23771,9 @@ script 163 mmbn3 {
 	flagSet
 		flag = 630
 	msgOpen
-	"Demo 05 13 start"
+	"""
+	Demo 05 13 start
+	"""
 	end
 }
 script 164 mmbn3 {
@@ -22644,7 +23790,9 @@ script 164 mmbn3 {
 	flagSet
 		flag = 636
 	msgOpen
-	"Demo 05 14 start"
+	"""
+	Demo 05 14 start
+	"""
 	end
 }
 script 165 mmbn3 {
@@ -22657,7 +23805,9 @@ script 165 mmbn3 {
 	flagSet
 		flag = 2068
 	msgOpen
-	"Demo 05 15 start"
+	"""
+	Demo 05 15 start
+	"""
 	end
 }
 script 166 mmbn3 {
@@ -22666,7 +23816,9 @@ script 166 mmbn3 {
 	flagSet
 		flag = 2070
 	msgOpen
-	"Demo 05 1D start"
+	"""
+	Demo 05 1D start
+	"""
 	end
 }
 script 167 mmbn3 {
@@ -22676,7 +23828,9 @@ script 167 mmbn3 {
 		jumpIfAll = continue
 		jumpIfNone = continue
 		jumpIfSome = continue
-	"Got a BugFrag"
+	"""
+	Got a BugFrag
+	"""
 	end
 }
 script 168 mmbn3 {
@@ -22684,25 +23838,34 @@ script 168 mmbn3 {
 	itemGive
 		item = 57
 		amount = 1
-	"Got the\n"
+	"""
+	Got the
+	
+	"""
 	printItem
 		buffer = 0
 		item = 57
-	"!"
+	"""
+	!
+	"""
 	end
 }
 script 169 mmbn3 {
 	flagSet
 		flag = 2315
 	msgOpen
-	"Demo 06 05 start"
+	"""
+	Demo 06 05 start
+	"""
 	end
 }
 script 170 mmbn3 {
 	flagSet
 		flag = 2317
 	msgOpen
-	"Setting evil navi"
+	"""
+	Setting evil navi
+	"""
 	end
 }
 script 171 mmbn3 {
@@ -22715,7 +23878,9 @@ script 171 mmbn3 {
 		color = 1
 		amount = 1
 	msgOpen
-	"Demo 06 06 start"
+	"""
+	Demo 06 06 start
+	"""
 	end
 }
 script 172 mmbn3 {
@@ -22736,7 +23901,9 @@ script 172 mmbn3 {
 	flagSet
 		flag = 2358
 	msgOpen
-	"Demo 06 08 start"
+	"""
+	Demo 06 08 start
+	"""
 	end
 }
 script 173 mmbn3 {
@@ -22749,35 +23916,45 @@ script 173 mmbn3 {
 	flagSet
 		flag = 2319
 	msgOpen
-	"Demo 06 09 start"
+	"""
+	Demo 06 09 start
+	"""
 	end
 }
 script 174 mmbn3 {
 	flagSet
 		flag = 2320
 	msgOpen
-	"Demo 06 0A start"
+	"""
+	Demo 06 0A start
+	"""
 	end
 }
 script 175 mmbn3 {
 	flagSet
 		flag = 2322
 	msgOpen
-	"Demo 06 0C start"
+	"""
+	Demo 06 0C start
+	"""
 	end
 }
 script 176 mmbn3 {
 	flagSet
 		flag = 2323
 	msgOpen
-	"Demo 06 0D start"
+	"""
+	Demo 06 0D start
+	"""
 	end
 }
 script 177 mmbn3 {
 	flagSet
 		flag = 2324
 	msgOpen
-	"Demo 06 0E start"
+	"""
+	Demo 06 0E start
+	"""
 	end
 }
 script 178 mmbn3 {
@@ -22787,49 +23964,63 @@ script 178 mmbn3 {
 		item = 33
 		amount = 1
 	msgOpen
-	"Demo 06 0F start"
+	"""
+	Demo 06 0F start
+	"""
 	end
 }
 script 179 mmbn3 {
 	flagSet
 		flag = 4800
 	msgOpen
-	"Demo 06 10 start"
+	"""
+	Demo 06 10 start
+	"""
 	end
 }
 script 180 mmbn3 {
 	flagSet
 		flag = 2328
 	msgOpen
-	"Demo 06 12 start"
+	"""
+	Demo 06 12 start
+	"""
 	end
 }
 script 181 mmbn3 {
 	flagSet
 		flag = 2349
 	msgOpen
-	"Demo 06 13 start"
+	"""
+	Demo 06 13 start
+	"""
 	end
 }
 script 182 mmbn3 {
 	flagSet
 		flag = 2331
 	msgOpen
-	"Demo 06 15 start"
+	"""
+	Demo 06 15 start
+	"""
 	end
 }
 script 183 mmbn3 {
 	flagSet
 		flag = 2332
 	msgOpen
-	"Demo 06 16 start"
+	"""
+	Demo 06 16 start
+	"""
 	end
 }
 script 184 mmbn3 {
 	flagSet
 		flag = 2333
 	msgOpen
-	"Demo 06 17 start"
+	"""
+	Demo 06 17 start
+	"""
 	end
 }
 script 185 mmbn3 {
@@ -22854,14 +24045,18 @@ script 186 mmbn3 {
 	flagSet
 		flag = 2561
 	msgOpen
-	"Demo 00 end"
+	"""
+	Demo 00 end
+	"""
 	end
 }
 script 187 mmbn3 {
 	flagSet
 		flag = 2562
 	msgOpen
-	"Demo 01 end"
+	"""
+	Demo 01 end
+	"""
 	end
 }
 script 188 mmbn3 {
@@ -22870,252 +24065,324 @@ script 188 mmbn3 {
 	flagSet
 		flag = 2563
 	msgOpen
-	"Demo 02 end"
+	"""
+	Demo 02 end
+	"""
 	end
 }
 script 189 mmbn3 {
 	flagSet
 		flag = 2564
 	msgOpen
-	"Demo 03 end"
+	"""
+	Demo 03 end
+	"""
 	end
 }
 script 190 mmbn3 {
 	flagSet
 		flag = 2565
 	msgOpen
-	"Demo 04 end"
+	"""
+	Demo 04 end
+	"""
 	end
 }
 script 191 mmbn3 {
 	flagSet
 		flag = 2566
 	msgOpen
-	"Demo 05 end"
+	"""
+	Demo 05 end
+	"""
 	end
 }
 script 192 mmbn3 {
 	flagSet
 		flag = 2567
 	msgOpen
-	"Demo 06 end"
+	"""
+	Demo 06 end
+	"""
 	end
 }
 script 193 mmbn3 {
 	flagSet
 		flag = 2568
 	msgOpen
-	"Demo 07 end"
+	"""
+	Demo 07 end
+	"""
 	end
 }
 script 194 mmbn3 {
 	flagSet
 		flag = 2569
 	msgOpen
-	"Demo 08 end"
+	"""
+	Demo 08 end
+	"""
 	end
 }
 script 195 mmbn3 {
 	flagSet
 		flag = 2570
 	msgOpen
-	"Demo 09 end"
+	"""
+	Demo 09 end
+	"""
 	end
 }
 script 196 mmbn3 {
 	flagSet
 		flag = 2571
 	msgOpen
-	"Demo 0A end"
+	"""
+	Demo 0A end
+	"""
 	end
 }
 script 197 mmbn3 {
 	flagSet
 		flag = 2572
 	msgOpen
-	"Demo 0B end"
+	"""
+	Demo 0B end
+	"""
 	end
 }
 script 198 mmbn3 {
 	flagSet
 		flag = 2573
 	msgOpen
-	"Demo 0C end"
+	"""
+	Demo 0C end
+	"""
 	end
 }
 script 199 mmbn3 {
 	flagSet
 		flag = 2574
 	msgOpen
-	"Demo 0D end"
+	"""
+	Demo 0D end
+	"""
 	end
 }
 script 200 mmbn3 {
 	flagSet
 		flag = 2575
 	msgOpen
-	"Demo 0E end"
+	"""
+	Demo 0E end
+	"""
 	end
 }
 script 201 mmbn3 {
 	flagSet
 		flag = 2576
 	msgOpen
-	"Demo 0F end"
+	"""
+	Demo 0F end
+	"""
 	end
 }
 script 202 mmbn3 {
 	flagSet
 		flag = 2577
 	msgOpen
-	"Demo 10 end"
+	"""
+	Demo 10 end
+	"""
 	end
 }
 script 203 mmbn3 {
 	flagSet
 		flag = 2578
 	msgOpen
-	"Demo 11 end"
+	"""
+	Demo 11 end
+	"""
 	end
 }
 script 204 mmbn3 {
 	flagSet
 		flag = 2579
 	msgOpen
-	"Demo 12 end"
+	"""
+	Demo 12 end
+	"""
 	end
 }
 script 205 mmbn3 {
 	flagSet
 		flag = 2580
 	msgOpen
-	"Demo 13 end"
+	"""
+	Demo 13 end
+	"""
 	end
 }
 script 206 mmbn3 {
 	flagSet
 		flag = 2581
 	msgOpen
-	"Demo 14 end"
+	"""
+	Demo 14 end
+	"""
 	end
 }
 script 207 mmbn3 {
 	flagSet
 		flag = 2582
 	msgOpen
-	"Demo 15 end"
+	"""
+	Demo 15 end
+	"""
 	end
 }
 script 208 mmbn3 {
 	flagSet
 		flag = 2583
 	msgOpen
-	"Demo 16 end"
+	"""
+	Demo 16 end
+	"""
 	end
 }
 script 209 mmbn3 {
 	flagSet
 		flag = 2584
 	msgOpen
-	"Demo 17 end"
+	"""
+	Demo 17 end
+	"""
 	end
 }
 script 210 mmbn3 {
 	flagSet
 		flag = 2585
 	msgOpen
-	"Demo 18 end"
+	"""
+	Demo 18 end
+	"""
 	end
 }
 script 211 mmbn3 {
 	flagSet
 		flag = 2586
 	msgOpen
-	"Demo 19 end"
+	"""
+	Demo 19 end
+	"""
 	end
 }
 script 212 mmbn3 {
 	flagSet
 		flag = 2587
 	msgOpen
-	"Demo 1A end"
+	"""
+	Demo 1A end
+	"""
 	end
 }
 script 213 mmbn3 {
 	flagSet
 		flag = 2588
 	msgOpen
-	"Demo 1B end"
+	"""
+	Demo 1B end
+	"""
 	end
 }
 script 214 mmbn3 {
 	flagSet
 		flag = 2589
 	msgOpen
-	"Demo 1C end"
+	"""
+	Demo 1C end
+	"""
 	end
 }
 script 215 mmbn3 {
 	flagSet
 		flag = 2590
 	msgOpen
-	"Demo 1D end"
+	"""
+	Demo 1D end
+	"""
 	end
 }
 script 216 mmbn3 {
 	flagSet
 		flag = 2591
 	msgOpen
-	"Demo 1E end"
+	"""
+	Demo 1E end
+	"""
 	end
 }
 script 217 mmbn3 {
 	flagSet
 		flag = 2592
 	msgOpen
-	"Demo 1F end"
+	"""
+	Demo 1F end
+	"""
 	end
 }
 script 218 mmbn3 {
 	flagSet
 		flag = 2593
 	msgOpen
-	"Demo 20 end"
+	"""
+	Demo 20 end
+	"""
 	end
 }
 script 219 mmbn3 {
 	flagSet
 		flag = 2594
 	msgOpen
-	"Demo 21 end"
+	"""
+	Demo 21 end
+	"""
 	end
 }
 script 220 mmbn3 {
 	flagSet
 		flag = 2595
 	msgOpen
-	"Demo 22 end"
+	"""
+	Demo 22 end
+	"""
 	end
 }
 script 221 mmbn3 {
 	flagSet
 		flag = 2596
 	msgOpen
-	"Demo 23 end"
+	"""
+	Demo 23 end
+	"""
 	end
 }
 script 222 mmbn3 {
 	flagSet
 		flag = 2597
 	msgOpen
-	"Demo 24 end"
+	"""
+	Demo 24 end
+	"""
 	end
 }
 script 223 mmbn3 {
 	flagSet
 		flag = 2560
 	msgOpen
-	"Clear flag"
+	"""
+	Clear flag
+	"""
 	end
 }
 script 224 mmbn3 {
@@ -23124,7 +24391,9 @@ script 224 mmbn3 {
 	flagClear
 		flag = 349
 	msgOpen
-	"Beat DarkManLV1 flag"
+	"""
+	Beat DarkManLV1 flag
+	"""
 	end
 }
 script 225 mmbn3 {
@@ -23143,7 +24412,9 @@ script 226 mmbn3 {
 	flagSet
 		flag = 314
 	msgOpen
-	"Beat BassSP flag"
+	"""
+	Beat BassSP flag
+	"""
 	end
 }
 script 227 mmbn3 {
@@ -23156,7 +24427,9 @@ script 227 mmbn3 {
 	flagSet
 		flag = 383
 	msgOpen
-	"Quiz cleared"
+	"""
+	Quiz cleared
+	"""
 	end
 }
 script 228 mmbn3 {
@@ -23179,7 +24452,9 @@ script 228 mmbn3 {
 	flagSet
 		flag = 2481
 	msgOpen
-	"Breeding cleared"
+	"""
+	Breeding cleared
+	"""
 	end
 }
 script 229 mmbn3 {
@@ -23234,7 +24509,9 @@ script 229 mmbn3 {
 	flagSet
 		flag = 5784
 	msgOpen
-	"Job cleared"
+	"""
+	Job cleared
+	"""
 	end
 }
 script 230 mmbn3 {
@@ -23261,7 +24538,9 @@ script 232 mmbn3 {
 	flagSet
 		flag = 267
 	msgOpen
-	"Beat BubbManLV1 flag"
+	"""
+	Beat BubbManLV1 flag
+	"""
 	end
 }
 script 233 mmbn3 {
@@ -23298,7 +24577,9 @@ script 236 mmbn3 {
 	flagSet
 		flag = 279
 	msgOpen
-	"Beat FireManLV1 flag"
+	"""
+	Beat FireManLV1 flag
+	"""
 	end
 }
 script 237 mmbn3 {
@@ -23370,14 +24651,18 @@ script 239 mmbn3 {
 		code = *
 		amount = 100
 	msgOpen
-	"Got the FireSwrd"
+	"""
+	Got the FireSwrd
+	"""
 	end
 }
 script 240 mmbn3 {
 	flagSet
 		flag = 312
 	msgOpen
-	"Beat BassGS flag"
+	"""
+	Beat BassGS flag
+	"""
 	end
 }
 script 241 mmbn3 {
@@ -23401,7 +24686,9 @@ script 241 mmbn3 {
 		program = 40
 		color = 6
 		amount = 1
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	clearMsg
 	end
@@ -23422,14 +24709,18 @@ script 243 mmbn3 {
 		code = *
 		amount = 1
 	msgOpen
-	"Got Wind"
+	"""
+	Got Wind
+	"""
 	end
 }
 script 244 mmbn3 {
 	flagSet
 		flag = 251
 	msgOpen
-	"Internet burning"
+	"""
+	Internet burning
+	"""
 	end
 }
 script 245 mmbn3 {
@@ -23441,21 +24732,27 @@ script 245 mmbn3 {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	msgOpen
-	"Setting BassGS"
+	"""
+	Setting BassGS
+	"""
 	end
 }
 script 246 mmbn3 {
 	flagSet
 		flag = 1558
 	msgOpen
-	"Demo 03 07 start"
+	"""
+	Demo 03 07 start
+	"""
 	end
 }
 script 247 mmbn3 {
 	flagSet
 		flag = 1570
 	msgOpen
-	"Demo 03 24 start"
+	"""
+	Demo 03 24 start
+	"""
 	end
 }
 script 248 mmbn3 {
@@ -23610,14 +24907,18 @@ script 248 mmbn3 {
 	flagSet
 		flag = 2509
 	msgOpen
-	"All viruses gotten"
+	"""
+	All viruses gotten
+	"""
 	end
 }
 script 249 mmbn3 {
 	flagSet
 		flag = 402
 	msgOpen
-	"Key command ON"
+	"""
+	Key command ON
+	"""
 	end
 }
 script 250 mmbn3 {
@@ -23676,7 +24977,9 @@ script 251 mmbn3 {
 	flagSet
 		flag = 128
 	msgOpen
-	"Got LifeBit1,2,3"
+	"""
+	Got LifeBit1,2,3
+	"""
 	end
 }
 script 252 mmbn3 {
@@ -23685,14 +24988,18 @@ script 252 mmbn3 {
 	flagSet
 		flag = 129
 	msgOpen
-	"Got LifeBit4,5"
+	"""
+	Got LifeBit4,5
+	"""
 	end
 }
 script 253 mmbn3 {
 	flagSet
 		flag = 130
 	msgOpen
-	"Got LifeBitSP"
+	"""
+	Got LifeBitSP
+	"""
 	end
 }
 @archive 713F50
@@ -23726,13 +25033,20 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Jack in!!"
+	"""
+	Jack in!!
+	"""
 	wait
 		frames = 10
-	"\nMegaMan,"
+	"""
+	
+	MegaMan,
+	"""
 	wait
 		frames = 10
-	"Execute!"
+	"""
+	Execute!
+	"""
 	wait
 		frames = 30
 	controlUnlock
@@ -23786,7 +25100,10 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"MegaMan,jack out?\n"
+	"""
+	MegaMan,jack out?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -23794,7 +25111,9 @@ script 0 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -23802,7 +25121,9 @@ script 0 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 1
 		BSeparate = false
@@ -23817,7 +25138,9 @@ script 0 mmbn3 {
 }
 script 1 mmbn3 {
 	clearMsg
-	"OK! Roger that!"
+	"""
+	OK! Roger that!
+	"""
 	keyWait
 	end
 }
@@ -23875,13 +25198,19 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -23976,7 +25305,10 @@ script 6 mmbn3 {
 		jumpIfEqual = 7
 		jumpIfGreater = 7
 		jumpIfLess = continue
-	"Where to?\n"
+	"""
+	Where to?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -23984,7 +25316,9 @@ script 6 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"SciLab "
+	"""
+	SciLab 
+	"""
 	option
 		left = 0
 		right = 0
@@ -23992,7 +25326,10 @@ script 6 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Cancel\n"
+	"""
+	Cancel
+	
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -24012,7 +25349,10 @@ script 7 mmbn3 {
 		jumpIfEqual = 8
 		jumpIfGreater = 8
 		jumpIfLess = continue
-	"Where to?\n"
+	"""
+	Where to?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -24020,7 +25360,9 @@ script 7 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"SciLab "
+	"""
+	SciLab 
+	"""
 	option
 		left = 0
 		right = 0
@@ -24028,7 +25370,10 @@ script 7 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"Yoka\n"
+	"""
+	Yoka
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -24036,7 +25381,9 @@ script 7 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Cancel"
+	"""
+	Cancel
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -24051,7 +25398,10 @@ script 7 mmbn3 {
 	end
 }
 script 8 mmbn3 {
-	"Where to?\n"
+	"""
+	Where to?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -24059,7 +25409,9 @@ script 8 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"SciLab "
+	"""
+	SciLab 
+	"""
 	option
 		left = 0
 		right = 0
@@ -24067,7 +25419,10 @@ script 8 mmbn3 {
 		down = 3
 	space
 		count = 2
-	"Yoka\n"
+	"""
+	Yoka
+	
+	"""
 	option
 		left = 3
 		right = 3
@@ -24075,7 +25430,9 @@ script 8 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Beach  "
+	"""
+	Beach  
+	"""
 	option
 		left = 2
 		right = 2
@@ -24083,7 +25440,9 @@ script 8 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Cancel"
+	"""
+	Cancel
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -24123,7 +25482,10 @@ script 11 mmbn3 {
 		jumpIfEqual = 12
 		jumpIfGreater = 12
 		jumpIfLess = continue
-	"Where to?\n"
+	"""
+	Where to?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -24131,7 +25493,9 @@ script 11 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"ACDC "
+	"""
+	ACDC 
+	"""
 	option
 		left = 0
 		right = 0
@@ -24139,7 +25503,10 @@ script 11 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Cancel\n"
+	"""
+	Cancel
+	
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -24159,7 +25526,10 @@ script 12 mmbn3 {
 		jumpIfEqual = 13
 		jumpIfGreater = 13
 		jumpIfLess = continue
-	"Where to?\n"
+	"""
+	Where to?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -24167,7 +25537,9 @@ script 12 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"ACDC "
+	"""
+	ACDC 
+	"""
 	option
 		left = 0
 		right = 0
@@ -24175,7 +25547,10 @@ script 12 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"Yoka\n"
+	"""
+	Yoka
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -24183,7 +25558,9 @@ script 12 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Cancel"
+	"""
+	Cancel
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -24198,7 +25575,10 @@ script 12 mmbn3 {
 	end
 }
 script 13 mmbn3 {
-	"Where to?\n"
+	"""
+	Where to?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -24206,7 +25586,9 @@ script 13 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"ACDC  "
+	"""
+	ACDC  
+	"""
 	option
 		left = 0
 		right = 0
@@ -24214,7 +25596,10 @@ script 13 mmbn3 {
 		down = 3
 	space
 		count = 2
-	"Yoka\n"
+	"""
+	Yoka
+	
+	"""
 	option
 		left = 3
 		right = 3
@@ -24222,7 +25607,9 @@ script 13 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Beach "
+	"""
+	Beach 
+	"""
 	option
 		left = 2
 		right = 2
@@ -24230,7 +25617,9 @@ script 13 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Cancel"
+	"""
+	Cancel
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -24270,7 +25659,10 @@ script 16 mmbn3 {
 		jumpIfEqual = 17
 		jumpIfGreater = 17
 		jumpIfLess = continue
-	"Where to?\n"
+	"""
+	Where to?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -24278,7 +25670,9 @@ script 16 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"ACDC "
+	"""
+	ACDC 
+	"""
 	option
 		left = 0
 		right = 0
@@ -24286,7 +25680,10 @@ script 16 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Cancel\n"
+	"""
+	Cancel
+	
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -24306,7 +25703,10 @@ script 17 mmbn3 {
 		jumpIfEqual = 18
 		jumpIfGreater = 18
 		jumpIfLess = continue
-	"Where to?\n"
+	"""
+	Where to?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -24314,7 +25714,9 @@ script 17 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"ACDC "
+	"""
+	ACDC 
+	"""
 	option
 		left = 0
 		right = 0
@@ -24322,7 +25724,10 @@ script 17 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"SciLab\n"
+	"""
+	SciLab
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -24330,7 +25735,9 @@ script 17 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Cancel"
+	"""
+	Cancel
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -24345,7 +25752,10 @@ script 17 mmbn3 {
 	end
 }
 script 18 mmbn3 {
-	"Where to?\n"
+	"""
+	Where to?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -24353,7 +25763,9 @@ script 18 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"ACDC  "
+	"""
+	ACDC  
+	"""
 	option
 		left = 0
 		right = 0
@@ -24361,7 +25773,10 @@ script 18 mmbn3 {
 		down = 3
 	space
 		count = 2
-	"SciLab\n"
+	"""
+	SciLab
+	
+	"""
 	option
 		left = 3
 		right = 3
@@ -24369,7 +25784,9 @@ script 18 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Beach "
+	"""
+	Beach 
+	"""
 	option
 		left = 2
 		right = 2
@@ -24377,7 +25794,9 @@ script 18 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Cancel"
+	"""
+	Cancel
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -24417,7 +25836,10 @@ script 21 mmbn3 {
 		jumpIfEqual = 22
 		jumpIfGreater = 22
 		jumpIfLess = continue
-	"Where to?\n"
+	"""
+	Where to?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -24425,7 +25847,9 @@ script 21 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"ACDC "
+	"""
+	ACDC 
+	"""
 	option
 		left = 0
 		right = 0
@@ -24433,7 +25857,10 @@ script 21 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Cancel\n"
+	"""
+	Cancel
+	
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -24453,7 +25880,10 @@ script 22 mmbn3 {
 		jumpIfEqual = 23
 		jumpIfGreater = 23
 		jumpIfLess = continue
-	"Where to?\n"
+	"""
+	Where to?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -24461,7 +25891,9 @@ script 22 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"ACDC "
+	"""
+	ACDC 
+	"""
 	option
 		left = 0
 		right = 0
@@ -24469,7 +25901,10 @@ script 22 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"SciLab\n"
+	"""
+	SciLab
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -24477,7 +25912,9 @@ script 22 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Cancel"
+	"""
+	Cancel
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -24492,7 +25929,10 @@ script 22 mmbn3 {
 	end
 }
 script 23 mmbn3 {
-	"Where to?\n"
+	"""
+	Where to?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -24500,7 +25940,9 @@ script 23 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"ACDC "
+	"""
+	ACDC 
+	"""
 	option
 		left = 0
 		right = 0
@@ -24508,7 +25950,10 @@ script 23 mmbn3 {
 		down = 3
 	space
 		count = 2
-	"SciLab\n"
+	"""
+	SciLab
+	
+	"""
 	option
 		left = 3
 		right = 3
@@ -24516,7 +25961,9 @@ script 23 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yoka "
+	"""
+	Yoka 
+	"""
 	option
 		left = 2
 		right = 2
@@ -24524,7 +25971,9 @@ script 23 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Cancel"
+	"""
+	Cancel
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -24553,7 +26002,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"I can't fit,Lan!"
+	"""
+	I can't fit,Lan!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -24568,7 +26019,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan!"
+	"""
+	Lan!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -24589,7 +26042,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"I can't fit,Lan!"
+	"""
+	I can't fit,Lan!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -25409,11 +26864,15 @@ script 86 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 143
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = *
-	"\"?"
+	"""
+	"?
+	"""
 	keyWait
 	end
 }
@@ -26049,7 +27508,9 @@ script 167 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Let's go see Mamoru!"
+	"""
+	Let's go see Mamoru!
+	"""
 	keyWait
 	end
 }
@@ -26064,7 +27525,9 @@ script 170 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 25
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = M
@@ -26096,7 +27559,9 @@ script 172 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Want to go to bed?"
+	"""
+	Want to go to bed?
+	"""
 	keyWait
 	end
 }
@@ -26534,7 +27999,9 @@ script 204 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Let's get to sleep!"
+	"""
+	Let's get to sleep!
+	"""
 	keyWait
 	end
 }
@@ -26922,7 +28389,9 @@ script 233 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Let's go to SciLab!"
+	"""
+	Let's go to SciLab!
+	"""
 	keyWait
 	end
 }
@@ -26999,7 +28468,9 @@ script 240 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Let's look for dad!!"
+	"""
+	Let's look for dad!!
+	"""
 	keyWait
 	end
 }
@@ -27905,11 +29376,15 @@ script 86 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 143
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = *
-	"\"?"
+	"""
+	"?
+	"""
 	keyWait
 	end
 }
@@ -28495,7 +29970,9 @@ script 155 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Let's go see Mamoru!"
+	"""
+	Let's go see Mamoru!
+	"""
 	keyWait
 	end
 }
@@ -28510,7 +29987,9 @@ script 158 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 25
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = M
@@ -29295,7 +30774,9 @@ script 219 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Let's go to SciLab!"
+	"""
+	Let's go to SciLab!
+	"""
 	keyWait
 	end
 }
@@ -29384,7 +30865,9 @@ script 226 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Let's look for dad!!"
+	"""
+	Let's look for dad!!
+	"""
 	keyWait
 	end
 }
@@ -29941,11 +31424,15 @@ script 86 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 143
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = *
-	"\"?"
+	"""
+	"?
+	"""
 	keyWait
 	end
 }
@@ -30191,7 +31678,9 @@ script 113 mmbn3 {
 	printItem
 		buffer = 0
 		item = 15
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	end
 }
@@ -30504,7 +31993,9 @@ script 145 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Let's go see Mamoru!"
+	"""
+	Let's go see Mamoru!
+	"""
 	keyWait
 	end
 }
@@ -30519,7 +32010,9 @@ script 148 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 25
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = M
@@ -31390,7 +32883,9 @@ script 226 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Let's look for dad!!"
+	"""
+	Let's look for dad!!
+	"""
 	keyWait
 	end
 }
@@ -32011,11 +33506,15 @@ script 86 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 143
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = *
-	"\"?"
+	"""
+	"?
+	"""
 	keyWait
 	end
 }
@@ -32554,7 +34053,9 @@ script 145 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Let's go see Mamoru!"
+	"""
+	Let's go see Mamoru!
+	"""
 	keyWait
 	end
 }
@@ -32569,7 +34070,9 @@ script 148 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 25
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = M
@@ -33309,7 +34812,9 @@ script 219 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Let's go to SciLab!"
+	"""
+	Let's go to SciLab!
+	"""
 	keyWait
 	end
 }
@@ -33397,7 +34902,9 @@ script 226 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Let's look for dad!!"
+	"""
+	Let's look for dad!!
+	"""
 	keyWait
 	end
 }
@@ -33944,7 +35451,9 @@ script 148 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Let's go see Mamoru!"
+	"""
+	Let's go see Mamoru!
+	"""
 	keyWait
 	end
 }
@@ -33959,7 +35468,9 @@ script 151 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 25
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = M
@@ -34687,7 +36198,9 @@ script 219 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Let's go to SciLab!"
+	"""
+	Let's go to SciLab!
+	"""
 	keyWait
 	end
 }
@@ -34764,7 +36277,9 @@ script 226 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Let's look for dad!!"
+	"""
+	Let's look for dad!!
+	"""
 	keyWait
 	end
 }
@@ -34958,7 +36473,9 @@ script 111 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Watch your step,Lan!"
+	"""
+	Watch your step,Lan!
+	"""
 	keyWait
 	end
 }
@@ -35222,7 +36739,9 @@ script 135 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Let's go see Mamoru!"
+	"""
+	Let's go see Mamoru!
+	"""
 	keyWait
 	end
 }
@@ -35237,7 +36756,9 @@ script 138 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 25
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = M
@@ -35660,7 +37181,9 @@ script 170 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Let's get to sleep!"
+	"""
+	Let's get to sleep!
+	"""
 	keyWait
 	end
 }
@@ -35975,7 +37498,9 @@ script 219 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Let's go to SciLab!"
+	"""
+	Let's go to SciLab!
+	"""
 	keyWait
 	end
 }
@@ -36040,7 +37565,9 @@ script 226 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Let's look for dad!!"
+	"""
+	Let's look for dad!!
+	"""
 	keyWait
 	end
 }
@@ -36190,7 +37717,9 @@ script 121 mmbn3 {
 	printItem
 		buffer = 0
 		item = 22
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	end
 }
@@ -36408,7 +37937,9 @@ script 140 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 25
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = M
@@ -37323,7 +38854,9 @@ script 219 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Let's go to SciLab!"
+	"""
+	Let's go to SciLab!
+	"""
 	keyWait
 	end
 }
@@ -37405,7 +38938,9 @@ script 226 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Let's look for dad!!"
+	"""
+	Let's look for dad!!
+	"""
 	keyWait
 	end
 }
@@ -37735,7 +39270,9 @@ script 26 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Be careful,Lan!"
+	"""
+	Be careful,Lan!
+	"""
 	keyWait
 	end
 }
@@ -37973,7 +39510,9 @@ script 35 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"OK! Let's move on!"
+	"""
+	OK! Let's move on!
+	"""
 	keyWait
 	end
 }
@@ -38937,7 +40476,9 @@ script 54 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"…"
+	"""
+	…
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -39249,11 +40790,15 @@ script 86 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 143
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = *
-	"\"?"
+	"""
+	"?
+	"""
 	keyWait
 	end
 }
@@ -39823,7 +41368,9 @@ script 144 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Let's go see Mamoru!"
+	"""
+	Let's go see Mamoru!
+	"""
 	keyWait
 	end
 }
@@ -39838,7 +41385,9 @@ script 147 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 25
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = M
@@ -39927,7 +41476,9 @@ script 154 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Let's go see Mamoru!"
+	"""
+	Let's go see Mamoru!
+	"""
 	keyWait
 	end
 }
@@ -41042,10 +42593,14 @@ script 5 mmbn3 {
 	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
 	"""
@@ -41593,18 +43148,26 @@ script 17 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"The "
+	"""
+	The 
+	"""
 	textSpeed
 		delay = 0
-	"[circle1][circle2]"
+	"""
+	[circle1][circle2]
+	"""
 	textSpeed
 		delay = 2
 	wait
 		frames = 2
-	" & "
+	"""
+	 & 
+	"""
 	textSpeed
 		delay = 0
-	"[cross1][cross2]"
+	"""
+	[cross1][cross2]
+	"""
 	textSpeed
 		delay = 2
 	wait
@@ -41621,18 +43184,26 @@ script 18 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"The "
+	"""
+	The 
+	"""
 	textSpeed
 		delay = 0
-	"[circle1][circle2]"
+	"""
+	[circle1][circle2]
+	"""
 	textSpeed
 		delay = 2
 	wait
 		frames = 2
-	" & "
+	"""
+	 & 
+	"""
 	textSpeed
 		delay = 0
-	"[cross1][cross2]"
+	"""
+	[cross1][cross2]
+	"""
 	textSpeed
 		delay = 2
 	wait
@@ -41649,18 +43220,26 @@ script 19 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"The "
+	"""
+	The 
+	"""
 	textSpeed
 		delay = 0
-	"[circle1][circle2]"
+	"""
+	[circle1][circle2]
+	"""
 	textSpeed
 		delay = 2
 	wait
 		frames = 2
-	" & "
+	"""
+	 & 
+	"""
 	textSpeed
 		delay = 0
-	"[cross1][cross2]"
+	"""
+	[cross1][cross2]
+	"""
 	textSpeed
 		delay = 2
 	wait
@@ -41965,7 +43544,9 @@ script 54 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"…"
+	"""
+	…
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -42194,11 +43775,15 @@ script 86 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 143
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = *
-	"\"?"
+	"""
+	"?
+	"""
 	keyWait
 	end
 }
@@ -42773,7 +44358,9 @@ script 144 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Let's go see Mamoru!"
+	"""
+	Let's go see Mamoru!
+	"""
 	keyWait
 	end
 }
@@ -42788,7 +44375,9 @@ script 147 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 25
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = M
@@ -42877,7 +44466,9 @@ script 154 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Let's go see Mamoru!"
+	"""
+	Let's go see Mamoru!
+	"""
 	keyWait
 	end
 }
@@ -44007,7 +45598,9 @@ script 54 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"…"
+	"""
+	…
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -44229,11 +45822,15 @@ script 86 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 143
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = *
-	"\"?"
+	"""
+	"?
+	"""
 	keyWait
 	end
 }
@@ -44808,7 +46405,9 @@ script 144 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Let's go see Mamoru!"
+	"""
+	Let's go see Mamoru!
+	"""
 	keyWait
 	end
 }
@@ -44823,7 +46422,9 @@ script 147 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 25
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = M
@@ -44912,7 +46513,9 @@ script 154 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Let's go see Mamoru!"
+	"""
+	Let's go see Mamoru!
+	"""
 	keyWait
 	end
 }
@@ -46207,11 +47810,15 @@ script 86 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 143
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = *
-	"\"?"
+	"""
+	"?
+	"""
 	keyWait
 	end
 }
@@ -46814,7 +48421,9 @@ script 144 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Let's go see Mamoru!"
+	"""
+	Let's go see Mamoru!
+	"""
 	keyWait
 	end
 }
@@ -46829,7 +48438,9 @@ script 147 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 25
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = M
@@ -46918,7 +48529,9 @@ script 154 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Let's go see Mamoru!"
+	"""
+	Let's go see Mamoru!
+	"""
 	keyWait
 	end
 }
@@ -48116,7 +49729,9 @@ script 125 mmbn3 {
 	printItem
 		buffer = 0
 		item = 18
-	"\" is?"
+	"""
+	" is?
+	"""
 	keyWait
 	end
 }
@@ -48457,7 +50072,9 @@ script 156 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Let's go see Mamoru!"
+	"""
+	Let's go see Mamoru!
+	"""
 	keyWait
 	end
 }
@@ -48472,7 +50089,9 @@ script 159 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 25
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = M
@@ -48561,7 +50180,9 @@ script 166 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Let's go see Mamoru!"
+	"""
+	Let's go see Mamoru!
+	"""
 	keyWait
 	end
 }
@@ -50077,12 +51698,16 @@ script 0 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = MegaMan
-	"Chrysanthemummies!"
+	"""
+	Chrysanthemummies!
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
 		mugshot = Lan
-	"…Ha ha ha ha!"
+	"""
+	…Ha ha ha ha!
+	"""
 	keyWait
 	end
 }
@@ -50130,13 +51755,19 @@ script 1 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = Lan
-	"…"
+	"""
+	…
+	"""
 	waitSkip
 		frames = 30
-	"…"
+	"""
+	…
+	"""
 	waitSkip
 		frames = 30
-	"…"
+	"""
+	…
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -50223,12 +51854,16 @@ script 3 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = Lan
-	"No,what happened?"
+	"""
+	No,what happened?
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
 		mugshot = MegaMan
-	"It folded."
+	"""
+	It folded.
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -50288,7 +51923,9 @@ script 11 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = Lan
-	"Really?"
+	"""
+	Really?
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -50423,7 +52060,9 @@ script 20 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = MegaMan
-	"No pun in ten did!"
+	"""
+	No pun in ten did!
+	"""
 	keyWait
 	end
 }
@@ -50490,7 +52129,9 @@ script 22 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"\"Are you OK\"?"
+	"""
+	"Are you OK"?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -50499,15 +52140,21 @@ script 22 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"\"Are you sure?\""
+	"""
+	"Are you sure?"
+	"""
 	keyWait
 	clearMsg
-	"\"I'm positive!\""
+	"""
+	"I'm positive!"
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
 		mugshot = Lan
-	"Aggggghhhhhh!"
+	"""
+	Aggggghhhhhh!
+	"""
 	keyWait
 	end
 }
@@ -50522,7 +52169,9 @@ script 23 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Yeah? So?"
+	"""
+	Yeah? So?
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -50618,17 +52267,23 @@ script 30 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = MegaMan
-	"They went data way!"
+	"""
+	They went data way!
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
 		mugshot = Lan
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
 		mugshot = MegaMan
-	"…Sorry…"
+	"""
+	…Sorry…
+	"""
 	keyWait
 	end
 }
@@ -50645,17 +52300,23 @@ script 31 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = Lan
-	"OK,sure!"
+	"""
+	OK,sure!
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
 		mugshot = MegaMan
-	"C:>"
+	"""
+	C:>
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
 		mugshot = Lan
-	"…Cute!"
+	"""
+	…Cute!
+	"""
 	keyWait
 	end
 }
@@ -50663,22 +52324,30 @@ script 32 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Knock,knock!"
+	"""
+	Knock,knock!
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
 		mugshot = Lan
-	"Who's there?"
+	"""
+	Who's there?
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
 		mugshot = MegaMan
-	"Dwayne!"
+	"""
+	Dwayne!
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
 		mugshot = Lan
-	"Dwayne who?"
+	"""
+	Dwayne who?
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -50712,7 +52381,9 @@ script 33 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = Lan
-	"I have no-eye-deer!"
+	"""
+	I have no-eye-deer!
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -50725,7 +52396,9 @@ script 33 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = Lan
-	"Heard what one?"
+	"""
+	Heard what one?
+	"""
 	keyWait
 	end
 }
@@ -50824,7 +52497,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = OldMan
 	msgOpen
-	"Hullo there,son!"
+	"""
+	Hullo there,son!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -50853,7 +52528,9 @@ script 3 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Nope "
+	"""
+	Nope 
+	"""
 	option
 		left = 0
 		right = 0
@@ -50861,7 +52538,9 @@ script 3 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Sure!"
+	"""
+	Sure!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -50874,7 +52553,9 @@ script 3 mmbn3 {
 		]
 	mugshotShow
 		mugshot = Woman
-	"Well,listen up!"
+	"""
+	Well,listen up!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -51046,7 +52727,9 @@ script 23 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Get on home."
+	"""
+	Get on home.
+	"""
 	keyWait
 	end
 }
@@ -51127,7 +52810,9 @@ script 32 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan,you got mail!!"
+	"""
+	Lan,you got mail!!
+	"""
 	keyWait
 	end
 }
@@ -51187,7 +52872,9 @@ script 35 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -51195,7 +52882,10 @@ script 35 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No\n"
+	"""
+	No
+	
+	"""
 	select
 		default = 1
 		BSeparate = false
@@ -51236,7 +52926,9 @@ script 37 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"C'mon,you chicken!"
+	"""
+	C'mon,you chicken!
+	"""
 	keyWait
 	end
 }
@@ -51395,7 +53087,9 @@ script 49 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	end
 }
@@ -51519,7 +53213,9 @@ script 63 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Bwing him to me!"
+	"""
+	Bwing him to me!
+	"""
 	keyWait
 	end
 }
@@ -51580,7 +53276,10 @@ script 68 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"\nI'll sue!"
+	"""
+	
+	I'll sue!
+	"""
 	keyWait
 	end
 }
@@ -51817,7 +53516,9 @@ script 83 mmbn3 {
 	mugshotShow
 		mugshot = OldMan
 	msgOpen
-	"Hrmph,hrmph."
+	"""
+	Hrmph,hrmph.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -52049,7 +53750,9 @@ script 102 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"I hope you have fun!"
+	"""
+	I hope you have fun!
+	"""
 	keyWait
 	end
 }
@@ -52089,7 +53792,9 @@ script 110 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = Lan
-	"…Yup."
+	"""
+	…Yup.
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -52102,7 +53807,9 @@ script 110 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = Lan
-	"…Yup."
+	"""
+	…Yup.
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -52445,7 +54152,9 @@ script 150 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Somebody help!"
+	"""
+	Somebody help!
+	"""
 	keyWait
 	end
 }
@@ -52502,13 +54211,19 @@ script 154 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
 	"""
@@ -52645,7 +54360,10 @@ script 180 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Interested?\n"
+	"""
+	Interested?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -52653,7 +54371,9 @@ script 180 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -52661,7 +54381,9 @@ script 180 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -52723,7 +54445,9 @@ script 190 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 125
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = S
@@ -52734,11 +54458,15 @@ script 190 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 46
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = V
-	"\"?"
+	"""
+	"?
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -52749,7 +54477,9 @@ script 190 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Sure! "
+	"""
+	Sure! 
+	"""
 	option
 		left = 0
 		right = 0
@@ -52757,7 +54487,9 @@ script 190 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No way!"
+	"""
+	No way!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -52812,11 +54544,15 @@ script 192 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 46
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = V
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -52902,7 +54638,9 @@ script 197 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 125
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = S
@@ -52913,11 +54651,15 @@ script 197 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 46
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = V
-	"\"?"
+	"""
+	"?
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -52928,7 +54670,9 @@ script 197 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Sure! "
+	"""
+	Sure! 
+	"""
 	option
 		left = 0
 		right = 0
@@ -52936,7 +54680,9 @@ script 197 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No way!"
+	"""
+	No way!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -53054,7 +54800,9 @@ script 206 mmbn3 {
 	printItem
 		buffer = 0
 		item = 20
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -53067,7 +54815,9 @@ script 207 mmbn3 {
 	mugshotShow
 		mugshot = Man
 	msgOpen
-	"Thanks!"
+	"""
+	Thanks!
+	"""
 	keyWait
 	end
 }
@@ -53155,7 +54905,9 @@ script 210 mmbn3 {
 	printItem
 		buffer = 0
 		item = 100
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -53276,7 +55028,9 @@ script 223 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"\"No sales people!\""
+	"""
+	"No sales people!"
+	"""
 	keyWait
 	end
 }
@@ -53337,7 +55091,9 @@ script 226 mmbn3 {
 }
 script 227 mmbn3 {
 	msgOpen
-	"The bus stop."
+	"""
+	The bus stop.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -53390,7 +55146,9 @@ script 229 mmbn3 {
 		jumpIfOutOfRange = continue
 	mugshotHide
 	msgOpen
-	"It's locked."
+	"""
+	It's locked.
+	"""
 	keyWait
 	end
 }
@@ -53529,7 +55287,9 @@ script 238 mmbn3 {
 	printItem
 		buffer = 0
 		item = 46
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -53559,7 +55319,9 @@ script 239 mmbn3 {
 	printItem
 		buffer = 0
 		item = 46
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -54272,14 +56034,21 @@ script 40 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 25
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = M
-	"\"?"
+	"""
+	"?
+	"""
 	keyWait
 	clearMsg
-	"A virus called\n"
+	"""
+	A virus called
+	
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 22
@@ -54304,7 +56073,9 @@ script 40 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 22
-	"s!"
+	"""
+	s!
+	"""
 	keyWait
 	end
 }
@@ -54312,7 +56083,9 @@ script 41 mmbn3 {
 	mugshotShow
 		mugshot = BlueShirtBoy
 	msgOpen
-	"So Dex moved,huh?"
+	"""
+	So Dex moved,huh?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -54335,7 +56108,9 @@ script 43 mmbn3 {
 		jumpIfTrue = continue
 		jumpIfFalse = 241
 	msgOpen
-	"The door is locked."
+	"""
+	The door is locked.
+	"""
 	keyWait
 	end
 }
@@ -54695,7 +56470,9 @@ script 70 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan,you got mail!!"
+	"""
+	Lan,you got mail!!
+	"""
 	keyWait
 	end
 }
@@ -54849,7 +56626,9 @@ script 124 mmbn3 {
 	clearMsg
 	mugshotAnimate
 		animation = 1
-	"All safe and secure…"
+	"""
+	All safe and secure…
+	"""
 	keyWait
 	end
 }
@@ -55059,7 +56838,9 @@ script 140 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"Hey,Lan!"
+	"""
+	Hey,Lan!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -55127,11 +56908,15 @@ script 141 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 221
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = R
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -55177,7 +56962,9 @@ script 143 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Please,go ahead."
+	"""
+	Please,go ahead.
+	"""
 	keyWait
 	msgClose
 	checkFlag
@@ -55209,7 +56996,9 @@ script 145 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"I hope Chisao is OK…"
+	"""
+	I hope Chisao is OK…
+	"""
 	keyWait
 	end
 }
@@ -55489,7 +57278,9 @@ script 163 mmbn3 {
 	printFolderName
 		buffer = 0
 		entry = 9
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -55500,7 +57291,9 @@ script 163 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Please! "
+	"""
+	Please! 
+	"""
 	option
 		left = 0
 		right = 0
@@ -55508,7 +57301,9 @@ script 163 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No,thanks"
+	"""
+	No,thanks
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -55542,16 +57337,24 @@ script 164 mmbn3 {
 	printFolderName
 		buffer = 0
 		entry = 9
-	"\" now…"
+	"""
+	" now…
+	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	keyWait
@@ -55566,7 +57369,9 @@ script 164 mmbn3 {
 	printFolderName
 		buffer = 0
 		entry = 9
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	end
 }
@@ -55585,7 +57390,10 @@ script 180 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Interested?\n"
+	"""
+	Interested?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -55593,7 +57401,9 @@ script 180 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -55601,7 +57411,9 @@ script 180 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -55663,7 +57475,9 @@ script 190 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 125
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = S
@@ -55674,11 +57488,15 @@ script 190 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 46
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = V
-	"\"?"
+	"""
+	"?
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -55689,7 +57507,9 @@ script 190 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Sure! "
+	"""
+	Sure! 
+	"""
 	option
 		left = 0
 		right = 0
@@ -55697,7 +57517,9 @@ script 190 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No way!"
+	"""
+	No way!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -55752,11 +57574,15 @@ script 192 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 46
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = V
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -55842,7 +57668,9 @@ script 197 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 125
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = S
@@ -55853,11 +57681,15 @@ script 197 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 46
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = V
-	"\"?"
+	"""
+	"?
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -55868,7 +57700,9 @@ script 197 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Sure! "
+	"""
+	Sure! 
+	"""
 	option
 		left = 0
 		right = 0
@@ -55876,7 +57710,9 @@ script 197 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No way!"
+	"""
+	No way!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -55994,7 +57830,9 @@ script 206 mmbn3 {
 	printItem
 		buffer = 0
 		item = 20
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -56007,7 +57845,9 @@ script 207 mmbn3 {
 	mugshotShow
 		mugshot = Man
 	msgOpen
-	"Thanks!"
+	"""
+	Thanks!
+	"""
 	keyWait
 	end
 }
@@ -56095,7 +57935,9 @@ script 210 mmbn3 {
 	printItem
 		buffer = 0
 		item = 100
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -56216,7 +58058,9 @@ script 223 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"\"No sales people!\""
+	"""
+	"No sales people!"
+	"""
 	keyWait
 	end
 }
@@ -56277,7 +58121,9 @@ script 226 mmbn3 {
 }
 script 227 mmbn3 {
 	msgOpen
-	"The bus stop."
+	"""
+	The bus stop.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -56330,7 +58176,9 @@ script 229 mmbn3 {
 		jumpIfOutOfRange = continue
 	mugshotHide
 	msgOpen
-	"It's locked."
+	"""
+	It's locked.
+	"""
 	keyWait
 	end
 }
@@ -56469,7 +58317,9 @@ script 238 mmbn3 {
 	printItem
 		buffer = 0
 		item = 46
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -56499,7 +58349,9 @@ script 239 mmbn3 {
 	printItem
 		buffer = 0
 		item = 46
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -56782,13 +58634,19 @@ script 50 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
 	"""
@@ -56836,7 +58694,9 @@ script 51 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Thank you so much!"
+	"""
+	Thank you so much!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -56873,7 +58733,9 @@ script 52 mmbn3 {
 	printItem
 		buffer = 0
 		item = 12
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -57038,7 +58900,9 @@ script 81 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"I didn't know that!"
+	"""
+	I didn't know that!
+	"""
 	keyWait
 	end
 }
@@ -57305,7 +59169,10 @@ script 230 mmbn3 {
 		jumpIfInRange = 235
 		jumpIfOutOfRange = continue
 	msgOpen
-	"Buy a ticket to:\n"
+	"""
+	Buy a ticket to:
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -57313,7 +59180,10 @@ script 230 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"SciLab\n"
+	"""
+	SciLab
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -57321,7 +59191,9 @@ script 230 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Nowhere"
+	"""
+	Nowhere
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -57350,7 +59222,10 @@ script 231 mmbn3 {
 	printItem
 		buffer = 0
 		item = 89
-	"\"!!\n"
+	"""
+	"!!
+	
+	"""
 	playerFinish
 	playerAnimate
 		animation = 4
@@ -57360,7 +59235,10 @@ script 231 mmbn3 {
 }
 script 232 mmbn3 {
 	msgOpen
-	"Exchange ticket?\n"
+	"""
+	Exchange ticket?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -57368,7 +59246,9 @@ script 232 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -57376,7 +59256,9 @@ script 232 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -57423,13 +59305,18 @@ script 234 mmbn3 {
 	printItem
 		buffer = 0
 		item = 89
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	end
 }
 script 235 mmbn3 {
 	msgOpen
-	"Buy a ticket to:\n"
+	"""
+	Buy a ticket to:
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -57437,7 +59324,9 @@ script 235 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"SciLab     "
+	"""
+	SciLab     
+	"""
 	option
 		left = 0
 		right = 0
@@ -57445,7 +59334,10 @@ script 235 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"Yoka\n"
+	"""
+	Yoka
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -57453,7 +59345,9 @@ script 235 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Nowhere"
+	"""
+	Nowhere
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -57483,7 +59377,9 @@ script 236 mmbn3 {
 	printItem
 		buffer = 0
 		item = 90
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerAnimate
 		animation = 4
@@ -57503,13 +59399,18 @@ script 237 mmbn3 {
 	printItem
 		buffer = 0
 		item = 90
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	end
 }
 script 238 mmbn3 {
 	msgOpen
-	"Buy a ticket to:\n"
+	"""
+	Buy a ticket to:
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -57517,7 +59418,9 @@ script 238 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"SciLab    "
+	"""
+	SciLab    
+	"""
 	option
 		left = 0
 		right = 0
@@ -57525,7 +59428,10 @@ script 238 mmbn3 {
 		down = 3
 	space
 		count = 2
-	"Yoka\n"
+	"""
+	Yoka
+	
+	"""
 	option
 		left = 3
 		right = 3
@@ -57533,7 +59439,9 @@ script 238 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Beach     "
+	"""
+	Beach     
+	"""
 	option
 		left = 2
 		right = 2
@@ -57541,7 +59449,9 @@ script 238 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Nowhere"
+	"""
+	Nowhere
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -57572,7 +59482,9 @@ script 239 mmbn3 {
 	printItem
 		buffer = 0
 		item = 91
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerAnimate
 		animation = 4
@@ -57592,7 +59504,9 @@ script 240 mmbn3 {
 	printItem
 		buffer = 0
 		item = 91
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	end
 }
@@ -57695,7 +59609,9 @@ script 6 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"So busy,so busy…"
+	"""
+	So busy,so busy…
+	"""
 	keyWait
 	end
 }
@@ -57760,7 +59676,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = Mom
 	msgOpen
-	"You're home already?"
+	"""
+	You're home already?
+	"""
 	keyWait
 	end
 }
@@ -57846,7 +59764,9 @@ script 19 mmbn3 {
 	mugshotShow
 		mugshot = Mom
 	msgOpen
-	"Chisao is in town?"
+	"""
+	Chisao is in town?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -57897,7 +59817,9 @@ script 22 mmbn3 {
 	mugshotShow
 		mugshot = Mom
 	msgOpen
-	"Lan!!"
+	"""
+	Lan!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -57907,16 +59829,24 @@ script 22 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"N"
+	"""
+	N
+	"""
 	waitSkip
 		frames = 30
-	"O"
+	"""
+	O
+	"""
 	waitSkip
 		frames = 30
-	"W"
+	"""
+	W
+	"""
 	waitSkip
 		frames = 30
-	"!"
+	"""
+	!
+	"""
 	keyWait
 	end
 }
@@ -57940,7 +59870,9 @@ script 25 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan! You got mail!!"
+	"""
+	Lan! You got mail!!
+	"""
 	keyWait
 	end
 }
@@ -57975,7 +59907,9 @@ script 30 mmbn3 {
 	mugshotShow
 		mugshot = Mom
 	msgOpen
-	"Welcome home!"
+	"""
+	Welcome home!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -58088,7 +60022,9 @@ script 40 mmbn3 {
 	clearMsg
 	mugshotAnimate
 		animation = 0
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	clearMsg
 	mugshotAnimate
@@ -58133,7 +60069,9 @@ script 42 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"And don't get hurt!"
+	"""
+	And don't get hurt!
+	"""
 	keyWait
 	end
 }
@@ -58181,7 +60119,9 @@ script 45 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Give her my best!"
+	"""
+	Give her my best!
+	"""
 	keyWait
 	end
 }
@@ -58289,7 +60229,9 @@ script 55 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Get going to school!"
+	"""
+	Get going to school!
+	"""
 	keyWait
 	end
 }
@@ -58331,7 +60273,9 @@ script 57 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Cheer up,Lan!!"
+	"""
+	Cheer up,Lan!!
+	"""
 	keyWait
 	end
 }
@@ -58364,7 +60308,9 @@ script 60 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"I hope he's OK!"
+	"""
+	I hope he's OK!
+	"""
 	keyWait
 	end
 }
@@ -58379,7 +60325,9 @@ script 65 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Well go get it,then!"
+	"""
+	Well go get it,then!
+	"""
 	keyWait
 	end
 }
@@ -58470,7 +60418,9 @@ script 74 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Oh,honey…!"
+	"""
+	Oh,honey…!
+	"""
 	keyWait
 	end
 }
@@ -58508,16 +60458,25 @@ script 80 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"\nBe careful,dear!"
+	"""
+	
+	Be careful,dear!
+	"""
 	keyWait
 	end
 }
@@ -58779,7 +60738,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan! You got mail!!"
+	"""
+	Lan! You got mail!!
+	"""
 	keyWait
 	end
 }
@@ -58990,7 +60951,10 @@ script 224 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Ready for bed?\n"
+	"""
+	Ready for bed?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -58998,7 +60962,9 @@ script 224 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -59006,7 +60972,9 @@ script 224 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -59035,7 +61003,9 @@ script 225 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -59043,7 +61013,9 @@ script 225 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -59076,7 +61048,9 @@ script 226 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -59084,7 +61058,9 @@ script 226 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -59111,7 +61087,9 @@ script 227 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"Save complete!"
+	"""
+	Save complete!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -59121,7 +61099,9 @@ script 228 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Good night,Lan!"
+	"""
+	Good night,Lan!
+	"""
 	keyWait
 	end
 }
@@ -59135,7 +61115,10 @@ script 229 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Try again?\n"
+	"""
+	Try again?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -59143,7 +61126,9 @@ script 229 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -59151,7 +61136,9 @@ script 229 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -59336,7 +61323,10 @@ script 248 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = MegaMan
-	"Try again?\n"
+	"""
+	Try again?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -59344,7 +61334,9 @@ script 248 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -59352,7 +61344,9 @@ script 248 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -59386,7 +61380,9 @@ script 250 mmbn3 {
 @size 255
 
 script 0 mmbn3s {
-	"6"
+	"""
+	6
+	"""
 }
 script 10 mmbn3 {
 	checkNaviCustProgram
@@ -59503,7 +61499,9 @@ script 30 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"Sorry,Lan."
+	"""
+	Sorry,Lan.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -59513,7 +61511,9 @@ script 30 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 143
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = *
@@ -59568,11 +61568,15 @@ script 32 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 143
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = *
-	",\"huh?"
+	"""
+	,"huh?
+	"""
 	keyWait
 	end
 }
@@ -59588,7 +61592,9 @@ script 33 mmbn3 {
 	mugshotShow
 		mugshot = Higsby
 	msgOpen
-	"Oh! You got it,huh!"
+	"""
+	Oh! You got it,huh!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -59597,7 +61603,9 @@ script 33 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Yep,this is it,huh!"
+	"""
+	Yep,this is it,huh!
+	"""
 	keyWait
 	clearMsg
 	flagSet
@@ -59620,7 +61628,9 @@ script 35 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"L-Lan… Help me…"
+	"""
+	L-Lan… Help me…
+	"""
 	keyWait
 	end
 }
@@ -59628,7 +61638,9 @@ script 36 mmbn3 {
 	mugshotShow
 		mugshot = MsMari
 	msgOpen
-	"Lan,help us quick!"
+	"""
+	Lan,help us quick!
+	"""
 	keyWait
 	end
 }
@@ -59682,7 +61694,9 @@ script 221 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Perfect for a nap!"
+	"""
+	Perfect for a nap!
+	"""
 	keyWait
 	end
 }
@@ -60107,7 +62121,9 @@ script 34 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"I'm done reviewing!"
+	"""
+	I'm done reviewing!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -60128,7 +62144,9 @@ script 35 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Is everyone safe?!"
+	"""
+	Is everyone safe?!
+	"""
 	keyWait
 	end
 }
@@ -60245,13 +62263,19 @@ script 43 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"I'm so glad…"
+	"""
+	I'm so glad…
+	"""
 	keyWait
 	end
 }
@@ -60478,7 +62502,9 @@ script 221 mmbn3 {
 }
 script 222 mmbn3 {
 	msgOpen
-	"It's empty."
+	"""
+	It's empty.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -60779,7 +62805,9 @@ script 25 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Be nice to him,now!"
+	"""
+	Be nice to him,now!
+	"""
 	keyWait
 	end
 }
@@ -61450,7 +63478,9 @@ script 35 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Is your dad OK?"
+	"""
+	Is your dad OK?
+	"""
 	keyWait
 	end
 }
@@ -61610,10 +63640,15 @@ script 48 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"ACDC is safe,right?\n"
+	"""
+	ACDC is safe,right?
+	
+	"""
 	mugshotAnimate
 		animation = 0
-	"(Right…?)"
+	"""
+	(Right…?)
+	"""
 	keyWait
 	end
 }
@@ -61715,7 +63750,9 @@ script 54 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = Lan
-	"I… I can't tell you…"
+	"""
+	I… I can't tell you…
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -61742,27 +63779,41 @@ script 54 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = Lan
-	"…Somewhere…"
+	"""
+	…Somewhere…
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
 		mugshot = Yai
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -61790,7 +63841,9 @@ script 54 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = Lan
-	"I,I just…"
+	"""
+	I,I just…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -61802,13 +63855,19 @@ script 54 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = Yai
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -61834,7 +63893,9 @@ script 54 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = Lan
-	"…I'm sorry. But I…"
+	"""
+	…I'm sorry. But I…
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -61861,7 +63922,9 @@ script 54 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = Lan
-	"Yai…! Thank you!"
+	"""
+	Yai…! Thank you!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -61873,7 +63936,9 @@ script 54 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = Yai
-	"…Sure,whatever."
+	"""
+	…Sure,whatever.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -61885,12 +63950,16 @@ script 54 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = Lan
-	"Thanks so much!"
+	"""
+	Thanks so much!
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
 		mugshot = Yai
-	"Just get going…"
+	"""
+	Just get going…
+	"""
 	keyWait
 	end
 }
@@ -61998,7 +64067,9 @@ script 224 mmbn3 {
 }
 script 225 mmbn3 {
 	msgOpen
-	"A gorgeous bed."
+	"""
+	A gorgeous bed.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -62156,7 +64227,9 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Thanks,huh!"
+	"""
+	Thanks,huh!
+	"""
 	keyWait
 	end
 }
@@ -62207,7 +64280,9 @@ script 3 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"This \""
+	"""
+	This "
+	"""
 	printItem
 		buffer = 0
 		item = 12
@@ -62287,7 +64362,9 @@ script 4 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Good luck,huh!"
+	"""
+	Good luck,huh!
+	"""
 	keyWait
 	end
 }
@@ -62399,11 +64476,15 @@ script 7 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Take this \""
+	"""
+	Take this "
+	"""
 	printChip
 		buffer = 0
 		chip = 58
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = C
@@ -62439,11 +64520,15 @@ script 8 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 58
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = C
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -62478,7 +64563,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Yeah… well…"
+	"""
+	Yeah… well…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -62488,7 +64575,9 @@ script 12 mmbn3 {
 	mugshotShow
 		mugshot = Higsby
 	msgOpen
-	"I thought so,huh."
+	"""
+	I thought so,huh.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -62526,7 +64615,9 @@ script 12 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Good luck,huh!"
+	"""
+	Good luck,huh!
+	"""
 	keyWait
 	end
 }
@@ -62534,7 +64625,9 @@ script 13 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan! You got mail!!"
+	"""
+	Lan! You got mail!!
+	"""
 	keyWait
 	end
 }
@@ -62601,7 +64694,9 @@ script 20 mmbn3 {
 	clearMsg
 	mugshotAnimate
 		animation = 0
-	"(Sniffle…)"
+	"""
+	(Sniffle…)
+	"""
 	keyWait
 	end
 }
@@ -62640,7 +64735,9 @@ script 26 mmbn3 {
 	mugshotShow
 		mugshot = CapBoy
 	msgOpen
-	"Hey,Lan!"
+	"""
+	Hey,Lan!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -62673,7 +64770,9 @@ script 180 mmbn3 {
 	mugshotShow
 		mugshot = Higsby
 	msgOpen
-	"Welcome,huh!"
+	"""
+	Welcome,huh!
+	"""
 	keyWait
 	jump
 		target = 184
@@ -62722,7 +64821,10 @@ script 181 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Normal stock\n"
+	"""
+	Normal stock
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -62730,7 +64832,10 @@ script 181 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"Chip order\n"
+	"""
+	Chip order
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -62738,7 +64843,9 @@ script 181 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Cancel"
+	"""
+	Cancel
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -62769,7 +64876,10 @@ script 182 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Normal stock\n"
+	"""
+	Normal stock
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -62777,7 +64887,10 @@ script 182 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"Chip order\n"
+	"""
+	Chip order
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -62785,7 +64898,9 @@ script 182 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Cancel"
+	"""
+	Cancel
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -62825,7 +64940,9 @@ script 186 mmbn3 {
 	mugshotShow
 		mugshot = Higsby
 	msgOpen
-	"Come again,huh!"
+	"""
+	Come again,huh!
+	"""
 	keyWait
 	end
 }
@@ -62980,7 +65097,9 @@ script 228 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -62988,7 +65107,9 @@ script 228 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -63005,7 +65126,10 @@ script 229 mmbn3 {
 	mugshotShow
 		mugshot = NumberMan
 	msgOpenQuick
-	"Please come \nback again!"
+	"""
+	Please come 
+	back again!
+	"""
 	keyWait
 	end
 }
@@ -63013,7 +65137,10 @@ script 230 mmbn3 {
 	mugshotShow
 		mugshot = NumberMan
 	msgOpenQuick
-	"Enter your number:\n"
+	"""
+	Enter your number:
+	
+	"""
 	option
 		left = 8
 		right = 1
@@ -63024,7 +65151,9 @@ script 230 mmbn3 {
 	menuOptionNumberTrader
 		char = 0
 		position = 255
-	"0"
+	"""
+	0
+	"""
 	option
 		left = 0
 		right = 2
@@ -63035,7 +65164,9 @@ script 230 mmbn3 {
 	menuOptionNumberTrader
 		char = 1
 		position = 255
-	"0"
+	"""
+	0
+	"""
 	option
 		left = 1
 		right = 3
@@ -63046,7 +65177,9 @@ script 230 mmbn3 {
 	menuOptionNumberTrader
 		char = 2
 		position = 255
-	"0"
+	"""
+	0
+	"""
 	option
 		left = 2
 		right = 4
@@ -63057,7 +65190,9 @@ script 230 mmbn3 {
 	menuOptionNumberTrader
 		char = 3
 		position = 255
-	"0"
+	"""
+	0
+	"""
 	option
 		left = 3
 		right = 5
@@ -63068,7 +65203,9 @@ script 230 mmbn3 {
 	menuOptionNumberTrader
 		char = 4
 		position = 255
-	"0"
+	"""
+	0
+	"""
 	option
 		left = 4
 		right = 6
@@ -63079,7 +65216,9 @@ script 230 mmbn3 {
 	menuOptionNumberTrader
 		char = 5
 		position = 255
-	"0"
+	"""
+	0
+	"""
 	option
 		left = 5
 		right = 7
@@ -63090,7 +65229,9 @@ script 230 mmbn3 {
 	menuOptionNumberTrader
 		char = 6
 		position = 255
-	"0"
+	"""
+	0
+	"""
 	option
 		left = 6
 		right = 8
@@ -63101,7 +65242,9 @@ script 230 mmbn3 {
 	menuOptionNumberTrader
 		char = 7
 		position = 255
-	"0"
+	"""
+	0
+	"""
 	option
 		left = 7
 		right = 0
@@ -63138,7 +65281,9 @@ script 231 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -63146,7 +65291,9 @@ script 231 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -63180,7 +65327,9 @@ script 232 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 233
-	"Clank,clank… Bang!"
+	"""
+	Clank,clank… Bang!
+	"""
 	soundEnableTextSFX
 	keyWait
 	waitHold
@@ -63203,11 +65352,15 @@ script 233 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -63228,7 +65381,9 @@ script 234 mmbn3 {
 	printItem
 		buffer = 1
 		item = 0
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -63248,7 +65403,9 @@ script 235 mmbn3 {
 	printItem
 		buffer = 1
 		item = 0
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -63268,7 +65425,9 @@ script 236 mmbn3 {
 	printItem
 		buffer = 1
 		item = 0
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -63305,7 +65464,9 @@ script 237 mmbn3 {
 	printNaviCustProgram
 		buffer = 1
 		program = 0
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -63328,7 +65489,10 @@ script 238 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Enter another?\n"
+	"""
+	Enter another?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -63336,7 +65500,9 @@ script 238 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -63344,7 +65510,9 @@ script 238 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -63370,7 +65538,9 @@ script 239 mmbn3 {
 	printItem
 		buffer = 1
 		item = 0
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -63396,7 +65566,9 @@ script 240 mmbn3 {
 	printItem
 		buffer = 1
 		item = 0
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -63422,7 +65594,9 @@ script 241 mmbn3 {
 	printItem
 		buffer = 1
 		item = 0
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -63448,7 +65622,9 @@ script 242 mmbn3 {
 	printItem
 		buffer = 1
 		item = 0
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -63517,7 +65693,9 @@ script 3 mmbn3 {
 	printItem
 		buffer = 0
 		item = 3
-	"\" on their"
+	"""
+	" on their
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -63547,7 +65725,9 @@ script 4 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Nope! "
+	"""
+	Nope! 
+	"""
 	option
 		left = 0
 		right = 0
@@ -63555,7 +65735,9 @@ script 4 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Sure!"
+	"""
+	Sure!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -63631,7 +65813,9 @@ script 4 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Use it wisely!"
+	"""
+	Use it wisely!
+	"""
 	keyWait
 	end
 }
@@ -63674,7 +65858,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = OrangeShirtBoy
 	msgOpen
-	"Well,goody for you."
+	"""
+	Well,goody for you.
+	"""
 	keyWait
 	end
 }
@@ -63728,7 +65914,9 @@ script 13 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"Let's get back home!"
+	"""
+	Let's get back home!
+	"""
 	keyWait
 	end
 }
@@ -63768,7 +65956,9 @@ script 20 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"Choo-chooooo!"
+	"""
+	Choo-chooooo!
+	"""
 	keyWait
 	end
 }
@@ -63789,26 +65979,38 @@ script 30 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = Dex
-	"Oh,you mean me??"
+	"""
+	Oh,you mean me??
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
 		mugshot = Lan
-	"Huh?!"
+	"""
+	Huh?!
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
 		mugshot = Dex
-	"Aw,pipe down!"
+	"""
+	Aw,pipe down!
+	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -63817,12 +66019,16 @@ script 30 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Lan,take me to him!"
+	"""
+	Lan,take me to him!
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
 		mugshot = Lan
-	"Sure,whatever…"
+	"""
+	Sure,whatever…
+	"""
 	keyWait
 	flagSet
 		flag = 1036
@@ -63886,7 +66092,9 @@ script 36 mmbn3 {
 	mugshotShow
 		mugshot = BlueShirtBoy
 	msgOpen
-	"I can't believe it!"
+	"""
+	I can't believe it!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -63901,7 +66109,9 @@ script 37 mmbn3 {
 	mugshotShow
 		mugshot = Girl
 	msgOpen
-	"Hmmmmm…"
+	"""
+	Hmmmmm…
+	"""
 	keyWait
 	end
 }
@@ -63987,7 +66197,9 @@ script 43 mmbn3 {
 	mugshotShow
 		mugshot = BlueShirtBoy
 	msgOpen
-	"**dummy message**"
+	"""
+	**dummy message**
+	"""
 	keyWait
 	end
 }
@@ -64072,7 +66284,9 @@ script 49 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan! You got mail!!"
+	"""
+	Lan! You got mail!!
+	"""
 	keyWait
 	end
 }
@@ -64201,7 +66415,9 @@ script 92 mmbn3 {
 	mugshotShow
 		mugshot = BlueShirtBoy
 	msgOpen
-	"Good morning,Lan!!"
+	"""
+	Good morning,Lan!!
+	"""
 	keyWait
 	flagSet
 		flag = 1824
@@ -64211,7 +66427,9 @@ script 93 mmbn3 {
 	mugshotShow
 		mugshot = OrangeShirtBoy
 	msgOpen
-	"Mornin'!"
+	"""
+	Mornin'!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -64221,13 +66439,19 @@ script 93 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -64584,7 +66808,9 @@ script 161 mmbn3 {
 	mugshotShow
 		mugshot = OrangeShirtBoy
 	msgOpen
-	"Oh,Ms.Mari…"
+	"""
+	Oh,Ms.Mari…
+	"""
 	keyWait
 	end
 }
@@ -64608,13 +66834,19 @@ script 165 mmbn3 {
 	mugshotShow
 		mugshot = MsMari
 	msgOpen
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -64648,7 +66880,9 @@ script 166 mmbn3 {
 	msgOpen
 	mugshotAnimate
 		animation = 0
-	"(Shiver…)"
+	"""
+	(Shiver…)
+	"""
 	keyWait
 	clearMsg
 	mugshotAnimate
@@ -64728,7 +66962,9 @@ script 220 mmbn3 {
 }
 script 221 mmbn3 {
 	msgOpen
-	"A time schedule."
+	"""
+	A time schedule.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -64755,7 +66991,10 @@ script 222 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Yes\n"
+	"""
+	Yes
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -64763,7 +67002,9 @@ script 222 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -64801,16 +67042,24 @@ script 224 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"!!"
+	"""
+	!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -64841,13 +67090,19 @@ script 225 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -64893,7 +67148,9 @@ script 226 mmbn3 {
 }
 script 227 mmbn3 {
 	msgOpen
-	"Lan's desk."
+	"""
+	Lan's desk.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -64906,7 +67163,9 @@ script 227 mmbn3 {
 }
 script 228 mmbn3 {
 	msgOpen
-	"Mayl's desk."
+	"""
+	Mayl's desk.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -64919,7 +67178,9 @@ script 228 mmbn3 {
 }
 script 229 mmbn3 {
 	msgOpen
-	"Dex's desk."
+	"""
+	Dex's desk.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -64932,7 +67193,9 @@ script 229 mmbn3 {
 }
 script 230 mmbn3 {
 	msgOpen
-	"Yai's desk."
+	"""
+	Yai's desk.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -64954,7 +67217,9 @@ script 231 mmbn3 {
 }
 script 232 mmbn3 {
 	msgOpen
-	"Ms.Mari's desk."
+	"""
+	Ms.Mari's desk.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -64967,7 +67232,9 @@ script 232 mmbn3 {
 }
 script 233 mmbn3 {
 	msgOpen
-	"A notebook."
+	"""
+	A notebook.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -64986,7 +67253,9 @@ script 233 mmbn3 {
 }
 script 234 mmbn3 {
 	msgOpen
-	"A light switch."
+	"""
+	A light switch.
+	"""
 	keyWait
 	end
 }
@@ -65037,7 +67306,9 @@ script 235 mmbn3 {
 }
 script 236 mmbn3 {
 	msgOpen
-	"It's a hamster!"
+	"""
+	It's a hamster!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -65121,7 +67392,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = OrangeShirtBoy
 	msgOpen
-	"The \""
+	"""
+	The "
+	"""
 	printItem
 		buffer = 0
 		item = 3
@@ -65182,7 +67455,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = CapBoy
 	msgOpen
-	"See you tomorrow!"
+	"""
+	See you tomorrow!
+	"""
 	keyWait
 	end
 }
@@ -65377,10 +67652,14 @@ script 45 mmbn3 {
 	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
 	keyWait
@@ -65421,7 +67700,9 @@ script 55 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 1
-	"s!"
+	"""
+	s!
+	"""
 	keyWait
 	end
 }
@@ -65653,11 +67934,15 @@ script 190 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 14
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = C
-	"\"…"
+	"""
+	"…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -65667,11 +67952,15 @@ script 190 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 14
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = C
-	"\"?"
+	"""
+	"?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -65682,11 +67971,15 @@ script 190 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 31
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = C
-	"\"?"
+	"""
+	"?
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -65697,7 +67990,9 @@ script 190 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Sure "
+	"""
+	Sure 
+	"""
 	option
 		left = 0
 		right = 0
@@ -65705,7 +68000,9 @@ script 190 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Nope!"
+	"""
+	Nope!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -65760,11 +68057,15 @@ script 192 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 31
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = C
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	playerFinish
 	playerReset
@@ -65842,7 +68143,9 @@ script 197 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 14
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = C
@@ -65853,11 +68156,15 @@ script 197 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 31
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = C
-	"\"?"
+	"""
+	"?
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -65868,7 +68175,9 @@ script 197 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Sure "
+	"""
+	Sure 
+	"""
 	option
 		left = 0
 		right = 0
@@ -65876,7 +68185,9 @@ script 197 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Nope!"
+	"""
+	Nope!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -66035,13 +68346,17 @@ script 227 mmbn3 {
 }
 script 228 mmbn3 {
 	msgOpen
-	"The light switch."
+	"""
+	The light switch.
+	"""
 	keyWait
 	end
 }
 script 229 mmbn3 {
 	msgOpen
-	"The teacher's desk."
+	"""
+	The teacher's desk.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -66079,7 +68394,9 @@ script 231 mmbn3 {
 	printItem
 		buffer = 0
 		item = 3
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -66114,7 +68431,9 @@ script 233 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Hey,good idea!"
+	"""
+	Hey,good idea!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -66137,7 +68456,9 @@ script 234 mmbn3 {
 	printItem
 		buffer = 0
 		item = 3
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -66163,7 +68484,9 @@ script 235 mmbn3 {
 		jumpIfTrue = 236
 		jumpIfFalse = continue
 	clearMsg
-	"Bonk…!"
+	"""
+	Bonk…!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -66187,7 +68510,9 @@ script 235 mmbn3 {
 	printItem
 		buffer = 0
 		item = 99
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -66214,7 +68539,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = CapBoy
 	msgOpen
-	"I got this "
+	"""
+	I got this 
+	"""
 	printItem
 		buffer = 0
 		item = 3
@@ -66243,7 +68570,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = OrangeShirtBoy
 	msgOpen
-	"See ya!"
+	"""
+	See ya!
+	"""
 	keyWait
 	end
 }
@@ -66364,7 +68693,9 @@ script 32 mmbn3 {
 	mugshotShow
 		mugshot = OrangeShirtBoy
 	msgOpen
-	"See you later!"
+	"""
+	See you later!
+	"""
 	keyWait
 	end
 }
@@ -66496,7 +68827,9 @@ script 190 mmbn3 {
 	mugshotShow
 		mugshot = PigtailsGirl
 	msgOpen
-	"Ah! Lan,it's you!"
+	"""
+	Ah! Lan,it's you!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -66539,7 +68872,9 @@ script 191 mmbn3 {
 	printItem
 		buffer = 0
 		item = 52
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -66655,7 +68990,9 @@ script 194 mmbn3 {
 	mugshotShow
 		mugshot = PigtailsGirl
 	msgOpen
-	"Lan! You solved it?!"
+	"""
+	Lan! You solved it?!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -66681,7 +69018,9 @@ script 195 mmbn3 {
 	printItem
 		buffer = 0
 		item = 53
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -66726,7 +69065,9 @@ script 196 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"………"
+	"""
+	………
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -66750,7 +69091,9 @@ script 196 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Please. Take it…"
+	"""
+	Please. Take it…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -66773,11 +69116,15 @@ script 197 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 128
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = R
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -66824,7 +69171,9 @@ script 220 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Maybe 7 points?"
+	"""
+	Maybe 7 points?
+	"""
 	keyWait
 	end
 }
@@ -66837,7 +69186,9 @@ script 221 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"2 points,tops."
+	"""
+	2 points,tops.
+	"""
 	keyWait
 	end
 }
@@ -66849,7 +69200,9 @@ script 222 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"8 points,at least!"
+	"""
+	8 points,at least!
+	"""
 	keyWait
 	end
 }
@@ -66917,7 +69270,9 @@ script 227 mmbn3 {
 	end
 }
 script 230 mmbn3 {
-	"Huh? What's this?"
+	"""
+	Huh? What's this?
+	"""
 	keyWait
 	clearMsg
 	playerAnimate
@@ -66933,11 +69288,15 @@ script 230 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 1
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = A
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -67026,7 +69385,9 @@ script 10 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"If it's a b-burglar…"
+	"""
+	If it's a b-burglar…
+	"""
 	keyWait
 	end
 }
@@ -67070,7 +69431,9 @@ script 15 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"Nnnnnh…"
+	"""
+	Nnnnnh…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -67079,7 +69442,9 @@ script 15 mmbn3 {
 script 16 mmbn3 {
 	mugshotHide
 	msgOpen
-	"Bonk…!"
+	"""
+	Bonk…!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -67102,11 +69467,15 @@ script 16 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 219
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = R
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -67130,7 +69499,9 @@ script 18 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"Uhhhhn…"
+	"""
+	Uhhhhn…
+	"""
 	keyWait
 	end
 }
@@ -68122,7 +70493,9 @@ script 190 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"\""
+	"""
+	"
+	"""
 	printItem
 		buffer = 0
 		item = 19
@@ -68172,7 +70545,9 @@ script 192 mmbn3 {
 	printItem
 		buffer = 0
 		item = 19
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -68218,11 +70593,15 @@ script 193 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 157
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = *
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	playerFinish
 	playerReset
@@ -68276,7 +70655,9 @@ script 220 mmbn3 {
 }
 script 221 mmbn3 {
 	msgOpen
-	"A blackboard."
+	"""
+	A blackboard.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -68385,7 +70766,9 @@ script 225 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = Lan
-	"Huh? Why…?"
+	"""
+	Huh? Why…?
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -68404,7 +70787,9 @@ script 225 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Look!"
+	"""
+	Look!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -68432,16 +70817,22 @@ script 225 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = Lan
-	"Yeah!"
+	"""
+	Yeah!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
-	"Boink…!"
+	"""
+	Boink…!
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
 		mugshot = Lan
-	"………?"
+	"""
+	………?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -68579,7 +70970,9 @@ script 231 mmbn3 {
 }
 script 232 mmbn3 {
 	msgOpen
-	"The light switch."
+	"""
+	The light switch.
+	"""
 	keyWait
 	end
 }
@@ -68669,7 +71062,9 @@ script 236 mmbn3 {
 	printItem
 		buffer = 0
 		item = 98
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -68690,7 +71085,9 @@ script 240 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Here's the yearbook!"
+	"""
+	Here's the yearbook!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -68700,16 +71097,24 @@ script 240 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 10
-	"Found it!"
+	"""
+	Found it!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -68762,7 +71167,9 @@ script 190 mmbn3 {
 	mugshotShow
 		mugshot = YoungWoman
 	msgOpen
-	"Hello,Lan!"
+	"""
+	Hello,Lan!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -68898,11 +71305,15 @@ script 193 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 193
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = B
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -69160,16 +71571,25 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"Lan."
+	"""
+	Lan.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"\nbe careful!"
+	"""
+	
+	be careful!
+	"""
 	keyWait
 	end
 }
@@ -69177,7 +71597,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Yai
 	msgOpen
-	"You watch out,now!"
+	"""
+	You watch out,now!
+	"""
 	keyWait
 	end
 }
@@ -69259,7 +71681,9 @@ script 190 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 45
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = W
@@ -69277,11 +71701,15 @@ script 190 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 35
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = P
-	"\"?"
+	"""
+	"?
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -69292,7 +71720,9 @@ script 190 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Sure! "
+	"""
+	Sure! 
+	"""
 	option
 		left = 0
 		right = 0
@@ -69300,7 +71730,9 @@ script 190 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No way!"
+	"""
+	No way!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -69355,11 +71787,15 @@ script 192 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 35
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = P
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -69451,7 +71887,9 @@ script 197 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 45
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = W
@@ -69462,11 +71900,15 @@ script 197 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 35
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = P
-	"\"?"
+	"""
+	"?
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -69477,7 +71919,9 @@ script 197 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Sure! "
+	"""
+	Sure! 
+	"""
 	option
 		left = 0
 		right = 0
@@ -69485,7 +71929,9 @@ script 197 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No way!"
+	"""
+	No way!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -69844,7 +72290,9 @@ script 70 mmbn3 {
 	mugshotShow
 		mugshot = Cossak
 	msgOpen
-	"Well,hello again…?"
+	"""
+	Well,hello again…?
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -69858,7 +72306,9 @@ script 70 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = Cossak
-	"No,I didn't do much…"
+	"""
+	No,I didn't do much…
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -69923,7 +72373,9 @@ script 70 mmbn3 {
 	printItem
 		buffer = 0
 		item = 13
-	"\""
+	"""
+	"
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -70027,7 +72479,9 @@ script 71 mmbn3 {
 	printItem
 		buffer = 0
 		item = 13
-	"\"?"
+	"""
+	"?
+	"""
 	keyWait
 	end
 }
@@ -70045,7 +72499,9 @@ script 73 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan! You got mail!!"
+	"""
+	Lan! You got mail!!
+	"""
 	keyWait
 	end
 }
@@ -70081,7 +72537,9 @@ script 77 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Be careful,Lan!"
+	"""
+	Be careful,Lan!
+	"""
 	keyWait
 	end
 }
@@ -70312,7 +72770,9 @@ script 190 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 122
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = *
@@ -70343,7 +72803,9 @@ script 190 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Sure! "
+	"""
+	Sure! 
+	"""
 	option
 		left = 0
 		right = 0
@@ -70351,7 +72813,9 @@ script 190 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -70384,7 +72848,9 @@ script 191 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Here! Take this!"
+	"""
+	Here! Take this!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -70406,7 +72872,9 @@ script 192 mmbn3 {
 	printItem
 		buffer = 0
 		item = 100
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -70451,7 +72919,9 @@ script 195 mmbn3 {
 	mugshotShow
 		mugshot = PigtailsGirl
 	msgOpen
-	"Uh? Huh?"
+	"""
+	Uh? Huh?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -70461,11 +72931,15 @@ script 195 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 122
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = *
-	"\"…"
+	"""
+	"…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -70516,7 +72990,9 @@ script 197 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 122
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = *
@@ -70527,7 +73003,9 @@ script 197 mmbn3 {
 	printItem
 		buffer = 0
 		item = 100
-	",\"right?"
+	"""
+	,"right?
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -70538,7 +73016,9 @@ script 197 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"You bet! "
+	"""
+	You bet! 
+	"""
 	option
 		left = 0
 		right = 0
@@ -70546,7 +73026,9 @@ script 197 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Naah"
+	"""
+	Naah
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -70629,7 +73111,9 @@ script 222 mmbn3 {
 	printItem
 		buffer = 0
 		item = 98
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -70683,7 +73167,10 @@ script 230 mmbn3 {
 		jumpIfInRange = 235
 		jumpIfOutOfRange = continue
 	msgOpen
-	"Buy a ticket to:\n"
+	"""
+	Buy a ticket to:
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -70691,7 +73178,10 @@ script 230 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"ACDC Twn\n"
+	"""
+	ACDC Twn
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -70699,7 +73189,9 @@ script 230 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Nowhere"
+	"""
+	Nowhere
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -70728,7 +73220,9 @@ script 231 mmbn3 {
 	printItem
 		buffer = 0
 		item = 88
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerAnimate
 		animation = 4
@@ -70738,7 +73232,10 @@ script 231 mmbn3 {
 }
 script 232 mmbn3 {
 	msgOpen
-	"Exchange tickets?\n"
+	"""
+	Exchange tickets?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -70746,7 +73243,9 @@ script 232 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -70754,7 +73253,9 @@ script 232 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -70801,13 +73302,18 @@ script 234 mmbn3 {
 	printItem
 		buffer = 0
 		item = 88
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	end
 }
 script 235 mmbn3 {
 	msgOpen
-	"Buy a ticket to:\n"
+	"""
+	Buy a ticket to:
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -70815,7 +73321,9 @@ script 235 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"ACDC Twn  "
+	"""
+	ACDC Twn  
+	"""
 	option
 		left = 0
 		right = 0
@@ -70823,7 +73331,10 @@ script 235 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"Yoka\n"
+	"""
+	Yoka
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -70831,7 +73342,9 @@ script 235 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Nowhere"
+	"""
+	Nowhere
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -70861,7 +73374,9 @@ script 236 mmbn3 {
 	printItem
 		buffer = 0
 		item = 90
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerAnimate
 		animation = 4
@@ -70881,13 +73396,18 @@ script 237 mmbn3 {
 	printItem
 		buffer = 0
 		item = 90
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	end
 }
 script 238 mmbn3 {
 	msgOpen
-	"Buy a ticket to:\n"
+	"""
+	Buy a ticket to:
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -70895,7 +73415,9 @@ script 238 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"ACDC Twn  "
+	"""
+	ACDC Twn  
+	"""
 	option
 		left = 0
 		right = 0
@@ -70903,7 +73425,10 @@ script 238 mmbn3 {
 		down = 3
 	space
 		count = 2
-	"Yoka\n"
+	"""
+	Yoka
+	
+	"""
 	option
 		left = 3
 		right = 3
@@ -70911,7 +73436,9 @@ script 238 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Beach     "
+	"""
+	Beach     
+	"""
 	option
 		left = 2
 		right = 2
@@ -70919,7 +73446,9 @@ script 238 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Nowhere"
+	"""
+	Nowhere
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -70950,7 +73479,9 @@ script 239 mmbn3 {
 	printItem
 		buffer = 0
 		item = 91
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerAnimate
 		animation = 4
@@ -70970,7 +73501,9 @@ script 240 mmbn3 {
 	printItem
 		buffer = 0
 		item = 91
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	end
 }
@@ -71041,7 +73574,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = SciLabWoman
 	msgOpen
-	"Welcome to SciLab!"
+	"""
+	Welcome to SciLab!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -71247,7 +73782,9 @@ script 21 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"You're pretty good!!"
+	"""
+	You're pretty good!!
+	"""
 	keyWait
 	end
 }
@@ -71436,7 +73973,9 @@ script 50 mmbn3 {
 	mugshotShow
 		mugshot = SciLabWoman
 	msgOpen
-	"Welcome to SciLab!"
+	"""
+	Welcome to SciLab!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -71811,7 +74350,9 @@ script 101 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Thanks!"
+	"""
+	Thanks!
+	"""
 	keyWait
 	end
 }
@@ -71913,7 +74454,9 @@ script 110 mmbn3 {
 	printItem
 		buffer = 0
 		item = 25
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -72102,7 +74645,9 @@ script 130 mmbn3 {
 	mugshotShow
 		mugshot = SciLabWoman
 	msgOpen
-	"Welcome to SciLab!"
+	"""
+	Welcome to SciLab!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -72144,7 +74689,9 @@ script 135 mmbn3 {
 	keyWait
 	clearMsg
 	mugshotHide
-	"Click. Click,click…"
+	"""
+	Click. Click,click…
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -72523,7 +75070,10 @@ script 180 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Interested?\n"
+	"""
+	Interested?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -72531,7 +75081,9 @@ script 180 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -72539,7 +75091,9 @@ script 180 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -72601,7 +75155,9 @@ script 190 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 110
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = S
@@ -72618,11 +75174,15 @@ script 190 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 110
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = S
-	",\""
+	"""
+	,"
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -72633,11 +75193,15 @@ script 190 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 38
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = B
-	"\"?"
+	"""
+	"?
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -72648,7 +75212,9 @@ script 190 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Sure "
+	"""
+	Sure 
+	"""
 	option
 		left = 0
 		right = 0
@@ -72656,7 +75222,9 @@ script 190 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No!"
+	"""
+	No!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -72712,11 +75280,15 @@ script 192 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 38
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = B
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	playerFinish
 	playerReset
@@ -72752,7 +75324,9 @@ script 195 mmbn3 {
 	mugshotShow
 		mugshot = SciLabMan
 	msgOpen
-	"Hmm,I don't see it…"
+	"""
+	Hmm,I don't see it…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -72798,7 +75372,9 @@ script 197 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 38
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = B
@@ -72809,11 +75385,15 @@ script 197 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 110
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = S
-	"\"…"
+	"""
+	"…
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -72824,7 +75404,9 @@ script 197 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Sure "
+	"""
+	Sure 
+	"""
 	option
 		left = 0
 		right = 0
@@ -72832,7 +75414,9 @@ script 197 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No!"
+	"""
+	No!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -72846,7 +75430,9 @@ script 197 mmbn3 {
 }
 script 220 mmbn3 {
 	msgOpen
-	"The Job BBS."
+	"""
+	The Job BBS.
+	"""
 	keyWait
 	startBBS
 		bbs = 0
@@ -72941,7 +75527,9 @@ script 226 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -72949,7 +75537,9 @@ script 226 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -72978,7 +75568,9 @@ script 227 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -72986,7 +75578,9 @@ script 227 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -73179,7 +75773,9 @@ script 4 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That's so cool…!"
+	"""
+	That's so cool…!
+	"""
 	keyWait
 	flagSet
 		flag = 836
@@ -73390,7 +75986,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan! You got mail!!"
+	"""
+	Lan! You got mail!!
+	"""
 	keyWait
 	end
 }
@@ -73977,7 +76575,9 @@ script 120 mmbn3 {
 	mugshotShow
 		mugshot = MrMatch
 	msgOpen
-	"There you are,Lan!"
+	"""
+	There you are,Lan!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -73986,16 +76586,24 @@ script 120 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"First,"
+	"""
+	First,
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -74019,7 +76627,9 @@ script 120 mmbn3 {
 	printItem
 		buffer = 0
 		item = 24
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -74120,7 +76730,9 @@ script 125 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Hurry up!"
+	"""
+	Hurry up!
+	"""
 	keyWait
 	end
 }
@@ -74142,13 +76754,19 @@ script 126 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -74157,16 +76775,25 @@ script 126 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"\nNo,surely not."
+	"""
+	
+	No,surely not.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -74233,7 +76860,9 @@ script 134 mmbn3 {
 	mugshotShow
 		mugshot = SciLabMan
 	msgOpen
-	"Welcome to our lab!"
+	"""
+	Welcome to our lab!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -74272,7 +76901,10 @@ script 134 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Please\n"
+	"""
+	Please
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -74280,7 +76912,9 @@ script 134 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No,thanks"
+	"""
+	No,thanks
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -74340,7 +76974,9 @@ script 136 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 1
-	"…"
+	"""
+	…
+	"""
 	keyWait
 	clearMsg
 	checkFlag
@@ -74362,7 +76998,9 @@ script 136 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 1
-	" from here!"
+	"""
+	 from here!
+	"""
 	keyWait
 	clearMsg
 	itemGiveChip
@@ -74390,11 +77028,15 @@ script 136 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 166
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = T
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -74414,7 +77056,9 @@ script 137 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 37
-	"…"
+	"""
+	…
+	"""
 	keyWait
 	clearMsg
 	checkFlag
@@ -74436,7 +77080,9 @@ script 137 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 37
-	" from here!"
+	"""
+	 from here!
+	"""
 	keyWait
 	clearMsg
 	itemGiveChip
@@ -74464,11 +77110,15 @@ script 137 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 167
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = R
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -74488,7 +77138,9 @@ script 138 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 13
-	"…"
+	"""
+	…
+	"""
 	keyWait
 	clearMsg
 	checkFlag
@@ -74510,7 +77162,9 @@ script 138 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 13
-	" from here!"
+	"""
+	 from here!
+	"""
 	keyWait
 	clearMsg
 	itemGiveChip
@@ -74538,11 +77192,15 @@ script 138 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 185
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = W
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -74562,7 +77220,9 @@ script 139 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 33
-	"…"
+	"""
+	…
+	"""
 	keyWait
 	clearMsg
 	checkFlag
@@ -74584,7 +77244,9 @@ script 139 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 33
-	" from here!"
+	"""
+	 from here!
+	"""
 	keyWait
 	clearMsg
 	itemGiveChip
@@ -74612,11 +77274,15 @@ script 139 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 186
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = E
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -74636,7 +77302,9 @@ script 140 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 49
-	"…"
+	"""
+	…
+	"""
 	keyWait
 	clearMsg
 	checkFlag
@@ -74658,7 +77326,9 @@ script 140 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 49
-	" from here!"
+	"""
+	 from here!
+	"""
 	keyWait
 	clearMsg
 	itemGiveChip
@@ -74686,11 +77356,15 @@ script 140 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 187
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = H
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -74710,7 +77384,9 @@ script 141 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 25
-	"…"
+	"""
+	…
+	"""
 	keyWait
 	clearMsg
 	checkFlag
@@ -74732,7 +77408,9 @@ script 141 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 25
-	" from here!"
+	"""
+	 from here!
+	"""
 	keyWait
 	clearMsg
 	itemGiveChip
@@ -74760,11 +77438,15 @@ script 141 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 188
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = Y
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -74784,7 +77466,9 @@ script 142 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 87
-	"…"
+	"""
+	…
+	"""
 	keyWait
 	clearMsg
 	checkFlag
@@ -74806,7 +77490,9 @@ script 142 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 87
-	" from here!"
+	"""
+	 from here!
+	"""
 	keyWait
 	clearMsg
 	itemGiveChip
@@ -74834,11 +77520,15 @@ script 142 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 189
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = K
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -74858,7 +77548,9 @@ script 143 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 91
-	"…"
+	"""
+	…
+	"""
 	keyWait
 	clearMsg
 	checkFlag
@@ -74880,7 +77572,9 @@ script 143 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 91
-	" from here!"
+	"""
+	 from here!
+	"""
 	keyWait
 	clearMsg
 	itemGiveChip
@@ -74908,11 +77602,15 @@ script 143 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 77
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = G
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -74957,7 +77655,9 @@ script 144 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 73
-	" from here!"
+	"""
+	 from here!
+	"""
 	keyWait
 	clearMsg
 	itemGiveChip
@@ -74985,11 +77685,15 @@ script 144 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 76
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = A
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -75038,13 +77742,19 @@ script 145 mmbn3 {
 	mugshotShow
 		mugshot = SciLabMan
 	msgOpen
-	"Let's see."
+	"""
+	Let's see.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
 	keyWait
@@ -75068,7 +77778,9 @@ script 146 mmbn3 {
 	mugshotShow
 		mugshot = SciLabMan
 	msgOpen
-	"And that's all…"
+	"""
+	And that's all…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -75478,7 +78190,9 @@ script 193 mmbn3 {
 	printItem
 		buffer = 0
 		item = 96
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -75600,10 +78314,14 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = Scientist
 	msgOpen
-	"Huh? Who are you?"
+	"""
+	Huh? Who are you?
+	"""
 	keyWait
 	clearMsg
-	"Dr.Hikari's son?!"
+	"""
+	Dr.Hikari's son?!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -75659,7 +78377,9 @@ script 0 mmbn3 {
 	printItem
 		buffer = 0
 		item = 10
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -75702,7 +78422,9 @@ script 0 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = MegaMan
-	"Hey,you're right!"
+	"""
+	Hey,you're right!
+	"""
 	keyWait
 	flagSet
 		flag = 841
@@ -75759,7 +78481,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan! You got mail!!"
+	"""
+	Lan! You got mail!!
+	"""
 	keyWait
 	end
 }
@@ -75907,7 +78631,9 @@ script 30 mmbn3 {
 	printItem
 		buffer = 0
 		item = 15
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	end
 }
@@ -76454,7 +79180,9 @@ script 100 mmbn3 {
 	printItem
 		buffer = 0
 		item = 26
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -76519,7 +79247,9 @@ script 111 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"See you around!"
+	"""
+	See you around!
+	"""
 	keyWait
 	end
 }
@@ -76673,7 +79403,9 @@ script 223 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -76681,7 +79413,9 @@ script 223 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -76708,7 +79442,9 @@ script 224 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -76716,7 +79452,9 @@ script 224 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -76755,11 +79493,16 @@ script 227 mmbn3 {
 script 228 mmbn3 {
 	mugshotHide
 	msgOpen
-	"Lan used the\n"
+	"""
+	Lan used the
+	
+	"""
 	printItem
 		buffer = 0
 		item = 37
-	"."
+	"""
+	.
+	"""
 	keyWait
 	clearMsg
 	msgClose
@@ -77061,7 +79804,9 @@ script 62 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Not yet "
+	"""
+	Not yet 
+	"""
 	option
 		left = 0
 		right = 0
@@ -77069,7 +79814,9 @@ script 62 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes"
+	"""
+	Yes
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -77870,7 +80617,9 @@ script 220 mmbn3 {
 		jumpIfTrue = 240
 		jumpIfFalse = continue
 	msgOpen
-	"A recycling bin."
+	"""
+	A recycling bin.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -77965,7 +80714,10 @@ script 224 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Buy for 500 Zennys?\n"
+	"""
+	Buy for 500 Zennys?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -77973,7 +80725,10 @@ script 224 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Yes!!\n"
+	"""
+	Yes!!
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -77981,7 +80736,9 @@ script 224 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No…"
+	"""
+	No…
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -78020,13 +80777,19 @@ script 224 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = Lan
-	"This "
+	"""
+	This 
+	"""
 	wait
 		frames = 30
-	"is "
+	"""
+	is 
+	"""
 	wait
 		frames = 30
-	"the "
+	"""
+	the 
+	"""
 	wait
 		frames = 30
 	"""
@@ -78051,7 +80814,9 @@ script 225 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"I'd better not…"
+	"""
+	I'd better not…
+	"""
 	keyWait
 	end
 }
@@ -78075,7 +80840,10 @@ script 230 mmbn3 {
 		jumpIfInRange = 235
 		jumpIfOutOfRange = continue
 	msgOpen
-	"Buy a ticket to:\n"
+	"""
+	Buy a ticket to:
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -78083,7 +80851,9 @@ script 230 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"ACDC Twn "
+	"""
+	ACDC Twn 
+	"""
 	option
 		left = 0
 		right = 0
@@ -78091,7 +80861,10 @@ script 230 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"SciLab\n"
+	"""
+	SciLab
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -78099,7 +80872,9 @@ script 230 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Nowhere"
+	"""
+	Nowhere
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -78129,7 +80904,9 @@ script 231 mmbn3 {
 	printItem
 		buffer = 0
 		item = 89
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerAnimate
 		animation = 4
@@ -78139,7 +80916,10 @@ script 231 mmbn3 {
 }
 script 232 mmbn3 {
 	msgOpen
-	"Change ticket?\n"
+	"""
+	Change ticket?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -78147,7 +80927,9 @@ script 232 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -78155,7 +80937,9 @@ script 232 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -78203,7 +80987,9 @@ script 234 mmbn3 {
 	printItem
 		buffer = 0
 		item = 89
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	end
 }
@@ -78213,7 +80999,10 @@ script 235 mmbn3 {
 		jumpIfTrue = 232
 		jumpIfFalse = continue
 	msgOpen
-	"Buy a ticket to:\n"
+	"""
+	Buy a ticket to:
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -78221,7 +81010,9 @@ script 235 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"ACDC Twn "
+	"""
+	ACDC Twn 
+	"""
 	option
 		left = 0
 		right = 0
@@ -78229,7 +81020,10 @@ script 235 mmbn3 {
 		down = 3
 	space
 		count = 2
-	"SciLab\n"
+	"""
+	SciLab
+	
+	"""
 	option
 		left = 3
 		right = 3
@@ -78237,7 +81031,9 @@ script 235 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Beach    "
+	"""
+	Beach    
+	"""
 	option
 		left = 2
 		right = 2
@@ -78245,7 +81041,9 @@ script 235 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Nowhere"
+	"""
+	Nowhere
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -78276,7 +81074,9 @@ script 236 mmbn3 {
 	printItem
 		buffer = 0
 		item = 88
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerAnimate
 		animation = 4
@@ -78296,7 +81096,9 @@ script 237 mmbn3 {
 	printItem
 		buffer = 0
 		item = 88
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	end
 }
@@ -78316,7 +81118,9 @@ script 238 mmbn3 {
 	printItem
 		buffer = 0
 		item = 91
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerAnimate
 		animation = 4
@@ -78336,7 +81140,9 @@ script 239 mmbn3 {
 	printItem
 		buffer = 0
 		item = 91
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	end
 }
@@ -79277,13 +82083,19 @@ script 68 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -79431,7 +82243,9 @@ script 77 mmbn3 {
 	mugshotShow
 		mugshot = PigtailsGirl
 	msgOpen
-	"I'm sorry…"
+	"""
+	I'm sorry…
+	"""
 	keyWait
 	end
 }
@@ -79605,10 +82419,14 @@ script 87 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -79624,7 +82442,9 @@ script 87 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"It's really too bad…"
+	"""
+	It's really too bad…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -79744,7 +82564,9 @@ script 121 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -79752,7 +82574,10 @@ script 121 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No\n"
+	"""
+	No
+	
+	"""
 	select
 		default = 1
 		BSeparate = false
@@ -79830,7 +82655,9 @@ script 125 mmbn3 {
 	mugshotShow
 		mugshot = MrFamous
 	msgOpen
-	"Let's do it!"
+	"""
+	Let's do it!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -79860,7 +82687,9 @@ script 127 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Bring it on!"
+	"""
+	Bring it on!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -79978,7 +82807,9 @@ script 135 mmbn3 {
 	mugshotShow
 		mugshot = MrFamous
 	msgOpen
-	"Hmm…"
+	"""
+	Hmm…
+	"""
 	keyWait
 	end
 }
@@ -80023,7 +82854,10 @@ script 180 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Care to have a look?\n"
+	"""
+	Care to have a look?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -80031,7 +82865,9 @@ script 180 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -80039,7 +82875,9 @@ script 180 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -80199,11 +83037,15 @@ script 193 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 49
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = H
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -81107,18 +83949,28 @@ script 239 mmbn3 {
 	mugshotShow
 		mugshot = 64
 	msgOpen
-	"Did you know that\n"
+	"""
+	Did you know that
+	
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 1
-	"'s "
+	"""
+	's 
+	"""
 	printChip
 		buffer = 0
 		chip = 44
-	"\nis stopped by holes?"
+	"""
+	
+	is stopped by holes?
+	"""
 	keyWait
 	clearMsg
-	"Really! It's true!"
+	"""
+	Really! It's true!
+	"""
 	keyWait
 	end
 }
@@ -81490,13 +84342,19 @@ script 254 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -81505,10 +84363,14 @@ script 254 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -81896,13 +84758,19 @@ script 14 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -81974,13 +84842,19 @@ script 20 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -82190,7 +85064,9 @@ script 30 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Let me help you out!"
+	"""
+	Let me help you out!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -82207,7 +85083,9 @@ script 35 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Aw,this is easy!"
+	"""
+	Aw,this is easy!
+	"""
 	keyWait
 	end
 }
@@ -82303,7 +85181,9 @@ script 40 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Oh,yeah…"
+	"""
+	Oh,yeah…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -82517,7 +85397,9 @@ script 53 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"At any rate…"
+	"""
+	At any rate…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -82832,7 +85714,9 @@ script 83 mmbn3 {
 	mugshotShow
 		mugshot = OrangeShirtBoy
 	msgOpen
-	"Ow!"
+	"""
+	Ow!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -83103,7 +85987,9 @@ script 121 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -83111,7 +85997,10 @@ script 121 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No\n"
+	"""
+	No
+	
+	"""
 	select
 		default = 1
 		BSeparate = false
@@ -83189,7 +86078,9 @@ script 125 mmbn3 {
 	mugshotShow
 		mugshot = MrFamous
 	msgOpen
-	"Let's do it!"
+	"""
+	Let's do it!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -83219,7 +86110,9 @@ script 127 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Bring it on!"
+	"""
+	Bring it on!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -83337,7 +86230,9 @@ script 135 mmbn3 {
 	mugshotShow
 		mugshot = MrFamous
 	msgOpen
-	"Hmm…"
+	"""
+	Hmm…
+	"""
 	keyWait
 	end
 }
@@ -83382,7 +86277,10 @@ script 180 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Care to take a look?\n"
+	"""
+	Care to take a look?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -83390,7 +86288,9 @@ script 180 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -83398,7 +86298,9 @@ script 180 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -83558,11 +86460,15 @@ script 193 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 49
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = H
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -84466,18 +87372,28 @@ script 239 mmbn3 {
 	mugshotShow
 		mugshot = 64
 	msgOpen
-	"Did you know that\n"
+	"""
+	Did you know that
+	
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 1
-	"'s "
+	"""
+	's 
+	"""
 	printChip
 		buffer = 0
 		chip = 44
-	"\nis stopped by holes?"
+	"""
+	
+	is stopped by holes?
+	"""
 	keyWait
 	clearMsg
-	"Really! It's true!"
+	"""
+	Really! It's true!
+	"""
 	keyWait
 	end
 }
@@ -84849,13 +87765,19 @@ script 254 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -84864,10 +87786,14 @@ script 254 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -85322,7 +88248,9 @@ script 66 mmbn3 {
 	mugshotShow
 		mugshot = Tamako
 	msgOpen
-	"Hey,it's you,kid!"
+	"""
+	Hey,it's you,kid!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -85432,7 +88360,9 @@ script 79 mmbn3 {
 	mugshotShow
 		mugshot = PigtailsGirl
 	msgOpen
-	"I'm scared…"
+	"""
+	I'm scared…
+	"""
 	keyWait
 	end
 }
@@ -85572,7 +88502,9 @@ script 100 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -85580,7 +88512,10 @@ script 100 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No\n"
+	"""
+	No
+	
+	"""
 	select
 		default = 1
 		BSeparate = false
@@ -85817,7 +88752,9 @@ script 112 mmbn3 {
 	printItem
 		buffer = 0
 		item = 83
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -85840,7 +88777,9 @@ script 114 mmbn3 {
 	mugshotShow
 		mugshot = Tamako
 	msgOpen
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	end
 }
@@ -85915,11 +88854,15 @@ script 190 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 33
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = P
-	"\"?"
+	"""
+	"?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -85930,11 +88873,15 @@ script 190 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 180
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = *
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -85945,7 +88892,10 @@ script 190 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Yeah,sure\n"
+	"""
+	Yeah,sure
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -85953,7 +88903,9 @@ script 190 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -86009,11 +88961,15 @@ script 192 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 180
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = *
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	playerFinish
 	playerReset
@@ -86094,11 +89050,15 @@ script 197 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"\""
+	"""
+	"
+	"""
 	printChip
 		buffer = 0
 		chip = 180
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = *
@@ -86110,11 +89070,15 @@ script 197 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 33
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = P
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -86125,7 +89089,10 @@ script 197 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Oh,all right\n"
+	"""
+	Oh,all right
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -86133,7 +89100,9 @@ script 197 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -86203,11 +89172,15 @@ script 200 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 99
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = N
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	playerFinish
@@ -86248,11 +89221,15 @@ script 201 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 99
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = N
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -86307,11 +89284,15 @@ script 202 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 160
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = *
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	playerFinish
@@ -86345,7 +89326,9 @@ script 203 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 160
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = *
@@ -86405,11 +89388,15 @@ script 205 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 197
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = *
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -86998,7 +89985,9 @@ script 110 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"They sure are brave!"
+	"""
+	They sure are brave!
+	"""
 	keyWait
 	end
 }
@@ -87185,7 +90174,9 @@ script 190 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Sure! "
+	"""
+	Sure! 
+	"""
 	option
 		left = 0
 		right = 0
@@ -87193,7 +90184,10 @@ script 190 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No way!\n"
+	"""
+	No way!
+	
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -87334,7 +90328,9 @@ script 193 mmbn3 {
 	printItem
 		buffer = 0
 		item = 45
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -87383,7 +90379,9 @@ script 194 mmbn3 {
 	printItem
 		buffer = 0
 		item = 96
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -87425,7 +90423,9 @@ script 197 mmbn3 {
 	mugshotShow
 		mugshot = InnMan
 	msgOpen
-	"Oh,wait…"
+	"""
+	Oh,wait…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -87462,7 +90462,9 @@ script 198 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Sure! "
+	"""
+	Sure! 
+	"""
 	option
 		left = 0
 		right = 0
@@ -87470,7 +90472,9 @@ script 198 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No way!"
+	"""
+	No way!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -87503,7 +90507,9 @@ script 220 mmbn3 {
 }
 script 221 mmbn3 {
 	msgOpen
-	"The inn's guestbook."
+	"""
+	The inn's guestbook.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -87564,7 +90570,9 @@ script 224 mmbn3 {
 }
 script 225 mmbn3 {
 	msgOpen
-	"An ancient TV."
+	"""
+	An ancient TV.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -87684,7 +90692,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan! You got mail!"
+	"""
+	Lan! You got mail!
+	"""
 	keyWait
 	end
 }
@@ -87836,7 +90846,10 @@ script 190 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"You bet!\n"
+	"""
+	You bet!
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -87844,7 +90857,9 @@ script 190 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No,I'm busy now"
+	"""
+	No,I'm busy now
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -87881,7 +90896,10 @@ script 191 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"2\n"
+	"""
+	2
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -87889,7 +90907,10 @@ script 191 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"3\n"
+	"""
+	3
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -87897,7 +90918,9 @@ script 191 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"4"
+	"""
+	4
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -87942,7 +90965,10 @@ script 192 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 1
-	"\n"
+	"""
+	
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -87950,7 +90976,10 @@ script 192 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"MegaMan\n"
+	"""
+	MegaMan
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -87958,7 +90987,9 @@ script 192 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"The earth"
+	"""
+	The earth
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -88000,7 +91031,10 @@ script 193 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"5\n"
+	"""
+	5
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -88008,7 +91042,10 @@ script 193 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"9\n"
+	"""
+	9
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -88016,7 +91053,9 @@ script 193 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"11"
+	"""
+	11
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -88059,7 +91098,10 @@ script 194 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"380 Zennys\n"
+	"""
+	380 Zennys
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -88067,7 +91109,10 @@ script 194 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"10 Zennys\n"
+	"""
+	10 Zennys
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -88075,7 +91120,9 @@ script 194 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"500 Zennys"
+	"""
+	500 Zennys
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -88118,7 +91165,10 @@ script 195 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"1\n"
+	"""
+	1
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -88126,7 +91176,10 @@ script 195 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"2\n"
+	"""
+	2
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -88134,7 +91187,9 @@ script 195 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"3"
+	"""
+	3
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -88189,7 +91244,10 @@ script 197 mmbn3 {
 	printItem
 		buffer = 0
 		item = 100
-	"\"!!\n"
+	"""
+	"!!
+	
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -88208,7 +91266,9 @@ script 198 mmbn3 {
 	mugshotShow
 		mugshot = BlueShirtBoy
 	msgOpen
-	"See ya!"
+	"""
+	See ya!
+	"""
 	keyWait
 	end
 }
@@ -88232,7 +91292,9 @@ script 200 mmbn3 {
 	mugshotShow
 		mugshot = BlueShirtBoy
 	msgOpen
-	"Bzzzt! Wrong answer!"
+	"""
+	Bzzzt! Wrong answer!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -88294,7 +91356,10 @@ script 202 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"You bet!\n"
+	"""
+	You bet!
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -88302,7 +91367,9 @@ script 202 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No,I'm busy now"
+	"""
+	No,I'm busy now
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -88328,7 +91395,9 @@ script 238 mmbn3 {
 }
 script 239 mmbn3 {
 	msgOpen
-	"Closed for cleaning."
+	"""
+	Closed for cleaning.
+	"""
 	keyWait
 	end
 }
@@ -88339,7 +91408,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan! You got mail!"
+	"""
+	Lan! You got mail!
+	"""
 	keyWait
 	end
 }
@@ -88444,7 +91515,9 @@ script 30 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Sniff…! Sniff…!"
+	"""
+	Sniff…! Sniff…!
+	"""
 	keyWait
 	end
 }
@@ -88942,7 +92015,9 @@ script 91 mmbn3 {
 	mugshotShow
 		mugshot = InnWoman
 	msgOpen
-	"What? You won again?"
+	"""
+	What? You won again?
+	"""
 	keyWait
 	end
 }
@@ -88952,7 +92027,9 @@ script 92 mmbn3 {
 	msgOpen
 	mugshotAnimate
 		animation = 0
-	"Awwwww!"
+	"""
+	Awwwww!
+	"""
 	keyWait
 	clearMsg
 	mugshotAnimate
@@ -89010,7 +92087,9 @@ script 102 mmbn3 {
 	mugshotShow
 		mugshot = PigtailsGirl
 	msgOpen
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -89075,16 +92154,24 @@ script 108 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"Ah!"
+	"""
+	Ah!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -89156,7 +92243,9 @@ script 115 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Whew!"
+	"""
+	Whew!
+	"""
 	keyWait
 	end
 }
@@ -89280,7 +92369,9 @@ script 127 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Just kidding!"
+	"""
+	Just kidding!
+	"""
 	keyWait
 	end
 }
@@ -89349,13 +92440,19 @@ script 134 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Well."
+	"""
+	Well.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
 	keyWait
@@ -89497,7 +92594,10 @@ script 226 mmbn3 {
 	printItem
 		buffer = 0
 		item = 11
-	"\"!!\n"
+	"""
+	"!!
+	
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -89517,37 +92617,49 @@ script 227 mmbn3 {
 }
 script 228 mmbn3 {
 	msgOpen
-	"ZZzzzzzz…"
+	"""
+	ZZzzzzzz…
+	"""
 	keyWait
 	end
 }
 script 229 mmbn3 {
 	msgOpen
-	"Zzzznkkk…"
+	"""
+	Zzzznkkk…
+	"""
 	keyWait
 	end
 }
 script 230 mmbn3 {
 	msgOpen
-	"There's no one here."
+	"""
+	There's no one here.
+	"""
 	keyWait
 	end
 }
 script 231 mmbn3 {
 	msgOpen
-	"ZZZ…"
+	"""
+	ZZZ…
+	"""
 	keyWait
 	end
 }
 script 232 mmbn3 {
 	msgOpen
-	"Snort!"
+	"""
+	Snort!
+	"""
 	keyWait
 	end
 }
 script 233 mmbn3 {
 	msgOpen
-	"(Creeeak…)"
+	"""
+	(Creeeak…)
+	"""
 	keyWait
 	end
 }
@@ -89637,7 +92749,10 @@ script 237 mmbn3 {
 	printItem
 		buffer = 0
 		item = 98
-	"\"!!\n"
+	"""
+	"!!
+	
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -89762,7 +92877,9 @@ script 20 mmbn3 {
 	mugshotShow
 		mugshot = OrangeShirtBoy
 	msgOpen
-	"…"
+	"""
+	…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -89839,13 +92956,19 @@ script 50 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
 	"""
@@ -89914,13 +93037,19 @@ script 190 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
 	"""
@@ -89945,7 +93074,10 @@ script 190 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"You bet!\n"
+	"""
+	You bet!
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -89953,7 +93085,9 @@ script 190 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No,I'm busy now."
+	"""
+	No,I'm busy now.
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -89990,7 +93124,10 @@ script 191 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"The 4th\n"
+	"""
+	The 4th
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -89998,7 +93135,10 @@ script 191 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"The 8th\n"
+	"""
+	The 8th
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -90006,7 +93146,9 @@ script 191 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"The 11th"
+	"""
+	The 11th
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -90048,7 +93190,10 @@ script 192 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Lion\n"
+	"""
+	Lion
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -90056,7 +93201,10 @@ script 192 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"Tiger\n"
+	"""
+	Tiger
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -90064,7 +93212,9 @@ script 192 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Bear"
+	"""
+	Bear
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -90114,7 +93264,10 @@ script 193 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"2\n"
+	"""
+	2
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -90122,7 +93275,10 @@ script 193 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"4\n"
+	"""
+	4
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -90130,7 +93286,9 @@ script 193 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"5"
+	"""
+	5
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -90173,7 +93331,10 @@ script 194 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Trash can\n"
+	"""
+	Trash can
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -90181,7 +93342,10 @@ script 194 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"Mirror\n"
+	"""
+	Mirror
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -90189,7 +93353,9 @@ script 194 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Stuffed animal"
+	"""
+	Stuffed animal
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -90232,7 +93398,10 @@ script 195 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Forward\n"
+	"""
+	Forward
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -90240,7 +93409,10 @@ script 195 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"Backward\n"
+	"""
+	Backward
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -90248,7 +93420,9 @@ script 195 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Sideways"
+	"""
+	Sideways
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -90291,7 +93465,10 @@ script 196 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"2\n"
+	"""
+	2
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -90299,7 +93476,10 @@ script 196 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"3\n"
+	"""
+	3
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -90307,7 +93487,9 @@ script 196 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"5"
+	"""
+	5
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -90350,7 +93532,10 @@ script 197 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Classroom 5-A\n"
+	"""
+	Classroom 5-A
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -90358,7 +93543,10 @@ script 197 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"Classroom 5-B\n"
+	"""
+	Classroom 5-B
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -90366,7 +93554,9 @@ script 197 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Teachers' Lounge"
+	"""
+	Teachers' Lounge
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -90409,7 +93599,10 @@ script 198 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"3\n"
+	"""
+	3
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -90417,7 +93610,10 @@ script 198 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"4\n"
+	"""
+	4
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -90425,7 +93621,9 @@ script 198 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"6"
+	"""
+	6
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -90468,7 +93666,10 @@ script 199 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"100 Zennys\n"
+	"""
+	100 Zennys
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -90476,7 +93677,10 @@ script 199 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"150 Zennys\n"
+	"""
+	150 Zennys
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -90484,7 +93688,9 @@ script 199 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"300 Zennys"
+	"""
+	300 Zennys
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -90527,7 +93733,10 @@ script 200 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Haniwa statue\n"
+	"""
+	Haniwa statue
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -90535,7 +93744,10 @@ script 200 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"A boomerang\n"
+	"""
+	A boomerang
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -90543,7 +93755,9 @@ script 200 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"A crystal ball"
+	"""
+	A crystal ball
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -90564,7 +93778,9 @@ script 201 mmbn3 {
 	mugshotShow
 		mugshot = SciLabMan
 	msgOpen
-	"That is correct!!"
+	"""
+	That is correct!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -90601,7 +93817,10 @@ script 202 mmbn3 {
 	printItem
 		buffer = 0
 		item = 96
-	"\"!!\n"
+	"""
+	"!!
+	
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -90641,7 +93860,9 @@ script 205 mmbn3 {
 		track = 280
 	waitSkip
 		frames = 40
-	"Bzzt! Wrong answer!"
+	"""
+	Bzzt! Wrong answer!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -90694,7 +93915,9 @@ script 207 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"So bring it on!"
+	"""
+	So bring it on!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -90705,7 +93928,10 @@ script 207 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"You bet!\n"
+	"""
+	You bet!
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -90713,7 +93939,9 @@ script 207 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No,I'm busy now."
+	"""
+	No,I'm busy now.
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -90849,7 +94077,9 @@ script 227 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = Lan
-	"I wonder…"
+	"""
+	I wonder…
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -90877,7 +94107,9 @@ script 227 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = MegaMan
-	"OK!"
+	"""
+	OK!
+	"""
 	keyWait
 	end
 }
@@ -90899,7 +94131,10 @@ script 229 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Do you get in?\n"
+	"""
+	Do you get in?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -90907,7 +94142,9 @@ script 229 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -90915,7 +94152,9 @@ script 229 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -91276,7 +94515,9 @@ script 40 mmbn3 {
 		mugshot = Lan
 	mugshotAnimate
 		animation = 0
-	"Hmmmm…"
+	"""
+	Hmmmm…
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -91288,24 +94529,36 @@ script 40 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Bee-boop!"
+	"""
+	Bee-boop!
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
 		mugshot = Lan
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -91341,7 +94594,9 @@ script 40 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Uh… whoops!"
+	"""
+	Uh… whoops!
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -91354,7 +94609,9 @@ script 40 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = NormalNaviGreen
-	"You tricked me!!"
+	"""
+	You tricked me!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -91389,7 +94646,9 @@ script 41 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"I can't believe it!!"
+	"""
+	I can't believe it!!
+	"""
 	keyWait
 	end
 }
@@ -91397,7 +94656,9 @@ script 50 mmbn3 {
 	mugshotShow
 		mugshot = ZooWoman
 	msgOpen
-	"Welcome to Yoka Zoo!"
+	"""
+	Welcome to Yoka Zoo!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -91751,7 +95012,9 @@ script 93 mmbn3 {
 	mugshotShow
 		mugshot = BlackMan
 	msgOpen
-	"Wow! You found me!"
+	"""
+	Wow! You found me!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -91776,7 +95039,9 @@ script 93 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Giraffe "
+	"""
+	Giraffe 
+	"""
 	option
 		left = 0
 		right = 0
@@ -91784,7 +95049,9 @@ script 93 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Elephant"
+	"""
+	Elephant
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -92353,7 +95620,9 @@ script 203 mmbn3 {
 	printItem
 		buffer = 0
 		item = 101
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -92493,7 +95762,9 @@ script 225 mmbn3 {
 }
 script 226 mmbn3 {
 	msgOpen
-	"A trash can."
+	"""
+	A trash can.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -92536,11 +95807,15 @@ script 226 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 159
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = *
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -92937,7 +96212,9 @@ script 13 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"I sure hope so!"
+	"""
+	I sure hope so!
+	"""
 	keyWait
 	end
 }
@@ -93110,7 +96387,9 @@ script 43 mmbn3 {
 	mugshotShow
 		mugshot = PigtailsGirl
 	msgOpen
-	"Cool! An elephant!"
+	"""
+	Cool! An elephant!
+	"""
 	keyWait
 	end
 }
@@ -93376,7 +96655,9 @@ script 90 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"What's the deal?!"
+	"""
+	What's the deal?!
+	"""
 	keyWait
 	end
 }
@@ -93388,7 +96669,9 @@ script 91 mmbn3 {
 	mugshotShow
 		mugshot = ZooWoman
 	msgOpen
-	"Are you all right?"
+	"""
+	Are you all right?
+	"""
 	keyWait
 	end
 }
@@ -93497,7 +96780,9 @@ script 190 mmbn3 {
 	printItem
 		buffer = 0
 		item = 54
-	"\" go?"
+	"""
+	" go?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -93546,7 +96831,9 @@ script 191 mmbn3 {
 	printItem
 		buffer = 0
 		item = 54
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -93582,7 +96869,9 @@ script 192 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"It's…"
+	"""
+	It's…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -93616,7 +96905,9 @@ script 193 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"It's…"
+	"""
+	It's…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -93631,7 +96922,9 @@ script 194 mmbn3 {
 	mugshotShow
 		mugshot = OrangeShirtBoy
 	msgOpen
-	"Where's the \""
+	"""
+	Where's the "
+	"""
 	printItem
 		buffer = 0
 		item = 54
@@ -94151,7 +97444,9 @@ script 249 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"What?!"
+	"""
+	What?!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -94200,7 +97495,9 @@ script 251 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Of course! "
+	"""
+	Of course! 
+	"""
 	option
 		left = 0
 		right = 0
@@ -94208,7 +97505,9 @@ script 251 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No!"
+	"""
+	No!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -94251,7 +97550,9 @@ script 252 mmbn3 {
 	printItem
 		buffer = 0
 		item = 54
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -94306,7 +97607,9 @@ script 220 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -94314,7 +97617,9 @@ script 220 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -94341,7 +97646,9 @@ script 221 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -94349,7 +97656,9 @@ script 221 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -94537,7 +97846,9 @@ script 14 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"…"
+	"""
+	…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -94724,7 +98035,10 @@ script 230 mmbn3 {
 		jumpIfTrue = 232
 		jumpIfFalse = continue
 	msgOpen
-	"Buy a ticket to:\n"
+	"""
+	Buy a ticket to:
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -94732,7 +98046,9 @@ script 230 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"ACDC Twn "
+	"""
+	ACDC Twn 
+	"""
 	option
 		left = 0
 		right = 0
@@ -94740,7 +98056,10 @@ script 230 mmbn3 {
 		down = 3
 	space
 		count = 2
-	"SciLab\n"
+	"""
+	SciLab
+	
+	"""
 	option
 		left = 3
 		right = 3
@@ -94748,7 +98067,9 @@ script 230 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yoka     "
+	"""
+	Yoka     
+	"""
 	option
 		left = 2
 		right = 2
@@ -94756,7 +98077,9 @@ script 230 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Nowhere"
+	"""
+	Nowhere
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -94787,7 +98110,9 @@ script 231 mmbn3 {
 	printItem
 		buffer = 0
 		item = 89
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerAnimate
 		animation = 4
@@ -94797,7 +98122,10 @@ script 231 mmbn3 {
 }
 script 232 mmbn3 {
 	msgOpen
-	"Change ticket?\n"
+	"""
+	Change ticket?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -94805,7 +98133,9 @@ script 232 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -94813,7 +98143,9 @@ script 232 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -94861,7 +98193,9 @@ script 234 mmbn3 {
 	printItem
 		buffer = 0
 		item = 89
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	end
 }
@@ -94881,7 +98215,9 @@ script 235 mmbn3 {
 	printItem
 		buffer = 0
 		item = 88
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerAnimate
 		animation = 4
@@ -94901,7 +98237,9 @@ script 236 mmbn3 {
 	printItem
 		buffer = 0
 		item = 88
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	end
 }
@@ -94921,7 +98259,9 @@ script 237 mmbn3 {
 	printItem
 		buffer = 0
 		item = 90
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerAnimate
 		animation = 4
@@ -94941,7 +98281,9 @@ script 238 mmbn3 {
 	printItem
 		buffer = 0
 		item = 90
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	end
 }
@@ -94973,7 +98315,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan,you got mail!!"
+	"""
+	Lan,you got mail!!
+	"""
 	keyWait
 	end
 }
@@ -95025,7 +98369,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"Good luck,Lan!"
+	"""
+	Good luck,Lan!
+	"""
 	keyWait
 	end
 }
@@ -95069,7 +98415,9 @@ script 10 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -95077,7 +98425,10 @@ script 10 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No\n"
+	"""
+	No
+	
+	"""
 	select
 		default = 1
 		BSeparate = false
@@ -95118,7 +98469,9 @@ script 12 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"C'mon,you chicken!"
+	"""
+	C'mon,you chicken!
+	"""
 	keyWait
 	end
 }
@@ -95277,7 +98630,9 @@ script 24 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	end
 }
@@ -95383,10 +98738,15 @@ script 43 mmbn3 {
 	clearMsg
 	mugshotAnimate
 		animation = 0
-	"…! …Mmmph… Mmmph!"
+	"""
+	…! …Mmmph… Mmmph!
+	"""
 	keyWait
 	clearMsg
-	"Mmmph!\n"
+	"""
+	Mmmph!
+	
+	"""
 	mugshotAnimate
 		animation = 1
 	"""
@@ -95442,7 +98802,9 @@ script 44 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"S-Sorry. My mistake!"
+	"""
+	S-Sorry. My mistake!
+	"""
 	keyWait
 	end
 }
@@ -95514,7 +98876,10 @@ script 46 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Buy it!!\n"
+	"""
+	Buy it!!
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -95522,7 +98887,9 @@ script 46 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Don't buy it…"
+	"""
+	Don't buy it…
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -95557,7 +98924,9 @@ script 46 mmbn3 {
 	printItem
 		buffer = 0
 		item = 55
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -95585,10 +98954,14 @@ script 46 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"It's our secret!"
+	"""
+	It's our secret!
+	"""
 	keyWait
 	clearMsg
-	"See ya. Stay cool!"
+	"""
+	See ya. Stay cool!
+	"""
 	keyWait
 	end
 }
@@ -95624,7 +98997,10 @@ script 49 mmbn3 {
 	mugshotShow
 		mugshot = SciLabYoungMan
 	msgOpen
-	"So? Do you like my\n"
+	"""
+	So? Do you like my
+	
+	"""
 	printItem
 		buffer = 0
 		item = 55
@@ -95640,16 +99016,24 @@ script 49 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	" Right?!"
+	"""
+	 Right?!
+	"""
 	keyWait
 	end
 }
@@ -95816,7 +99200,9 @@ script 63 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"I can't believe it!"
+	"""
+	I can't believe it!
+	"""
 	keyWait
 	end
 }
@@ -95824,7 +99210,9 @@ script 64 mmbn3 {
 	mugshotShow
 		mugshot = BlackWoman
 	msgOpen
-	"What a battle,kid!"
+	"""
+	What a battle,kid!
+	"""
 	keyWait
 	end
 }
@@ -95907,7 +99295,9 @@ script 72 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"I don't believe it!"
+	"""
+	I don't believe it!
+	"""
 	keyWait
 	end
 }
@@ -95986,10 +99376,14 @@ script 80 mmbn3 {
 	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
 	keyWait
@@ -96332,7 +99726,9 @@ script 107 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Poor kid."
+	"""
+	Poor kid.
+	"""
 	keyWait
 	end
 }
@@ -96399,7 +99795,9 @@ script 120 mmbn3 {
 	mugshotShow
 		mugshot = YoungWoman
 	msgOpen
-	"Laa,la,laa…"
+	"""
+	Laa,la,laa…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -96541,7 +99939,9 @@ script 133 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Just to try it…"
+	"""
+	Just to try it…
+	"""
 	keyWait
 	end
 }
@@ -96572,7 +99972,9 @@ script 141 mmbn3 {
 	mugshotShow
 		mugshot = Man
 	msgOpen
-	"This is bad!"
+	"""
+	This is bad!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -96603,7 +100005,9 @@ script 142 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"I didn't do it!"
+	"""
+	I didn't do it!
+	"""
 	keyWait
 	end
 }
@@ -96919,7 +100323,9 @@ script 167 mmbn3 {
 	mugshotShow
 		mugshot = Maid
 	msgOpen
-	"The sea is so quiet…"
+	"""
+	The sea is so quiet…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -96934,7 +100340,9 @@ script 168 mmbn3 {
 	mugshotShow
 		mugshot = Man
 	msgOpen
-	"What? The Undernet?"
+	"""
+	What? The Undernet?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -96956,7 +100364,9 @@ script 169 mmbn3 {
 	mugshotShow
 		mugshot = PigtailsGirl
 	msgOpen
-	"Papa,pretty birds!!"
+	"""
+	Papa,pretty birds!!
+	"""
 	keyWait
 	end
 }
@@ -96994,7 +100404,9 @@ script 171 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"I apologize…"
+	"""
+	I apologize…
+	"""
 	keyWait
 	end
 }
@@ -97030,7 +100442,9 @@ script 177 mmbn3 {
 	mugshotShow
 		mugshot = PigtailsGirl
 	msgOpen
-	"OK! Let's go home!!"
+	"""
+	OK! Let's go home!!
+	"""
 	keyWait
 	end
 }
@@ -97050,7 +100464,9 @@ script 179 mmbn3 {
 	mugshotShow
 		mugshot = SciLabMan
 	msgOpen
-	"A \"boulder,\"huh…?"
+	"""
+	A "boulder,"huh…?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -97088,7 +100504,9 @@ script 183 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"We can rely on them!"
+	"""
+	We can rely on them!
+	"""
 	keyWait
 	end
 }
@@ -97212,7 +100630,9 @@ script 189 mmbn3 {
 	mugshotShow
 		mugshot = SciLabMan
 	msgOpen
-	"Leave it to us!"
+	"""
+	Leave it to us!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -97296,7 +100716,9 @@ script 195 mmbn3 {
 	mugshotShow
 		mugshot = YoungWoman
 	msgOpen
-	"No! Go away!"
+	"""
+	No! Go away!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -97336,7 +100758,9 @@ script 196 mmbn3 {
 	printItem
 		buffer = 0
 		item = 78
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -97366,7 +100790,9 @@ script 200 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"Be very careful…"
+	"""
+	Be very careful…
+	"""
 	keyWait
 	end
 }
@@ -97435,7 +100861,9 @@ script 224 mmbn3 {
 		jumpIfInRange = 240
 		jumpIfOutOfRange = continue
 	msgOpen
-	"Beep,beeeeep!"
+	"""
+	Beep,beeeeep!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -97457,7 +100885,11 @@ script 225 mmbn3 {
 }
 script 226 mmbn3 {
 	msgOpen
-	"\"The Thrill of N1!\n We want you for\n the NetBattle!\""
+	"""
+	"The Thrill of N1!
+	 We want you for
+	 the NetBattle!"
+	"""
 	keyWait
 	end
 }
@@ -97467,7 +100899,9 @@ script 227 mmbn3 {
 		jumpIfTrue = 237
 		jumpIfFalse = continue
 	msgOpen
-	"A popular band."
+	"""
+	A popular band.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -97540,7 +100974,9 @@ script 231 mmbn3 {
 		jumpIfInRange = 241
 		jumpIfOutOfRange = continue
 	msgOpen
-	"A TV station van."
+	"""
+	A TV station van.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -97624,7 +101060,10 @@ script 233 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Where to,Lan?\n"
+	"""
+	Where to,Lan?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -97632,7 +101071,9 @@ script 233 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"Hades "
+	"""
+	Hades 
+	"""
 	option
 		left = 0
 		right = 0
@@ -97640,7 +101081,10 @@ script 233 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"WWW base\n"
+	"""
+	WWW base
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -97648,7 +101092,9 @@ script 233 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Nowhere"
+	"""
+	Nowhere
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -97777,7 +101223,9 @@ script 0 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = Lan
-	"…Well,yes."
+	"""
+	…Well,yes.
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -97845,7 +101293,9 @@ script 1 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -97853,7 +101303,10 @@ script 1 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No\n"
+	"""
+	No
+	
+	"""
 	select
 		default = 1
 		BSeparate = false
@@ -98065,7 +101518,9 @@ script 15 mmbn3 {
 	mugshotShow
 		mugshot = Tora
 	msgOpen
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	end
 }
@@ -98106,7 +101561,9 @@ script 21 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan. You got mail!!"
+	"""
+	Lan. You got mail!!
+	"""
 	keyWait
 	end
 }
@@ -98159,7 +101616,9 @@ script 31 mmbn3 {
 	mugshotShow
 		mugshot = NetbattlerQ
 	msgOpen
-	"…………"
+	"""
+	…………
+	"""
 	keyWait
 	end
 }
@@ -98167,7 +101626,9 @@ script 33 mmbn3 {
 	mugshotShow
 		mugshot = SciLabMan
 	msgOpen
-	"I'm getting nervous…"
+	"""
+	I'm getting nervous…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -98390,7 +101851,9 @@ script 60 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"Well done!"
+	"""
+	Well done!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -98544,7 +102007,9 @@ script 74 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"To the stage,please!"
+	"""
+	To the stage,please!
+	"""
 	keyWait
 	end
 }
@@ -98556,7 +102021,9 @@ script 75 mmbn3 {
 	mugshotShow
 		mugshot = ZooMan
 	msgOpen
-	"You must be Lan."
+	"""
+	You must be Lan.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -98589,7 +102056,9 @@ script 76 mmbn3 {
 	printNaviCustProgram
 		buffer = 0
 		program = 3
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -98597,7 +102066,9 @@ script 76 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = ZooMan
-	"There's a message:"
+	"""
+	There's a message:
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -98614,7 +102085,9 @@ script 76 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Let's see,it was…"
+	"""
+	Let's see,it was…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -98660,7 +102133,9 @@ script 77 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Let's see,it was…"
+	"""
+	Let's see,it was…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -98701,7 +102176,9 @@ script 78 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Let's see,it was…"
+	"""
+	Let's see,it was…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -98720,7 +102197,9 @@ script 80 mmbn3 {
 	mugshotShow
 		mugshot = Man
 	msgOpen
-	"Hey! Aren't you Lan?"
+	"""
+	Hey! Aren't you Lan?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -98812,7 +102291,9 @@ script 86 mmbn3 {
 	mugshotShow
 		mugshot = PompadourMan
 	msgOpen
-	"Who cares…"
+	"""
+	Who cares…
+	"""
 	keyWait
 	end
 }
@@ -98826,7 +102307,9 @@ script 87 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"I gotta go see this!"
+	"""
+	I gotta go see this!
+	"""
 	keyWait
 	end
 }
@@ -98870,7 +102353,9 @@ script 91 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -98878,7 +102363,10 @@ script 91 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No\n"
+	"""
+	No
+	
+	"""
 	select
 		default = 1
 		BSeparate = false
@@ -99115,7 +102603,9 @@ script 103 mmbn3 {
 	printItem
 		buffer = 0
 		item = 83
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -99138,7 +102628,9 @@ script 105 mmbn3 {
 	mugshotShow
 		mugshot = Tamako
 	msgOpen
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	end
 }
@@ -99207,7 +102699,9 @@ script 120 mmbn3 {
 	mugshotShow
 		mugshot = SciLabWoman
 	msgOpen
-	"Welcome to DNN."
+	"""
+	Welcome to DNN.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -99336,7 +102830,9 @@ script 150 mmbn3 {
 	mugshotShow
 		mugshot = SciLabWoman
 	msgOpen
-	"Welcome to DNN!"
+	"""
+	Welcome to DNN!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -99640,7 +103136,9 @@ script 187 mmbn3 {
 	printFolderName
 		buffer = 0
 		entry = 8
-	"\"?"
+	"""
+	"?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -99665,7 +103163,9 @@ script 187 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"OK "
+	"""
+	OK 
+	"""
 	option
 		left = 0
 		right = 0
@@ -99673,7 +103173,9 @@ script 187 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No thanks"
+	"""
+	No thanks
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -99686,7 +103188,9 @@ script 187 mmbn3 {
 		]
 	mugshotShow
 		mugshot = Scientist
-	"I see…"
+	"""
+	I see…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -99709,16 +103213,24 @@ script 188 mmbn3 {
 	mugshotShow
 		mugshot = Scientist
 	msgOpen
-	"I'll send it now."
+	"""
+	I'll send it now.
+	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	keyWait
@@ -99733,7 +103245,9 @@ script 188 mmbn3 {
 	printFolderName
 		buffer = 0
 		entry = 8
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	end
 }
@@ -99811,7 +103325,9 @@ script 191 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Be very careful."
+	"""
+	Be very careful.
+	"""
 	keyWait
 	end
 }
@@ -99830,7 +103346,9 @@ script 192 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"It's not much,but…"
+	"""
+	It's not much,but…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -99865,7 +103383,9 @@ script 193 mmbn3 {
 	printItem
 		buffer = 0
 		item = 21
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -99883,7 +103403,9 @@ script 194 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"I'd get in trouble…"
+	"""
+	I'd get in trouble…
+	"""
 	keyWait
 	end
 }
@@ -99912,7 +103434,9 @@ script 210 mmbn3 {
 		jumpIfTrue = 212
 		jumpIfFalse = continue
 	msgOpen
-	"Please wait."
+	"""
+	Please wait.
+	"""
 	keyWait
 	end
 }
@@ -99941,7 +103465,9 @@ script 212 mmbn3 {
 }
 script 220 mmbn3 {
 	msgOpen
-	"It's a script…"
+	"""
+	It's a script…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -100055,7 +103581,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan. You got mail!!"
+	"""
+	Lan. You got mail!!
+	"""
 	keyWait
 	end
 }
@@ -100088,7 +103616,9 @@ script 11 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"I'm getting nervous…"
+	"""
+	I'm getting nervous…
+	"""
 	keyWait
 	end
 }
@@ -100096,7 +103626,9 @@ script 20 mmbn3 {
 	mugshotShow
 		mugshot = NetbattlerQ
 	msgOpen
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	end
 }
@@ -100169,7 +103701,9 @@ script 50 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Sneaky,nasty,evil…"
+	"""
+	Sneaky,nasty,evil…
+	"""
 	keyWait
 	end
 }
@@ -100293,11 +103827,15 @@ script 191 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 99
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = N
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -100348,7 +103886,9 @@ script 194 mmbn3 {
 }
 script 220 mmbn3 {
 	msgOpen
-	"An ad poster."
+	"""
+	An ad poster.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -100370,7 +103910,9 @@ script 221 mmbn3 {
 }
 script 222 mmbn3 {
 	msgOpen
-	"Large stage props."
+	"""
+	Large stage props.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -100405,7 +103947,9 @@ script 222 mmbn3 {
 	printItem
 		buffer = 0
 		item = 98
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -100442,7 +103986,9 @@ script 224 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"\"NetRangers Juice\"!!"
+	"""
+	"NetRangers Juice"!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -100507,7 +104053,9 @@ script 228 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -100515,7 +104063,9 @@ script 228 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -100551,7 +104101,9 @@ script 229 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -100559,7 +104111,9 @@ script 229 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -100607,7 +104161,9 @@ script 232 mmbn3 {
 }
 script 233 mmbn3 {
 	msgOpen
-	"It isn't active now."
+	"""
+	It isn't active now.
+	"""
 	keyWait
 	end
 }
@@ -100621,7 +104177,9 @@ script 20 mmbn3 {
 	mugshotShow
 		mugshot = BusinessMan
 	msgOpen
-	"Thank you,thank you."
+	"""
+	Thank you,thank you.
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -100639,7 +104197,9 @@ script 21 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = BusinessMan
-	"Huh? Why not?"
+	"""
+	Huh? Why not?
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -100674,18 +104234,26 @@ script 21 mmbn3 {
 		animation = 0
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	keyWait
 	clearMsg
 	mugshotAnimate
 		animation = 1
-	"\"Goodfellas.\""
+	"""
+	"Goodfellas."
+	"""
 	keyWait
 	end
 }
@@ -100736,7 +104304,9 @@ script 40 mmbn3 {
 	"""
 	waitSkip
 		frames = 10
-	" Red!"
+	"""
+	 Red!
+	"""
 	keyWait
 	end
 }
@@ -100750,7 +104320,9 @@ script 41 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Net Greeeeeen!"
+	"""
+	Net Greeeeeen!
+	"""
 	keyWait
 	end
 }
@@ -100782,16 +104354,25 @@ script 43 mmbn3 {
 	"""
 	waitSkip
 		frames = 20
-	"leave "
+	"""
+	leave 
+	"""
 	waitSkip
 		frames = 20
-	"you"
+	"""
+	you
+	"""
 	waitSkip
 		frames = 20
-	"\ntingling!"
+	"""
+	
+	tingling!
+	"""
 	keyWait
 	clearMsg
-	"Net Yellow!"
+	"""
+	Net Yellow!
+	"""
 	keyWait
 	end
 }
@@ -100799,10 +104380,14 @@ script 44 mmbn3 {
 	mugshotShow
 		mugshot = HeelNavi
 	msgOpen
-	"Hmmmph…"
+	"""
+	Hmmmph…
+	"""
 	keyWait
 	clearMsg
-	"Net Black…"
+	"""
+	Net Black…
+	"""
 	keyWait
 	end
 }
@@ -100859,11 +104444,15 @@ script 190 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Got a \""
+	"""
+	Got a "
+	"""
 	printChip
 		buffer = 0
 		chip = 165
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = J
@@ -100875,11 +104464,15 @@ script 190 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 192
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = Y
-	"\"?"
+	"""
+	"?
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -100890,7 +104483,10 @@ script 190 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Sure,sure!\n"
+	"""
+	Sure,sure!
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -100898,7 +104494,9 @@ script 190 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No way!"
+	"""
+	No way!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -100953,11 +104551,15 @@ script 192 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 192
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = Y
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -100981,7 +104583,9 @@ script 194 mmbn3 {
 	mugshotShow
 		mugshot = PompadourMan
 	msgOpen
-	"That's a shame."
+	"""
+	That's a shame.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -101038,11 +104642,15 @@ script 197 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"So,my \""
+	"""
+	So,my "
+	"""
 	printChip
 		buffer = 0
 		chip = 192
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = Y
@@ -101053,7 +104661,9 @@ script 197 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 165
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = J
@@ -101071,7 +104681,10 @@ script 197 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Sure,sure!\n"
+	"""
+	Sure,sure!
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -101079,7 +104692,9 @@ script 197 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No way!"
+	"""
+	No way!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -101191,7 +104806,9 @@ script 225 mmbn3 {
 		jumpIfInRange = 230
 		jumpIfOutOfRange = continue
 	msgOpen
-	"Yeah! Come on!"
+	"""
+	Yeah! Come on!
+	"""
 	keyWait
 	end
 }
@@ -101217,7 +104834,9 @@ script 226 mmbn3 {
 		jumpIfInRange = 231
 		jumpIfOutOfRange = continue
 	msgOpen
-	"Here! Over here!"
+	"""
+	Here! Over here!
+	"""
 	keyWait
 	end
 }
@@ -101243,7 +104862,9 @@ script 227 mmbn3 {
 		jumpIfInRange = 232
 		jumpIfOutOfRange = continue
 	msgOpen
-	"We love yooooou!"
+	"""
+	We love yooooou!
+	"""
 	keyWait
 	end
 }
@@ -101269,7 +104890,9 @@ script 228 mmbn3 {
 		jumpIfInRange = 233
 		jumpIfOutOfRange = continue
 	msgOpen
-	"Go! Go! Go!"
+	"""
+	Go! Go! Go!
+	"""
 	keyWait
 	end
 }
@@ -101295,19 +104918,25 @@ script 229 mmbn3 {
 		jumpIfInRange = 234
 		jumpIfOutOfRange = continue
 	msgOpen
-	"Wow!! Shake my hand!"
+	"""
+	Wow!! Shake my hand!
+	"""
 	keyWait
 	end
 }
 script 230 mmbn3 {
 	msgOpen
-	"Idiot! Get off!"
+	"""
+	Idiot! Get off!
+	"""
 	keyWait
 	end
 }
 script 231 mmbn3 {
 	msgOpen
-	"…Heh…"
+	"""
+	…Heh…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -101319,19 +104948,25 @@ script 231 mmbn3 {
 }
 script 232 mmbn3 {
 	msgOpen
-	"Give our money back!"
+	"""
+	Give our money back!
+	"""
 	keyWait
 	end
 }
 script 233 mmbn3 {
 	msgOpen
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	end
 }
 script 234 mmbn3 {
 	msgOpen
-	"Get off the stage!"
+	"""
+	Get off the stage!
+	"""
 	keyWait
 	end
 }
@@ -101550,7 +105185,9 @@ script 251 mmbn3 {
 }
 script 252 mmbn3 {
 	msgOpen
-	"Give us the facts!!"
+	"""
+	Give us the facts!!
+	"""
 	keyWait
 	end
 }
@@ -101578,7 +105215,9 @@ script 190 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 31
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = C
@@ -101595,7 +105234,9 @@ script 190 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"I got it! You,there!"
+	"""
+	I got it! You,there!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -101605,7 +105246,9 @@ script 190 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 31
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = C
@@ -101616,11 +105259,15 @@ script 190 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 125
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = S
-	"\"?"
+	"""
+	"?
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -101631,7 +105278,9 @@ script 190 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"OK "
+	"""
+	OK 
+	"""
 	option
 		left = 0
 		right = 0
@@ -101639,7 +105288,9 @@ script 190 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Nope!"
+	"""
+	Nope!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -101668,7 +105319,9 @@ script 191 mmbn3 {
 	mugshotShow
 		mugshot = SciLabWoman
 	msgOpen
-	"Really? Great!"
+	"""
+	Really? Great!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -101691,11 +105344,16 @@ script 192 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 125
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = S
-	"\"!!\n"
+	"""
+	"!!
+	
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -101732,7 +105390,9 @@ script 195 mmbn3 {
 	mugshotShow
 		mugshot = SciLabWoman
 	msgOpen
-	"Huh? It's not here."
+	"""
+	Huh? It's not here.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -101772,7 +105432,9 @@ script 197 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 125
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = S
@@ -101783,11 +105445,15 @@ script 197 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 31
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = C
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -101798,7 +105464,9 @@ script 197 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"OK "
+	"""
+	OK 
+	"""
 	option
 		left = 0
 		right = 0
@@ -101806,7 +105474,9 @@ script 197 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No thanks!"
+	"""
+	No thanks!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -101916,7 +105586,9 @@ script 225 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -101924,7 +105596,9 @@ script 225 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -101951,7 +105625,9 @@ script 226 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -101959,7 +105635,9 @@ script 226 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -102339,11 +106017,15 @@ script 190 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 88
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = H
-	"\"?"
+	"""
+	"?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -102353,11 +106035,15 @@ script 190 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 153
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = F
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -102375,7 +106061,9 @@ script 190 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"OK "
+	"""
+	OK 
+	"""
 	option
 		left = 0
 		right = 0
@@ -102383,7 +106071,9 @@ script 190 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No thanks"
+	"""
+	No thanks
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -102412,7 +106102,9 @@ script 191 mmbn3 {
 	mugshotShow
 		mugshot = BlackMan
 	msgOpen
-	"OK,hand it over!"
+	"""
+	OK,hand it over!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -102435,11 +106127,15 @@ script 192 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 153
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = F
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -102531,7 +106227,9 @@ script 197 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 88
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = H
@@ -102542,11 +106240,15 @@ script 197 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 153
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = F
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -102557,7 +106259,9 @@ script 197 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"OK "
+	"""
+	OK 
+	"""
 	option
 		left = 0
 		right = 0
@@ -102565,7 +106269,9 @@ script 197 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No thanks"
+	"""
+	No thanks
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -102713,7 +106419,9 @@ script 227 mmbn3 {
 	printItem
 		buffer = 0
 		item = 99
-	"\""
+	"""
+	"
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -102735,7 +106443,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Trying to run,Lan?"
+	"""
+	Trying to run,Lan?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -102761,7 +106471,9 @@ script 1 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Otherwise,go inside."
+	"""
+	Otherwise,go inside.
+	"""
 	keyWait
 	end
 }
@@ -102779,7 +106491,9 @@ script 2 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Got time for a chat?"
+	"""
+	Got time for a chat?
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -102790,7 +106504,9 @@ script 2 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Sure "
+	"""
+	Sure 
+	"""
 	option
 		left = 0
 		right = 0
@@ -102798,7 +106514,9 @@ script 2 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No thanks"
+	"""
+	No thanks
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -102859,13 +106577,19 @@ script 2 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -102940,13 +106664,19 @@ script 2 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"Haaaa…"
+	"""
+	Haaaa…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -102995,7 +106725,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = MetrolineMan
 	msgOpen
-	"All aboard!!"
+	"""
+	All aboard!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -103004,7 +106736,9 @@ script 6 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Ahem!!"
+	"""
+	Ahem!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -103015,7 +106749,9 @@ script 6 mmbn3 {
 	clearMsg
 	mugshotAnimate
 		animation = 0
-	"(Oh,I'm so nervous…)"
+	"""
+	(Oh,I'm so nervous…)
+	"""
 	keyWait
 	clearMsg
 	mugshotAnimate
@@ -103027,10 +106763,15 @@ script 6 mmbn3 {
 	printFolderName
 		buffer = 0
 		entry = 3
-	".\"\n"
+	"""
+	."
+	
+	"""
 	mugshotAnimate
 		animation = 0
-	"(OK. I'm OK now!)"
+	"""
+	(OK. I'm OK now!)
+	"""
 	keyWait
 	clearMsg
 	mugshotAnimate
@@ -103042,7 +106783,9 @@ script 6 mmbn3 {
 	printFolderName
 		buffer = 0
 		entry = 3
-	"\"?"
+	"""
+	"?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -103052,7 +106795,9 @@ script 6 mmbn3 {
 	printFolderName
 		buffer = 0
 		entry = 3
-	"\"?"
+	"""
+	"?
+	"""
 	keyWait
 	clearMsg
 	mugshotAnimate
@@ -103072,7 +106817,9 @@ script 6 mmbn3 {
 	printFolderName
 		buffer = 0
 		entry = 3
-	"…\""
+	"""
+	…"
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -103090,7 +106837,9 @@ script 6 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes,OK "
+	"""
+	Yes,OK 
+	"""
 	option
 		left = 0
 		right = 0
@@ -103098,7 +106847,9 @@ script 6 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -103119,7 +106870,9 @@ script 6 mmbn3 {
 	printFolderName
 		buffer = 0
 		entry = 3
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	end
 }
@@ -103136,7 +106889,9 @@ script 7 mmbn3 {
 	printFolderName
 		buffer = 0
 		entry = 3
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	mugshotAnimate
@@ -103195,7 +106950,9 @@ script 7 mmbn3 {
 	printFolderName
 		buffer = 0
 		entry = 3
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	end
 }
@@ -103220,7 +106977,9 @@ script 8 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Folderboy!! Ta daaa!"
+	"""
+	Folderboy!! Ta daaa!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -103250,7 +107009,9 @@ script 8 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"OK "
+	"""
+	OK 
+	"""
 	option
 		left = 0
 		right = 0
@@ -103258,7 +107019,9 @@ script 8 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No thanks"
+	"""
+	No thanks
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -103278,7 +107041,9 @@ script 8 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Wanna try?"
+	"""
+	Wanna try?
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -103289,7 +107054,9 @@ script 8 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -103297,7 +107064,9 @@ script 8 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Not now"
+	"""
+	Not now
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -103310,14 +107079,20 @@ script 8 mmbn3 {
 		]
 	mugshotShow
 		mugshot = CapBoy
-	"OK,let's go!!"
+	"""
+	OK,let's go!!
+	"""
 	keyWait
 	clearMsg
 	soundDisableChoiceSFX
-	"Question No.1!!"
+	"""
+	Question No.1!!
+	"""
 	keyWait
 	clearMsg
-	"Which is heaviest?"
+	"""
+	Which is heaviest?
+	"""
 	keyWait
 	clearMsg
 	option
@@ -103327,7 +107102,10 @@ script 8 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"1000 g of iron\n"
+	"""
+	1000 g of iron
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -103335,7 +107113,10 @@ script 8 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"10000 mg of stone\n"
+	"""
+	10000 mg of stone
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -103343,7 +107124,9 @@ script 8 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"100 l of water"
+	"""
+	100 l of water
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -103359,11 +107142,15 @@ script 8 mmbn3 {
 		track = 231
 	waitSkip
 		frames = 20
-	"Correct! Next one!"
+	"""
+	Correct! Next one!
+	"""
 	keyWait
 	clearMsg
 	soundDisableChoiceSFX
-	"Question No.2!"
+	"""
+	Question No.2!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -103380,7 +107167,10 @@ script 8 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Circus leader\n"
+	"""
+	Circus leader
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -103388,7 +107178,10 @@ script 8 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"Zookeeper\n"
+	"""
+	Zookeeper
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -103396,7 +107189,9 @@ script 8 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"WWW operator"
+	"""
+	WWW operator
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -103412,11 +107207,15 @@ script 8 mmbn3 {
 		track = 231
 	waitSkip
 		frames = 20
-	"Correct! And next…"
+	"""
+	Correct! And next…
+	"""
 	keyWait
 	clearMsg
 	soundDisableChoiceSFX
-	"Question No.3!"
+	"""
+	Question No.3!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -103433,7 +107232,10 @@ script 8 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Yasu\n"
+	"""
+	Yasu
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -103441,7 +107243,10 @@ script 8 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"Masa\n"
+	"""
+	Masa
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -103449,7 +107254,9 @@ script 8 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Hiro"
+	"""
+	Hiro
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -103465,11 +107272,15 @@ script 8 mmbn3 {
 		track = 231
 	waitSkip
 		frames = 20
-	"Well done! Another!"
+	"""
+	Well done! Another!
+	"""
 	keyWait
 	clearMsg
 	soundDisableChoiceSFX
-	"Question No.4!"
+	"""
+	Question No.4!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -103486,7 +107297,10 @@ script 8 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"HeatCuts\n"
+	"""
+	HeatCuts
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -103494,7 +107308,10 @@ script 8 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"ElecGuys\n"
+	"""
+	ElecGuys
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -103502,7 +107319,9 @@ script 8 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"AquaGuts"
+	"""
+	AquaGuts
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -103518,11 +107337,15 @@ script 8 mmbn3 {
 		track = 231
 	waitSkip
 		frames = 20
-	"And finally…"
+	"""
+	And finally…
+	"""
 	keyWait
 	clearMsg
 	soundDisableChoiceSFX
-	"The last question!!"
+	"""
+	The last question!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -103541,7 +107364,10 @@ script 8 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 24
-	"\n"
+	"""
+	
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -103552,7 +107378,10 @@ script 8 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 2
-	"\n"
+	"""
+	
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -103591,13 +107420,19 @@ script 8 mmbn3 {
 	printFolderName
 		buffer = 0
 		entry = 4
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	clearMsg
-	"Just one thing…"
+	"""
+	Just one thing…
+	"""
 	keyWait
 	clearMsg
-	"To get my \""
+	"""
+	To get my "
+	"""
 	printFolderName
 		buffer = 0
 		entry = 4
@@ -103608,7 +107443,9 @@ script 8 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Is that OK?"
+	"""
+	Is that OK?
+	"""
 	keyWait
 	clearMsg
 	soundEnableChoiceSFX
@@ -103620,7 +107457,9 @@ script 8 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Load it! "
+	"""
+	Load it! 
+	"""
 	option
 		left = 0
 		right = 0
@@ -103628,7 +107467,9 @@ script 8 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -103674,7 +107515,9 @@ script 9 mmbn3 {
 	printFolderName
 		buffer = 0
 		entry = 4
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -103685,7 +107528,9 @@ script 9 mmbn3 {
 	printFolderName
 		buffer = 0
 		entry = 4
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	end
 }
@@ -103704,7 +107549,9 @@ script 10 mmbn3 {
 	printFolderName
 		buffer = 0
 		entry = 7
-	"\"?"
+	"""
+	"?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -103720,7 +107567,9 @@ script 10 mmbn3 {
 	printFolderName
 		buffer = 0
 		entry = 7
-	",\""
+	"""
+	,"
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -103737,7 +107586,9 @@ script 10 mmbn3 {
 	printFolderName
 		buffer = 0
 		entry = 7
-	"\"?"
+	"""
+	"?
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -103748,7 +107599,9 @@ script 10 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"OK "
+	"""
+	OK 
+	"""
 	option
 		left = 0
 		right = 0
@@ -103756,7 +107609,9 @@ script 10 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No!"
+	"""
+	No!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -103769,7 +107624,9 @@ script 10 mmbn3 {
 		]
 	mugshotShow
 		mugshot = BusinessMan
-	"That's a pity…"
+	"""
+	That's a pity…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -103779,7 +107636,9 @@ script 10 mmbn3 {
 	printFolderName
 		buffer = 0
 		entry = 7
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	end
 }
@@ -103797,60 +107656,98 @@ script 11 mmbn3 {
 	printFolderName
 		buffer = 0
 		entry = 7
-	"\""
+	"""
+	"
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"\nWhat?"
+	"""
+	
+	What?
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"\nIf I do this"
+	"""
+	
+	If I do this
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	keyWait
@@ -103868,16 +107765,24 @@ script 11 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Eh"
+	"""
+	Eh
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -103899,21 +107804,31 @@ script 11 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"3,"
+	"""
+	3,
+	"""
 	waitSkip
 		frames = 30
-	"2,"
+	"""
+	2,
+	"""
 	waitSkip
 		frames = 30
-	"1,"
+	"""
+	1,
+	"""
 	waitSkip
 		frames = 30
 	soundPlay
 		track = 220
-	"DONE!"
+	"""
+	DONE!
+	"""
 	keyWait
 	clearMsg
-	"Now the \""
+	"""
+	Now the "
+	"""
 	printFolderName
 		buffer = 0
 		entry = 7
@@ -103962,7 +107877,9 @@ script 14 mmbn3 {
 	mugshotShow
 		mugshot = MetrolineMan
 	msgOpen
-	"Good luck."
+	"""
+	Good luck.
+	"""
 	keyWait
 	end
 }
@@ -103970,7 +107887,9 @@ script 15 mmbn3 {
 	mugshotShow
 		mugshot = CapBoy
 	msgOpen
-	"I'll cheer for you!"
+	"""
+	I'll cheer for you!
+	"""
 	keyWait
 	end
 }
@@ -104039,7 +107958,10 @@ script 190 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"I'd love to!\n"
+	"""
+	I'd love to!
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -104047,7 +107969,9 @@ script 190 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Sorry,too busy"
+	"""
+	Sorry,too busy
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -104085,7 +108009,10 @@ script 191 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"380 Zennys\n"
+	"""
+	380 Zennys
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -104093,7 +108020,10 @@ script 191 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"150 Zennys\n"
+	"""
+	150 Zennys
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -104101,7 +108031,9 @@ script 191 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"It's free!"
+	"""
+	It's free!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -104136,7 +108068,9 @@ script 192 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 24
-	"\"?"
+	"""
+	"?
+	"""
 	keyWait
 	clearMsg
 	option
@@ -104146,7 +108080,10 @@ script 192 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"60\n"
+	"""
+	60
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -104154,7 +108091,10 @@ script 192 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"100\n"
+	"""
+	100
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -104162,7 +108102,9 @@ script 192 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"160"
+	"""
+	160
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -104204,7 +108146,10 @@ script 193 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"The 2nd\n"
+	"""
+	The 2nd
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -104212,7 +108157,10 @@ script 193 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"The 5th\n"
+	"""
+	The 5th
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -104220,7 +108168,9 @@ script 193 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"The 7th"
+	"""
+	The 7th
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -104263,7 +108213,10 @@ script 194 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"6\n"
+	"""
+	6
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -104271,7 +108224,10 @@ script 194 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"5\n"
+	"""
+	5
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -104279,7 +108235,9 @@ script 194 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"2"
+	"""
+	2
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -104321,7 +108279,10 @@ script 195 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Hunger\n"
+	"""
+	Hunger
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -104329,7 +108290,10 @@ script 195 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"Heat\n"
+	"""
+	Heat
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -104337,7 +108301,9 @@ script 195 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Cold"
+	"""
+	Cold
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -104379,7 +108345,10 @@ script 196 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"3\n"
+	"""
+	3
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -104387,7 +108356,10 @@ script 196 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"4\n"
+	"""
+	4
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -104395,7 +108367,9 @@ script 196 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"5"
+	"""
+	5
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -104436,7 +108410,10 @@ script 197 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"A silver gear\n"
+	"""
+	A silver gear
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -104444,7 +108421,10 @@ script 197 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"A red heart\n"
+	"""
+	A red heart
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -104452,7 +108432,9 @@ script 197 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"A blue ribbon"
+	"""
+	A blue ribbon
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -104493,7 +108475,10 @@ script 198 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Robots\n"
+	"""
+	Robots
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -104501,7 +108486,10 @@ script 198 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"The Net\n"
+	"""
+	The Net
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -104509,7 +108497,9 @@ script 198 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"PETs"
+	"""
+	PETs
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -104550,7 +108540,10 @@ script 199 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Transmission\n"
+	"""
+	Transmission
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -104558,7 +108551,10 @@ script 199 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"Battle Network\n"
+	"""
+	Battle Network
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -104566,7 +108562,9 @@ script 199 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Battle Operation"
+	"""
+	Battle Operation
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -104607,7 +108605,10 @@ script 200 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Bubble Step\n"
+	"""
+	Bubble Step
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -104615,7 +108616,10 @@ script 200 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"Bubbly Dance\n"
+	"""
+	Bubbly Dance
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -104623,7 +108627,9 @@ script 200 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Spongy Dance"
+	"""
+	Spongy Dance
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -104664,7 +108670,10 @@ script 201 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"A beast\n"
+	"""
+	A beast
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -104672,7 +108681,10 @@ script 201 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"A monster\n"
+	"""
+	A monster
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -104680,7 +108692,9 @@ script 201 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"A psycho"
+	"""
+	A psycho
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -104721,7 +108735,10 @@ script 202 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Teacher\n"
+	"""
+	Teacher
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -104729,7 +108746,10 @@ script 202 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"Fishmonger\n"
+	"""
+	Fishmonger
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -104737,7 +108757,9 @@ script 202 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Sandwich chef"
+	"""
+	Sandwich chef
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -104779,7 +108801,10 @@ script 203 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Beach Metro\n"
+	"""
+	Beach Metro
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -104787,7 +108812,10 @@ script 203 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"Beach\n"
+	"""
+	Beach
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -104795,7 +108823,9 @@ script 203 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"st.BEACH"
+	"""
+	st.BEACH
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -104836,7 +108866,10 @@ script 204 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Round fans\n"
+	"""
+	Round fans
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -104844,7 +108877,10 @@ script 204 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"Folding fans\n"
+	"""
+	Folding fans
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -104852,7 +108888,9 @@ script 204 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Marbles"
+	"""
+	Marbles
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -104894,7 +108932,10 @@ script 205 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Anger & Revenge…\n"
+	"""
+	Anger & Revenge…
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -104902,7 +108943,10 @@ script 205 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"Love & Friendship…\n"
+	"""
+	Love & Friendship…
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -104910,7 +108954,9 @@ script 205 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Love & Loss…"
+	"""
+	Love & Loss…
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -104933,7 +108979,9 @@ script 206 mmbn3 {
 	mugshotShow
 		mugshot = OldMan
 	msgOpen
-	"CORRECT!!"
+	"""
+	CORRECT!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -104942,7 +108990,9 @@ script 206 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Here,take this!"
+	"""
+	Here,take this!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -104967,11 +109017,15 @@ script 207 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 206
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = *
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -105068,7 +109122,10 @@ script 212 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"I'd love to!\n"
+	"""
+	I'd love to!
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -105076,7 +109133,9 @@ script 212 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Sorry,too busy"
+	"""
+	Sorry,too busy
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -105090,7 +109149,9 @@ script 212 mmbn3 {
 }
 script 220 mmbn3 {
 	msgOpen
-	"DNN's official boat."
+	"""
+	DNN's official boat.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -105177,7 +109238,9 @@ script 223 mmbn3 {
 	printItem
 		buffer = 0
 		item = 96
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -105274,7 +109337,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = NetbattlerQ
 	msgOpen
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	end
 }
@@ -105303,7 +109368,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = BlackMan
 	msgOpen
-	"Grrr…"
+	"""
+	Grrr…
+	"""
 	keyWait
 	end
 }
@@ -105329,7 +109396,9 @@ script 13 mmbn3 {
 	printItem
 		buffer = 0
 		item = 18
-	"\"…"
+	"""
+	"…
+	"""
 	keyWait
 	end
 }
@@ -105361,7 +109430,9 @@ script 16 mmbn3 {
 	mugshotShow
 		mugshot = NetbattlerQ
 	msgOpen
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	end
 }
@@ -105407,7 +109478,9 @@ script 20 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Sure "
+	"""
+	Sure 
+	"""
 	option
 		left = 0
 		right = 0
@@ -105415,7 +109488,9 @@ script 20 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No way"
+	"""
+	No way
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -105435,7 +109510,9 @@ script 20 mmbn3 {
 	printFolderName
 		buffer = 0
 		entry = 6
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	end
 }
@@ -105451,7 +109528,9 @@ script 21 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Here we go…"
+	"""
+	Here we go…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -105461,7 +109540,9 @@ script 21 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"…Just a bit more…"
+	"""
+	…Just a bit more…
+	"""
 	keyWait
 	clearMsg
 	soundPlay
@@ -105474,7 +109555,9 @@ script 21 mmbn3 {
 	printFolderName
 		buffer = 0
 		entry = 6
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	end
 }
@@ -105537,7 +109620,9 @@ script 23 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Wanna try it out?"
+	"""
+	Wanna try it out?
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -105548,7 +109633,9 @@ script 23 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Sure "
+	"""
+	Sure 
+	"""
 	option
 		left = 0
 		right = 0
@@ -105556,7 +109643,9 @@ script 23 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No thanks"
+	"""
+	No thanks
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -105582,7 +109671,9 @@ script 23 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"I'll be waiting!!"
+	"""
+	I'll be waiting!!
+	"""
 	keyWait
 	end
 }
@@ -105599,22 +109690,34 @@ script 24 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"Now!"
+	"""
+	Now!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -105658,7 +109761,9 @@ script 24 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"The \""
+	"""
+	The "
+	"""
 	printFolderName
 		buffer = 0
 		entry = 5
@@ -105709,7 +109814,10 @@ script 26 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Wanna hear about it?\n"
+	"""
+	Wanna hear about it?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -105717,7 +109825,9 @@ script 26 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Sure "
+	"""
+	Sure 
+	"""
 	option
 		left = 0
 		right = 0
@@ -105725,7 +109835,9 @@ script 26 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -105794,7 +109906,9 @@ script 27 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Know what it is now?"
+	"""
+	Know what it is now?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -105810,16 +109924,24 @@ script 27 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Whew! "
+	"""
+	Whew! 
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -105852,7 +109974,9 @@ script 50 mmbn3 {
 	mugshotShow
 		mugshot = Scientist
 	msgOpen
-	"Want an \""
+	"""
+	Want an "
+	"""
 	printFolderName
 		buffer = 0
 		entry = 6
@@ -105884,7 +110008,9 @@ script 50 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -105892,7 +110018,9 @@ script 50 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No thanks"
+	"""
+	No thanks
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -105923,11 +110051,15 @@ script 51 mmbn3 {
 	mugshotShow
 		mugshot = ZooMan
 	msgOpen
-	"Want my \""
+	"""
+	Want my "
+	"""
 	printFolderName
 		buffer = 0
 		entry = 5
-	"\"?"
+	"""
+	"?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -105945,7 +110077,9 @@ script 51 mmbn3 {
 	printFolderName
 		buffer = 0
 		entry = 5
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -105956,7 +110090,9 @@ script 51 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -105964,7 +110100,9 @@ script 51 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No thanks"
+	"""
+	No thanks
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -105991,7 +110129,9 @@ script 51 mmbn3 {
 	printFolderName
 		buffer = 0
 		entry = 5
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	end
 }
@@ -105999,11 +110139,15 @@ script 52 mmbn3 {
 	mugshotShow
 		mugshot = CapBoy
 	msgOpen
-	"Want my \""
+	"""
+	Want my "
+	"""
 	printFolderName
 		buffer = 0
 		entry = 4
-	"\"?"
+	"""
+	"?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -106019,7 +110163,9 @@ script 52 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Interested?"
+	"""
+	Interested?
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -106030,7 +110176,9 @@ script 52 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -106038,7 +110186,9 @@ script 52 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No thanks"
+	"""
+	No thanks
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -106063,11 +110213,15 @@ script 53 mmbn3 {
 	mugshotShow
 		mugshot = SciLabMan
 	msgOpen
-	"Need my \""
+	"""
+	Need my "
+	"""
 	printFolderName
 		buffer = 0
 		entry = 3
-	"\"?"
+	"""
+	"?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -106098,7 +110252,9 @@ script 53 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -106106,7 +110262,9 @@ script 53 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No thanks"
+	"""
+	No thanks
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -106137,7 +110295,9 @@ script 54 mmbn3 {
 	printFolderName
 		buffer = 0
 		entry = 7
-	"\"?"
+	"""
+	"?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -106166,7 +110326,9 @@ script 54 mmbn3 {
 	printFolderName
 		buffer = 0
 		entry = 7
-	"\"?"
+	"""
+	"?
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -106177,7 +110339,9 @@ script 54 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -106185,7 +110349,9 @@ script 54 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No thanks"
+	"""
+	No thanks
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -106206,7 +110372,9 @@ script 54 mmbn3 {
 	printFolderName
 		buffer = 0
 		entry = 7
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	end
 }
@@ -106224,7 +110392,9 @@ script 55 mmbn3 {
 	clearMsg
 	soundPlay
 		track = 220
-	"Good! That's done!"
+	"""
+	Good! That's done!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -106234,7 +110404,9 @@ script 55 mmbn3 {
 	printFolderName
 		buffer = 0
 		entry = 6
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	end
 }
@@ -106251,15 +110423,21 @@ script 56 mmbn3 {
 	printFolderName
 		buffer = 0
 		entry = 5
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	clearMsg
-	"OK!"
+	"""
+	OK!
+	"""
 	keyWait
 	clearMsg
 	soundPlay
 		track = 220
-	"And… finished!"
+	"""
+	And… finished!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -106269,7 +110447,9 @@ script 56 mmbn3 {
 	printFolderName
 		buffer = 0
 		entry = 5
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	end
 }
@@ -106279,7 +110459,9 @@ script 57 mmbn3 {
 	mugshotShow
 		mugshot = CapBoy
 	msgOpen
-	"Start \""
+	"""
+	Start "
+	"""
 	printFolderName
 		buffer = 0
 		entry = 4
@@ -106291,10 +110473,14 @@ script 57 mmbn3 {
 	clearMsg
 	soundPlay
 		track = 220
-	"…Zap!!"
+	"""
+	…Zap!!
+	"""
 	keyWait
 	clearMsg
-	"Finished. Ta-daaa!!"
+	"""
+	Finished. Ta-daaa!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -106304,7 +110490,9 @@ script 57 mmbn3 {
 	printFolderName
 		buffer = 0
 		entry = 4
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	end
 }
@@ -106329,7 +110517,9 @@ script 58 mmbn3 {
 	clearMsg
 	soundPlay
 		track = 220
-	"Transfer complete!"
+	"""
+	Transfer complete!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -106340,7 +110530,9 @@ script 58 mmbn3 {
 	printFolderName
 		buffer = 0
 		entry = 3
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	end
 }
@@ -106358,7 +110550,9 @@ script 59 mmbn3 {
 	printFolderName
 		buffer = 0
 		entry = 7
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	clearMsg
 	soundPlay
@@ -106376,7 +110570,9 @@ script 59 mmbn3 {
 	printFolderName
 		buffer = 0
 		entry = 7
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	end
 }
@@ -106388,7 +110584,9 @@ script 190 mmbn3 {
 	mugshotShow
 		mugshot = Scientist
 	msgOpen
-	"Ah! You're here!"
+	"""
+	Ah! You're here!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -106452,7 +110650,9 @@ script 190 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -106460,7 +110660,9 @@ script 190 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -106616,7 +110818,9 @@ script 190 mmbn3 {
 	mugshotShow
 		mugshot = BlackWoman
 	msgOpen
-	"Oh! You're that kid!"
+	"""
+	Oh! You're that kid!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -106660,18 +110864,26 @@ script 190 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 208
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = Z
-	"\" for"
+	"""
+	" for
+	"""
 	keyWait
 	clearMsg
-	"your \""
+	"""
+	your "
+	"""
 	printChip
 		buffer = 0
 		chip = 136
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = K
@@ -106689,7 +110901,9 @@ script 190 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes! "
+	"""
+	Yes! 
+	"""
 	option
 		left = 0
 		right = 0
@@ -106697,7 +110911,9 @@ script 190 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -106753,11 +110969,15 @@ script 192 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 208
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = Z
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -106836,11 +111056,15 @@ script 197 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"My \""
+	"""
+	My "
+	"""
 	printChip
 		buffer = 0
 		chip = 208
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = Z
@@ -106851,7 +111075,9 @@ script 197 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 136
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = K
@@ -106869,7 +111095,9 @@ script 197 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Right! "
+	"""
+	Right! 
+	"""
 	option
 		left = 0
 		right = 0
@@ -106877,7 +111105,9 @@ script 197 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Wrong!"
+	"""
+	Wrong!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -106891,7 +111121,9 @@ script 197 mmbn3 {
 }
 script 220 mmbn3 {
 	msgOpen
-	"Ouch!"
+	"""
+	Ouch!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -106983,7 +111215,9 @@ script 70 mmbn3 {
 	mugshotShow
 		mugshot = Chaud
 	msgOpen
-	"Hmmph. So you came…"
+	"""
+	Hmmph. So you came…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -107005,7 +111239,9 @@ script 71 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -107013,7 +111249,10 @@ script 71 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No\n"
+	"""
+	No
+	
+	"""
 	select
 		default = 1
 		BSeparate = false
@@ -107218,7 +111457,9 @@ script 85 mmbn3 {
 	mugshotShow
 		mugshot = Chaud
 	msgOpen
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	end
 }
@@ -107358,7 +111599,9 @@ script 224 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -107366,7 +111609,9 @@ script 224 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -107393,7 +111638,9 @@ script 225 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -107401,7 +111648,9 @@ script 225 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -107604,18 +111853,26 @@ script 17 mmbn3 {
 	"""
 	mugshotAnimate
 		animation = 0
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
 	mugshotAnimate
 		animation = 1
-	" Agh!"
+	"""
+	 Agh!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -107659,7 +111916,9 @@ script 20 mmbn3 {
 	mugshotShow
 		mugshot = Woman
 	msgOpen
-	"Listen,listen!"
+	"""
+	Listen,listen!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -107798,7 +112057,9 @@ script 36 mmbn3 {
 	mugshotShow
 		mugshot = Nurse
 	msgOpen
-	"…???"
+	"""
+	…???
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -107890,7 +112151,9 @@ script 52 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"I can't stand it…"
+	"""
+	I can't stand it…
+	"""
 	keyWait
 	end
 }
@@ -107947,7 +112210,9 @@ script 190 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Here! Take this!"
+	"""
+	Here! Take this!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -107969,7 +112234,9 @@ script 191 mmbn3 {
 	printItem
 		buffer = 0
 		item = 77
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -108028,7 +112295,9 @@ script 220 mmbn3 {
 	printItem
 		buffer = 0
 		item = 99
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -108059,7 +112328,9 @@ script 221 mmbn3 {
 }
 script 222 mmbn3 {
 	msgOpen
-	"ER information desk."
+	"""
+	ER information desk.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -108270,10 +112541,14 @@ script 2 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = Nurse
-	"Yes,but…"
+	"""
+	Yes,but…
+	"""
 	keyWait
 	clearMsg
-	"…"
+	"""
+	…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -108304,7 +112579,9 @@ script 2 mmbn3 {
 	printItem
 		buffer = 0
 		item = 23
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -108322,7 +112599,9 @@ script 3 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Please,do your best!"
+	"""
+	Please,do your best!
+	"""
 	keyWait
 	end
 }
@@ -108349,7 +112628,9 @@ script 5 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Thank you so much!"
+	"""
+	Thank you so much!
+	"""
 	keyWait
 	end
 }
@@ -108432,7 +112713,9 @@ script 20 mmbn3 {
 	mugshotShow
 		mugshot = PigtailsGirl
 	msgOpen
-	"Let's play!"
+	"""
+	Let's play!
+	"""
 	keyWait
 	end
 }
@@ -108717,7 +113000,9 @@ script 47 mmbn3 {
 	mugshotShow
 		mugshot = Man
 	msgOpen
-	"Mother!"
+	"""
+	Mother!
+	"""
 	keyWait
 	end
 }
@@ -109173,7 +113458,9 @@ script 91 mmbn3 {
 	mugshotShow
 		mugshot = Girl
 	msgOpen
-	"I want to go home…"
+	"""
+	I want to go home…
+	"""
 	keyWait
 	end
 }
@@ -109292,11 +113579,15 @@ script 200 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 46
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = V
-	"\"?"
+	"""
+	"?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -109307,11 +113598,15 @@ script 200 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 136
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = K
-	"\"…?"
+	"""
+	"…?
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -109322,7 +113617,9 @@ script 200 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"OK "
+	"""
+	OK 
+	"""
 	option
 		left = 0
 		right = 0
@@ -109330,7 +113627,9 @@ script 200 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No thanks!"
+	"""
+	No thanks!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -109385,11 +113684,15 @@ script 202 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 136
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = K
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	playerFinish
 	playerReset
@@ -109456,7 +113759,9 @@ script 206 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Ah,thank goodness."
+	"""
+	Ah,thank goodness.
+	"""
 	keyWait
 	end
 }
@@ -109478,7 +113783,9 @@ script 207 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 136
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = K
@@ -109489,11 +113796,15 @@ script 207 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 46
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = V
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -109504,7 +113815,9 @@ script 207 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"OK "
+	"""
+	OK 
+	"""
 	option
 		left = 0
 		right = 0
@@ -109512,7 +113825,9 @@ script 207 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No thanks!"
+	"""
+	No thanks!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -109565,11 +113880,15 @@ script 220 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 138
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = *
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -109601,7 +113920,9 @@ script 222 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -109609,7 +113930,9 @@ script 222 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -109642,7 +113965,9 @@ script 223 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"3rd Flr  "
+	"""
+	3rd Flr  
+	"""
 	option
 		left = 0
 		right = 0
@@ -109650,7 +113975,10 @@ script 223 mmbn3 {
 		down = 3
 	space
 		count = 2
-	"2nd Flr\n"
+	"""
+	2nd Flr
+	
+	"""
 	option
 		left = 3
 		right = 3
@@ -109658,7 +113986,9 @@ script 223 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Basement "
+	"""
+	Basement 
+	"""
 	option
 		left = 2
 		right = 2
@@ -109666,7 +113996,9 @@ script 223 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Nowhere"
+	"""
+	Nowhere
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -109761,13 +114093,19 @@ script 227 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -109886,7 +114224,9 @@ script 236 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"3rd Flr "
+	"""
+	3rd Flr 
+	"""
 	option
 		left = 0
 		right = 0
@@ -109894,7 +114234,10 @@ script 236 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"2nd Flr\n"
+	"""
+	2nd Flr
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -109902,7 +114245,9 @@ script 236 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Nowhere"
+	"""
+	Nowhere
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -109938,7 +114283,9 @@ script 237 mmbn3 {
 }
 script 238 mmbn3 {
 	msgOpen
-	"An emergency exit."
+	"""
+	An emergency exit.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -109959,7 +114306,9 @@ script 240 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan,which floor?"
+	"""
+	Lan,which floor?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -109994,7 +114343,9 @@ script 242 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"3rd Flr "
+	"""
+	3rd Flr 
+	"""
 	option
 		left = 0
 		right = 0
@@ -110002,7 +114353,10 @@ script 242 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"2nd Flr\n"
+	"""
+	2nd Flr
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -110010,7 +114364,9 @@ script 242 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Nowhere"
+	"""
+	Nowhere
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -110587,11 +114943,15 @@ script 193 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 40
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = Q
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -110718,7 +115078,9 @@ script 225 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -110726,7 +115088,9 @@ script 225 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -110759,7 +115123,9 @@ script 226 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"3rd Flr  "
+	"""
+	3rd Flr  
+	"""
 	option
 		left = 0
 		right = 0
@@ -110767,7 +115133,10 @@ script 226 mmbn3 {
 		down = 3
 	space
 		count = 2
-	"1st Flr\n"
+	"""
+	1st Flr
+	
+	"""
 	option
 		left = 3
 		right = 3
@@ -110775,7 +115144,9 @@ script 226 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Basement "
+	"""
+	Basement 
+	"""
 	option
 		left = 2
 		right = 2
@@ -110783,7 +115154,9 @@ script 226 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Nowhere"
+	"""
+	Nowhere
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -110852,7 +115225,9 @@ script 232 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"3rd Flr "
+	"""
+	3rd Flr 
+	"""
 	option
 		left = 0
 		right = 0
@@ -110860,7 +115235,10 @@ script 232 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"1st Flr\n"
+	"""
+	1st Flr
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -110868,7 +115246,9 @@ script 232 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Nowhere"
+	"""
+	Nowhere
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -110901,7 +115281,9 @@ script 235 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan,which floor?"
+	"""
+	Lan,which floor?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -110936,7 +115318,9 @@ script 237 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"3rd Flr "
+	"""
+	3rd Flr 
+	"""
 	option
 		left = 0
 		right = 0
@@ -110944,7 +115328,10 @@ script 237 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"1st Flr\n"
+	"""
+	1st Flr
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -110952,7 +115339,9 @@ script 237 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Nowhere"
+	"""
+	Nowhere
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -111099,7 +115488,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Mamoru
 	msgOpen
-	"Uuuugh… Uuuugh…"
+	"""
+	Uuuugh… Uuuugh…
+	"""
 	keyWait
 	end
 }
@@ -111128,7 +115519,9 @@ script 5 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = Lan
-	"Sure. No problem!"
+	"""
+	Sure. No problem!
+	"""
 	keyWait
 	end
 }
@@ -111138,7 +115531,9 @@ script 6 mmbn3 {
 	mugshotPalette
 		palette = 2
 	msgOpen
-	"Thanks for coming."
+	"""
+	Thanks for coming.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -111219,7 +115614,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -111271,7 +115668,9 @@ script 12 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = Lan
-	"Wow! That's great!!"
+	"""
+	Wow! That's great!!
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -111319,7 +115718,9 @@ script 12 mmbn3 {
 	printItem
 		buffer = 0
 		item = 84
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -111390,7 +115791,9 @@ script 20 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"But don't overdo it."
+	"""
+	But don't overdo it.
+	"""
 	keyWait
 	end
 }
@@ -111398,7 +115801,9 @@ script 21 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan! You got mail!"
+	"""
+	Lan! You got mail!
+	"""
 	keyWait
 	end
 }
@@ -111438,13 +115843,19 @@ script 31 mmbn3 {
 	mugshotShow
 		mugshot = Scientist
 	msgOpen
-	"Hmm. ."
+	"""
+	Hmm. .
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
 	"""
@@ -111523,13 +115934,19 @@ script 55 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 40
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 40
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 40
 	keyWait
@@ -111540,18 +115957,26 @@ script 55 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 40
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 40
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 40
 	keyWait
 	clearMsg
-	"Okay,3 more…"
+	"""
+	Okay,3 more…
+	"""
 	keyWait
 	end
 }
@@ -111565,7 +115990,9 @@ script 190 mmbn3 {
 	mugshotShow
 		mugshot = OldMan
 	msgOpen
-	"Huh? A condor…?"
+	"""
+	Huh? A condor…?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -111600,7 +116027,9 @@ script 191 mmbn3 {
 	printItem
 		buffer = 0
 		item = 46
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	playerFinish
 	playerReset
@@ -111810,7 +116239,9 @@ script 227 mmbn3 {
 	printItem
 		buffer = 0
 		item = 33
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -111956,7 +116387,9 @@ script 234 mmbn3 {
 	printItem
 		buffer = 0
 		item = 37
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -111964,17 +116397,23 @@ script 234 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = Lan
-	"It's a letter…"
+	"""
+	It's a letter…
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
 		mugshot = MegaMan
-	"What's it say?"
+	"""
+	What's it say?
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
 		mugshot = Lan
-	"Let's see…"
+	"""
+	Let's see…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -111990,13 +116429,19 @@ script 234 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	".!"
+	"""
+	.!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -112047,10 +116492,14 @@ script 0 mmbn3 {
 	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
 	keyWait
@@ -112524,7 +116973,9 @@ script 90 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Hey!"
+	"""
+	Hey!
+	"""
 	keyWait
 	end
 }
@@ -112596,7 +117047,10 @@ script 190 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"I'd love to!\n"
+	"""
+	I'd love to!
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -112604,7 +117058,9 @@ script 190 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Sorry,too busy"
+	"""
+	Sorry,too busy
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -112641,7 +117097,10 @@ script 191 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"A shadow\n"
+	"""
+	A shadow
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -112649,7 +117108,10 @@ script 191 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"A star\n"
+	"""
+	A star
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -112657,7 +117119,9 @@ script 191 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"A person"
+	"""
+	A person
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -112698,7 +117162,10 @@ script 192 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Pie\n"
+	"""
+	Pie
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -112706,7 +117173,10 @@ script 192 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"Pi\n"
+	"""
+	Pi
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -112714,7 +117184,9 @@ script 192 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Pye"
+	"""
+	Pye
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -112756,7 +117228,10 @@ script 193 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Sneakers\n"
+	"""
+	Sneakers
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -112764,7 +117239,10 @@ script 193 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"Shoes\n"
+	"""
+	Shoes
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -112772,7 +117250,9 @@ script 193 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Slippers"
+	"""
+	Slippers
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -112815,7 +117295,10 @@ script 194 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"A mountain\n"
+	"""
+	A mountain
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -112823,7 +117306,10 @@ script 194 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"New York\n"
+	"""
+	New York
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -112831,7 +117317,9 @@ script 194 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Ohio"
+	"""
+	Ohio
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -112873,7 +117361,10 @@ script 195 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Your birthday\n"
+	"""
+	Your birthday
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -112881,7 +117372,10 @@ script 195 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"Your age\n"
+	"""
+	Your age
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -112889,7 +117383,9 @@ script 195 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"A kite"
+	"""
+	A kite
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -112931,7 +117427,10 @@ script 196 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Fiji\n"
+	"""
+	Fiji
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -112939,7 +117438,10 @@ script 196 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"Japan\n"
+	"""
+	Japan
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -112947,7 +117449,9 @@ script 196 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Korea"
+	"""
+	Korea
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -112969,7 +117473,9 @@ script 197 mmbn3 {
 		mugshot = PigtailsGirl
 	msgOpen
 	soundDisableChoiceSFX
-	"Very good!"
+	"""
+	Very good!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -112992,7 +117498,10 @@ script 197 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"A mutton\n"
+	"""
+	A mutton
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -113000,7 +117509,10 @@ script 197 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"A lamb\n"
+	"""
+	A lamb
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -113008,7 +117520,9 @@ script 197 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"A glutton"
+	"""
+	A glutton
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -113051,7 +117565,10 @@ script 198 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Gretchen\n"
+	"""
+	Gretchen
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -113059,7 +117576,10 @@ script 198 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"Petel\n"
+	"""
+	Petel
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -113067,7 +117587,9 @@ script 198 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Gretel"
+	"""
+	Gretel
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -113110,7 +117632,10 @@ script 199 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Jupiter\n"
+	"""
+	Jupiter
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -113118,7 +117643,10 @@ script 199 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"Earth\n"
+	"""
+	Earth
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -113126,7 +117654,9 @@ script 199 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Pluto"
+	"""
+	Pluto
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -113168,7 +117698,10 @@ script 200 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"A dolphin\n"
+	"""
+	A dolphin
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -113176,7 +117709,10 @@ script 200 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"A bat\n"
+	"""
+	A bat
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -113184,7 +117720,9 @@ script 200 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"A snake"
+	"""
+	A snake
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -113205,7 +117743,9 @@ script 201 mmbn3 {
 	mugshotShow
 		mugshot = PigtailsGirl
 	msgOpen
-	"All correct!!"
+	"""
+	All correct!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -113214,7 +117754,9 @@ script 201 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Here's your prize!"
+	"""
+	Here's your prize!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -113239,11 +117781,15 @@ script 202 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 175
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = E
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -113284,7 +117830,9 @@ script 205 mmbn3 {
 		track = 280
 	waitSkip
 		frames = 40
-	"No,no! Wrong!"
+	"""
+	No,no! Wrong!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -113344,7 +117892,10 @@ script 207 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"I'd love to!\n"
+	"""
+	I'd love to!
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -113352,7 +117903,9 @@ script 207 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Sorry,too busy"
+	"""
+	Sorry,too busy
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -113438,7 +117991,9 @@ script 222 mmbn3 {
 	printItem
 		buffer = 0
 		item = 96
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -113456,7 +118011,9 @@ script 223 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"You can jack in here!"
+	"""
+	You can jack in here!
+	"""
 	keyWait
 	end
 }
@@ -113486,7 +118043,9 @@ script 225 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -113494,7 +118053,9 @@ script 225 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -113527,7 +118088,9 @@ script 226 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"2nd Flr  "
+	"""
+	2nd Flr  
+	"""
 	option
 		left = 0
 		right = 0
@@ -113535,7 +118098,10 @@ script 226 mmbn3 {
 		down = 3
 	space
 		count = 2
-	"1st Flr\n"
+	"""
+	1st Flr
+	
+	"""
 	option
 		left = 3
 		right = 3
@@ -113543,7 +118109,9 @@ script 226 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Basement "
+	"""
+	Basement 
+	"""
 	option
 		left = 2
 		right = 2
@@ -113551,7 +118119,9 @@ script 226 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Nowhere"
+	"""
+	Nowhere
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -113646,7 +118216,9 @@ script 234 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"2nd Flr "
+	"""
+	2nd Flr 
+	"""
 	option
 		left = 0
 		right = 0
@@ -113654,7 +118226,10 @@ script 234 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"1st Flr\n"
+	"""
+	1st Flr
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -113662,7 +118237,9 @@ script 234 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Nowhere"
+	"""
+	Nowhere
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -113699,7 +118276,9 @@ script 235 mmbn3 {
 }
 script 236 mmbn3 {
 	msgOpen
-	"It's locked."
+	"""
+	It's locked.
+	"""
 	keyWait
 	end
 }
@@ -113713,7 +118292,9 @@ script 238 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan,which floor?"
+	"""
+	Lan,which floor?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -113727,7 +118308,9 @@ script 239 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"2nd Flr "
+	"""
+	2nd Flr 
+	"""
 	option
 		left = 0
 		right = 0
@@ -113735,7 +118318,10 @@ script 239 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"1st Flr\n"
+	"""
+	1st Flr
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -113743,7 +118329,9 @@ script 239 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Nowhere"
+	"""
+	Nowhere
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -113830,7 +118418,9 @@ script 190 mmbn3 {
 	mugshotShow
 		mugshot = CloakedNavi
 	msgOpen
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -113860,11 +118450,15 @@ script 191 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 213
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = G
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -113875,7 +118469,9 @@ script 192 mmbn3 {
 	mugshotShow
 		mugshot = CloakedNavi
 	msgOpen
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	end
 }
@@ -113909,7 +118505,9 @@ script 221 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -113917,7 +118515,9 @@ script 221 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -113950,7 +118550,9 @@ script 222 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"3rd Flr "
+	"""
+	3rd Flr 
+	"""
 	option
 		left = 0
 		right = 0
@@ -113958,7 +118560,10 @@ script 222 mmbn3 {
 		down = 3
 	space
 		count = 2
-	"2nd Flr\n"
+	"""
+	2nd Flr
+	
+	"""
 	option
 		left = 3
 		right = 3
@@ -113966,7 +118571,9 @@ script 222 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"1st Flr "
+	"""
+	1st Flr 
+	"""
 	option
 		left = 2
 		right = 2
@@ -113974,7 +118581,9 @@ script 222 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Nowhere"
+	"""
+	Nowhere
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -114073,19 +118682,25 @@ script 229 mmbn3 {
 
 script 220 mmbn3 {
 	msgOpen
-	"A copy machine."
+	"""
+	A copy machine.
+	"""
 	keyWait
 	end
 }
 script 221 mmbn3 {
 	msgOpen
-	"A cardboard box."
+	"""
+	A cardboard box.
+	"""
 	keyWait
 	end
 }
 script 222 mmbn3 {
 	msgOpen
-	"A network hub."
+	"""
+	A network hub.
+	"""
 	keyWait
 	end
 }
@@ -114100,19 +118715,25 @@ script 223 mmbn3 {
 }
 script 224 mmbn3 {
 	msgOpen
-	"A desktop computer."
+	"""
+	A desktop computer.
+	"""
 	keyWait
 	end
 }
 script 225 mmbn3 {
 	msgOpen
-	"A laptop computer."
+	"""
+	A laptop computer.
+	"""
 	keyWait
 	end
 }
 script 226 mmbn3 {
 	msgOpen
-	"A chair."
+	"""
+	A chair.
+	"""
 	keyWait
 	end
 }
@@ -114161,7 +118782,9 @@ script 1 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -114169,7 +118792,10 @@ script 1 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No\n"
+	"""
+	No
+	
+	"""
 	select
 		default = 1
 		BSeparate = false
@@ -114210,7 +118836,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"C'mon,you chicken!"
+	"""
+	C'mon,you chicken!
+	"""
 	keyWait
 	end
 }
@@ -114369,7 +118997,9 @@ script 15 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	end
 }
@@ -114441,7 +119071,9 @@ script 22 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -114449,7 +119081,10 @@ script 22 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No\n"
+	"""
+	No
+	
+	"""
 	select
 		default = 1
 		BSeparate = false
@@ -114661,7 +119296,9 @@ script 36 mmbn3 {
 	mugshotShow
 		mugshot = Tora
 	msgOpen
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	end
 }
@@ -114745,7 +119382,9 @@ script 55 mmbn3 {
 	mugshotShow
 		mugshot = Chaud
 	msgOpen
-	"We'd better hurry!"
+	"""
+	We'd better hurry!
+	"""
 	keyWait
 	end
 }
@@ -114812,7 +119451,9 @@ script 222 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -114820,7 +119461,9 @@ script 222 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -114850,7 +119493,9 @@ script 223 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -114858,7 +119503,9 @@ script 223 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -114885,7 +119532,9 @@ script 224 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -114893,7 +119542,9 @@ script 224 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -114925,7 +119576,9 @@ script 225 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -114933,7 +119586,9 @@ script 225 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -115112,7 +119767,9 @@ script 1 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Let's keep moving."
+	"""
+	Let's keep moving.
+	"""
 	keyWait
 	end
 }
@@ -115154,7 +119811,9 @@ script 223 mmbn3 {
 		jumpIfTrue = 234
 		jumpIfFalse = continue
 	msgOpen
-	"A statue of Wily."
+	"""
+	A statue of Wily.
+	"""
 	keyWait
 	end
 }
@@ -115241,11 +119900,15 @@ script 229 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 81
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = V
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -115280,7 +119943,9 @@ script 232 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -115288,7 +119953,9 @@ script 232 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -115320,7 +119987,9 @@ script 233 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -115328,7 +119997,9 @@ script 233 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -115361,7 +120032,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = Chaud
 	msgOpen
-	"What IS this thing?"
+	"""
+	What IS this thing?
+	"""
 	keyWait
 	end
 }
@@ -115481,7 +120154,9 @@ script 222 mmbn3 {
 	printItem
 		buffer = 0
 		item = 99
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -115512,7 +120187,9 @@ script 223 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -115520,7 +120197,9 @@ script 223 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -115555,7 +120234,9 @@ script 224 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -115563,7 +120244,9 @@ script 224 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -115624,7 +120307,9 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"At Hades Isle…"
+	"""
+	At Hades Isle…
+	"""
 	keyWait
 	end
 }
@@ -115702,7 +120387,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Sigh… It's so dark."
+	"""
+	Sigh… It's so dark.
+	"""
 	keyWait
 	end
 }
@@ -115830,7 +120517,9 @@ script 225 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"\"5-B: All present\""
+	"""
+	"5-B: All present"
+	"""
 	keyWait
 	end
 }
@@ -115843,7 +120532,9 @@ script 226 mmbn3 {
 	printItem
 		buffer = 0
 		item = 6
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	itemTake
 		item = 6
@@ -115863,7 +120554,9 @@ script 227 mmbn3 {
 	printItem
 		buffer = 0
 		item = 4
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	itemTake
 		item = 4
@@ -115883,7 +120576,9 @@ script 228 mmbn3 {
 	printItem
 		buffer = 0
 		item = 5
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	itemTake
 		item = 5
@@ -115902,10 +120597,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -115925,7 +120624,9 @@ script 230 mmbn3 {
 	printItem
 		buffer = 0
 		item = 4
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -115939,10 +120640,14 @@ script 231 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -115962,7 +120667,9 @@ script 231 mmbn3 {
 	printItem
 		buffer = 0
 		item = 5
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -115976,10 +120683,14 @@ script 232 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -115999,7 +120710,9 @@ script 232 mmbn3 {
 	printItem
 		buffer = 0
 		item = 6
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -116040,10 +120753,14 @@ script 236 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -116075,10 +120792,14 @@ script 237 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -116099,7 +120820,9 @@ script 237 mmbn3 {
 	printItem
 		buffer = 0
 		item = 98
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -116119,10 +120842,14 @@ script 238 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -116144,11 +120871,15 @@ script 238 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 121
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = *
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -116195,7 +120926,10 @@ script 240 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Press white\n"
+	"""
+	Press white
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -116203,7 +120937,10 @@ script 240 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"Press green\n"
+	"""
+	Press green
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -116211,7 +120948,9 @@ script 240 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Press red"
+	"""
+	Press red
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -116242,10 +120981,14 @@ script 242 mmbn3 {
 	flagSet
 		flag = 2733
 	msgOpen
-	"\"Shutting down.\""
+	"""
+	"Shutting down."
+	"""
 	keyWait
 	clearMsg
-	"Beep,beep,click!"
+	"""
+	Beep,beep,click!
+	"""
 	keyWait
 	end
 }
@@ -116325,10 +121068,14 @@ script 20 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -116407,10 +121154,14 @@ script 20 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"\"One of many birds.\""
+	"""
+	"One of many birds."
+	"""
 	keyWait
 	clearMsg
-	"Go now,and find it…"
+	"""
+	Go now,and find it…
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -116467,7 +121218,9 @@ script 24 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan! You got mail!"
+	"""
+	Lan! You got mail!
+	"""
 	keyWait
 	end
 }
@@ -116511,14 +121264,20 @@ script 220 mmbn3 {
 	printItem
 		buffer = 0
 		item = 8
-	",\""
+	"""
+	,"
+	"""
 	keyWait
 	clearMsg
-	"and \""
+	"""
+	and "
+	"""
 	printItem
 		buffer = 0
 		item = 9
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	itemTake
 		item = 7
@@ -116596,10 +121355,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -116619,7 +121382,9 @@ script 230 mmbn3 {
 	printItem
 		buffer = 0
 		item = 7
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -116633,10 +121398,14 @@ script 231 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -116656,7 +121425,9 @@ script 231 mmbn3 {
 	printItem
 		buffer = 0
 		item = 8
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -116670,10 +121441,14 @@ script 232 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -116693,7 +121468,9 @@ script 232 mmbn3 {
 	printItem
 		buffer = 0
 		item = 9
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -116734,10 +121511,14 @@ script 236 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -116769,10 +121550,14 @@ script 237 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -116794,11 +121579,15 @@ script 237 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 13
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = P
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -116812,10 +121601,14 @@ script 238 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -116836,7 +121629,9 @@ script 238 mmbn3 {
 	printItem
 		buffer = 0
 		item = 96
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -116876,7 +121671,10 @@ script 240 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Press steel\n"
+	"""
+	Press steel
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -116884,7 +121682,10 @@ script 240 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"Press silver\n"
+	"""
+	Press silver
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -116892,7 +121693,9 @@ script 240 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Press wooden"
+	"""
+	Press wooden
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -116923,10 +121726,14 @@ script 242 mmbn3 {
 	flagSet
 		flag = 2735
 	msgOpen
-	"\"Shutting down.\""
+	"""
+	"Shutting down."
+	"""
 	keyWait
 	clearMsg
-	"Beep,beep,click!"
+	"""
+	Beep,beep,click!
+	"""
 	keyWait
 	end
 }
@@ -116974,7 +121781,10 @@ script 244 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Press 0\n"
+	"""
+	Press 0
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -116982,7 +121792,10 @@ script 244 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"Press 1\n"
+	"""
+	Press 1
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -116990,7 +121803,9 @@ script 244 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Press 7"
+	"""
+	Press 7
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -117021,10 +121836,14 @@ script 246 mmbn3 {
 	flagSet
 		flag = 2734
 	msgOpen
-	"\"Shutting down.\""
+	"""
+	"Shutting down."
+	"""
 	keyWait
 	clearMsg
-	"Beep,beep,click!"
+	"""
+	Beep,beep,click!
+	"""
 	keyWait
 	end
 }
@@ -117049,7 +121868,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Meoooow,meooow!"
+	"""
+	Meoooow,meooow!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -117059,7 +121880,10 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Take it with you?\n"
+	"""
+	Take it with you?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -117067,7 +121891,10 @@ script 0 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Yes\n"
+	"""
+	Yes
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -117075,7 +121902,9 @@ script 0 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -117120,7 +121949,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Bow,woooow,wow!!"
+	"""
+	Bow,woooow,wow!!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -117130,7 +121961,10 @@ script 2 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Take it with you?\n"
+	"""
+	Take it with you?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -117138,7 +121972,10 @@ script 2 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Yes\n"
+	"""
+	Yes
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -117146,7 +121983,9 @@ script 2 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -117174,7 +122013,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Oink,oink!"
+	"""
+	Oink,oink!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -117184,7 +122025,10 @@ script 3 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Take it with you?\n"
+	"""
+	Take it with you?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -117192,7 +122036,10 @@ script 3 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Yes\n"
+	"""
+	Yes
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -117200,7 +122047,9 @@ script 3 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -117228,7 +122077,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Bzzzzwzzzzwzzzz."
+	"""
+	Bzzzzwzzzzwzzzz.
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -117238,7 +122089,10 @@ script 4 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Take it with you?\n"
+	"""
+	Take it with you?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -117246,7 +122100,10 @@ script 4 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Yes\n"
+	"""
+	Yes
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -117254,7 +122111,9 @@ script 4 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -117282,7 +122141,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Hsssss,hssssss!!"
+	"""
+	Hsssss,hssssss!!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -117292,7 +122153,10 @@ script 5 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Take it with you?\n"
+	"""
+	Take it with you?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -117300,7 +122164,10 @@ script 5 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Yes\n"
+	"""
+	Yes
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -117308,7 +122175,9 @@ script 5 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -117336,7 +122205,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Wriggle,wriggle."
+	"""
+	Wriggle,wriggle.
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -117346,7 +122217,10 @@ script 6 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Take it with you?\n"
+	"""
+	Take it with you?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -117354,7 +122228,10 @@ script 6 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Yes\n"
+	"""
+	Yes
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -117362,7 +122239,9 @@ script 6 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -117400,7 +122279,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Meeeow,meoooow!"
+	"""
+	Meeeow,meoooow!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -117415,7 +122296,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Woof!! Woof,woof!!"
+	"""
+	Woof!! Woof,woof!!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -117430,7 +122313,9 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Oink,oink,oink!!"
+	"""
+	Oink,oink,oink!!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -117517,7 +122402,9 @@ script 17 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Buzz,buzz,buzzzzz!"
+	"""
+	Buzz,buzz,buzzzzz!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -117532,7 +122419,9 @@ script 18 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Ssssss,sssssshhh!!"
+	"""
+	Ssssss,sssssshhh!!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -117547,7 +122436,9 @@ script 19 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Wiggle,wriggle."
+	"""
+	Wiggle,wriggle.
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -117572,7 +122463,9 @@ script 20 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -117580,7 +122473,9 @@ script 20 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -117609,7 +122504,9 @@ script 21 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -117617,7 +122514,9 @@ script 21 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -117646,7 +122545,9 @@ script 22 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -117654,7 +122555,9 @@ script 22 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -117683,7 +122586,9 @@ script 23 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -117691,7 +122596,9 @@ script 23 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -117720,7 +122627,9 @@ script 24 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -117728,7 +122637,9 @@ script 24 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -117757,7 +122668,9 @@ script 25 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -117765,7 +122678,9 @@ script 25 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -117827,11 +122742,15 @@ script 191 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 30
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = E
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -117870,7 +122789,9 @@ script 220 mmbn3 {
 		jumpIfTrue = 222
 		jumpIfFalse = continue
 	msgOpen
-	"Squeak! Squeak!!"
+	"""
+	Squeak! Squeak!!
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -117908,7 +122829,9 @@ script 221 mmbn3 {
 		jumpIfTrue = 223
 		jumpIfFalse = continue
 	msgOpen
-	"Ribbit! Ribbit!"
+	"""
+	Ribbit! Ribbit!
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -117948,11 +122871,15 @@ script 222 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Meow!!"
+	"""
+	Meow!!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
-	"Squeeeeeak!"
+	"""
+	Squeeeeeak!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -117981,11 +122908,15 @@ script 223 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Hssssss!!"
+	"""
+	Hssssss!!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
-	"Ribbit…!"
+	"""
+	Ribbit…!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -118033,10 +122964,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -118068,10 +123003,14 @@ script 231 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -118092,7 +123031,9 @@ script 231 mmbn3 {
 	printItem
 		buffer = 0
 		item = 96
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -118106,10 +123047,14 @@ script 232 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -118131,11 +123076,15 @@ script 232 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 138
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = D
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -118152,7 +123101,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Squeak! Squeak!"
+	"""
+	Squeak! Squeak!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -118162,7 +123113,10 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Take it with you?\n"
+	"""
+	Take it with you?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -118170,7 +123124,10 @@ script 0 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Yes\n"
+	"""
+	Yes
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -118178,7 +123135,9 @@ script 0 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -118231,7 +123190,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Munch,munch,munch…"
+	"""
+	Munch,munch,munch…
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -118241,7 +123202,10 @@ script 2 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Take it with you?\n"
+	"""
+	Take it with you?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -118249,7 +123213,10 @@ script 2 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Yes\n"
+	"""
+	Yes
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -118257,7 +123224,9 @@ script 2 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -118285,7 +123254,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Shuffle,shuffle…"
+	"""
+	Shuffle,shuffle…
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -118295,7 +123266,10 @@ script 3 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Take it with you?\n"
+	"""
+	Take it with you?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -118303,7 +123277,10 @@ script 3 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Yes\n"
+	"""
+	Yes
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -118311,7 +123288,9 @@ script 3 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -118339,7 +123318,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Banananananananana…"
+	"""
+	Banananananananana…
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -118349,7 +123330,10 @@ script 4 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Take it with you?\n"
+	"""
+	Take it with you?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -118357,7 +123341,10 @@ script 4 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Yes\n"
+	"""
+	Yes
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -118365,7 +123352,9 @@ script 4 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -118393,7 +123382,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Roast,roast…"
+	"""
+	Roast,roast…
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -118403,7 +123394,10 @@ script 5 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Take it with you?\n"
+	"""
+	Take it with you?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -118411,7 +123405,10 @@ script 5 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Yes\n"
+	"""
+	Yes
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -118419,7 +123416,9 @@ script 5 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -118447,7 +123446,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Cocococococococo…"
+	"""
+	Cocococococococo…
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -118457,7 +123458,10 @@ script 6 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Take it with you?\n"
+	"""
+	Take it with you?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -118465,7 +123469,10 @@ script 6 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Yes\n"
+	"""
+	Yes
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -118473,7 +123480,9 @@ script 6 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -118501,7 +123510,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Ricericericerice…"
+	"""
+	Ricericericerice…
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -118512,7 +123523,10 @@ script 7 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Take it with you?\n"
+	"""
+	Take it with you?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -118520,7 +123534,10 @@ script 7 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Yes\n"
+	"""
+	Yes
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -118528,7 +123545,9 @@ script 7 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -118556,7 +123575,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Bounce,bounce…"
+	"""
+	Bounce,bounce…
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -118567,7 +123588,10 @@ script 8 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Take it with you?\n"
+	"""
+	Take it with you?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -118575,7 +123599,10 @@ script 8 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Yes\n"
+	"""
+	Yes
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -118583,7 +123610,9 @@ script 8 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -118611,7 +123640,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Splish,splash!"
+	"""
+	Splish,splash!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -118621,7 +123652,10 @@ script 9 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Take it with you?\n"
+	"""
+	Take it with you?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -118629,7 +123663,10 @@ script 9 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Yes\n"
+	"""
+	Yes
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -118637,7 +123674,9 @@ script 9 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -118665,7 +123704,9 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Urk! Urk!"
+	"""
+	Urk! Urk!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -118675,7 +123716,10 @@ script 10 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Take it with you?\n"
+	"""
+	Take it with you?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -118683,7 +123727,10 @@ script 10 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Yes\n"
+	"""
+	Yes
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -118691,7 +123738,9 @@ script 10 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -118715,7 +123764,9 @@ script 13 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Sqweeek… Sqweeek…"
+	"""
+	Sqweeek… Sqweeek…
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -118730,7 +123781,9 @@ script 14 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Shuffle,shuffle…"
+	"""
+	Shuffle,shuffle…
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -118745,7 +123798,9 @@ script 15 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Munch,munch…"
+	"""
+	Munch,munch…
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -118774,7 +123829,9 @@ script 17 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Munch,munch…"
+	"""
+	Munch,munch…
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -118789,7 +123846,9 @@ script 18 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Boing,boing…"
+	"""
+	Boing,boing…
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -118804,7 +123863,9 @@ script 19 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Splash,splosh!"
+	"""
+	Splash,splosh!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -118819,7 +123880,9 @@ script 20 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Urk,urk,urk!"
+	"""
+	Urk,urk,urk!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -118964,7 +124027,9 @@ script 31 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -118972,7 +124037,9 @@ script 31 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -119001,7 +124068,9 @@ script 32 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -119009,7 +124078,9 @@ script 32 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -119038,7 +124109,9 @@ script 33 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -119046,7 +124119,9 @@ script 33 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -119075,7 +124150,9 @@ script 34 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -119083,7 +124160,9 @@ script 34 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -119112,7 +124191,9 @@ script 35 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -119120,7 +124201,9 @@ script 35 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -119149,7 +124232,9 @@ script 36 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -119157,7 +124242,9 @@ script 36 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -119186,7 +124273,9 @@ script 37 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -119194,7 +124283,9 @@ script 37 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -119223,7 +124314,9 @@ script 38 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -119231,7 +124324,9 @@ script 38 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -119260,7 +124355,9 @@ script 39 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -119268,7 +124365,9 @@ script 39 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -119297,7 +124396,9 @@ script 40 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -119305,7 +124406,9 @@ script 40 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -119327,7 +124430,9 @@ script 42 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Bananana,banananana…"
+	"""
+	Bananana,banananana…
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -119342,7 +124447,9 @@ script 43 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Bang,bang,crack…"
+	"""
+	Bang,bang,crack…
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -119358,7 +124465,9 @@ script 44 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Cococo,coco,cococo…"
+	"""
+	Cococo,coco,cococo…
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -119374,7 +124483,9 @@ script 45 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Ricericerice…"
+	"""
+	Ricericerice…
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -119389,7 +124500,9 @@ script 60 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan! You got mail!!"
+	"""
+	Lan! You got mail!!
+	"""
 	keyWait
 	end
 }
@@ -119443,11 +124556,15 @@ script 191 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 31
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = E
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -119485,7 +124602,9 @@ script 220 mmbn3 {
 		jumpIfTrue = 224
 		jumpIfFalse = continue
 	msgOpen
-	"Ook ook ook!"
+	"""
+	Ook ook ook!
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -119522,7 +124641,9 @@ script 221 mmbn3 {
 		jumpIfTrue = 225
 		jumpIfFalse = continue
 	msgOpen
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -119534,7 +124655,9 @@ script 221 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"What should we do…?"
+	"""
+	What should we do…?
+	"""
 	keyWait
 	flagSet
 		flag = 1134
@@ -119552,7 +124675,9 @@ script 222 mmbn3 {
 		jumpIfTrue = 226
 		jumpIfFalse = continue
 	msgOpen
-	"Nibble,nibble…"
+	"""
+	Nibble,nibble…
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -119588,7 +124713,9 @@ script 223 mmbn3 {
 		jumpIfTrue = 227
 		jumpIfFalse = continue
 	msgOpen
-	"Ooog! Uuuh,uh,uh!"
+	"""
+	Ooog! Uuuh,uh,uh!
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -119626,7 +124753,9 @@ script 224 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Bounce,bounce!"
+	"""
+	Bounce,bounce!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -119662,7 +124791,9 @@ script 225 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Splash… CRACK!!!"
+	"""
+	Splash… CRACK!!!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -119692,7 +124823,9 @@ script 226 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Nibble!"
+	"""
+	Nibble!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -119722,7 +124855,9 @@ script 227 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Bananana,nanana,na!"
+	"""
+	Bananana,nanana,na!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -119733,10 +124868,14 @@ script 227 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	keyWait
@@ -119785,10 +124924,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -119820,10 +124963,14 @@ script 231 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -119845,7 +124992,9 @@ script 231 mmbn3 {
 	printNaviCustProgram
 		buffer = 0
 		program = 43
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -119859,10 +125008,14 @@ script 232 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -119884,11 +125037,15 @@ script 232 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 194
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = *
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -119905,7 +125062,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Katakatakatakata…"
+	"""
+	Katakatakatakata…
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -119915,7 +125074,10 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Take it with you?\n"
+	"""
+	Take it with you?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -119923,7 +125085,10 @@ script 0 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Yes\n"
+	"""
+	Yes
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -119931,7 +125096,9 @@ script 0 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -119986,7 +125153,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Chomp,chomp,chomp!!"
+	"""
+	Chomp,chomp,chomp!!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -119996,7 +125165,10 @@ script 2 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Take it with you?\n"
+	"""
+	Take it with you?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -120004,7 +125176,10 @@ script 2 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Yes\n"
+	"""
+	Yes
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -120012,7 +125187,9 @@ script 2 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -120040,7 +125217,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Peck,peck,peck!"
+	"""
+	Peck,peck,peck!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -120050,7 +125229,10 @@ script 3 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Take it with you?\n"
+	"""
+	Take it with you?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -120058,7 +125240,10 @@ script 3 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Yes\n"
+	"""
+	Yes
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -120066,7 +125251,9 @@ script 3 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -120094,7 +125281,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Rustle,rustle…"
+	"""
+	Rustle,rustle…
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -120104,7 +125293,10 @@ script 4 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Take it with you?\n"
+	"""
+	Take it with you?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -120112,7 +125304,10 @@ script 4 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Yes\n"
+	"""
+	Yes
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -120120,7 +125315,9 @@ script 4 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -120148,7 +125345,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Roll,roll,roll…"
+	"""
+	Roll,roll,roll…
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -120158,7 +125357,10 @@ script 5 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Take it with you?\n"
+	"""
+	Take it with you?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -120166,7 +125368,10 @@ script 5 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Yes\n"
+	"""
+	Yes
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -120174,7 +125379,9 @@ script 5 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -120202,7 +125409,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -120212,7 +125421,10 @@ script 6 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Take it with you?\n"
+	"""
+	Take it with you?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -120220,7 +125432,10 @@ script 6 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Yes\n"
+	"""
+	Yes
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -120228,7 +125443,9 @@ script 6 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -120256,7 +125473,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Brush,brush!"
+	"""
+	Brush,brush!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -120266,7 +125485,10 @@ script 7 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Take it with you?\n"
+	"""
+	Take it with you?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -120274,7 +125496,10 @@ script 7 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Yes\n"
+	"""
+	Yes
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -120282,7 +125507,9 @@ script 7 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -120310,7 +125537,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Hssspssspsss!!"
+	"""
+	Hssspssspsss!!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -120320,7 +125549,10 @@ script 8 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Take it with you?\n"
+	"""
+	Take it with you?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -120328,7 +125560,10 @@ script 8 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Yes\n"
+	"""
+	Yes
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -120336,7 +125571,9 @@ script 8 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -120364,7 +125601,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Blobble,blobble…"
+	"""
+	Blobble,blobble…
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -120374,7 +125613,10 @@ script 9 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Take it with you?\n"
+	"""
+	Take it with you?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -120382,7 +125624,10 @@ script 9 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Yes\n"
+	"""
+	Yes
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -120390,7 +125635,9 @@ script 9 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -120418,7 +125665,9 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -120428,7 +125677,10 @@ script 10 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Take it with you?\n"
+	"""
+	Take it with you?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -120436,7 +125688,10 @@ script 10 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Yes\n"
+	"""
+	Yes
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -120444,7 +125699,9 @@ script 10 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -120472,7 +125729,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"HSSSS…!!"
+	"""
+	HSSSS…!!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -120482,7 +125741,10 @@ script 11 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Take it with you?\n"
+	"""
+	Take it with you?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -120490,7 +125752,10 @@ script 11 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Yes\n"
+	"""
+	Yes
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -120498,7 +125763,9 @@ script 11 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -120522,7 +125789,9 @@ script 12 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Katakatakatakata…"
+	"""
+	Katakatakatakata…
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -120537,7 +125806,9 @@ script 13 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Chomp,chomp…"
+	"""
+	Chomp,chomp…
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -120552,7 +125823,9 @@ script 14 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Peck,peck,peck!"
+	"""
+	Peck,peck,peck!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -120568,7 +125841,9 @@ script 15 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Rustle,rustle…"
+	"""
+	Rustle,rustle…
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -120597,7 +125872,9 @@ script 17 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Roll,roll,roll…"
+	"""
+	Roll,roll,roll…
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -120612,7 +125889,9 @@ script 18 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -120769,7 +126048,9 @@ script 30 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -120777,7 +126058,9 @@ script 30 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -120806,7 +126089,9 @@ script 31 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -120814,7 +126099,9 @@ script 31 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -120843,7 +126130,9 @@ script 32 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -120851,7 +126140,9 @@ script 32 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -120880,7 +126171,9 @@ script 33 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -120888,7 +126181,9 @@ script 33 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -120917,7 +126212,9 @@ script 34 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -120925,7 +126222,9 @@ script 34 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -120954,7 +126253,9 @@ script 35 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -120962,7 +126263,9 @@ script 35 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -120991,7 +126294,9 @@ script 36 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -120999,7 +126304,9 @@ script 36 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -121028,7 +126335,9 @@ script 37 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -121036,7 +126345,9 @@ script 37 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -121065,7 +126376,9 @@ script 38 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -121073,7 +126386,9 @@ script 38 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -121102,7 +126417,9 @@ script 39 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -121110,7 +126427,9 @@ script 39 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -121139,7 +126458,9 @@ script 40 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -121147,7 +126468,9 @@ script 40 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -121169,7 +126492,9 @@ script 42 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Brush,brush!"
+	"""
+	Brush,brush!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -121185,7 +126510,9 @@ script 43 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Hssspssspsss!!"
+	"""
+	Hssspssspsss!!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -121200,7 +126527,9 @@ script 44 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Blobble,blobble…"
+	"""
+	Blobble,blobble…
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -121215,7 +126544,9 @@ script 45 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -121231,7 +126562,9 @@ script 46 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"HSSSSS…!!"
+	"""
+	HSSSSS…!!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -121288,11 +126621,15 @@ script 191 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 47
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = E
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -121333,7 +126670,9 @@ script 220 mmbn3 {
 		jumpIfTrue = 225
 		jumpIfFalse = continue
 	msgOpen
-	"Creeeeak…"
+	"""
+	Creeeeak…
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -121366,7 +126705,9 @@ script 220 mmbn3 {
 }
 script 221 mmbn3 {
 	msgOpen
-	"It's Virus 2."
+	"""
+	It's Virus 2.
+	"""
 	keyWait
 	flagSet
 		flag = 1087
@@ -121380,7 +126721,9 @@ script 222 mmbn3 {
 		jumpIfTrue = 226
 		jumpIfFalse = continue
 	msgOpen
-	"Grrrrrrr…"
+	"""
+	Grrrrrrr…
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -121418,7 +126761,9 @@ script 223 mmbn3 {
 		jumpIfTrue = 227
 		jumpIfFalse = continue
 	msgOpen
-	"Quick! Quick,quick!"
+	"""
+	Quick! Quick,quick!
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -121456,7 +126801,9 @@ script 224 mmbn3 {
 		jumpIfTrue = 228
 		jumpIfFalse = continue
 	msgOpen
-	"Jar,jar jar…"
+	"""
+	Jar,jar jar…
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -121495,7 +126842,9 @@ script 225 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Chomp,chomp,chomp!!"
+	"""
+	Chomp,chomp,chomp!!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -121670,10 +127019,14 @@ script 235 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -121695,11 +127048,15 @@ script 235 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 122
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = *
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -121713,10 +127070,14 @@ script 236 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -121748,10 +127109,14 @@ script 237 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -121773,7 +127138,9 @@ script 237 mmbn3 {
 	printNaviCustProgram
 		buffer = 0
 		program = 23
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -121787,10 +127154,14 @@ script 238 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -121812,11 +127183,15 @@ script 238 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 1
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = C
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -121846,7 +127221,10 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Take it with you?\n"
+	"""
+	Take it with you?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -121854,7 +127232,10 @@ script 0 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Yes\n"
+	"""
+	Yes
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -121862,7 +127243,9 @@ script 0 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -121933,7 +127316,10 @@ script 2 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Take it with you?\n"
+	"""
+	Take it with you?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -121941,7 +127327,10 @@ script 2 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Yes\n"
+	"""
+	Yes
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -121949,7 +127338,9 @@ script 2 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -121991,7 +127382,10 @@ script 3 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Take it with you?\n"
+	"""
+	Take it with you?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -121999,7 +127393,10 @@ script 3 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Yes\n"
+	"""
+	Yes
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -122007,7 +127404,9 @@ script 3 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -122035,7 +127434,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Crack! Crunch!"
+	"""
+	Crack! Crunch!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -122045,7 +127446,10 @@ script 4 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Take it with you?\n"
+	"""
+	Take it with you?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -122053,7 +127457,10 @@ script 4 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Yes\n"
+	"""
+	Yes
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -122061,7 +127468,9 @@ script 4 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -122089,7 +127498,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Crack,crack,bang…"
+	"""
+	Crack,crack,bang…
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -122099,7 +127510,10 @@ script 5 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Take it with you?\n"
+	"""
+	Take it with you?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -122107,7 +127521,10 @@ script 5 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Yes\n"
+	"""
+	Yes
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -122115,7 +127532,9 @@ script 5 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -122143,7 +127562,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Crackle,crunch!"
+	"""
+	Crackle,crunch!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -122153,7 +127574,10 @@ script 6 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Take it with you?\n"
+	"""
+	Take it with you?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -122161,7 +127585,10 @@ script 6 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Yes\n"
+	"""
+	Yes
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -122169,7 +127596,9 @@ script 6 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -122197,7 +127626,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Rooooar!!"
+	"""
+	Rooooar!!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -122207,7 +127638,10 @@ script 7 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Take it with you?\n"
+	"""
+	Take it with you?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -122215,7 +127649,10 @@ script 7 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Yes\n"
+	"""
+	Yes
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -122223,7 +127660,9 @@ script 7 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -122251,7 +127690,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Grrrowl!"
+	"""
+	Grrrowl!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -122261,7 +127702,10 @@ script 8 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Take it with you?\n"
+	"""
+	Take it with you?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -122269,7 +127713,10 @@ script 8 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Yes\n"
+	"""
+	Yes
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -122277,7 +127724,9 @@ script 8 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -122305,7 +127754,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Caw! Caw!!"
+	"""
+	Caw! Caw!!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -122315,7 +127766,10 @@ script 9 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Take it with you?\n"
+	"""
+	Take it with you?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -122323,7 +127777,10 @@ script 9 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Yes\n"
+	"""
+	Yes
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -122331,7 +127788,9 @@ script 9 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -122359,7 +127818,9 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Baaah! Baaah!"
+	"""
+	Baaah! Baaah!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -122369,7 +127830,10 @@ script 10 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Take it with you?\n"
+	"""
+	Take it with you?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -122377,7 +127841,10 @@ script 10 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Yes\n"
+	"""
+	Yes
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -122385,7 +127852,9 @@ script 10 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -122413,7 +127882,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Mrrrrrow…"
+	"""
+	Mrrrrrow…
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -122423,7 +127894,10 @@ script 11 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Take it with you?\n"
+	"""
+	Take it with you?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -122431,7 +127905,10 @@ script 11 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Yes\n"
+	"""
+	Yes
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -122439,7 +127916,9 @@ script 11 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -122467,7 +127946,9 @@ script 12 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Woof! Woof woof!"
+	"""
+	Woof! Woof woof!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -122477,7 +127958,10 @@ script 12 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Take it with you?\n"
+	"""
+	Take it with you?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -122485,7 +127969,10 @@ script 12 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Yes\n"
+	"""
+	Yes
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -122493,7 +127980,9 @@ script 12 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -122744,7 +128233,9 @@ script 32 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -122752,7 +128243,9 @@ script 32 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -122781,7 +128274,9 @@ script 33 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -122789,7 +128284,9 @@ script 33 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -122818,7 +128315,9 @@ script 34 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -122826,7 +128325,9 @@ script 34 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -122855,7 +128356,9 @@ script 35 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -122863,7 +128366,9 @@ script 35 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -122892,7 +128397,9 @@ script 36 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -122900,7 +128407,9 @@ script 36 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -122929,7 +128438,9 @@ script 37 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -122937,7 +128448,9 @@ script 37 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -122966,7 +128479,9 @@ script 38 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -122974,7 +128489,9 @@ script 38 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -123003,7 +128520,9 @@ script 39 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -123011,7 +128530,9 @@ script 39 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -123040,7 +128561,9 @@ script 40 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -123048,7 +128571,9 @@ script 40 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -123077,7 +128602,9 @@ script 41 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -123085,7 +128612,9 @@ script 41 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -123114,7 +128643,9 @@ script 42 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -123122,7 +128653,9 @@ script 42 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -123151,7 +128684,9 @@ script 43 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -123159,7 +128694,9 @@ script 43 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -123181,7 +128718,9 @@ script 45 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Crack! Crunch!"
+	"""
+	Crack! Crunch!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -123196,7 +128735,9 @@ script 46 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Crack,crack,bang…"
+	"""
+	Crack,crack,bang…
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -123212,7 +128753,9 @@ script 47 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Crackle,crunch!"
+	"""
+	Crackle,crunch!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -123227,7 +128770,9 @@ script 48 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Roooooar!!"
+	"""
+	Roooooar!!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -123242,7 +128787,9 @@ script 49 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Grrrrowl!"
+	"""
+	Grrrrowl!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -123257,7 +128804,9 @@ script 50 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Caw! Caw!"
+	"""
+	Caw! Caw!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -123273,7 +128822,9 @@ script 51 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Baaaah! Baaaah!"
+	"""
+	Baaaah! Baaaah!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -123288,7 +128839,9 @@ script 52 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Mrrrrow…"
+	"""
+	Mrrrrow…
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -123303,7 +128856,9 @@ script 53 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Woof! Woof woof!!"
+	"""
+	Woof! Woof woof!!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -123324,7 +128879,9 @@ script 190 mmbn3 {
 	mugshotShow
 		mugshot = HeelNavi
 	msgOpen
-	"So you caught me…"
+	"""
+	So you caught me…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -123361,11 +128918,15 @@ script 191 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 173
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = E
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -123410,7 +128971,9 @@ script 220 mmbn3 {
 		jumpIfTrue = 226
 		jumpIfFalse = continue
 	msgOpen
-	"Hey,jerk! Hey,jerk!"
+	"""
+	Hey,jerk! Hey,jerk!
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -123461,10 +129024,14 @@ script 221 mmbn3 {
 		jumpIfTrue = 227
 		jumpIfFalse = continue
 	msgOpen
-	"Ooop ooop oop!!!"
+	"""
+	Ooop ooop oop!!!
+	"""
 	keyWait
 	clearMsg
-	"Crackle,crunch!"
+	"""
+	Crackle,crunch!
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -123498,7 +129065,9 @@ script 221 mmbn3 {
 }
 script 222 mmbn3 {
 	msgOpen
-	"It's Virus 3."
+	"""
+	It's Virus 3.
+	"""
 	keyWait
 	flagSet
 		flag = 1139
@@ -123516,13 +129085,19 @@ script 223 mmbn3 {
 		jumpIfTrue = 228
 		jumpIfFalse = continue
 	msgOpen
-	"Cat,lion,???"
+	"""
+	Cat,lion,???
+	"""
 	keyWait
 	clearMsg
-	"Wool,lamb,???"
+	"""
+	Wool,lamb,???
+	"""
 	keyWait
 	clearMsg
-	"Wolf,fox,???"
+	"""
+	Wolf,fox,???
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -123639,10 +129214,14 @@ script 227 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Crunch,crack!"
+	"""
+	Crunch,crack!
+	"""
 	keyWait
 	clearMsg
-	"Crack,crack,bang…!"
+	"""
+	Crack,crack,bang…!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -123763,10 +129342,14 @@ script 235 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -123788,11 +129371,15 @@ script 235 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 64
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = T
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -123806,10 +129393,14 @@ script 236 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -123830,7 +129421,9 @@ script 236 mmbn3 {
 	printItem
 		buffer = 0
 		item = 99
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -123850,10 +129443,14 @@ script 237 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -123875,7 +129472,9 @@ script 237 mmbn3 {
 	printNaviCustProgram
 		buffer = 0
 		program = 36
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -123920,7 +129519,9 @@ script 0 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = MrProg
-	"I think so…"
+	"""
+	I think so…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -123948,7 +129549,9 @@ script 0 mmbn3 {
 	printNaviCustProgram
 		buffer = 0
 		program = 21
-	",\"I think."
+	"""
+	,"I think.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -123991,7 +129594,9 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"The \""
+	"""
+	The "
+	"""
 	printNaviCustProgram
 		buffer = 0
 		program = 21
@@ -124008,7 +129613,9 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"I'm counting on you."
+	"""
+	I'm counting on you.
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -124032,7 +129639,9 @@ script 1 mmbn3 {
 	printNaviCustProgram
 		buffer = 0
 		program = 21
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -124058,10 +129667,14 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Thanks!"
+	"""
+	Thanks!
+	"""
 	keyWait
 	clearMsg
-	"OK,Lan. Let's go!!"
+	"""
+	OK,Lan. Let's go!!
+	"""
 	keyWait
 	end
 }
@@ -124077,7 +129690,9 @@ script 4 mmbn3 {
 	printNaviCustProgram
 		buffer = 0
 		program = 21
-	"\"?"
+	"""
+	"?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -124128,13 +129743,19 @@ script 220 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -124193,10 +129814,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -124218,7 +129843,9 @@ script 230 mmbn3 {
 	printNaviCustProgram
 		buffer = 0
 		program = 24
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -124232,10 +129859,14 @@ script 231 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -124256,7 +129887,9 @@ script 231 mmbn3 {
 	printItem
 		buffer = 0
 		item = 98
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -124276,10 +129909,14 @@ script 232 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -124301,11 +129938,15 @@ script 232 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 125
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = O
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -124357,7 +129998,9 @@ script 21 mmbn3 {
 	mugshotShow
 		mugshot = CloakedNavi
 	msgOpen
-	"Do your best!"
+	"""
+	Do your best!
+	"""
 	keyWait
 	end
 }
@@ -124412,10 +130055,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -124437,7 +130084,9 @@ script 230 mmbn3 {
 	printNaviCustProgram
 		buffer = 0
 		program = 41
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -124451,10 +130100,14 @@ script 231 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -124475,7 +130128,9 @@ script 231 mmbn3 {
 	printItem
 		buffer = 0
 		item = 96
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -124489,10 +130144,14 @@ script 232 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -124514,11 +130173,15 @@ script 232 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 48
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = Q
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -124564,10 +130227,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -124589,11 +130256,15 @@ script 230 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 19
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = T
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -124607,10 +130278,14 @@ script 231 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -124642,10 +130317,14 @@ script 232 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -124666,7 +130345,9 @@ script 232 mmbn3 {
 	printItem
 		buffer = 0
 		item = 101
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -124756,10 +130437,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -124783,7 +130468,9 @@ script 230 mmbn3 {
 	printItem
 		buffer = 0
 		item = 113
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -124797,10 +130484,14 @@ script 231 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -124822,11 +130513,15 @@ script 231 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 174
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = E
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -124840,10 +130535,14 @@ script 232 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -124971,10 +130670,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -124996,11 +130699,15 @@ script 230 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 33
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = R
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -125014,10 +130721,14 @@ script 231 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -125038,7 +130749,9 @@ script 231 mmbn3 {
 	printItem
 		buffer = 0
 		item = 96
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -125052,10 +130765,14 @@ script 232 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -125077,7 +130794,9 @@ script 232 mmbn3 {
 	printNaviCustProgram
 		buffer = 0
 		program = 43
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -125101,13 +130820,17 @@ script 220 mmbn3 {
 	printItem
 		buffer = 0
 		item = 39
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	end
 }
 script 221 mmbn3 {
 	msgOpen
-	"\""
+	"""
+	"
+	"""
 	printItem
 		buffer = 0
 		item = 39
@@ -125133,10 +130856,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -125156,7 +130883,9 @@ script 230 mmbn3 {
 	printItem
 		buffer = 0
 		item = 39
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -125170,10 +130899,14 @@ script 231 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -125205,10 +130938,14 @@ script 232 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -125230,11 +130967,15 @@ script 232 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 126
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = P
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -125248,10 +130989,14 @@ script 233 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -125272,7 +131017,9 @@ script 233 mmbn3 {
 	printItem
 		buffer = 0
 		item = 96
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -125296,13 +131043,17 @@ script 220 mmbn3 {
 	printItem
 		buffer = 0
 		item = 40
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	end
 }
 script 221 mmbn3 {
 	msgOpen
-	"\""
+	"""
+	"
+	"""
 	printItem
 		buffer = 0
 		item = 40
@@ -125328,10 +131079,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -125351,7 +131106,9 @@ script 230 mmbn3 {
 	printItem
 		buffer = 0
 		item = 40
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -125365,10 +131122,14 @@ script 231 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -125389,7 +131150,9 @@ script 231 mmbn3 {
 	printItem
 		buffer = 0
 		item = 99
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -125409,10 +131172,14 @@ script 232 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -125454,13 +131221,17 @@ script 220 mmbn3 {
 	printItem
 		buffer = 0
 		item = 41
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	end
 }
 script 221 mmbn3 {
 	msgOpen
-	"\""
+	"""
+	"
+	"""
 	printItem
 		buffer = 0
 		item = 41
@@ -125486,10 +131257,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -125509,7 +131284,9 @@ script 230 mmbn3 {
 	printItem
 		buffer = 0
 		item = 41
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -125523,10 +131300,14 @@ script 231 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -125548,7 +131329,9 @@ script 231 mmbn3 {
 	printNaviCustProgram
 		buffer = 0
 		program = 27
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -125562,10 +131345,14 @@ script 232 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -125589,7 +131376,9 @@ script 232 mmbn3 {
 	printItem
 		buffer = 0
 		item = 113
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -125626,13 +131415,17 @@ script 220 mmbn3 {
 	printItem
 		buffer = 0
 		item = 42
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	end
 }
 script 221 mmbn3 {
 	msgOpen
-	"\""
+	"""
+	"
+	"""
 	printItem
 		buffer = 0
 		item = 42
@@ -125658,10 +131451,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -125681,7 +131478,9 @@ script 230 mmbn3 {
 	printItem
 		buffer = 0
 		item = 42
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -125695,10 +131494,14 @@ script 231 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -125719,7 +131522,9 @@ script 231 mmbn3 {
 	printItem
 		buffer = 0
 		item = 96
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -125733,10 +131538,14 @@ script 232 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -125834,7 +131643,9 @@ script 21 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan! You got mail!!"
+	"""
+	Lan! You got mail!!
+	"""
 	keyWait
 	end
 }
@@ -125852,10 +131663,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -125891,10 +131706,14 @@ script 231 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -125912,7 +131731,9 @@ script 231 mmbn3 {
 	printItem
 		buffer = 0
 		item = 96
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	keyWait
 	msgClose
@@ -125974,10 +131795,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -126011,10 +131836,14 @@ script 231 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -126034,11 +131863,15 @@ script 231 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 47
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = B
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -126071,7 +131904,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = Roll
 	msgOpen
-	"Hi MegaMan!"
+	"""
+	Hi MegaMan!
+	"""
 	keyWait
 	flagSet
 		flag = 771
@@ -126116,7 +131951,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = Glide
 	msgOpen
-	"Well,shall we begin?"
+	"""
+	Well,shall we begin?
+	"""
 	keyWait
 	flagSet
 		flag = 801
@@ -126183,7 +132020,9 @@ script 21 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan! You got mail!!"
+	"""
+	Lan! You got mail!!
+	"""
 	keyWait
 	end
 }
@@ -126201,10 +132040,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -126226,11 +132069,15 @@ script 230 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 12
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = S
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -126244,10 +132091,14 @@ script 231 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -126268,7 +132119,9 @@ script 231 mmbn3 {
 	printItem
 		buffer = 0
 		item = 99
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -126291,10 +132144,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -126330,10 +132187,14 @@ script 231 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -126352,11 +132213,15 @@ script 231 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 131
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = D
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	keyWait
 	msgClose
@@ -126413,7 +132278,10 @@ script 0 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Virus breeding\n"
+	"""
+	Virus breeding
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -126421,7 +132289,10 @@ script 0 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"Virus usage\n"
+	"""
+	Virus usage
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -126429,7 +132300,9 @@ script 0 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Nothing now"
+	"""
+	Nothing now
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -126461,7 +132334,10 @@ script 1 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Virus locations\n"
+	"""
+	Virus locations
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -126469,7 +132345,10 @@ script 1 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"How to feed\n"
+	"""
+	How to feed
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -126477,7 +132356,9 @@ script 1 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Redistribution"
+	"""
+	Redistribution
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -126673,7 +132554,10 @@ script 6 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Virus breeding\n"
+	"""
+	Virus breeding
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -126681,7 +132565,10 @@ script 6 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"Virus usage\n"
+	"""
+	Virus usage
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -126689,7 +132576,9 @@ script 6 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Nothing now"
+	"""
+	Nothing now
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -126717,7 +132606,9 @@ script 7 mmbn3 {
 }
 script 220 mmbn3 {
 	msgOpen
-	"Stopper"
+	"""
+	Stopper
+	"""
 	keyWait
 	end
 }
@@ -126734,7 +132625,10 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Welcome! The\n"
+	"""
+	Welcome! The
+	
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 1
@@ -126752,10 +132646,15 @@ script 1 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 1
-	"s!"
+	"""
+	s!
+	"""
 	keyWait
 	clearMsg
-	"Redistribute now?\n"
+	"""
+	Redistribute now?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -126763,7 +132662,9 @@ script 1 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -126771,7 +132672,9 @@ script 1 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -126819,7 +132722,10 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Welcome! The\n"
+	"""
+	Welcome! The
+	
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 37
@@ -126837,10 +132743,15 @@ script 4 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 37
-	"s!"
+	"""
+	s!
+	"""
 	keyWait
 	clearMsg
-	"Redistribute now?\n"
+	"""
+	Redistribute now?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -126848,7 +132759,9 @@ script 4 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -126856,7 +132769,9 @@ script 4 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -126912,10 +132827,15 @@ script 6 mmbn3 {
 		jumpIfFalse = continue
 	flagSet
 		flag = 2501
-	"Congratulations!"
+	"""
+	Congratulations!
+	"""
 	keyWait
 	clearMsg
-	"Thanks to you,the\n"
+	"""
+	Thanks to you,the
+	
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 1
@@ -126932,16 +132852,25 @@ script 6 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"Hm? The\n"
+	"""
+	Hm? The
+	
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 1
@@ -126957,7 +132886,9 @@ script 6 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"The "
+	"""
+	The 
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 1
@@ -127000,10 +132931,15 @@ script 7 mmbn3 {
 		jumpIfFalse = continue
 	flagSet
 		flag = 2502
-	"Congratulations!"
+	"""
+	Congratulations!
+	"""
 	keyWait
 	clearMsg
-	"Thanks to you,the\n"
+	"""
+	Thanks to you,the
+	
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 37
@@ -127020,16 +132956,25 @@ script 7 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"Hm? The\n"
+	"""
+	Hm? The
+	
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 37
@@ -127045,7 +132990,9 @@ script 7 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"The "
+	"""
+	The 
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 37
@@ -127123,7 +133070,9 @@ script 26 mmbn3 {
 }
 script 30 mmbn3 {
 	msgOpen
-	"This "
+	"""
+	This 
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 1
@@ -127149,7 +133098,9 @@ script 31 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"This "
+	"""
+	This 
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 1
@@ -127163,7 +133114,9 @@ script 31 mmbn3 {
 }
 script 32 mmbn3 {
 	msgOpen
-	"The "
+	"""
+	The 
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 1
@@ -127207,7 +133160,9 @@ script 34 mmbn3 {
 }
 script 35 mmbn3 {
 	msgOpen
-	"This "
+	"""
+	This 
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 38
@@ -127244,7 +133199,9 @@ script 220 mmbn3 {
 		jumpIfTrue = 230
 		jumpIfFalse = 229
 	msgOpen
-	"It's a sign."
+	"""
+	It's a sign.
+	"""
 	keyWait
 	end
 }
@@ -127267,7 +133224,9 @@ script 221 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -127275,7 +133234,9 @@ script 221 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -127307,7 +133268,9 @@ script 222 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -127315,7 +133278,9 @@ script 222 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -127347,7 +133312,9 @@ script 223 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -127355,7 +133322,9 @@ script 223 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -127387,7 +133356,9 @@ script 224 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -127395,7 +133366,9 @@ script 224 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -127427,7 +133400,9 @@ script 225 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -127435,7 +133410,9 @@ script 225 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -127467,7 +133444,9 @@ script 226 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -127475,7 +133454,9 @@ script 226 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -127507,7 +133488,9 @@ script 227 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -127515,7 +133498,9 @@ script 227 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -127547,7 +133532,9 @@ script 228 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -127555,7 +133542,9 @@ script 228 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -127588,11 +133577,16 @@ script 230 mmbn3 {
 		jumpIfTrue = 232
 		jumpIfFalse = continue
 	msgOpen
-	"Right: "
+	"""
+	Right: 
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 1
-	"\nLeft: Ring Rabbits"
+	"""
+	
+	Left: Ring Rabbits
+	"""
 	keyWait
 	end
 }
@@ -127611,11 +133605,16 @@ script 231 mmbn3 {
 }
 script 232 mmbn3 {
 	msgOpen
-	"Right: "
+	"""
+	Right: 
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 1
-	"\nLeft: "
+	"""
+	
+	Left: 
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 37
@@ -127635,7 +133634,10 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Welcome! The\n"
+	"""
+	Welcome! The
+	
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 87
@@ -127653,10 +133655,15 @@ script 1 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 87
-	"s!"
+	"""
+	s!
+	"""
 	keyWait
 	clearMsg
-	"Redistribute now?\n"
+	"""
+	Redistribute now?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -127664,7 +133671,9 @@ script 1 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -127672,7 +133681,9 @@ script 1 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -127720,7 +133731,10 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Welcome! The\n"
+	"""
+	Welcome! The
+	
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 91
@@ -127738,10 +133752,15 @@ script 4 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 91
-	"s!"
+	"""
+	s!
+	"""
 	keyWait
 	clearMsg
-	"Redistribute now?\n"
+	"""
+	Redistribute now?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -127749,7 +133768,9 @@ script 4 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -127757,7 +133778,9 @@ script 4 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -127813,10 +133836,15 @@ script 6 mmbn3 {
 		jumpIfFalse = continue
 	flagSet
 		flag = 2507
-	"Congratulations!"
+	"""
+	Congratulations!
+	"""
 	keyWait
 	clearMsg
-	"Thanks to you,the\n"
+	"""
+	Thanks to you,the
+	
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 87
@@ -127833,13 +133861,19 @@ script 6 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
 	"""
@@ -127861,11 +133895,16 @@ script 6 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"The "
+	"""
+	The 
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 87
-	"\nviruses have a boss."
+	"""
+	
+	viruses have a boss.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -127906,10 +133945,15 @@ script 7 mmbn3 {
 		jumpIfFalse = continue
 	flagSet
 		flag = 2508
-	"Congratulations!"
+	"""
+	Congratulations!
+	"""
 	keyWait
 	clearMsg
-	"Thanks to you,the\n"
+	"""
+	Thanks to you,the
+	
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 91
@@ -127926,13 +133970,19 @@ script 7 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
 	"""
@@ -127954,11 +134004,16 @@ script 7 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"The "
+	"""
+	The 
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 91
-	"\nviruses have a boss."
+	"""
+	
+	viruses have a boss.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -128049,7 +134104,9 @@ script 30 mmbn3 {
 }
 script 31 mmbn3 {
 	msgOpen
-	"The "
+	"""
+	The 
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 88
@@ -128114,7 +134171,9 @@ script 35 mmbn3 {
 }
 script 36 mmbn3 {
 	msgOpen
-	"The "
+	"""
+	The 
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 93
@@ -128148,7 +134207,9 @@ script 220 mmbn3 {
 		jumpIfTrue = 230
 		jumpIfFalse = 229
 	msgOpen
-	"It's a sign."
+	"""
+	It's a sign.
+	"""
 	keyWait
 	end
 }
@@ -128171,7 +134232,9 @@ script 221 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -128179,7 +134242,9 @@ script 221 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -128211,7 +134276,9 @@ script 222 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -128219,7 +134286,9 @@ script 222 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -128251,7 +134320,9 @@ script 223 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -128259,7 +134330,9 @@ script 223 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -128291,7 +134364,9 @@ script 224 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -128299,7 +134374,9 @@ script 224 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -128331,7 +134408,9 @@ script 225 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -128339,7 +134418,9 @@ script 225 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -128371,7 +134452,9 @@ script 226 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -128379,7 +134462,9 @@ script 226 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -128411,7 +134496,9 @@ script 227 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -128419,7 +134506,9 @@ script 227 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -128451,7 +134540,9 @@ script 228 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -128459,7 +134550,9 @@ script 228 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -128491,11 +134584,16 @@ script 230 mmbn3 {
 		jumpIfTrue = 232
 		jumpIfFalse = continue
 	msgOpen
-	"Right: "
+	"""
+	Right: 
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 87
-	"\nLeft: Hole Moles"
+	"""
+	
+	Left: Hole Moles
+	"""
 	keyWait
 	end
 }
@@ -128513,11 +134611,16 @@ script 231 mmbn3 {
 }
 script 232 mmbn3 {
 	msgOpen
-	"Right: "
+	"""
+	Right: 
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 87
-	"\nLeft: "
+	"""
+	
+	Left: 
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 91
@@ -128537,7 +134640,10 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Welcome! The\n"
+	"""
+	Welcome! The
+	
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 13
@@ -128555,10 +134661,15 @@ script 1 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 13
-	"s!"
+	"""
+	s!
+	"""
 	keyWait
 	clearMsg
-	"Redistribute now?\n"
+	"""
+	Redistribute now?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -128566,7 +134677,9 @@ script 1 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -128574,7 +134687,9 @@ script 1 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -128622,7 +134737,10 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Welcome! The\n"
+	"""
+	Welcome! The
+	
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 33
@@ -128640,10 +134758,15 @@ script 4 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 33
-	"s!"
+	"""
+	s!
+	"""
 	keyWait
 	clearMsg
-	"Redistribute now?\n"
+	"""
+	Redistribute now?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -128651,7 +134774,9 @@ script 4 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -128659,7 +134784,9 @@ script 4 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -128715,10 +134842,15 @@ script 6 mmbn3 {
 		jumpIfFalse = continue
 	flagSet
 		flag = 2503
-	"Congratulations!"
+	"""
+	Congratulations!
+	"""
 	keyWait
 	clearMsg
-	"Thanks to you,the\n"
+	"""
+	Thanks to you,the
+	
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 13
@@ -128735,13 +134867,19 @@ script 6 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
 	"""
@@ -128763,11 +134901,16 @@ script 6 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"The "
+	"""
+	The 
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 13
-	"\nviruses have a boss."
+	"""
+	
+	viruses have a boss.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -128815,10 +134958,15 @@ script 7 mmbn3 {
 		jumpIfFalse = continue
 	flagSet
 		flag = 2504
-	"Congratulations!"
+	"""
+	Congratulations!
+	"""
 	keyWait
 	clearMsg
-	"Thanks to you,the\n"
+	"""
+	Thanks to you,the
+	
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 33
@@ -128835,13 +134983,19 @@ script 7 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
 	"""
@@ -128863,11 +135017,16 @@ script 7 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"The "
+	"""
+	The 
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 33
-	"\nviruses have a boss."
+	"""
+	
+	viruses have a boss.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -128949,7 +135108,9 @@ script 26 mmbn3 {
 }
 script 30 mmbn3 {
 	msgOpen
-	"The "
+	"""
+	The 
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 13
@@ -129027,7 +135188,9 @@ script 37 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"This "
+	"""
+	This 
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 33
@@ -129044,7 +135207,9 @@ script 220 mmbn3 {
 		jumpIfTrue = 230
 		jumpIfFalse = 229
 	msgOpen
-	"It's a sign."
+	"""
+	It's a sign.
+	"""
 	keyWait
 	end
 }
@@ -129067,7 +135232,9 @@ script 221 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -129075,7 +135242,9 @@ script 221 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -129107,7 +135276,9 @@ script 222 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -129115,7 +135286,9 @@ script 222 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -129147,7 +135320,9 @@ script 223 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -129155,7 +135330,9 @@ script 223 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -129187,7 +135364,9 @@ script 224 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -129195,7 +135374,9 @@ script 224 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -129227,7 +135408,9 @@ script 225 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -129235,7 +135418,9 @@ script 225 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -129267,7 +135452,9 @@ script 226 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -129275,7 +135462,9 @@ script 226 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -129307,7 +135496,9 @@ script 227 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -129315,7 +135506,9 @@ script 227 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -129347,7 +135540,9 @@ script 228 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -129355,7 +135550,9 @@ script 228 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -129387,11 +135584,16 @@ script 230 mmbn3 {
 		jumpIfTrue = 232
 		jumpIfFalse = continue
 	msgOpen
-	"Right: "
+	"""
+	Right: 
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 13
-	"\nLeft: Fire Sorcerers"
+	"""
+	
+	Left: Fire Sorcerers
+	"""
 	keyWait
 	end
 }
@@ -129409,11 +135611,16 @@ script 231 mmbn3 {
 }
 script 232 mmbn3 {
 	msgOpen
-	"Right: "
+	"""
+	Right: 
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 13
-	"\nLeft: "
+	"""
+	
+	Left: 
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 33
@@ -129433,7 +135640,10 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Welcome! The\n"
+	"""
+	Welcome! The
+	
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 49
@@ -129451,10 +135661,15 @@ script 1 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 49
-	"s!"
+	"""
+	s!
+	"""
 	keyWait
 	clearMsg
-	"Redistribute now?\n"
+	"""
+	Redistribute now?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -129462,7 +135677,9 @@ script 1 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -129470,7 +135687,9 @@ script 1 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -129518,7 +135737,10 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Welcome! The\n"
+	"""
+	Welcome! The
+	
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 25
@@ -129536,10 +135758,15 @@ script 4 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 25
-	"s!"
+	"""
+	s!
+	"""
 	keyWait
 	clearMsg
-	"Redistribute now?\n"
+	"""
+	Redistribute now?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -129547,7 +135774,9 @@ script 4 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -129555,7 +135784,9 @@ script 4 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -129611,10 +135842,15 @@ script 6 mmbn3 {
 		jumpIfFalse = continue
 	flagSet
 		flag = 2505
-	"Congratulations!"
+	"""
+	Congratulations!
+	"""
 	keyWait
 	clearMsg
-	"Thanks to you,the\n"
+	"""
+	Thanks to you,the
+	
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 49
@@ -129631,13 +135867,19 @@ script 6 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
 	"""
@@ -129659,11 +135901,16 @@ script 6 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"The "
+	"""
+	The 
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 49
-	"\nviruses have a boss."
+	"""
+	
+	viruses have a boss.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -129710,10 +135957,15 @@ script 7 mmbn3 {
 		jumpIfFalse = continue
 	flagSet
 		flag = 2506
-	"Congratulations!"
+	"""
+	Congratulations!
+	"""
 	keyWait
 	clearMsg
-	"Thanks to you,the\n"
+	"""
+	Thanks to you,the
+	
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 25
@@ -129730,13 +135982,19 @@ script 7 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
 	"""
@@ -129758,11 +136016,16 @@ script 7 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"The "
+	"""
+	The 
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 25
-	"\nviruses have a boss."
+	"""
+	
+	viruses have a boss.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -129885,10 +136148,14 @@ script 33 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 49
-	"…"
+	"""
+	…
+	"""
 	keyWait
 	clearMsg
-	"…You think."
+	"""
+	…You think.
+	"""
 	keyWait
 	end
 }
@@ -129926,7 +136193,9 @@ script 35 mmbn3 {
 }
 script 36 mmbn3 {
 	msgOpen
-	"This "
+	"""
+	This 
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 25
@@ -129960,7 +136229,9 @@ script 220 mmbn3 {
 		jumpIfTrue = 230
 		jumpIfFalse = 229
 	msgOpen
-	"It's a sign."
+	"""
+	It's a sign.
+	"""
 	keyWait
 	end
 }
@@ -129983,7 +136254,9 @@ script 221 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -129991,7 +136264,9 @@ script 221 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -130023,7 +136298,9 @@ script 222 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -130031,7 +136308,9 @@ script 222 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -130063,7 +136342,9 @@ script 223 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -130071,7 +136352,9 @@ script 223 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -130103,7 +136386,9 @@ script 224 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -130111,7 +136396,9 @@ script 224 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -130143,7 +136430,9 @@ script 225 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -130151,7 +136440,9 @@ script 225 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -130183,7 +136474,9 @@ script 226 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -130191,7 +136484,9 @@ script 226 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -130223,7 +136518,9 @@ script 227 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -130231,7 +136528,9 @@ script 227 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -130263,7 +136562,9 @@ script 228 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -130271,7 +136572,9 @@ script 228 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -130304,11 +136607,16 @@ script 230 mmbn3 {
 		jumpIfTrue = 232
 		jumpIfFalse = continue
 	msgOpen
-	"Right: "
+	"""
+	Right: 
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 49
-	"\nLeft: Air Jellyfish"
+	"""
+	
+	Left: Air Jellyfish
+	"""
 	keyWait
 	end
 }
@@ -130327,11 +136635,16 @@ script 231 mmbn3 {
 }
 script 232 mmbn3 {
 	msgOpen
-	"Right: "
+	"""
+	Right: 
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 49
-	"\nLeft: "
+	"""
+	
+	Left: 
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 25
@@ -130355,7 +136668,10 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Welcome! The\n"
+	"""
+	Welcome! The
+	
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 73
@@ -130373,10 +136689,15 @@ script 1 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 73
-	"s!"
+	"""
+	s!
+	"""
 	keyWait
 	clearMsg
-	"Redistribute now?\n"
+	"""
+	Redistribute now?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -130384,7 +136705,9 @@ script 1 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -130392,7 +136715,9 @@ script 1 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -130452,10 +136777,15 @@ script 3 mmbn3 {
 		jumpIfFalse = continue
 	flagSet
 		flag = 2509
-	"Congratulations!"
+	"""
+	Congratulations!
+	"""
 	keyWait
 	clearMsg
-	"Thanks to you,the\n"
+	"""
+	Thanks to you,the
+	
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 73
@@ -130472,13 +136802,19 @@ script 3 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
 	"""
@@ -130500,11 +136836,16 @@ script 3 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"The "
+	"""
+	The 
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 73
-	"\nviruses have a boss."
+	"""
+	
+	viruses have a boss.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -130617,11 +136958,16 @@ script 23 mmbn3 {
 }
 script 24 mmbn3 {
 	msgOpen
-	"The "
+	"""
+	The 
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 73
-	"\nis deathly still."
+	"""
+	
+	is deathly still.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -130634,7 +136980,9 @@ script 24 mmbn3 {
 }
 script 25 mmbn3 {
 	msgOpen
-	"This "
+	"""
+	This 
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 74
@@ -130665,7 +137013,9 @@ script 221 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -130673,7 +137023,9 @@ script 221 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -130705,7 +137057,9 @@ script 222 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -130713,7 +137067,9 @@ script 222 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -130745,7 +137101,9 @@ script 223 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -130753,7 +137111,9 @@ script 223 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -130785,7 +137145,9 @@ script 224 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -130793,7 +137155,9 @@ script 224 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -130825,7 +137189,9 @@ script 225 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -130833,7 +137199,9 @@ script 225 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -130865,7 +137233,9 @@ script 226 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -130873,7 +137243,9 @@ script 226 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -130915,10 +137287,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -130940,11 +137316,15 @@ script 230 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 39
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = N
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -130959,7 +137339,9 @@ script 0 mmbn3 {
 	msgOpen
 	mugshotAnimate
 		animation = 0
-	"Shuffle,shuffle…"
+	"""
+	Shuffle,shuffle…
+	"""
 	keyWait
 	clearMsg
 	mugshotAnimate
@@ -130971,13 +137353,19 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
 	"""
@@ -131001,13 +137389,19 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	".Oops!"
+	"""
+	.Oops!
+	"""
 	keyWait
 	end
 }
@@ -131019,10 +137413,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -131044,11 +137442,15 @@ script 230 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 196
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = *
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -131061,7 +137463,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Flash,flash!"
+	"""
+	Flash,flash!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -131093,10 +137497,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -131118,7 +137526,9 @@ script 230 mmbn3 {
 	printNaviCustProgram
 		buffer = 0
 		program = 35
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -131155,7 +137565,9 @@ script 1 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"He drives me crazy!"
+	"""
+	He drives me crazy!
+	"""
 	keyWait
 	end
 }
@@ -131167,10 +137579,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -131191,7 +137607,9 @@ script 230 mmbn3 {
 	printItem
 		buffer = 0
 		item = 96
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -131209,10 +137627,14 @@ script 231 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -131231,11 +137653,15 @@ script 231 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 214
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = J
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	keyWait
 	msgClose
@@ -131294,7 +137720,9 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Tweet,tweet!"
+	"""
+	Tweet,tweet!
+	"""
 	keyWait
 	end
 }
@@ -131363,7 +137791,9 @@ script 3 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Ha,ha! Scared you!"
+	"""
+	Ha,ha! Scared you!
+	"""
 	keyWait
 	end
 }
@@ -131375,10 +137805,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -131400,11 +137834,15 @@ script 230 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 173
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = L
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -131424,7 +137862,9 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Beep,beep,beep!"
+	"""
+	Beep,beep,beep!
+	"""
 	keyWait
 	end
 }
@@ -131439,7 +137879,9 @@ script 1 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"I'm very grateful."
+	"""
+	I'm very grateful.
+	"""
 	keyWait
 	end
 }
@@ -131490,7 +137932,9 @@ script 190 mmbn3 {
 	clearMsg
 	waitSkip
 		frames = 20
-	"…Eh?"
+	"""
+	…Eh?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -131509,7 +137953,9 @@ script 190 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"……"
+	"""
+	……
+	"""
 	waitSkip
 		frames = 20
 	keyWait
@@ -131529,12 +137975,16 @@ script 190 mmbn3 {
 	printItem
 		buffer = 0
 		item = 44
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
 		mugshot = NormalNaviGreen
-	"……"
+	"""
+	……
+	"""
 	waitSkip
 		frames = 20
 	keyWait
@@ -131580,10 +138030,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -131604,7 +138058,9 @@ script 230 mmbn3 {
 	printItem
 		buffer = 0
 		item = 98
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -131801,7 +138257,9 @@ script 190 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Hm?"
+	"""
+	Hm?
+	"""
 	waitSkip
 		frames = 10
 	"""
@@ -131825,7 +138283,10 @@ script 190 mmbn3 {
 	"""
 	waitSkip
 		frames = 10
-	"\n…That is,I was sold."
+	"""
+	
+	…That is,I was sold.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -131835,7 +138296,9 @@ script 190 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"However…"
+	"""
+	However…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -131956,11 +138419,15 @@ script 193 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 137
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = Y
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -131986,10 +138453,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -132010,7 +138481,9 @@ script 230 mmbn3 {
 	printItem
 		buffer = 0
 		item = 99
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -132202,13 +138675,19 @@ script 11 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	keyWait
@@ -132267,7 +138746,9 @@ script 12 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Too hot!! Too hot!!"
+	"""
+	Too hot!! Too hot!!
+	"""
 	keyWait
 	end
 }
@@ -132298,10 +138779,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -132337,10 +138822,14 @@ script 231 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -132359,11 +138848,15 @@ script 231 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 36
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = N
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	keyWait
 	msgClose
@@ -132410,7 +138903,9 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Heave ho!"
+	"""
+	Heave ho!
+	"""
 	keyWait
 	end
 }
@@ -132418,7 +138913,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"♪La,lala,la,laaa…♪"
+	"""
+	♪La,lala,la,laaa…♪
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -132428,7 +138925,9 @@ script 1 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"♪Doobie-doobie-do…♪"
+	"""
+	♪Doobie-doobie-do…♪
+	"""
 	keyWait
 	end
 }
@@ -132440,10 +138939,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -132465,11 +138968,15 @@ script 230 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 13
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = N
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -132531,10 +139038,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -132556,11 +139067,15 @@ script 230 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 141
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = *
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -132574,10 +139089,14 @@ script 231 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -132598,7 +139117,9 @@ script 231 mmbn3 {
 	printItem
 		buffer = 0
 		item = 96
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -132611,10 +139132,14 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Receiving data…"
+	"""
+	Receiving data…
+	"""
 	keyWait
 	clearMsg
-	"…"
+	"""
+	…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -132679,10 +139204,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -132704,7 +139233,9 @@ script 230 mmbn3 {
 	printNaviCustProgram
 		buffer = 0
 		program = 36
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -132717,13 +139248,19 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Goal!"
+	"""
+	Goal!
+	"""
 	keyWait
 	clearMsg
-	"Offside!"
+	"""
+	Offside!
+	"""
 	keyWait
 	clearMsg
-	"Penalty!"
+	"""
+	Penalty!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -132768,7 +139305,9 @@ script 10 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = MegaMan
-	"Sure am!!"
+	"""
+	Sure am!!
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -132796,7 +139335,9 @@ script 10 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = MistMan
-	"\"S\"…"
+	"""
+	"S"…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -132808,12 +139349,16 @@ script 10 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = MegaMan
-	"Do you know them?!"
+	"""
+	Do you know them?!
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
 		mugshot = MistMan
-	"I might."
+	"""
+	I might.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -132832,7 +139377,9 @@ script 10 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = MegaMan
-	"You mean battling…?"
+	"""
+	You mean battling…?
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -132910,7 +139457,9 @@ script 12 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -132918,7 +139467,10 @@ script 12 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No\n"
+	"""
+	No
+	
+	"""
 	select
 		default = 1
 		BSeparate = false
@@ -132967,7 +139519,9 @@ script 14 mmbn3 {
 	mugshotShow
 		mugshot = BowlMan
 	msgOpen
-	"Chicken,huh?"
+	"""
+	Chicken,huh?
+	"""
 	keyWait
 	end
 }
@@ -133184,7 +139738,9 @@ script 26 mmbn3 {
 	mugshotShow
 		mugshot = BowlMan
 	msgOpen
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	end
 }
@@ -133244,7 +139800,9 @@ script 32 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -133252,7 +139810,10 @@ script 32 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No\n"
+	"""
+	No
+	
+	"""
 	select
 		default = 1
 		BSeparate = false
@@ -133293,7 +139854,9 @@ script 34 mmbn3 {
 	mugshotShow
 		mugshot = MistMan
 	msgOpen
-	"Try me any time…"
+	"""
+	Try me any time…
+	"""
 	keyWait
 	end
 }
@@ -133332,7 +139895,9 @@ script 37 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Prepare to grow!"
+	"""
+	Prepare to grow!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -133457,7 +140022,9 @@ script 46 mmbn3 {
 	mugshotShow
 		mugshot = MistMan
 	msgOpen
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	end
 }
@@ -133510,7 +140077,9 @@ script 52 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = MegaMan
-	"MegaMan,rank 3!"
+	"""
+	MegaMan,rank 3!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -133544,12 +140113,16 @@ script 52 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = MegaMan
-	"So you know \"S\"?!"
+	"""
+	So you know "S"?!
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
 		mugshot = BowlMan
-	"Well…"
+	"""
+	Well…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -133601,7 +140174,9 @@ script 53 mmbn3 {
 	mugshotShow
 		mugshot = BowlMan
 	msgOpen
-	"Ready,runt?"
+	"""
+	Ready,runt?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -133661,10 +140236,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -133686,11 +140265,15 @@ script 230 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 117
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = H
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -133745,7 +140328,9 @@ script 190 mmbn3 {
 	mugshotShow
 		mugshot = HeelNavi
 	msgOpen
-	"Aw,man!!"
+	"""
+	Aw,man!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -133802,10 +140387,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -133824,7 +140413,9 @@ script 230 mmbn3 {
 	printNaviCustProgram
 		buffer = 0
 		program = 41
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	keyWait
 	msgClose
@@ -133840,10 +140431,14 @@ script 231 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -133864,7 +140459,9 @@ script 231 mmbn3 {
 	printItem
 		buffer = 0
 		item = 98
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -133946,10 +140543,14 @@ script 190 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Sigh. You know…"
+	"""
+	Sigh. You know…
+	"""
 	keyWait
 	clearMsg
-	"It's a shame…"
+	"""
+	It's a shame…
+	"""
 	waitSkip
 		frames = 20
 	keyWait
@@ -133978,16 +140579,24 @@ script 191 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Ngh!"
+	"""
+	Ngh!
+	"""
 	waitSkip
 		frames = 10
-	" No!"
+	"""
+	 No!
+	"""
 	waitSkip
 		frames = 6
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 6
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 6
 	"""
@@ -134048,10 +140657,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -134073,11 +140686,15 @@ script 230 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 159
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = A
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -134164,7 +140781,9 @@ script 180 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -134172,7 +140791,9 @@ script 180 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Not now"
+	"""
+	Not now
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -134188,7 +140809,9 @@ script 180 mmbn3 {
 }
 script 181 mmbn3 {
 	clearMsg
-	"Come again soon!"
+	"""
+	Come again soon!
+	"""
 	keyWait
 	end
 }
@@ -134243,7 +140866,9 @@ script 190 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Here we go!"
+	"""
+	Here we go!
+	"""
 	keyWait
 	flagSet
 		flag = 2675
@@ -134291,7 +140916,9 @@ script 192 mmbn3 {
 	printNaviCustProgram
 		buffer = 0
 		program = 45
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -134324,7 +140951,9 @@ script 192 mmbn3 {
 	printItem
 		buffer = 0
 		item = 47
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -134363,10 +140992,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -134388,11 +141021,15 @@ script 230 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 125
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = *
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -134405,10 +141042,14 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"SSznnnzz…! Zzzzz…!"
+	"""
+	SSznnnzz…! Zzzzz…!
+	"""
 	keyWait
 	clearMsg
-	"…Huh?!"
+	"""
+	…Huh?!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -134445,10 +141086,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -134469,7 +141114,9 @@ script 230 mmbn3 {
 	printItem
 		buffer = 0
 		item = 99
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -134518,7 +141165,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = PurpleNavi
 	msgOpen
-	"♪Hmmm,hmm…♪"
+	"""
+	♪Hmmm,hmm…♪
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -134538,10 +141187,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -134572,7 +141225,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"So,today's date is…"
+	"""
+	So,today's date is…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -134599,7 +141254,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = NormalNaviGreen
 	msgOpen
-	"Absolutely not!!"
+	"""
+	Absolutely not!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -134620,7 +141277,9 @@ script 1 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = NormalNaviGreen
-	"Urk!"
+	"""
+	Urk!
+	"""
 	keyWait
 	end
 }
@@ -134632,10 +141291,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -134656,7 +141319,9 @@ script 230 mmbn3 {
 	printItem
 		buffer = 0
 		item = 98
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -134675,7 +141340,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"A virus?!"
+	"""
+	A virus?!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -134696,7 +141363,9 @@ script 0 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = MegaMan
-	"Gotcha!!"
+	"""
+	Gotcha!!
+	"""
 	keyWait
 	clearMsg
 	msgClose
@@ -134722,10 +141391,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -134746,7 +141419,9 @@ script 230 mmbn3 {
 	printItem
 		buffer = 0
 		item = 96
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -134760,10 +141435,14 @@ script 231 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -134784,7 +141463,9 @@ script 231 mmbn3 {
 	printItem
 		buffer = 0
 		item = 99
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -134829,7 +141510,9 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Hsssssssssss…"
+	"""
+	Hsssssssssss…
+	"""
 	keyWait
 	end
 }
@@ -134841,10 +141524,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -134868,7 +141555,9 @@ script 230 mmbn3 {
 	printItem
 		buffer = 0
 		item = 117
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -134894,7 +141583,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"At your service!"
+	"""
+	At your service!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -134939,10 +141630,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -134963,7 +141658,9 @@ script 230 mmbn3 {
 	printItem
 		buffer = 0
 		item = 101
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -134989,7 +141686,9 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Surprised,aren't ya?"
+	"""
+	Surprised,aren't ya?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -135010,7 +141709,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Welcome,huh!"
+	"""
+	Welcome,huh!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -135020,13 +141721,19 @@ script 1 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -135051,10 +141758,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -135075,7 +141786,9 @@ script 230 mmbn3 {
 	printItem
 		buffer = 0
 		item = 96
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -135100,7 +141813,9 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Huff,huff…"
+	"""
+	Huff,huff…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -135162,10 +141877,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -135186,7 +141905,9 @@ script 230 mmbn3 {
 	printItem
 		buffer = 0
 		item = 98
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -135210,10 +141931,14 @@ script 231 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -135232,11 +141957,15 @@ script 231 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 107
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = B
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	keyWait
 	msgClose
@@ -135267,7 +141996,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"…Ah!"
+	"""
+	…Ah!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -135362,7 +142093,9 @@ script 5 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"They're our hands!"
+	"""
+	They're our hands!
+	"""
 	keyWait
 	end
 }
@@ -135392,10 +142125,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -135417,11 +142154,15 @@ script 230 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 168
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = *
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -135435,10 +142176,14 @@ script 231 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -135469,7 +142214,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Hey!"
+	"""
+	Hey!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -135519,7 +142266,9 @@ script 180 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -135527,7 +142276,9 @@ script 180 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No thanks"
+	"""
+	No thanks
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -135570,10 +142321,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -135595,7 +142350,9 @@ script 230 mmbn3 {
 	printNaviCustProgram
 		buffer = 0
 		program = 28
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -135610,10 +142367,14 @@ script 0 mmbn3 {
 		jumpIfTrue = 3
 		jumpIfFalse = continue
 	msgOpen
-	"This is "
+	"""
+	This is 
+	"""
 	textSpeed
 		delay = 0
-	"[circle1][circle2]"
+	"""
+	[circle1][circle2]
+	"""
 	textSpeed
 		delay = 2
 	wait
@@ -135630,7 +142391,9 @@ script 0 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -135638,7 +142401,9 @@ script 0 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -135666,7 +142431,9 @@ script 0 mmbn3 {
 	printItem
 		buffer = 0
 		item = 1
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -135678,10 +142445,14 @@ script 1 mmbn3 {
 		jumpIfTrue = 3
 		jumpIfFalse = continue
 	msgOpen
-	"This is "
+	"""
+	This is 
+	"""
 	textSpeed
 		delay = 0
-	"[cross1][cross2]"
+	"""
+	[cross1][cross2]
+	"""
 	textSpeed
 		delay = 2
 	wait
@@ -135698,7 +142469,9 @@ script 1 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -135706,7 +142479,9 @@ script 1 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -135734,7 +142509,9 @@ script 1 mmbn3 {
 	printItem
 		buffer = 0
 		item = 2
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -135745,18 +142522,27 @@ script 2 mmbn3s {
 }
 script 3 mmbn3 {
 	msgOpen
-	"You already have "
+	"""
+	You already have 
+	"""
 	textSpeed
 		delay = 0
-	"[circle1][circle2]"
+	"""
+	[circle1][circle2]
+	"""
 	textSpeed
 		delay = 2
 	wait
 		frames = 2
-	"\nor "
+	"""
+	
+	or 
+	"""
 	textSpeed
 		delay = 0
-	"[cross1][cross2]"
+	"""
+	[cross1][cross2]
+	"""
 	textSpeed
 		delay = 2
 	wait
@@ -135980,7 +142766,9 @@ script 22 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"I never get a rest!"
+	"""
+	I never get a rest!
+	"""
 	keyWait
 	end
 }
@@ -136093,11 +142881,16 @@ script 32 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 1
-	"\nand "
+	"""
+	
+	and 
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 5
-	"."
+	"""
+	.
+	"""
 	keyWait
 	end
 }
@@ -136355,7 +143148,9 @@ script 70 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Huh?! Higsby?!"
+	"""
+	Huh?! Higsby?!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -136376,7 +143171,9 @@ script 70 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Haaaa!!"
+	"""
+	Haaaa!!
+	"""
 	keyWait
 	clearMsg
 	msgClose
@@ -136447,7 +143244,9 @@ script 80 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan! You got mail!!"
+	"""
+	Lan! You got mail!!
+	"""
 	keyWait
 	end
 }
@@ -136465,7 +143264,9 @@ script 85 mmbn3 {
 	mugshotShow
 		mugshot = OfficialNavi
 	msgOpen
-	"Enemy of viruses?"
+	"""
+	Enemy of viruses?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -136614,7 +143415,9 @@ script 111 mmbn3 {
 	mugshotShow
 		mugshot = NormalNaviGreen
 	msgOpen
-	"What a crazy scene!"
+	"""
+	What a crazy scene!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -136745,7 +143548,9 @@ script 150 mmbn3 {
 	mugshotShow
 		mugshot = OfficialNavi
 	msgOpen
-	"Wheeze,wheeze…"
+	"""
+	Wheeze,wheeze…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -137012,7 +143817,9 @@ script 191 mmbn3 {
 	printItem
 		buffer = 0
 		item = 44
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -137073,7 +143880,9 @@ script 193 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"give the \""
+	"""
+	give the "
+	"""
 	printItem
 		buffer = 0
 		item = 44
@@ -137140,11 +143949,15 @@ script 195 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 69
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = D
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -137232,7 +144045,9 @@ script 201 mmbn3 {
 	printItem
 		buffer = 0
 		item = 51
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -137253,7 +144068,9 @@ script 202 mmbn3 {
 	printItem
 		buffer = 0
 		item = 51
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -137283,7 +144100,9 @@ script 202 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"OK. Away you go!"
+	"""
+	OK. Away you go!
+	"""
 	keyWait
 	end
 }
@@ -137322,7 +144141,9 @@ script 204 mmbn3 {
 	printItem
 		buffer = 0
 		item = 51
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -137338,7 +144159,9 @@ script 205 mmbn3 {
 	printItem
 		buffer = 0
 		item = 51
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -137348,7 +144171,9 @@ script 206 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Well done!"
+	"""
+	Well done!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -137370,7 +144195,9 @@ script 207 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Congratulations!"
+	"""
+	Congratulations!
+	"""
 	keyWait
 	end
 }
@@ -137396,7 +144223,9 @@ script 220 mmbn3 {
 		jumpIfGreater = 224
 		jumpIfLess = continue
 	msgOpen
-	"Mayl's security cube."
+	"""
+	Mayl's security cube.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -137415,7 +144244,9 @@ script 221 mmbn3 {
 		jumpIfGreater = 225
 		jumpIfLess = continue
 	msgOpen
-	"Dex's security cube."
+	"""
+	Dex's security cube.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -137461,7 +144292,9 @@ script 224 mmbn3 {
 	printItem
 		buffer = 0
 		item = 80
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -137485,7 +144318,9 @@ script 225 mmbn3 {
 	printItem
 		buffer = 0
 		item = 81
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -137502,7 +144337,9 @@ script 225 mmbn3 {
 }
 script 226 mmbn3 {
 	msgOpen
-	"What a flame…"
+	"""
+	What a flame…
+	"""
 	keyWait
 	end
 }
@@ -137515,7 +144352,9 @@ script 227 mmbn3 {
 	printItem
 		buffer = 0
 		item = 47
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	flagSet
 		flag = 4
@@ -137529,10 +144368,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -137554,11 +144397,15 @@ script 230 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 31
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = L
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -137572,10 +144419,14 @@ script 231 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -137599,7 +144450,9 @@ script 231 mmbn3 {
 	printItem
 		buffer = 0
 		item = 112
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -137617,10 +144470,14 @@ script 232 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -137639,11 +144496,15 @@ script 232 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 41
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = C
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	keyWait
 	msgClose
@@ -137688,10 +144549,14 @@ script 235 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -137787,11 +144652,15 @@ script 238 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -137830,7 +144699,9 @@ script 239 mmbn3 {
 		padZeros = false
 		padLeft = false
 		buffer = 1
-	" Zennys\"!!"
+	"""
+	 Zennys"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -137844,10 +144715,14 @@ script 240 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -137864,7 +144739,9 @@ script 240 mmbn3 {
 	printItem
 		buffer = 0
 		item = 115
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -137941,11 +144818,15 @@ script 243 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -137984,7 +144865,9 @@ script 244 mmbn3 {
 		padZeros = false
 		padLeft = false
 		buffer = 1
-	" Zennys\"!!"
+	"""
+	 Zennys"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -138004,10 +144887,14 @@ script 0 mmbn3 {
 		jumpIfTrue = 3
 		jumpIfFalse = continue
 	msgOpen
-	"This is "
+	"""
+	This is 
+	"""
 	textSpeed
 		delay = 0
-	"[circle1][circle2]"
+	"""
+	[circle1][circle2]
+	"""
 	textSpeed
 		delay = 2
 	wait
@@ -138024,7 +144911,9 @@ script 0 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -138032,7 +144921,9 @@ script 0 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -138060,7 +144951,9 @@ script 0 mmbn3 {
 	printItem
 		buffer = 0
 		item = 1
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -138072,10 +144965,14 @@ script 1 mmbn3 {
 		jumpIfTrue = 3
 		jumpIfFalse = continue
 	msgOpen
-	"This is "
+	"""
+	This is 
+	"""
 	textSpeed
 		delay = 0
-	"[cross1][cross2]"
+	"""
+	[cross1][cross2]
+	"""
 	textSpeed
 		delay = 2
 	wait
@@ -138092,7 +144989,9 @@ script 1 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -138100,7 +144999,9 @@ script 1 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -138128,7 +145029,9 @@ script 1 mmbn3 {
 	printItem
 		buffer = 0
 		item = 2
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -138139,18 +145042,27 @@ script 2 mmbn3s {
 }
 script 3 mmbn3 {
 	msgOpen
-	"You already have "
+	"""
+	You already have 
+	"""
 	textSpeed
 		delay = 0
-	"[circle1][circle2]"
+	"""
+	[circle1][circle2]
+	"""
 	textSpeed
 		delay = 2
 	wait
 		frames = 2
-	"\nor "
+	"""
+	
+	or 
+	"""
 	textSpeed
 		delay = 0
-	"[cross1][cross2]"
+	"""
+	[cross1][cross2]
+	"""
 	textSpeed
 		delay = 2
 	wait
@@ -138394,7 +145306,9 @@ script 24 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan! You got mail!!"
+	"""
+	Lan! You got mail!!
+	"""
 	keyWait
 	end
 }
@@ -138408,7 +145322,9 @@ script 26 mmbn3 {
 	mugshotShow
 		mugshot = NormalNaviGreen
 	msgOpen
-	"Zzzzzzzz…"
+	"""
+	Zzzzzzzz…
+	"""
 	keyWait
 	end
 }
@@ -138535,7 +145451,9 @@ script 41 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Here we go!"
+	"""
+	Here we go!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -138559,7 +145477,10 @@ script 42 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Are you ready?\n"
+	"""
+	Are you ready?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -138567,7 +145488,9 @@ script 42 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -138575,7 +145498,9 @@ script 42 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -138834,7 +145759,9 @@ script 70 mmbn3 {
 	mugshotShow
 		mugshot = HeelNavi
 	msgOpen
-	"Oop! You caught us!"
+	"""
+	Oop! You caught us!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -139321,7 +146248,9 @@ script 180 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"OK "
+	"""
+	OK 
+	"""
 	option
 		left = 0
 		right = 0
@@ -139329,7 +146258,9 @@ script 180 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No thanks"
+	"""
+	No thanks
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -139345,7 +146276,9 @@ script 180 mmbn3 {
 }
 script 181 mmbn3 {
 	clearMsg
-	"Come again!"
+	"""
+	Come again!
+	"""
 	keyWait
 	end
 }
@@ -139353,7 +146286,9 @@ script 182 mmbn3 {
 	mugshotShow
 		mugshot = NormalNaviGreen
 	msgOpen
-	"Sorry,all sold out…"
+	"""
+	Sorry,all sold out…
+	"""
 	keyWait
 	end
 }
@@ -139371,7 +146306,10 @@ script 190 mmbn3 {
 	mugshotShow
 		mugshot = PurpleNavi
 	msgOpen
-	"\"Class 5-A,Mayl\n Weight…\""
+	"""
+	"Class 5-A,Mayl
+	 Weight…"
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -139387,7 +146325,9 @@ script 190 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -139404,7 +146344,9 @@ script 190 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 69
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = G
@@ -139422,11 +146364,15 @@ script 190 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 69
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = G
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -139437,7 +146383,10 @@ script 190 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Here,take mine.\n"
+	"""
+	Here,take mine.
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -139445,7 +146394,9 @@ script 190 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Get your own!"
+	"""
+	Get your own!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -139480,7 +146431,9 @@ script 191 mmbn3 {
 	clearMsg
 	mugshotAnimate
 		animation = 0
-	"(Yes! What a deal!)"
+	"""
+	(Yes! What a deal!)
+	"""
 	keyWait
 	clearMsg
 	mugshotAnimate
@@ -139510,7 +146463,9 @@ script 192 mmbn3 {
 	printItem
 		buffer = 0
 		item = 19
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -139564,11 +146519,15 @@ script 195 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 69
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = G
-	",\"OK?"
+	"""
+	,"OK?
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -139579,7 +146538,10 @@ script 195 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Yes,definitely!\n"
+	"""
+	Yes,definitely!
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -139587,7 +146549,9 @@ script 195 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Actually… no!"
+	"""
+	Actually… no!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -139604,7 +146568,9 @@ script 196 mmbn3 {
 	mugshotShow
 		mugshot = PurpleNavi
 	msgOpen
-	"Ho,ho,ho!"
+	"""
+	Ho,ho,ho!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -139623,7 +146589,9 @@ script 220 mmbn3 {
 		jumpIfGreater = 221
 		jumpIfLess = continue
 	msgOpen
-	"Yai's security cube."
+	"""
+	Yai's security cube.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -139643,7 +146611,9 @@ script 221 mmbn3 {
 	printItem
 		buffer = 0
 		item = 82
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -139660,7 +146630,9 @@ script 221 mmbn3 {
 }
 script 222 mmbn3 {
 	msgOpen
-	"What a flame…"
+	"""
+	What a flame…
+	"""
 	keyWait
 	end
 }
@@ -139672,10 +146644,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -139697,11 +146673,15 @@ script 230 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 194
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = *
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -139715,10 +146695,14 @@ script 231 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -139750,10 +146734,14 @@ script 232 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -139834,7 +146822,9 @@ script 236 mmbn3 {
 		padZeros = false
 		padLeft = false
 		buffer = 1
-	" Zennys\"!!"
+	"""
+	 Zennys"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -139848,10 +146838,14 @@ script 237 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -139932,7 +146926,9 @@ script 241 mmbn3 {
 		padZeros = false
 		padLeft = false
 		buffer = 1
-	" Zennys\"!!"
+	"""
+	 Zennys"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -139947,10 +146943,14 @@ script 0 mmbn3 {
 		jumpIfTrue = 3
 		jumpIfFalse = continue
 	msgOpen
-	"This is "
+	"""
+	This is 
+	"""
 	textSpeed
 		delay = 0
-	"[circle1][circle2]"
+	"""
+	[circle1][circle2]
+	"""
 	textSpeed
 		delay = 2
 	wait
@@ -139967,7 +146967,9 @@ script 0 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -139975,7 +146977,9 @@ script 0 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -140003,7 +147007,9 @@ script 0 mmbn3 {
 	printItem
 		buffer = 0
 		item = 1
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -140015,10 +147021,14 @@ script 1 mmbn3 {
 		jumpIfTrue = 3
 		jumpIfFalse = continue
 	msgOpen
-	"This is "
+	"""
+	This is 
+	"""
 	textSpeed
 		delay = 0
-	"[cross1][cross2]"
+	"""
+	[cross1][cross2]
+	"""
 	textSpeed
 		delay = 2
 	wait
@@ -140035,7 +147045,9 @@ script 1 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -140043,7 +147055,9 @@ script 1 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -140071,7 +147085,9 @@ script 1 mmbn3 {
 	printItem
 		buffer = 0
 		item = 2
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -140082,18 +147098,27 @@ script 2 mmbn3s {
 }
 script 3 mmbn3 {
 	msgOpen
-	"You already have "
+	"""
+	You already have 
+	"""
 	textSpeed
 		delay = 0
-	"[circle1][circle2]"
+	"""
+	[circle1][circle2]
+	"""
 	textSpeed
 		delay = 2
 	wait
 		frames = 2
-	"\nor "
+	"""
+	
+	or 
+	"""
 	textSpeed
 		delay = 0
-	"[cross1][cross2]"
+	"""
+	[cross1][cross2]
+	"""
 	textSpeed
 		delay = 2
 	wait
@@ -140145,7 +147170,9 @@ script 6 mmbn3 {
 	printItem
 		buffer = 0
 		item = 2
-	"\" is?"
+	"""
+	" is?
+	"""
 	keyWait
 	end
 }
@@ -140229,7 +147256,9 @@ script 8 mmbn3 {
 	printItem
 		buffer = 0
 		item = 2
-	"\"?!"
+	"""
+	"?!
+	"""
 	keyWait
 	end
 }
@@ -140283,7 +147312,9 @@ script 16 mmbn3 {
 	mugshotShow
 		mugshot = PurpleNavi
 	msgOpen
-	"The \""
+	"""
+	The "
+	"""
 	printItem
 		buffer = 0
 		item = 2
@@ -140299,10 +147330,14 @@ script 16 mmbn3 {
 	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
 	"""
@@ -140564,7 +147599,9 @@ script 60 mmbn3 {
 	mugshotShow
 		mugshot = NormalNaviGreen
 	msgOpen
-	"\"Enemy of viruses\"…?"
+	"""
+	"Enemy of viruses"…?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -140869,7 +147906,9 @@ script 125 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Huh? I'm right?!"
+	"""
+	Huh? I'm right?!
+	"""
 	keyWait
 	end
 }
@@ -140952,16 +147991,24 @@ script 190 mmbn3 {
 	mugshotShow
 		mugshot = HeelNavi
 	msgOpen
-	"Huh? What's that?!"
+	"""
+	Huh? What's that?!
+	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 10
 	"""
@@ -140977,7 +148024,9 @@ script 190 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"C'mon,bring it on!"
+	"""
+	C'mon,bring it on!
+	"""
 	keyWait
 	clearMsg
 	msgClose
@@ -141022,7 +148071,9 @@ script 220 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"It's small and cute!"
+	"""
+	It's small and cute!
+	"""
 	keyWait
 	end
 }
@@ -141049,7 +148100,9 @@ script 221 mmbn3 {
 }
 script 222 mmbn3 {
 	msgOpen
-	"What a flame…"
+	"""
+	What a flame…
+	"""
 	keyWait
 	end
 }
@@ -141072,10 +148125,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -141097,11 +148154,15 @@ script 230 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 32
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = E
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -141115,10 +148176,14 @@ script 231 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -141140,11 +148205,15 @@ script 231 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 120
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = *
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -141158,10 +148227,14 @@ script 232 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -141257,11 +148330,15 @@ script 235 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\""
+	"""
+	"
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -141300,7 +148377,9 @@ script 236 mmbn3 {
 		padZeros = false
 		padLeft = false
 		buffer = 1
-	" Zennys\"!!"
+	"""
+	 Zennys"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -141314,10 +148393,14 @@ script 237 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -141413,11 +148496,15 @@ script 240 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\""
+	"""
+	"
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -141456,7 +148543,9 @@ script 241 mmbn3 {
 		padZeros = false
 		padLeft = false
 		buffer = 1
-	" Zennys\"!!"
+	"""
+	 Zennys"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -141477,7 +148566,9 @@ script 250 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -141604,7 +148695,9 @@ script 0 mmbn3 {
 	"""
 	textSpeed
 		delay = 0
-	"[circle1][circle2]"
+	"""
+	[circle1][circle2]
+	"""
 	textSpeed
 		delay = 2
 	wait
@@ -141615,26 +148708,39 @@ script 0 mmbn3 {
 	"""
 	textSpeed
 		delay = 0
-	"[cross1][cross2]"
+	"""
+	[cross1][cross2]
+	"""
 	textSpeed
 		delay = 2
 	wait
 		frames = 2
-	"\" quiz mission!"
+	"""
+	" quiz mission!
+	"""
 	keyWait
 	clearMsg
-	"I'll ask a question.\n"
+	"""
+	I'll ask a question.
+	
+	"""
 	textSpeed
 		delay = 0
-	"[circle1][circle2]"
+	"""
+	[circle1][circle2]
+	"""
 	textSpeed
 		delay = 2
 	wait
 		frames = 2
-	" & "
+	"""
+	 & 
+	"""
 	textSpeed
 		delay = 0
-	"[cross1][cross2]"
+	"""
+	[cross1][cross2]
+	"""
 	textSpeed
 		delay = 2
 	wait
@@ -141685,7 +148791,9 @@ script 0 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"YES! "
+	"""
+	YES! 
+	"""
 	option
 		left = 0
 		right = 0
@@ -141693,7 +148801,9 @@ script 0 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Not really"
+	"""
+	Not really
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -141704,7 +148814,9 @@ script 0 mmbn3 {
 			jump = continue,
 			jump = continue
 		]
-	"I see…"
+	"""
+	I see…
+	"""
 	keyWait
 	end
 }
@@ -141714,7 +148826,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = NormalNaviGreen
 	msgOpen
-	"Here's Mission #1."
+	"""
+	Here's Mission #1.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -141723,7 +148837,9 @@ script 1 mmbn3 {
 	"""
 	textSpeed
 		delay = 0
-	"[circle1][circle2]"
+	"""
+	[circle1][circle2]
+	"""
 	textSpeed
 		delay = 2
 	wait
@@ -141734,12 +148850,16 @@ script 1 mmbn3 {
 	"""
 	textSpeed
 		delay = 0
-	"[cross1][cross2]"
+	"""
+	[cross1][cross2]
+	"""
 	textSpeed
 		delay = 2
 	wait
 		frames = 2
-	"\"?"
+	"""
+	"?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -141749,20 +148869,28 @@ script 1 mmbn3 {
 	"""
 	textSpeed
 		delay = 0
-	"[circle1][circle2]"
+	"""
+	[circle1][circle2]
+	"""
 	textSpeed
 		delay = 2
 	wait
 		frames = 2
-	" or "
+	"""
+	 or 
+	"""
 	textSpeed
 		delay = 0
-	"[cross1][cross2]"
+	"""
+	[cross1][cross2]
+	"""
 	textSpeed
 		delay = 2
 	wait
 		frames = 2
-	"!"
+	"""
+	!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -141779,19 +148907,25 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = NormalNaviGreen
 	msgOpen
-	"The answer is…"
+	"""
+	The answer is…
+	"""
 	keyWait
 	clearMsg
 	soundPlay
 		track = 301
 	textSpeed
 		delay = 0
-	"[circle1][circle2]"
+	"""
+	[circle1][circle2]
+	"""
 	textSpeed
 		delay = 2
 	wait
 		frames = 2
-	"!! True!!"
+	"""
+	!! True!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -141814,19 +148948,25 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = NormalNaviGreen
 	msgOpen
-	"The answer is…"
+	"""
+	The answer is…
+	"""
 	keyWait
 	clearMsg
 	soundPlay
 		track = 301
 	textSpeed
 		delay = 0
-	"[cross1][cross2]"
+	"""
+	[cross1][cross2]
+	"""
 	textSpeed
 		delay = 2
 	wait
 		frames = 2
-	"!! False!!"
+	"""
+	!! False!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -141884,7 +149024,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = NormalNaviGreen
 	msgOpen
-	"Take care!"
+	"""
+	Take care!
+	"""
 	keyWait
 	end
 }
@@ -141894,7 +149036,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = NormalNaviGreen
 	msgOpen
-	"Here's Mission #2."
+	"""
+	Here's Mission #2.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -141904,10 +149048,14 @@ script 6 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"True \""
+	"""
+	True "
+	"""
 	textSpeed
 		delay = 0
-	"[circle1][circle2]"
+	"""
+	[circle1][circle2]
+	"""
 	textSpeed
 		delay = 2
 	wait
@@ -141918,7 +149066,9 @@ script 6 mmbn3 {
 	"""
 	textSpeed
 		delay = 0
-	"[cross1][cross2]"
+	"""
+	[cross1][cross2]
+	"""
 	textSpeed
 		delay = 2
 	wait
@@ -141938,7 +149088,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = NormalNaviGreen
 	msgOpen
-	"Finally,Mission #3!"
+	"""
+	Finally,Mission #3!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -141948,10 +149100,14 @@ script 7 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"True \""
+	"""
+	True "
+	"""
 	textSpeed
 		delay = 0
-	"[circle1][circle2]"
+	"""
+	[circle1][circle2]
+	"""
 	textSpeed
 		delay = 2
 	wait
@@ -141962,7 +149118,9 @@ script 7 mmbn3 {
 	"""
 	textSpeed
 		delay = 0
-	"[cross1][cross2]"
+	"""
+	[cross1][cross2]
+	"""
 	textSpeed
 		delay = 2
 	wait
@@ -142048,7 +149206,9 @@ script 12 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -142056,7 +149216,9 @@ script 12 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -142080,7 +149242,9 @@ script 13 mmbn3 {
 	mugshotShow
 		mugshot = NormalNaviGreen
 	msgOpen
-	"Good luck!"
+	"""
+	Good luck!
+	"""
 	keyWait
 	end
 }
@@ -142263,19 +149427,25 @@ script 21 mmbn3 {
 	mugshotShow
 		mugshot = NormalNaviGreen
 	msgOpen
-	"The answer is…"
+	"""
+	The answer is…
+	"""
 	keyWait
 	clearMsg
 	soundPlay
 		track = 286
 	textSpeed
 		delay = 0
-	"[circle1][circle2]"
+	"""
+	[circle1][circle2]
+	"""
 	textSpeed
 		delay = 2
 	wait
 		frames = 2
-	"!! True!!"
+	"""
+	!! True!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -142285,19 +149455,25 @@ script 22 mmbn3 {
 	mugshotShow
 		mugshot = NormalNaviGreen
 	msgOpen
-	"The answer is…"
+	"""
+	The answer is…
+	"""
 	keyWait
 	clearMsg
 	soundPlay
 		track = 286
 	textSpeed
 		delay = 0
-	"[cross1][cross2]"
+	"""
+	[cross1][cross2]
+	"""
 	textSpeed
 		delay = 2
 	wait
 		frames = 2
-	"!! False!!"
+	"""
+	!! False!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -142307,19 +149483,25 @@ script 23 mmbn3 {
 	mugshotShow
 		mugshot = NormalNaviGreen
 	msgOpen
-	"The answer is…"
+	"""
+	The answer is…
+	"""
 	keyWait
 	clearMsg
 	soundPlay
 		track = 286
 	textSpeed
 		delay = 0
-	"[cross1][cross2]"
+	"""
+	[cross1][cross2]
+	"""
 	textSpeed
 		delay = 2
 	wait
 		frames = 2
-	"!! False!!"
+	"""
+	!! False!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -142347,7 +149529,9 @@ script 26 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Now I'm broke!"
+	"""
+	Now I'm broke!
+	"""
 	keyWait
 	end
 }
@@ -142782,7 +149966,9 @@ script 84 mmbn3 {
 	printFolderName
 		buffer = 0
 		entry = 10
-	"\"?"
+	"""
+	"?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -142812,7 +149998,9 @@ script 84 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Do you want it?"
+	"""
+	Do you want it?
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -142823,7 +150011,9 @@ script 84 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes,yes! "
+	"""
+	Yes,yes! 
+	"""
 	option
 		left = 0
 		right = 0
@@ -142831,7 +150021,9 @@ script 84 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Nope"
+	"""
+	Nope
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -142844,7 +150036,9 @@ script 84 mmbn3 {
 		]
 	mugshotShow
 		mugshot = PurpleNavi
-	"That's a pity…"
+	"""
+	That's a pity…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -142880,12 +150074,16 @@ script 85 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Now!!"
+	"""
+	Now!!
+	"""
 	keyWait
 	clearMsg
 	soundPlay
 		track = 220
-	"Finished!"
+	"""
+	Finished!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -142895,7 +150093,9 @@ script 85 mmbn3 {
 	printFolderName
 		buffer = 0
 		entry = 10
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	end
 }
@@ -143750,7 +150950,9 @@ script 180 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -143758,7 +150960,9 @@ script 180 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -143774,7 +150978,9 @@ script 180 mmbn3 {
 }
 script 181 mmbn3 {
 	clearMsg
-	"Please come again!"
+	"""
+	Please come again!
+	"""
 	keyWait
 	end
 }
@@ -143782,7 +150988,9 @@ script 182 mmbn3 {
 	mugshotShow
 		mugshot = NormalNaviGreen
 	msgOpen
-	"Sorry,I'm sold out…"
+	"""
+	Sorry,I'm sold out…
+	"""
 	keyWait
 	end
 }
@@ -143806,7 +151014,9 @@ script 183 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -143814,7 +151024,9 @@ script 183 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -143873,11 +151085,15 @@ script 190 mmbn3 {
 	mugshotShow
 		mugshot = NormalNaviGreen
 	msgOpen
-	"A \""
+	"""
+	A "
+	"""
 	printChip
 		buffer = 0
 		chip = 43
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = B
@@ -143986,19 +151202,29 @@ script 192 mmbn3 {
 	mugshotShow
 		mugshot = NormalNaviGreen
 	msgOpen
-	"What was that?!"
+	"""
+	What was that?!
+	"""
 	keyWait
 	clearMsg
-	"5600 Zennys"
+	"""
+	5600 Zennys
+	"""
 	waitSkip
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 10
 	"""
@@ -144130,11 +151356,15 @@ script 195 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 43
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = B
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -144211,11 +151441,15 @@ script 200 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 160
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = *
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -144258,11 +151492,15 @@ script 202 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 160
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = *
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -144272,7 +151510,9 @@ script 202 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 99
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = N
@@ -144291,14 +151531,18 @@ script 202 mmbn3 {
 }
 script 220 mmbn3 {
 	msgOpen
-	"It's the Chat BBS!"
+	"""
+	It's the Chat BBS!
+	"""
 	keyWait
 	startBBS
 		bbs = 1
 }
 script 221 mmbn3 {
 	msgOpen
-	"It's the Battle BBS!"
+	"""
+	It's the Battle BBS!
+	"""
 	keyWait
 	startBBS
 		bbs = 2
@@ -144727,7 +151971,9 @@ script 60 mmbn3 {
 	mugshotShow
 		mugshot = HeelNavi
 	msgOpen
-	"You found us again!"
+	"""
+	You found us again!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -145200,7 +152446,9 @@ script 135 mmbn3 {
 	mugshotShow
 		mugshot = NormalNaviGreen
 	msgOpen
-	"Help!!!"
+	"""
+	Help!!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -145418,10 +152666,14 @@ script 200 mmbn3 {
 	printItem
 		buffer = 0
 		item = 51
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	clearMsg
-	"Here's your stamp!"
+	"""
+	Here's your stamp!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -145510,7 +152762,9 @@ script 223 mmbn3 {
 }
 script 224 mmbn3 {
 	msgOpen
-	"What a flame…"
+	"""
+	What a flame…
+	"""
 	keyWait
 	end
 }
@@ -145540,7 +152794,9 @@ script 226 mmbn3 {
 	printItem
 		buffer = 0
 		item = 47
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	flagSet
 		flag = 5
@@ -145565,10 +152821,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -145590,11 +152850,15 @@ script 230 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 160
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = *
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -145608,10 +152872,14 @@ script 231 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -145633,11 +152901,15 @@ script 231 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 37
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = Z
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -145651,10 +152923,14 @@ script 235 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -145760,11 +153036,15 @@ script 238 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -145803,7 +153083,9 @@ script 239 mmbn3 {
 		padZeros = false
 		padLeft = false
 		buffer = 1
-	" Zennys\"!!"
+	"""
+	 Zennys"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -145817,10 +153099,14 @@ script 240 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -145926,11 +153212,15 @@ script 243 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -145969,7 +153259,9 @@ script 244 mmbn3 {
 		padZeros = false
 		padLeft = false
 		buffer = 1
-	" Zennys\"!!"
+	"""
+	 Zennys"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -146013,10 +153305,14 @@ script 0 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = HeelNavi
-	"(That's the spirit!)"
+	"""
+	(That's the spirit!)
+	"""
 	keyWait
 	clearMsg
-	"Attaaaaack!!!"
+	"""
+	Attaaaaack!!!
+	"""
 	keyWait
 	clearMsg
 	msgClose
@@ -146040,7 +153336,9 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = GutsMan
 	msgOpen
-	"What a weird place!"
+	"""
+	What a weird place!
+	"""
 	keyWait
 	end
 }
@@ -146525,7 +153823,9 @@ script 51 mmbn3 {
 	mugshotShow
 		mugshot = NormalNaviGreen
 	msgOpen
-	"Hmm… hmmm…"
+	"""
+	Hmm… hmmm…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -146540,7 +153840,9 @@ script 52 mmbn3 {
 	mugshotShow
 		mugshot = OfficialNavi
 	msgOpen
-	"I'm taking a break…"
+	"""
+	I'm taking a break…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -146616,11 +153918,15 @@ script 70 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 58
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = C
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -146632,11 +153938,15 @@ script 70 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 58
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = C
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -146669,7 +153979,9 @@ script 71 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Ha ha ha ha!"
+	"""
+	Ha ha ha ha!
+	"""
 	keyWait
 	end
 }
@@ -146700,14 +154012,20 @@ script 72 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 58
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = C
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	clearMsg
-	"…You don't have it?!"
+	"""
+	…You don't have it?!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -146778,7 +154096,9 @@ script 76 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"What happened?"
+	"""
+	What happened?
+	"""
 	keyWait
 	end
 }
@@ -147263,7 +154583,9 @@ script 170 mmbn3 {
 	mugshotShow
 		mugshot = OfficialNavi
 	msgOpen
-	"Is it true?!"
+	"""
+	Is it true?!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -147364,7 +154686,9 @@ script 190 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Give "
+	"""
+	Give 
+	"""
 	option
 		left = 0
 		right = 0
@@ -147372,7 +154696,9 @@ script 190 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Don't give"
+	"""
+	Don't give
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -147422,7 +154748,9 @@ script 191 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Give "
+	"""
+	Give 
+	"""
 	option
 		left = 0
 		right = 0
@@ -147430,7 +154758,9 @@ script 191 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Don't give"
+	"""
+	Don't give
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -147494,15 +154824,22 @@ script 193 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 37
-	","
+	"""
+	,
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 38
-	",\nand "
+	"""
+	,
+	and 
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 39
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	flagSet
 		flag = 5778
@@ -147600,7 +154937,9 @@ script 223 mmbn3 {
 }
 script 224 mmbn3 {
 	msgOpen
-	"What a flame…"
+	"""
+	What a flame…
+	"""
 	keyWait
 	end
 }
@@ -147652,10 +154991,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -147676,7 +155019,9 @@ script 230 mmbn3 {
 	printItem
 		buffer = 0
 		item = 99
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -147696,10 +155041,14 @@ script 231 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -147721,11 +155070,15 @@ script 231 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 136
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = A
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -147739,10 +155092,14 @@ script 235 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -147848,11 +155205,15 @@ script 238 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -147891,7 +155252,9 @@ script 239 mmbn3 {
 		padZeros = false
 		padLeft = false
 		buffer = 1
-	" Zennys\"!!"
+	"""
+	 Zennys"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -147905,10 +155268,14 @@ script 240 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -148014,11 +155381,15 @@ script 243 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -148057,7 +155428,9 @@ script 244 mmbn3 {
 		padZeros = false
 		padLeft = false
 		buffer = 1
-	" Zennys\"!!"
+	"""
+	 Zennys"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -148098,7 +155471,10 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Are you ready?!\n"
+	"""
+	Are you ready?!
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -148106,7 +155482,9 @@ script 0 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -148114,7 +155492,9 @@ script 0 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -148166,7 +155546,9 @@ script 3 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -148174,7 +155556,9 @@ script 3 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -148185,7 +155569,9 @@ script 3 mmbn3 {
 			jump = continue,
 			jump = continue
 		]
-	"Good luck!"
+	"""
+	Good luck!
+	"""
 	keyWait
 	end
 }
@@ -148233,7 +155619,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = PurpleNavi
 	msgOpen
-	"Nice work!!"
+	"""
+	Nice work!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -148296,7 +155684,9 @@ script 6 mmbn3 {
 	printItem
 		buffer = 0
 		item = 92
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -148605,7 +155995,9 @@ script 42 mmbn3 {
 	mugshotShow
 		mugshot = OfficialNavi
 	msgOpen
-	"Situation normal."
+	"""
+	Situation normal.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -148654,11 +156046,16 @@ script 50 mmbn3 {
 	mugshotShow
 		mugshot = GirlNaviOrange
 	msgOpen
-	"Ah,I dropped the\n"
+	"""
+	Ah,I dropped the
+	
+	"""
 	printChip
 		buffer = 0
 		chip = 32
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = E
@@ -148678,7 +156075,9 @@ script 50 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 32
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = E
@@ -148715,11 +156114,15 @@ script 51 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 32
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = E
-	"\"?"
+	"""
+	"?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -148728,22 +156131,35 @@ script 51 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"\nmy chip."
+	"""
+	
+	my chip.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"?"
+	"""
+	?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -148794,14 +156210,20 @@ script 51 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 32
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = E
-	"\"?"
+	"""
+	"?
+	"""
 	keyWait
 	clearMsg
-	"For if you do…"
+	"""
+	For if you do…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -148817,7 +156239,10 @@ script 51 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Please…?\n"
+	"""
+	Please…?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -148825,7 +156250,9 @@ script 51 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Sure… "
+	"""
+	Sure… 
+	"""
 	option
 		left = 0
 		right = 0
@@ -148833,7 +156260,9 @@ script 51 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Scram!"
+	"""
+	Scram!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -148850,7 +156279,9 @@ script 52 mmbn3 {
 	mugshotShow
 		mugshot = GirlNaviOrange
 	msgOpen
-	"B-B-But!"
+	"""
+	B-B-But!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -148860,10 +156291,14 @@ script 52 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"She'll murderize me!"
+	"""
+	She'll murderize me!
+	"""
 	keyWait
 	clearMsg
-	"She'll murderize me!"
+	"""
+	She'll murderize me!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -148914,7 +156349,9 @@ script 53 mmbn3 {
 	printItem
 		buffer = 0
 		item = 94
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -148928,13 +156365,19 @@ script 53 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -148943,7 +156386,9 @@ script 53 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Were you moved?"
+	"""
+	Were you moved?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -148966,14 +156411,21 @@ script 54 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 32
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = E
-	"\"?!"
+	"""
+	"?!
+	"""
 	keyWait
 	clearMsg
-	"Of course you are!\n"
+	"""
+	Of course you are!
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -148981,7 +156433,9 @@ script 54 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Of course! "
+	"""
+	Of course! 
+	"""
 	option
 		left = 0
 		right = 0
@@ -148989,7 +156443,9 @@ script 54 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Nope!"
+	"""
+	Nope!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -149257,7 +156713,9 @@ script 72 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"I sure hope so!!!"
+	"""
+	I sure hope so!!!
+	"""
 	keyWait
 	end
 }
@@ -149495,7 +156953,10 @@ script 96 mmbn3 {
 	mugshotShow
 		mugshot = PurpleNavi
 	msgOpen
-	"Do you want a\n"
+	"""
+	Do you want a
+	
+	"""
 	printFolderName
 		buffer = 0
 		entry = 2
@@ -149520,7 +156981,9 @@ script 96 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"OK "
+	"""
+	OK 
+	"""
 	option
 		left = 0
 		right = 0
@@ -149528,7 +156991,9 @@ script 96 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Nah!"
+	"""
+	Nah!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -149548,7 +157013,10 @@ script 96 mmbn3 {
 	printFolderName
 		buffer = 0
 		entry = 2
-	",\njust let me know!"
+	"""
+	,
+	just let me know!
+	"""
 	keyWait
 	end
 }
@@ -149558,14 +157026,21 @@ script 97 mmbn3 {
 	mugshotShow
 		mugshot = PurpleNavi
 	msgOpen
-	"OK,transmitting the\n"
+	"""
+	OK,transmitting the
+	
+	"""
 	printFolderName
 		buffer = 0
 		entry = 2
-	"!!"
+	"""
+	!!
+	"""
 	keyWait
 	clearMsg
-	"Vooop!!"
+	"""
+	Vooop!!
+	"""
 	keyWait
 	clearMsg
 	soundPlay
@@ -149584,7 +157059,9 @@ script 97 mmbn3 {
 	printFolderName
 		buffer = 0
 		entry = 2
-	"!!"
+	"""
+	!!
+	"""
 	keyWait
 	end
 }
@@ -149726,7 +157203,9 @@ script 120 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"What a bummer…"
+	"""
+	What a bummer…
+	"""
 	keyWait
 	end
 }
@@ -149778,7 +157257,9 @@ script 130 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Welcome to SciLab!"
+	"""
+	Welcome to SciLab!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -149833,7 +157314,9 @@ script 134 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Erk…!"
+	"""
+	Erk…!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -150052,10 +157535,14 @@ script 170 mmbn3 {
 	mugshotShow
 		mugshot = ProtoMan
 	msgOpen
-	"There you are…"
+	"""
+	There you are…
+	"""
 	keyWait
 	clearMsg
-	"Take this."
+	"""
+	Take this.
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -150072,7 +157559,9 @@ script 170 mmbn3 {
 	printItem
 		buffer = 0
 		item = 35
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -150095,7 +157584,9 @@ script 172 mmbn3 {
 	mugshotShow
 		mugshot = OfficialNavi
 	msgOpen
-	"You're MegaMan?"
+	"""
+	You're MegaMan?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -150198,7 +157689,9 @@ script 180 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Look "
+	"""
+	Look 
+	"""
 	option
 		left = 0
 		right = 0
@@ -150206,7 +157699,9 @@ script 180 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Don't look"
+	"""
+	Don't look
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -150222,7 +157717,9 @@ script 180 mmbn3 {
 }
 script 181 mmbn3 {
 	clearMsg
-	"Come again!"
+	"""
+	Come again!
+	"""
 	keyWait
 	end
 }
@@ -150263,11 +157760,15 @@ script 190 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 43
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = B
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -150300,7 +157801,9 @@ script 191 mmbn3 {
 	clearMsg
 	mugshotAnimate
 		animation = 1
-	"…Huh?!"
+	"""
+	…Huh?!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -150328,11 +157831,15 @@ script 192 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 43
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = B
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -150365,7 +157872,9 @@ script 193 mmbn3 {
 	clearMsg
 	mugshotAnimate
 		animation = 1
-	"…Gasp?!"
+	"""
+	…Gasp?!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -150387,13 +157896,17 @@ script 194 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"So lame…"
+	"""
+	So lame…
+	"""
 	keyWait
 	end
 }
 script 220 mmbn3 {
 	msgOpen
-	"It's the Battle BBS!"
+	"""
+	It's the Battle BBS!
+	"""
 	keyWait
 	startBBS
 		bbs = 3
@@ -150460,7 +157973,9 @@ script 21 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan! You got mail!"
+	"""
+	Lan! You got mail!
+	"""
 	keyWait
 	end
 }
@@ -150721,7 +158236,9 @@ script 120 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"H-help me!!"
+	"""
+	H-help me!!
+	"""
 	keyWait
 	end
 }
@@ -150752,7 +158269,9 @@ script 180 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -150760,7 +158279,9 @@ script 180 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -150776,7 +158297,9 @@ script 180 mmbn3 {
 }
 script 181 mmbn3 {
 	clearMsg
-	"Come again!"
+	"""
+	Come again!
+	"""
 	keyWait
 	end
 }
@@ -150803,16 +158326,25 @@ script 190 mmbn3 {
 	msgOpen
 	flagSet
 		flag = 1864
-	"Zzzzzz…\n"
+	"""
+	Zzzzzz…
+	
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	".Huh?!"
+	"""
+	.Huh?!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -150905,7 +158437,9 @@ script 196 mmbn3 {
 	mugshotShow
 		mugshot = HeelNavi
 	msgOpen
-	"You… little…"
+	"""
+	You… little…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -151020,7 +158554,9 @@ script 224 mmbn3 {
 	printItem
 		buffer = 0
 		item = 14
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -151035,7 +158571,9 @@ script 224 mmbn3 {
 }
 script 225 mmbn3 {
 	msgOpen
-	"What a flame…"
+	"""
+	What a flame…
+	"""
 	keyWait
 	end
 }
@@ -151048,7 +158586,9 @@ script 226 mmbn3 {
 	printItem
 		buffer = 0
 		item = 83
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -151072,7 +158612,9 @@ script 227 mmbn3 {
 	printItem
 		buffer = 0
 		item = 47
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	flagSet
 		flag = 7
@@ -151097,10 +158639,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -151122,7 +158668,9 @@ script 230 mmbn3 {
 	printNaviCustProgram
 		buffer = 0
 		program = 42
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -151140,10 +158688,14 @@ script 231 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -151162,11 +158714,15 @@ script 231 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 65
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = L
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	keyWait
 	msgClose
@@ -151182,10 +158738,14 @@ script 232 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -151207,11 +158767,15 @@ script 232 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 142
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = Q
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -151241,10 +158805,14 @@ script 235 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -151350,11 +158918,15 @@ script 238 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -151393,7 +158965,9 @@ script 239 mmbn3 {
 		padZeros = false
 		padLeft = false
 		buffer = 1
-	" Zennys\"!!"
+	"""
+	 Zennys"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -151407,10 +158981,14 @@ script 240 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -151516,11 +159094,15 @@ script 243 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -151559,7 +159141,9 @@ script 244 mmbn3 {
 		padZeros = false
 		padLeft = false
 		buffer = 1
-	" Zennys\"!!"
+	"""
+	 Zennys"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -151582,7 +159166,9 @@ script 250 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -151669,13 +159255,19 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = NormalNaviGreen
 	msgOpen
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -151765,7 +159357,9 @@ script 3 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = MegaMan
-	"Huh?! Me?!"
+	"""
+	Huh?! Me?!
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -151779,13 +159373,19 @@ script 3 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = MegaMan
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -151796,28 +159396,41 @@ script 3 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = NormalNaviGreen
-	"I can't wait!"
+	"""
+	I can't wait!
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
 		mugshot = Lan
 	mugshotAnimate
 		animation = 0
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"(gulp!)"
+	"""
+	(gulp!)
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
 		mugshot = MegaMan
-	"Oh no! It's a\n"
+	"""
+	Oh no! It's a
+	
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 49
@@ -151828,12 +159441,16 @@ script 3 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 50
-	" us!"
+	"""
+	 us!
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
 		mugshot = NormalNaviGreen
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -151846,18 +159463,26 @@ script 3 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 51
-	"-ed potatoes!"
+	"""
+	-ed potatoes!
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
 		mugshot = NormalNaviGreen
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -151880,14 +159505,21 @@ script 3 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 49
-	" and\n"
+	"""
+	 and
+	
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 50
-	",but that"
+	"""
+	,but that
+	"""
 	keyWait
 	clearMsg
-	"last "
+	"""
+	last 
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 51
@@ -151935,11 +159567,15 @@ script 3 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 132
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = *
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -151949,13 +159585,19 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = NormalNaviGreen
 	msgOpen
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -152256,7 +159898,9 @@ script 60 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Ooops! Too late!!"
+	"""
+	Ooops! Too late!!
+	"""
 	keyWait
 	clearMsg
 	msgClose
@@ -152338,7 +159982,9 @@ script 62 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan! You got mail!"
+	"""
+	Lan! You got mail!
+	"""
 	keyWait
 	end
 }
@@ -152478,7 +160124,9 @@ script 190 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"…Ah!"
+	"""
+	…Ah!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -152527,7 +160175,9 @@ script 191 mmbn3 {
 	printItem
 		buffer = 0
 		item = 45
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	playerFinish
 	playerReset
@@ -152547,7 +160197,9 @@ script 192 mmbn3 {
 	mugshotShow
 		mugshot = HeelNavi
 	msgOpen
-	"Huh? Who're you?!"
+	"""
+	Huh? Who're you?!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -152593,7 +160245,9 @@ script 195 mmbn3 {
 	mugshotShow
 		mugshot = HeelNavi
 	msgOpen
-	"Hiii-YAHH!!!"
+	"""
+	Hiii-YAHH!!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -152714,7 +160368,9 @@ script 202 mmbn3 {
 }
 script 220 mmbn3 {
 	msgOpen
-	"What a flame…"
+	"""
+	What a flame…
+	"""
 	keyWait
 	end
 }
@@ -152727,10 +160383,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -152754,7 +160414,9 @@ script 230 mmbn3 {
 	printItem
 		buffer = 0
 		item = 113
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -152768,10 +160430,14 @@ script 231 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -152792,7 +160458,9 @@ script 231 mmbn3 {
 	printItem
 		buffer = 0
 		item = 96
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -152819,10 +160487,14 @@ script 235 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -152928,11 +160600,15 @@ script 238 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -152971,7 +160647,9 @@ script 239 mmbn3 {
 		padZeros = false
 		padLeft = false
 		buffer = 1
-	" Zennys\"!!"
+	"""
+	 Zennys"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -152985,10 +160663,14 @@ script 240 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -153094,11 +160776,15 @@ script 243 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -153137,7 +160823,9 @@ script 244 mmbn3 {
 		padZeros = false
 		padLeft = false
 		buffer = 1
-	" Zennys\"!!"
+	"""
+	 Zennys"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -153226,19 +160914,29 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Yay! Clap clap clap!"
+	"""
+	Yay! Clap clap clap!
+	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"Yay!"
+	"""
+	Yay!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -153249,25 +160947,35 @@ script 0 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = MegaMan
-	"Uh… Yaaaay!!"
+	"""
+	Uh… Yaaaay!!
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
 		mugshot = OfficialNavi
-	"Excuse me…"
+	"""
+	Excuse me…
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
 	soundDisableTextSFX
 	soundPlay
 		track = 162
-	"(click)"
+	"""
+	(click)
+	"""
 	wait
 		frames = 30
-	" "
+	"""
+	 
+	"""
 	soundPlay
 		track = 162
-	"(click)…"
+	"""
+	(click)…
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -153333,7 +161041,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = OfficialNavi
 	msgOpen
-	"Time for Mission #1!"
+	"""
+	Time for Mission #1!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -153343,7 +161053,9 @@ script 1 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Annnnd… ACTION!!"
+	"""
+	Annnnd… ACTION!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -153384,7 +161096,9 @@ script 2 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -153392,7 +161106,9 @@ script 2 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 1
 		BSeparate = false
@@ -153403,7 +161119,9 @@ script 2 mmbn3 {
 			jump = continue,
 			jump = continue
 		]
-	"All right,good luck!"
+	"""
+	All right,good luck!
+	"""
 	keyWait
 	end
 }
@@ -153464,7 +161182,10 @@ script 4 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Are you ready?!\n"
+	"""
+	Are you ready?!
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -153472,7 +161193,9 @@ script 4 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes! "
+	"""
+	Yes! 
+	"""
 	option
 		left = 0
 		right = 0
@@ -153480,7 +161203,9 @@ script 4 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Nope!"
+	"""
+	Nope!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -153600,7 +161325,9 @@ script 15 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Sure "
+	"""
+	Sure 
+	"""
 	option
 		left = 0
 		right = 0
@@ -153608,7 +161335,9 @@ script 15 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -154020,7 +161749,9 @@ script 54 mmbn3 {
 	mugshotShow
 		mugshot = MrProg
 	msgOpen
-	"Peace is paramount!"
+	"""
+	Peace is paramount!
+	"""
 	keyWait
 	end
 }
@@ -154055,7 +161786,9 @@ script 61 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"ProtoMan's the man!"
+	"""
+	ProtoMan's the man!
+	"""
 	keyWait
 	end
 }
@@ -154269,16 +162002,24 @@ script 85 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That is"
+	"""
+	That is
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -154384,7 +162125,9 @@ script 95 mmbn3 {
 	mugshotShow
 		mugshot = OfficialNavi
 	msgOpen
-	"So,you're MegaMan!"
+	"""
+	So,you're MegaMan!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -154738,7 +162481,9 @@ script 180 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Look "
+	"""
+	Look 
+	"""
 	option
 		left = 0
 		right = 0
@@ -154746,7 +162491,9 @@ script 180 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Don't look"
+	"""
+	Don't look
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -154762,7 +162509,9 @@ script 180 mmbn3 {
 }
 script 181 mmbn3 {
 	clearMsg
-	"Come again!"
+	"""
+	Come again!
+	"""
 	keyWait
 	end
 }
@@ -154797,7 +162546,9 @@ script 183 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Look "
+	"""
+	Look 
+	"""
 	option
 		left = 0
 		right = 0
@@ -154805,7 +162556,9 @@ script 183 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Don't look"
+	"""
+	Don't look
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -154821,7 +162574,9 @@ script 183 mmbn3 {
 }
 script 184 mmbn3 {
 	clearMsg
-	"Come again!"
+	"""
+	Come again!
+	"""
 	keyWait
 	end
 }
@@ -154897,7 +162652,9 @@ script 191 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Give 'em a whuppin'!"
+	"""
+	Give 'em a whuppin'!
+	"""
 	keyWait
 	end
 }
@@ -154956,7 +162713,9 @@ script 193 mmbn3 {
 	printItem
 		buffer = 0
 		item = 97
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -154981,7 +162740,9 @@ script 220 mmbn3 {
 }
 script 221 mmbn3 {
 	msgOpen
-	"It's the Chat BBS!"
+	"""
+	It's the Chat BBS!
+	"""
 	keyWait
 	startBBS
 		bbs = 4
@@ -155008,7 +162769,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = HeelNavi
 	msgOpen
-	"Go!! Go!! Go!!"
+	"""
+	Go!! Go!! Go!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -155024,7 +162787,10 @@ script 0 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"\nThen,take this!!!"
+	"""
+	
+	Then,take this!!!
+	"""
 	keyWait
 	clearMsg
 	msgClose
@@ -155086,7 +162852,9 @@ script 2 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"And you're next!"
+	"""
+	And you're next!
+	"""
 	keyWait
 	clearMsg
 	msgClose
@@ -155270,7 +163038,9 @@ script 41 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan! You got mail!"
+	"""
+	Lan! You got mail!
+	"""
 	keyWait
 	end
 }
@@ -155302,10 +163072,14 @@ script 43 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -155314,7 +163088,9 @@ script 43 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Mwa-ha-ha-ha-ha!!"
+	"""
+	Mwa-ha-ha-ha-ha!!
+	"""
 	keyWait
 	clearMsg
 	msgClose
@@ -155472,7 +163248,9 @@ script 70 mmbn3 {
 	msgOpen
 	mugshotAnimate
 		animation = 0
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -155631,7 +163409,9 @@ script 194 mmbn3 {
 	printItem
 		buffer = 0
 		item = 96
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -155744,7 +163524,9 @@ script 220 mmbn3 {
 }
 script 221 mmbn3 {
 	msgOpen
-	"What a flame…"
+	"""
+	What a flame…
+	"""
 	keyWait
 	end
 }
@@ -155757,7 +163539,9 @@ script 222 mmbn3 {
 	printItem
 		buffer = 0
 		item = 84
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -155791,10 +163575,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -155816,7 +163604,9 @@ script 230 mmbn3 {
 	printNaviCustProgram
 		buffer = 0
 		program = 43
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -155834,10 +163624,14 @@ script 231 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -155854,7 +163648,9 @@ script 231 mmbn3 {
 	printItem
 		buffer = 0
 		item = 72
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -155893,10 +163689,14 @@ script 235 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -156002,11 +163802,15 @@ script 238 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -156045,7 +163849,9 @@ script 239 mmbn3 {
 		padZeros = false
 		padLeft = false
 		buffer = 1
-	" Zennys\"!!"
+	"""
+	 Zennys"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -156059,10 +163865,14 @@ script 240 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -156168,11 +163978,15 @@ script 243 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -156211,7 +164025,9 @@ script 244 mmbn3 {
 		padZeros = false
 		padLeft = false
 		buffer = 1
-	" Zennys\"!!"
+	"""
+	 Zennys"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -156404,7 +164220,9 @@ script 40 mmbn3 {
 	mugshotShow
 		mugshot = HeelNavi
 	msgOpen
-	"Yo,I'mma WWW Navi!!"
+	"""
+	Yo,I'mma WWW Navi!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -156443,7 +164261,9 @@ script 41 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan! You got mail!"
+	"""
+	Lan! You got mail!
+	"""
 	keyWait
 	end
 }
@@ -156503,7 +164323,9 @@ script 55 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Gotta give chase!"
+	"""
+	Gotta give chase!
+	"""
 	keyWait
 	end
 }
@@ -156564,7 +164386,9 @@ script 180 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Look "
+	"""
+	Look 
+	"""
 	option
 		left = 0
 		right = 0
@@ -156572,7 +164396,9 @@ script 180 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Don't look"
+	"""
+	Don't look
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -156588,7 +164414,9 @@ script 180 mmbn3 {
 }
 script 181 mmbn3 {
 	clearMsg
-	"Come again!"
+	"""
+	Come again!
+	"""
 	keyWait
 	end
 }
@@ -156669,7 +164497,9 @@ script 224 mmbn3 {
 }
 script 225 mmbn3 {
 	msgOpen
-	"What a flame…"
+	"""
+	What a flame…
+	"""
 	keyWait
 	end
 }
@@ -156682,7 +164512,9 @@ script 226 mmbn3 {
 	printItem
 		buffer = 0
 		item = 47
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	flagSet
 		flag = 157
@@ -156696,10 +164528,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -156721,11 +164557,15 @@ script 230 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 123
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = G
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -156739,10 +164579,14 @@ script 231 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -156763,7 +164607,9 @@ script 231 mmbn3 {
 	printItem
 		buffer = 0
 		item = 100
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -156783,10 +164629,14 @@ script 235 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -156892,11 +164742,15 @@ script 238 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -156935,7 +164789,9 @@ script 239 mmbn3 {
 		padZeros = false
 		padLeft = false
 		buffer = 1
-	" Zennys\"!!"
+	"""
+	 Zennys"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -156949,10 +164805,14 @@ script 240 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -157058,11 +164918,15 @@ script 243 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -157101,7 +164965,9 @@ script 244 mmbn3 {
 		padZeros = false
 		padLeft = false
 		buffer = 1
-	" Zennys\"!!"
+	"""
+	 Zennys"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -157154,7 +165020,9 @@ script 5 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -157162,7 +165030,9 @@ script 5 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -157183,7 +165053,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = NormalNaviGreen
 	msgOpen
-	"Really? Are you sure?"
+	"""
+	Really? Are you sure?
+	"""
 	keyWait
 	end
 }
@@ -157296,7 +165168,9 @@ script 11 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"So be very careful."
+	"""
+	So be very careful.
+	"""
 	keyWait
 	end
 }
@@ -157598,16 +165472,25 @@ script 24 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"\nNah,that ain't it."
+	"""
+	
+	Nah,that ain't it.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -157670,35 +165553,53 @@ script 24 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = Lan
-	"That's easy!"
+	"""
+	That's easy!
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
 		mugshot = MegaMan
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"You mean"
+	"""
+	You mean
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	keyWait
 	clearMsg
-	"Me?"
+	"""
+	Me?
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -157712,16 +165613,24 @@ script 24 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = MegaMan
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"Are you serious?"
+	"""
+	Are you serious?
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -157744,12 +165653,16 @@ script 24 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = PurpleNavi
-	"Please!!"
+	"""
+	Please!!
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
 		mugshot = MegaMan
-	"Yo!!"
+	"""
+	Yo!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -157767,10 +165680,14 @@ script 24 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -157818,11 +165735,15 @@ script 24 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 169
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = *
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -157941,7 +165862,9 @@ script 31 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Have a great time!"
+	"""
+	Have a great time!
+	"""
 	keyWait
 	end
 }
@@ -157983,7 +165906,9 @@ script 33 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 22
-	"?"
+	"""
+	?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -158013,7 +165938,9 @@ script 33 mmbn3 {
 	printNaviCustProgram
 		buffer = 0
 		program = 25
-	"\" program."
+	"""
+	" program.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -158034,13 +165961,18 @@ script 34 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 22
-	"\ncarries a rare chip:"
+	"""
+	
+	carries a rare chip:
+	"""
 	keyWait
 	clearMsg
 	printChip
 		buffer = 0
 		chip = 25
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = M
@@ -158059,7 +165991,9 @@ script 34 mmbn3 {
 	printNaviCustProgram
 		buffer = 0
 		program = 25
-	"\" program?"
+	"""
+	" program?
+	"""
 	keyWait
 	end
 }
@@ -158067,7 +166001,9 @@ script 40 mmbn3 {
 	mugshotShow
 		mugshot = PurpleNavi
 	msgOpen
-	"Hey! Listen to this!"
+	"""
+	Hey! Listen to this!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -158303,7 +166239,9 @@ script 60 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"I guess I was wrong."
+	"""
+	I guess I was wrong.
+	"""
 	keyWait
 	end
 }
@@ -158335,7 +166273,9 @@ script 70 mmbn3 {
 	mugshotShow
 		mugshot = PurpleNavi
 	msgOpen
-	"The war has begun!"
+	"""
+	The war has begun!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -158402,7 +166342,9 @@ script 180 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Look "
+	"""
+	Look 
+	"""
 	option
 		left = 0
 		right = 0
@@ -158410,7 +166352,9 @@ script 180 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Don't look"
+	"""
+	Don't look
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -158426,7 +166370,9 @@ script 180 mmbn3 {
 }
 script 181 mmbn3 {
 	clearMsg
-	"Come again!"
+	"""
+	Come again!
+	"""
 	keyWait
 	end
 }
@@ -158461,7 +166407,9 @@ script 183 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Look "
+	"""
+	Look 
+	"""
 	option
 		left = 0
 		right = 0
@@ -158469,7 +166417,9 @@ script 183 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Don't look"
+	"""
+	Don't look
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -158485,7 +166435,9 @@ script 183 mmbn3 {
 }
 script 184 mmbn3 {
 	clearMsg
-	"Come again!"
+	"""
+	Come again!
+	"""
 	keyWait
 	end
 }
@@ -158573,12 +166525,16 @@ script 190 mmbn3 {
 		mugshot = NormalNaviGreen
 	mugshotPalette
 		palette = 1
-	"Nice to meet you!"
+	"""
+	Nice to meet you!
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
 		mugshot = MegaMan
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -158616,7 +166572,9 @@ script 190 mmbn3 {
 		mugshot = GirlNaviOrange
 	mugshotAnimate
 		animation = 0
-	"(Gulp!)"
+	"""
+	(Gulp!)
+	"""
 	keyWait
 	clearMsg
 	mugshotAnimate
@@ -158644,7 +166602,10 @@ script 190 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"You mean the N1?\n"
+	"""
+	You mean the N1?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -158652,7 +166613,10 @@ script 190 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"Yeah,that comedy!\n"
+	"""
+	Yeah,that comedy!
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -158660,7 +166624,9 @@ script 190 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yeah,that drama!"
+	"""
+	Yeah,that drama!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -158825,7 +166791,9 @@ script 194 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = GirlNaviOrange
-	"Ah,yes. That…"
+	"""
+	Ah,yes. That…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -158844,7 +166812,10 @@ script 194 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"My golden Mr.Prog?\n"
+	"""
+	My golden Mr.Prog?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -158852,7 +166823,10 @@ script 194 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"My own CyberMetro?\n"
+	"""
+	My own CyberMetro?
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -158860,7 +166834,9 @@ script 194 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"ACDC cybersquirrel?"
+	"""
+	ACDC cybersquirrel?
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -158964,7 +166940,9 @@ script 197 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = GirlNaviOrange
-	"But of course!"
+	"""
+	But of course!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -159010,7 +166988,10 @@ script 198 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Isn't THIS work?\n"
+	"""
+	Isn't THIS work?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -159018,7 +166999,10 @@ script 198 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"Another time?!\n"
+	"""
+	Another time?!
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -159026,7 +167010,9 @@ script 198 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Uh,sure…"
+	"""
+	Uh,sure…
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -159044,19 +167030,25 @@ script 199 mmbn3 {
 	mugshotShow
 		mugshot = GirlNaviOrange
 	msgOpen
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
 		mugshot = NormalNaviGreen
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
 		mugshot = NormalNaviGreen
 	mugshotPalette
 		palette = 1
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -159091,7 +167083,9 @@ script 200 mmbn3 {
 		mugshot = NormalNaviGreen
 	mugshotAnimate
 		animation = 0
-	"(Uh,are they…?)"
+	"""
+	(Uh,are they…?)
+	"""
 	keyWait
 	clearMsg
 	mugshotAnimate
@@ -159114,7 +167108,9 @@ script 200 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = NormalNaviGreen
-	"Uh,OK…"
+	"""
+	Uh,OK…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -159178,11 +167174,15 @@ script 203 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 39
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = O
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -159200,7 +167200,9 @@ script 204 mmbn3 {
 	"""
 	mugshotAnimate
 		animation = 0
-	"(I told you to go!!)"
+	"""
+	(I told you to go!!)
+	"""
 	mugshotAnimate
 		animation = 1
 	keyWait
@@ -159272,7 +167274,9 @@ script 221 mmbn3 {
 }
 script 222 mmbn3 {
 	msgOpen
-	"It's the Chat BBS!"
+	"""
+	It's the Chat BBS!
+	"""
 	keyWait
 	startBBS
 		bbs = 5
@@ -159290,7 +167294,10 @@ script 10 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"After you obtain the\n"
+	"""
+	After you obtain the
+	
+	"""
 	printItem
 		buffer = 0
 		item = 18
@@ -159300,7 +167307,9 @@ script 10 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"When four "
+	"""
+	When four 
+	"""
 	printItem
 		buffer = 0
 		item = 18
@@ -159348,7 +167357,9 @@ script 12 mmbn3 {
 	printItem
 		buffer = 0
 		item = 18
-	" here!"
+	"""
+	 here!
+	"""
 	keyWait
 	end
 }
@@ -159419,16 +167430,25 @@ script 20 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = CloakedNavi
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"\nSpit it out."
+	"""
+	
+	Spit it out.
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -159442,13 +167462,19 @@ script 20 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = CloakedNavi
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -159472,7 +167498,9 @@ script 20 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Bring it on!!"
+	"""
+	Bring it on!!
+	"""
 	keyWait
 	clearMsg
 	msgClose
@@ -159494,7 +167522,9 @@ script 21 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan! You got mail!"
+	"""
+	Lan! You got mail!
+	"""
 	keyWait
 	end
 }
@@ -159520,7 +167550,9 @@ script 190 mmbn3 {
 	mugshotShow
 		mugshot = CloakedNavi
 	msgOpen
-	"Ooooooh…"
+	"""
+	Ooooooh…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -159591,7 +167623,9 @@ script 191 mmbn3 {
 	mugshotShow
 		mugshot = CloakedNavi
 	msgOpen
-	"Ooooooh…"
+	"""
+	Ooooooh…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -159631,7 +167665,9 @@ script 192 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Ah,yes! Heh,heh,heh!"
+	"""
+	Ah,yes! Heh,heh,heh!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -159669,11 +167705,15 @@ script 193 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 158
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = *
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -159759,10 +167799,14 @@ script 221 mmbn3 {
 	printItem
 		buffer = 0
 		item = 17
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	clearMsg
-	"The door opens…"
+	"""
+	The door opens…
+	"""
 	keyWait
 	msgClose
 	flagSet
@@ -159786,7 +167830,9 @@ script 230 mmbn3 {
 	printItem
 		buffer = 0
 		item = 18
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -159800,10 +167846,14 @@ script 231 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -159823,7 +167873,9 @@ script 231 mmbn3 {
 	printItem
 		buffer = 0
 		item = 17
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -159837,10 +167889,14 @@ script 232 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -159862,11 +167918,15 @@ script 232 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 27
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = P
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -159880,10 +167940,14 @@ script 235 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -159989,11 +168053,15 @@ script 238 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -160032,7 +168100,9 @@ script 239 mmbn3 {
 		padZeros = false
 		padLeft = false
 		buffer = 1
-	" Zennys\"!!"
+	"""
+	 Zennys"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -160046,10 +168116,14 @@ script 240 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -160155,11 +168229,15 @@ script 243 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -160198,7 +168276,9 @@ script 244 mmbn3 {
 		padZeros = false
 		padLeft = false
 		buffer = 1
-	" Zennys\"!!"
+	"""
+	 Zennys"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -160402,7 +168482,9 @@ script 40 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Get deleted,scum!"
+	"""
+	Get deleted,scum!
+	"""
 	keyWait
 	end
 }
@@ -160553,7 +168635,9 @@ script 221 mmbn3 {
 	printItem
 		buffer = 0
 		item = 47
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	flagSet
 		flag = 168
@@ -160567,10 +168651,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -160602,10 +168690,14 @@ script 231 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -160627,7 +168719,9 @@ script 231 mmbn3 {
 	printNaviCustProgram
 		buffer = 0
 		program = 37
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -160641,10 +168735,14 @@ script 232 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -160750,11 +168848,15 @@ script 235 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -160793,7 +168895,9 @@ script 236 mmbn3 {
 		padZeros = false
 		padLeft = false
 		buffer = 1
-	" Zennys\"!!"
+	"""
+	 Zennys"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -160807,10 +168911,14 @@ script 237 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -160916,11 +169024,15 @@ script 240 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -160959,7 +169071,9 @@ script 241 mmbn3 {
 		padZeros = false
 		padLeft = false
 		buffer = 1
-	" Zennys\"!!"
+	"""
+	 Zennys"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -161024,7 +169138,9 @@ script 10 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Raaawrrr!!"
+	"""
+	Raaawrrr!!
+	"""
 	keyWait
 	clearMsg
 	msgClose
@@ -161099,7 +169215,9 @@ script 12 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Hiyaaaah!!"
+	"""
+	Hiyaaaah!!
+	"""
 	keyWait
 	clearMsg
 	msgClose
@@ -161187,7 +169305,9 @@ script 20 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Clear as mud,right?"
+	"""
+	Clear as mud,right?
+	"""
 	keyWait
 	end
 }
@@ -161229,7 +169349,9 @@ script 180 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -161237,7 +169359,9 @@ script 180 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -161253,7 +169377,9 @@ script 180 mmbn3 {
 }
 script 181 mmbn3 {
 	clearMsg
-	"Come again!"
+	"""
+	Come again!
+	"""
 	keyWait
 	end
 }
@@ -161261,7 +169387,9 @@ script 182 mmbn3 {
 	mugshotShow
 		mugshot = HeelNavi
 	msgOpen
-	"I'm all outta chips…"
+	"""
+	I'm all outta chips…
+	"""
 	keyWait
 	end
 }
@@ -161344,7 +169472,9 @@ script 192 mmbn3 {
 	printItem
 		buffer = 0
 		item = 96
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -161414,10 +169544,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -161438,7 +169572,9 @@ script 230 mmbn3 {
 	printItem
 		buffer = 0
 		item = 99
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -161460,10 +169596,14 @@ script 231 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -161485,11 +169625,15 @@ script 231 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 28
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = S
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -161503,10 +169647,14 @@ script 232 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -161612,11 +169760,15 @@ script 235 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -161655,7 +169807,9 @@ script 236 mmbn3 {
 		padZeros = false
 		padLeft = false
 		buffer = 1
-	" Zennys\"!!"
+	"""
+	 Zennys"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -161669,10 +169823,14 @@ script 237 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -161778,11 +169936,15 @@ script 240 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -161821,7 +169983,9 @@ script 241 mmbn3 {
 		padZeros = false
 		padLeft = false
 		buffer = 1
-	" Zennys\"!!"
+	"""
+	 Zennys"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -161885,7 +170049,9 @@ script 1 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Fight "
+	"""
+	Fight 
+	"""
 	option
 		left = 0
 		right = 0
@@ -161893,7 +170059,9 @@ script 1 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Not"
+	"""
+	Not
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -161924,7 +170092,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = HeelNavi
 	msgOpen
-	"Heh! Wimp."
+	"""
+	Heh! Wimp.
+	"""
 	keyWait
 	end
 }
@@ -161952,7 +170122,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = HeelNavi
 	msgOpen
-	"Go on through…"
+	"""
+	Go on through…
+	"""
 	keyWait
 	flagSet
 		flag = 258
@@ -162014,10 +170186,14 @@ script 13 mmbn3 {
 	mugshotShow
 		mugshot = CloakedNavi
 	msgOpen
-	"Garrr…"
+	"""
+	Garrr…
+	"""
 	keyWait
 	clearMsg
-	"I remember you well…"
+	"""
+	I remember you well…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -162029,7 +170205,9 @@ script 13 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 135
-	"Garrrr!!"
+	"""
+	Garrrr!!
+	"""
 	wait
 		frames = 90
 	soundEnableTextSFX
@@ -162053,7 +170231,9 @@ script 15 mmbn3 {
 	mugshotShow
 		mugshot = CloakedNavi
 	msgOpen
-	"Take this!"
+	"""
+	Take this!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -162065,7 +170245,9 @@ script 15 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 135
-	"Garrrr!!"
+	"""
+	Garrrr!!
+	"""
 	wait
 		frames = 90
 	keyWait
@@ -162127,7 +170309,9 @@ script 190 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -162151,7 +170335,9 @@ script 190 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 81
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = A
@@ -162169,7 +170355,9 @@ script 190 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"OK! "
+	"""
+	OK! 
+	"""
 	option
 		left = 0
 		right = 0
@@ -162177,7 +170365,9 @@ script 190 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No thanks"
+	"""
+	No thanks
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -162230,7 +170420,9 @@ script 192 mmbn3 {
 	printItem
 		buffer = 0
 		item = 48
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	playerFinish
 	playerReset
@@ -162243,7 +170435,9 @@ script 193 mmbn3 {
 	mugshotShow
 		mugshot = HeelNavi
 	msgOpen
-	"I just don't get it…"
+	"""
+	I just don't get it…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -162260,7 +170454,9 @@ script 193 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Beats me…"
+	"""
+	Beats me…
+	"""
 	keyWait
 	end
 }
@@ -162339,11 +170535,15 @@ script 197 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 81
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = A
-	"\" for it?"
+	"""
+	" for it?
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -162354,7 +170554,9 @@ script 197 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Sure "
+	"""
+	Sure 
+	"""
 	option
 		left = 0
 		right = 0
@@ -162362,7 +170564,9 @@ script 197 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No way"
+	"""
+	No way
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -162425,10 +170629,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -162449,7 +170657,9 @@ script 230 mmbn3 {
 	printItem
 		buffer = 0
 		item = 96
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -162463,10 +170673,14 @@ script 231 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -162488,11 +170702,15 @@ script 231 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 75
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = S
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -162506,10 +170724,14 @@ script 232 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -162577,10 +170799,14 @@ script 237 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -162686,11 +170912,15 @@ script 240 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -162713,11 +170943,15 @@ script 241 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 273
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = S
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -162910,7 +171144,9 @@ script 31 mmbn3 {
 	mugshotShow
 		mugshot = HeelNavi
 	msgOpen
-	"You got the skills…"
+	"""
+	You got the skills…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -162982,7 +171218,9 @@ script 180 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Look "
+	"""
+	Look 
+	"""
 	option
 		left = 0
 		right = 0
@@ -162990,7 +171228,9 @@ script 180 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Don't look"
+	"""
+	Don't look
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -163006,7 +171246,9 @@ script 180 mmbn3 {
 }
 script 181 mmbn3 {
 	clearMsg
-	"OK! Come again!"
+	"""
+	OK! Come again!
+	"""
 	keyWait
 	end
 }
@@ -163014,7 +171256,9 @@ script 182 mmbn3 {
 	mugshotShow
 		mugshot = HeelNavi
 	msgOpen
-	"I'm all outta wares…"
+	"""
+	I'm all outta wares…
+	"""
 	keyWait
 	end
 }
@@ -163061,13 +171305,19 @@ script 190 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 10
 	"""
@@ -163077,7 +171327,9 @@ script 190 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Whew…"
+	"""
+	Whew…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -163112,7 +171364,9 @@ script 191 mmbn3 {
 	printItem
 		buffer = 0
 		item = 79
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -163219,10 +171473,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -163244,7 +171502,9 @@ script 230 mmbn3 {
 	printNaviCustProgram
 		buffer = 0
 		program = 42
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -163258,10 +171518,14 @@ script 231 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -163283,11 +171547,15 @@ script 231 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 127
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = N
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -163301,10 +171569,14 @@ script 232 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -163326,11 +171598,15 @@ script 232 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 39
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = M
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -163344,10 +171620,14 @@ script 233 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -163411,10 +171691,14 @@ script 238 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -163510,11 +171794,15 @@ script 241 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -163553,7 +171841,9 @@ script 242 mmbn3 {
 		padZeros = false
 		padLeft = false
 		buffer = 1
-	" Zennys\"!!"
+	"""
+	 Zennys"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -163576,11 +171866,15 @@ script 243 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 274
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = D
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -163596,7 +171890,9 @@ script 250 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -163624,7 +171920,9 @@ script 251 mmbn3 {
 	printItem
 		buffer = 0
 		item = 53
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -163648,7 +171946,9 @@ script 252 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"What the?!"
+	"""
+	What the?!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -163706,7 +172006,9 @@ script 1 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"OK,go through."
+	"""
+	OK,go through.
+	"""
 	keyWait
 	flagSet
 		flag = 334
@@ -163794,10 +172096,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -163818,7 +172124,9 @@ script 230 mmbn3 {
 	printItem
 		buffer = 0
 		item = 96
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -163832,10 +172140,14 @@ script 231 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -163857,11 +172169,15 @@ script 231 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 182
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = C
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -163875,10 +172191,14 @@ script 232 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -163984,11 +172304,15 @@ script 235 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -164027,7 +172351,9 @@ script 236 mmbn3 {
 		padZeros = false
 		padLeft = false
 		buffer = 1
-	" Zennys\"!!"
+	"""
+	 Zennys"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -164041,10 +172367,14 @@ script 237 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -164150,11 +172480,15 @@ script 240 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -164193,7 +172527,9 @@ script 241 mmbn3 {
 		padZeros = false
 		padLeft = false
 		buffer = 1
-	" Zennys\"!!"
+	"""
+	 Zennys"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -164222,7 +172558,9 @@ script 180 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Sure "
+	"""
+	Sure 
+	"""
 	option
 		left = 0
 		right = 0
@@ -164230,7 +172568,9 @@ script 180 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Nah"
+	"""
+	Nah
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -164246,7 +172586,9 @@ script 180 mmbn3 {
 }
 script 181 mmbn3 {
 	clearMsg
-	"Come again."
+	"""
+	Come again.
+	"""
 	keyWait
 	end
 }
@@ -164275,7 +172617,9 @@ script 190 mmbn3 {
 	mugshotShow
 		mugshot = HeelNavi
 	msgOpen
-	"The \""
+	"""
+	The "
+	"""
 	printItem
 		buffer = 0
 		item = 50
@@ -164321,7 +172665,9 @@ script 190 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"OK "
+	"""
+	OK 
+	"""
 	option
 		left = 0
 		right = 0
@@ -164329,7 +172675,9 @@ script 190 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No thanks"
+	"""
+	No thanks
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -164375,7 +172723,9 @@ script 193 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Here,take it!"
+	"""
+	Here,take it!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -164397,7 +172747,9 @@ script 194 mmbn3 {
 	printItem
 		buffer = 0
 		item = 50
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -164535,10 +172887,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -164559,7 +172915,9 @@ script 230 mmbn3 {
 	printItem
 		buffer = 0
 		item = 101
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -164579,10 +172937,14 @@ script 231 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -164604,11 +172966,15 @@ script 231 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 176
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = F
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -164622,10 +172988,14 @@ script 232 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -164647,7 +173017,9 @@ script 232 mmbn3 {
 	printNaviCustProgram
 		buffer = 0
 		program = 35
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -164661,10 +173033,14 @@ script 233 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -164728,10 +173104,14 @@ script 238 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -164837,11 +173217,15 @@ script 241 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -164880,7 +173264,9 @@ script 242 mmbn3 {
 		padZeros = false
 		padLeft = false
 		buffer = 1
-	" Zennys\"!!"
+	"""
+	 Zennys"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -164903,11 +173289,15 @@ script 243 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 275
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = T
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -164918,7 +173308,9 @@ script 243 mmbn3 {
 
 script 0 mmbn3 {
 	msgOpen
-	"Grumble,grumble…"
+	"""
+	Grumble,grumble…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -164927,7 +173319,9 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Must find BugFrags…"
+	"""
+	Must find BugFrags…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -164944,7 +173338,9 @@ script 0 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -164952,7 +173348,9 @@ script 0 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -164977,7 +173375,9 @@ script 1 mmbn3 {
 		jumpIfGreater = 2
 		jumpIfLess = continue
 	msgOpen
-	"Grumble,grumble…"
+	"""
+	Grumble,grumble…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -165227,10 +173627,14 @@ script 230 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -165252,11 +173656,15 @@ script 230 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 49
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = J
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -165270,10 +173678,14 @@ script 231 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -165294,7 +173706,9 @@ script 231 mmbn3 {
 	printItem
 		buffer = 0
 		item = 96
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -165308,10 +173722,14 @@ script 232 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -165333,11 +173751,15 @@ script 232 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 203
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = O
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -165355,10 +173777,14 @@ script 233 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -165377,7 +173803,9 @@ script 233 mmbn3 {
 	printNaviCustProgram
 		buffer = 0
 		program = 48
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	keyWait
 	msgClose
@@ -165409,10 +173837,14 @@ script 235 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -165476,10 +173908,14 @@ script 240 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -165543,10 +173979,14 @@ script 245 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -165652,11 +174092,15 @@ script 248 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -165679,11 +174123,15 @@ script 249 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 276
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = G
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -165697,10 +174145,14 @@ script 250 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -165720,7 +174172,9 @@ script 250 mmbn3 {
 	printItem
 		buffer = 0
 		item = 56
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -165784,7 +174238,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = HeelNavi
 	msgOpen
-	"Just do your best…"
+	"""
+	Just do your best…
+	"""
 	keyWait
 	end
 }
@@ -165816,7 +174272,9 @@ script 5 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Sure "
+	"""
+	Sure 
+	"""
 	option
 		left = 0
 		right = 0
@@ -165824,7 +174282,9 @@ script 5 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Nah"
+	"""
+	Nah
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -165868,7 +174328,9 @@ script 10 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Whoops! I mean…"
+	"""
+	Whoops! I mean…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -166104,7 +174566,9 @@ script 20 mmbn3 {
 	mugshotShow
 		mugshot = HeelNavi
 	msgOpen
-	"Are you an Official?"
+	"""
+	Are you an Official?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -166167,7 +174631,9 @@ script 22 mmbn3 {
 	mugshotShow
 		mugshot = HeelNavi
 	msgOpen
-	"Scram."
+	"""
+	Scram.
+	"""
 	keyWait
 	end
 }
@@ -166258,10 +174724,14 @@ script 31 mmbn3 {
 	mugshotShow
 		mugshot = HeelNavi
 	msgOpen
-	"Science gives life?"
+	"""
+	Science gives life?
+	"""
 	keyWait
 	clearMsg
-	"………"
+	"""
+	………
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -166312,7 +174782,9 @@ script 34 mmbn3 {
 	mugshotShow
 		mugshot = HeelNavi
 	msgOpen
-	"…Whatever!"
+	"""
+	…Whatever!
+	"""
 	keyWait
 	end
 }
@@ -166354,7 +174826,9 @@ script 41 mmbn3 {
 	mugshotShow
 		mugshot = HeelNavi
 	msgOpen
-	"Rednu3…?"
+	"""
+	Rednu3…?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -166507,7 +174981,9 @@ script 53 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Man,I dunno…"
+	"""
+	Man,I dunno…
+	"""
 	keyWait
 	end
 }
@@ -166718,7 +175194,9 @@ script 72 mmbn3 {
 	mugshotShow
 		mugshot = HeelNavi
 	msgOpen
-	"Just shut up."
+	"""
+	Just shut up.
+	"""
 	keyWait
 	end
 }
@@ -166817,7 +175295,9 @@ script 82 mmbn3 {
 	mugshotShow
 		mugshot = HeelNavi
 	msgOpen
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	end
 }
@@ -166982,7 +175462,9 @@ script 100 mmbn3 {
 	mugshotShow
 		mugshot = HeelNavi
 	msgOpen
-	"…Hmph!"
+	"""
+	…Hmph!
+	"""
 	keyWait
 	end
 }
@@ -167100,7 +175582,9 @@ script 180 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Look "
+	"""
+	Look 
+	"""
 	option
 		left = 0
 		right = 0
@@ -167108,7 +175592,9 @@ script 180 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Don't look"
+	"""
+	Don't look
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -167124,7 +175610,9 @@ script 180 mmbn3 {
 }
 script 181 mmbn3 {
 	clearMsg
-	"Come again!"
+	"""
+	Come again!
+	"""
 	keyWait
 	end
 }
@@ -167132,7 +175620,9 @@ script 182 mmbn3 {
 	mugshotShow
 		mugshot = HeelNavi
 	msgOpen
-	"I'm all outta wares…"
+	"""
+	I'm all outta wares…
+	"""
 	keyWait
 	end
 }
@@ -167156,7 +175646,9 @@ script 183 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Look "
+	"""
+	Look 
+	"""
 	option
 		left = 0
 		right = 0
@@ -167164,7 +175656,9 @@ script 183 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Don't look"
+	"""
+	Don't look
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -167180,7 +175674,9 @@ script 183 mmbn3 {
 }
 script 184 mmbn3 {
 	clearMsg
-	"Come again!"
+	"""
+	Come again!
+	"""
 	keyWait
 	end
 }
@@ -167249,7 +175745,9 @@ script 190 mmbn3 {
 	printItem
 		buffer = 0
 		item = 49
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -167260,7 +175758,9 @@ script 190 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"OK "
+	"""
+	OK 
+	"""
 	option
 		left = 0
 		right = 0
@@ -167268,7 +175768,9 @@ script 190 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No way"
+	"""
+	No way
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -167314,7 +175816,9 @@ script 192 mmbn3 {
 	printItem
 		buffer = 0
 		item = 49
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	playerUnlock
@@ -167417,7 +175921,9 @@ script 197 mmbn3 {
 	printItem
 		buffer = 0
 		item = 49
-	"\"?"
+	"""
+	"?
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -167428,7 +175934,9 @@ script 197 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yeah "
+	"""
+	Yeah 
+	"""
 	option
 		left = 0
 		right = 0
@@ -167436,7 +175944,9 @@ script 197 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Nope!"
+	"""
+	Nope!
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -167454,7 +175964,9 @@ script 220 mmbn3 {
 }
 script 221 mmbn3 {
 	msgOpen
-	"It's the Under BBS!"
+	"""
+	It's the Under BBS!
+	"""
 	keyWait
 	startBBS
 		bbs = 6
@@ -167613,7 +176125,9 @@ script 2 mmbn3 {
 	printItem
 		buffer = 0
 		item = 56
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	end
 }
@@ -167780,7 +176294,9 @@ script 222 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -167788,7 +176304,9 @@ script 222 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -167832,7 +176350,9 @@ script 223 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -167840,7 +176360,9 @@ script 223 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -167905,7 +176427,9 @@ script 227 mmbn3 {
 	printItem
 		buffer = 0
 		item = 56
-	"\"…?"
+	"""
+	"…?
+	"""
 	keyWait
 	clearMsg
 	option
@@ -167915,7 +176439,9 @@ script 227 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Use it "
+	"""
+	Use it 
+	"""
 	option
 		left = 0
 		right = 0
@@ -167923,7 +176449,9 @@ script 227 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Don't"
+	"""
+	Don't
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -167946,7 +176474,9 @@ script 228 mmbn3 {
 	printItem
 		buffer = 0
 		item = 56
-	"\"!!"
+	"""
+	"!!
+	"""
 	flagSet
 		flag = 365
 	wait
@@ -168023,10 +176553,14 @@ script 240 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -168048,11 +176582,15 @@ script 240 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 140
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = U
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -168066,10 +176604,14 @@ script 241 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -168091,11 +176633,15 @@ script 241 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 40
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = R
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -168109,10 +176655,14 @@ script 242 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -168144,10 +176694,14 @@ script 243 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -168238,7 +176792,9 @@ script 247 mmbn3 {
 		padZeros = false
 		padLeft = false
 		buffer = 1
-	" Zennys\"!!"
+	"""
+	 Zennys"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -168252,10 +176808,14 @@ script 248 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -168346,7 +176906,9 @@ script 252 mmbn3 {
 		padZeros = false
 		padLeft = false
 		buffer = 1
-	" Zennys\"!!"
+	"""
+	 Zennys"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -168366,7 +176928,9 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Do not forget that…"
+	"""
+	Do not forget that…
+	"""
 	keyWait
 	end
 }
@@ -168455,7 +177019,9 @@ script 180 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -168463,7 +177029,9 @@ script 180 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -168479,7 +177047,9 @@ script 180 mmbn3 {
 }
 script 181 mmbn3 {
 	clearMsg
-	"Come… again…"
+	"""
+	Come… again…
+	"""
 	keyWait
 	end
 }
@@ -168487,7 +177057,9 @@ script 182 mmbn3 {
 	mugshotShow
 		mugshot = CloakedNavi
 	msgOpen
-	"No… more… chips…"
+	"""
+	No… more… chips…
+	"""
 	keyWait
 	end
 }
@@ -168578,7 +177150,9 @@ script 222 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -168586,7 +177160,9 @@ script 222 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -168630,7 +177206,9 @@ script 223 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -168638,7 +177216,9 @@ script 223 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -168699,7 +177279,9 @@ script 226 mmbn3 {
 	printItem
 		buffer = 0
 		item = 56
-	"\"…?"
+	"""
+	"…?
+	"""
 	keyWait
 	clearMsg
 	option
@@ -168709,7 +177291,9 @@ script 226 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Use it "
+	"""
+	Use it 
+	"""
 	option
 		left = 0
 		right = 0
@@ -168717,7 +177301,9 @@ script 226 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Don't"
+	"""
+	Don't
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -168750,7 +177336,9 @@ script 227 mmbn3 {
 	printItem
 		buffer = 0
 		item = 56
-	"\"!!"
+	"""
+	"!!
+	"""
 	flagSet
 		flag = 366
 	wait
@@ -168812,7 +177400,9 @@ script 229 mmbn3 {
 	printItem
 		buffer = 0
 		item = 56
-	"\"!!"
+	"""
+	"!!
+	"""
 	flagSet
 		flag = 367
 	wait
@@ -168890,10 +177480,14 @@ script 240 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -168915,7 +177509,9 @@ script 240 mmbn3 {
 	printNaviCustProgram
 		buffer = 0
 		program = 39
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -168929,10 +177525,14 @@ script 241 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -168954,11 +177554,15 @@ script 241 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 190
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = M
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -168972,10 +177576,14 @@ script 242 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -168996,7 +177604,9 @@ script 242 mmbn3 {
 	printItem
 		buffer = 0
 		item = 96
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -169010,10 +177620,14 @@ script 243 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -169119,11 +177733,15 @@ script 246 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -169162,7 +177780,9 @@ script 247 mmbn3 {
 		padZeros = false
 		padLeft = false
 		buffer = 1
-	" Zennys\"!!"
+	"""
+	 Zennys"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -169176,10 +177796,14 @@ script 248 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -169285,11 +177909,15 @@ script 251 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -169328,7 +177956,9 @@ script 252 mmbn3 {
 		padZeros = false
 		padLeft = false
 		buffer = 1
-	" Zennys\"!!"
+	"""
+	 Zennys"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -169489,7 +178119,9 @@ script 222 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -169497,7 +178129,9 @@ script 222 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -169541,7 +178175,9 @@ script 223 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -169549,7 +178185,9 @@ script 223 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -169610,7 +178248,9 @@ script 226 mmbn3 {
 	printItem
 		buffer = 0
 		item = 56
-	"\"…?"
+	"""
+	"…?
+	"""
 	keyWait
 	clearMsg
 	option
@@ -169620,7 +178260,9 @@ script 226 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Use it "
+	"""
+	Use it 
+	"""
 	option
 		left = 0
 		right = 0
@@ -169628,7 +178270,9 @@ script 226 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Don't"
+	"""
+	Don't
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -169661,7 +178305,9 @@ script 227 mmbn3 {
 	printItem
 		buffer = 0
 		item = 56
-	"\"!!"
+	"""
+	"!!
+	"""
 	flagSet
 		flag = 368
 	wait
@@ -169723,7 +178369,9 @@ script 229 mmbn3 {
 	printItem
 		buffer = 0
 		item = 56
-	"\"!!"
+	"""
+	"!!
+	"""
 	flagSet
 		flag = 369
 	wait
@@ -169790,10 +178438,14 @@ script 240 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -169815,11 +178467,15 @@ script 240 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 161
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = *
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -169833,10 +178489,14 @@ script 241 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -169858,11 +178518,15 @@ script 241 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 184
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = C
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -169876,10 +178540,14 @@ script 242 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -169901,7 +178569,9 @@ script 242 mmbn3 {
 	printNaviCustProgram
 		buffer = 0
 		program = 49
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -169915,10 +178585,14 @@ script 243 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -170024,11 +178698,15 @@ script 246 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -170067,7 +178745,9 @@ script 247 mmbn3 {
 		padZeros = false
 		padLeft = false
 		buffer = 1
-	" Zennys\"!!"
+	"""
+	 Zennys"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -170081,10 +178761,14 @@ script 248 mmbn3 {
 	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 10
 	keyWait
@@ -170190,11 +178874,15 @@ script 251 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -170233,7 +178921,9 @@ script 252 mmbn3 {
 		padZeros = false
 		padLeft = false
 		buffer = 1
-	" Zennys\"!!"
+	"""
+	 Zennys"!!
+	"""
 	playerFinish
 	playerUnlock
 	keyWait
@@ -170253,7 +178943,9 @@ script 253 mmbn3s {
 script 0 mmbn3 {
 	mugshotHide
 	msgOpen
-	"The year is 200X."
+	"""
+	The year is 200X.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -170290,7 +178982,9 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"One day…"
+	"""
+	One day…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -170331,7 +179025,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan!"
+	"""
+	Lan!
+	"""
 	waitSkip
 		frames = 20
 	"""
@@ -170355,7 +179051,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"I know,MegaMan…"
+	"""
+	I know,MegaMan…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -170405,7 +179103,9 @@ script 0 mmbn3 {
 script 1 mmbn3 {
 	mugshotHide
 	msgOpen
-	"Thank yoooou."
+	"""
+	Thank yoooou.
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -170476,7 +179176,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = Yai
 	msgOpen
-	"Let's all chat!"
+	"""
+	Let's all chat!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -170494,10 +179196,15 @@ script 7 mmbn3 {
 		flag = 777
 	wait
 		frames = 30
-	"Mayl"
+	"""
+	Mayl
+	"""
 	flagClear
 		flag = 777
-	"…\nHow about it?"
+	"""
+	…
+	How about it?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -170509,7 +179216,9 @@ script 8 mmbn3 {
 	msgOpen
 	flagSet
 		flag = 778
-	"I'm cool."
+	"""
+	I'm cool.
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -170521,7 +179230,9 @@ script 9 mmbn3 {
 	msgOpen
 	flagSet
 		flag = 779
-	"I'm good to go,too!"
+	"""
+	I'm good to go,too!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -170533,7 +179244,9 @@ script 10 mmbn3 {
 	msgOpen
 	flagClear
 		flag = 775
-	"OK! We're set!"
+	"""
+	OK! We're set!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -170555,12 +179268,17 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = MsMari
 	msgOpen
-	"You over there!"
+	"""
+	You over there!
+	"""
 	flagSet
 		flag = 776
 	wait
 		frames = 30
-	"\nBe quiet!"
+	"""
+	
+	Be quiet!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -170586,7 +179304,9 @@ script 13 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Yes,ma'am…"
+	"""
+	Yes,ma'am…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -170596,7 +179316,9 @@ script 14 mmbn3 {
 	mugshotShow
 		mugshot = MsMari
 	msgOpen
-	"Okay,let's go!"
+	"""
+	Okay,let's go!
+	"""
 	keyWait
 	end
 }
@@ -170635,7 +179357,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Yikes!"
+	"""
+	Yikes!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -170645,7 +179369,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"Urk!"
+	"""
+	Urk!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -170654,7 +179380,9 @@ script 2 mmbn3 {
 script 3 mmbn3 {
 	mugshotHide
 	msgOpen
-	"Ha ha ha!"
+	"""
+	Ha ha ha!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -170671,16 +179399,24 @@ script 4 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"If you forget"
+	"""
+	If you forget
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -170696,7 +179432,9 @@ script 4 mmbn3 {
 script 5 mmbn3 {
 	mugshotHide
 	msgOpen
-	"Yes,ma'am…"
+	"""
+	Yes,ma'am…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -170759,7 +179497,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"Me too!"
+	"""
+	Me too!
+	"""
 	keyWait
 	end
 }
@@ -170767,7 +179507,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = Sunayama
 	msgOpen
-	"Hi there!"
+	"""
+	Hi there!
+	"""
 	flagSet
 		flag = 786
 	"""
@@ -170784,7 +179526,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Uh… yes,we are."
+	"""
+	Uh… yes,we are.
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -170815,7 +179559,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = Yai
 	msgOpen
-	"DNN? The TV station?"
+	"""
+	DNN? The TV station?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -170884,7 +179630,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Us…?"
+	"""
+	Us…?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -170894,7 +179642,9 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"In the…?"
+	"""
+	In the…?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -170904,7 +179654,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"Preliminaries…?"
+	"""
+	Preliminaries…?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -170972,7 +179724,9 @@ script 14 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"What should we do?"
+	"""
+	What should we do?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -170984,13 +179738,20 @@ script 15 mmbn3 {
 	msgOpen
 	flagSet
 		flag = 784
-	"Hmmm…"
+	"""
+	Hmmm…
+	"""
 	waitSkip
 		frames = 60
-	"\n"
+	"""
+	
+	
+	"""
 	flagClear
 		flag = 784
-	"I wonder…"
+	"""
+	I wonder…
+	"""
 	keyWait
 	end
 }
@@ -171138,7 +179899,9 @@ script 26 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"See ya!"
+	"""
+	See ya!
+	"""
 	keyWait
 	end
 }
@@ -171146,7 +179909,9 @@ script 27 mmbn3 {
 	mugshotShow
 		mugshot = Yai
 	msgOpen
-	"I can't lose!"
+	"""
+	I can't lose!
+	"""
 	keyWait
 	end
 }
@@ -171192,7 +179957,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = NormalNaviGreen
 	msgOpen
-	"Thanks for coming!"
+	"""
+	Thanks for coming!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -171228,7 +179995,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Good job,MegaMan!"
+	"""
+	Good job,MegaMan!
+	"""
 	keyWait
 	clearMsg
 	playerFinish
@@ -171248,7 +180017,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = GutsMan
 	msgOpen
-	"Piece of cake!!"
+	"""
+	Piece of cake!!
+	"""
 	keyWait
 	flagSet
 		flag = 778
@@ -171258,7 +180029,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = Roll
 	msgOpen
-	"We did it,Mayl!"
+	"""
+	We did it,Mayl!
+	"""
 	keyWait
 	flagSet
 		flag = 779
@@ -171304,7 +180077,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = Glide
 	msgOpen
-	"Ahem. "
+	"""
+	Ahem. 
+	"""
 	flagSet
 		flag = 784
 	"""
@@ -171331,7 +180106,9 @@ script 8 mmbn3 {
 	printItem
 		buffer = 0
 		item = 82
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	playerFinish
 	playerReset
@@ -171383,7 +180160,9 @@ script 12 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"See you later!"
+	"""
+	See you later!
+	"""
 	keyWait
 	end
 }
@@ -171394,7 +180173,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = Mom
 	msgOpen
-	"Time for dinner,Lan!"
+	"""
+	Time for dinner,Lan!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -171404,7 +180185,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Okay!"
+	"""
+	Okay!
+	"""
 	keyWait
 	end
 }
@@ -171412,7 +180195,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"That was delicious!"
+	"""
+	That was delicious!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -171422,7 +180207,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Mom
 	msgOpen
-	"My pleasure."
+	"""
+	My pleasure.
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -171458,7 +180245,9 @@ script 5 mmbn3 {
 script 0 mmbn3 {
 	mugshotHide
 	msgOpen
-	"One hour later…"
+	"""
+	One hour later…
+	"""
 	keyWait
 	end
 }
@@ -171520,7 +180309,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Ack!"
+	"""
+	Ack!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -171557,7 +180348,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"Agh!!"
+	"""
+	Agh!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -171640,7 +180433,9 @@ script 14 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Take me,too!"
+	"""
+	Take me,too!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -171806,7 +180601,9 @@ script 26 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Let's go,MegaMan!"
+	"""
+	Let's go,MegaMan!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -171932,7 +180729,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"Are you sure,Lan?"
+	"""
+	Are you sure,Lan?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -171954,7 +180753,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Everyone's here!"
+	"""
+	Everyone's here!
+	"""
 	keyWait
 	end
 }
@@ -172021,13 +180822,19 @@ script 4 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 226
-	"Click."
+	"""
+	Click.
+	"""
 	wait
 		frames = 30
-	" "
+	"""
+	 
+	"""
 	soundPlay
 		track = 160
-	"CLUNK!!"
+	"""
+	CLUNK!!
+	"""
 	wait
 		frames = 30
 	soundEnableTextSFX
@@ -172038,7 +180845,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Yikes!"
+	"""
+	Yikes!
+	"""
 	keyWait
 	end
 }
@@ -172046,7 +180855,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Oh,man!"
+	"""
+	Oh,man!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -172069,7 +180880,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"!!"
+	"""
+	!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -172092,7 +180905,9 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"He's still asleep…"
+	"""
+	He's still asleep…
+	"""
 	keyWait
 	end
 }
@@ -172138,7 +180953,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Hurry up,Dex!"
+	"""
+	Hurry up,Dex!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -172156,13 +180973,19 @@ script 1 mmbn3 {
 	clearMsg
 	flagSet
 		flag = 778
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 30
 	"""
@@ -172177,7 +181000,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Look closer!"
+	"""
+	Look closer!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -172189,13 +181014,20 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"No. "
+	"""
+	No. 
+	"""
 	wait
 		frames = 90
-	"Nope."
+	"""
+	Nope.
+	"""
 	wait
 		frames = 60
-	"\nWhere IS it?"
+	"""
+	
+	Where IS it?
+	"""
 	keyWait
 	end
 }
@@ -172257,7 +181089,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Which one?"
+	"""
+	Which one?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -172305,10 +181139,15 @@ script 12 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"Arrrgh! "
+	"""
+	Arrrgh! 
+	"""
 	wait
 		frames = 60
-	"\n"
+	"""
+	
+	
+	"""
 	flagClear
 		flag = 778
 	"""
@@ -172407,7 +181246,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"Sorry! Thanks!"
+	"""
+	Sorry! Thanks!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -172437,7 +181278,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Guess so!"
+	"""
+	Guess so!
+	"""
 	keyWait
 	clearMsg
 	flagClear
@@ -172460,13 +181303,19 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -172497,7 +181346,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"L-L-Let's g-go!"
+	"""
+	L-L-Let's g-go!
+	"""
 	keyWait
 	end
 }
@@ -172510,7 +181361,9 @@ script 0 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 161
-	"Clack! Clatter!"
+	"""
+	Clack! Clatter!
+	"""
 	wait
 		frames = 60
 	keyWait
@@ -172525,7 +181378,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"Yaaah!"
+	"""
+	Yaaah!
+	"""
 	keyWait
 	end
 }
@@ -172546,7 +181401,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"Is it a g-g-ghost?"
+	"""
+	Is it a g-g-ghost?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -172569,7 +181426,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"HAS to be."
+	"""
+	HAS to be.
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -172581,10 +181440,14 @@ script 6 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 163
-	"Clack! "
+	"""
+	Clack! 
+	"""
 	flagClear
 		flag = 788
-	"Rattle,rattle!"
+	"""
+	Rattle,rattle!
+	"""
 	wait
 		frames = 80
 	keyWait
@@ -172700,7 +181563,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = Yai
 	msgOpen
-	"Be careful!"
+	"""
+	Be careful!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -172710,7 +181575,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Okay!"
+	"""
+	Okay!
+	"""
 	keyWait
 	end
 }
@@ -172757,7 +181624,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"I'm going,too!"
+	"""
+	I'm going,too!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -172767,7 +181636,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Yai
 	msgOpen
-	"Me,too!"
+	"""
+	Me,too!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -172841,10 +181712,14 @@ script 7 mmbn3 {
 	clearMsg
 	flagClear
 		flag = 778
-	"OK! "
+	"""
+	OK! 
+	"""
 	flagClear
 		flag = 788
-	"Ready?"
+	"""
+	Ready?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -172854,7 +181729,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = Yai
 	msgOpen
-	"Of course!"
+	"""
+	Of course!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -172864,7 +181741,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"Yeah!"
+	"""
+	Yeah!
+	"""
 	keyWait
 	flagSet
 		flag = 784
@@ -172874,7 +181753,9 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"Here… we… GO!"
+	"""
+	Here… we… GO!
+	"""
 	keyWait
 	end
 }
@@ -172882,7 +181763,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Let's go,Lan!"
+	"""
+	Let's go,Lan!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -172892,7 +181775,9 @@ script 12 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Yeah!"
+	"""
+	Yeah!
+	"""
 	keyWait
 	end
 }
@@ -172903,10 +181788,15 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"Hey,thief!"
+	"""
+	Hey,thief!
+	"""
 	flagSet
 		flag = 784
-	"\nStop it right there!"
+	"""
+	
+	Stop it right there!
+	"""
 	keyWait
 	end
 }
@@ -173034,13 +181924,19 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"Kill Lan?"
+	"""
+	Kill Lan?
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -173051,7 +181947,9 @@ script 8 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = Dex
-	"Lan! Stay back!"
+	"""
+	Lan! Stay back!
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -173081,7 +181979,9 @@ script 9 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"FlashMan,GO!"
+	"""
+	FlashMan,GO!
+	"""
 	keyWait
 	flagClear
 		flag = 784
@@ -173102,7 +182002,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Everyone!"
+	"""
+	Everyone!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -173112,7 +182014,9 @@ script 12 mmbn3 {
 	mugshotShow
 		mugshot = FlashMan
 	msgOpen
-	"Wahahahaaa!"
+	"""
+	Wahahahaaa!
+	"""
 	keyWait
 	end
 }
@@ -173152,7 +182056,9 @@ script 15 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Dex!!"
+	"""
+	Dex!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -173164,10 +182070,15 @@ script 16 mmbn3 {
 	mugshotShow
 		mugshot = Yai
 	msgOpen
-	"I'm a biiig swan!\n"
+	"""
+	I'm a biiig swan!
+	
+	"""
 	playerAnimate
 		animation = 1
-	"Flap flap flap!"
+	"""
+	Flap flap flap!
+	"""
 	keyWait
 	msgClose
 	wait
@@ -173238,7 +182149,9 @@ script 20 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Run,Lan!"
+	"""
+	Run,Lan!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -173264,7 +182177,9 @@ script 22 mmbn3 {
 	mugshotShow
 		mugshot = Ray
 	msgOpen
-	"He got away!"
+	"""
+	He got away!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -173305,7 +182220,9 @@ script 24 mmbn3 {
 	mugshotShow
 		mugshot = FlashMan
 	msgOpen
-	"Yes,sir!"
+	"""
+	Yes,sir!
+	"""
 	keyWait
 	end
 }
@@ -173410,7 +182327,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan! Now!"
+	"""
+	Lan! Now!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -173420,7 +182339,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Gotcha!"
+	"""
+	Gotcha!
+	"""
 	keyWait
 	end
 }
@@ -173428,7 +182349,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = FlashMan
 	msgOpen
-	"What!!"
+	"""
+	What!!
+	"""
 	keyWait
 	end
 }
@@ -173436,7 +182359,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Go for it,Lan!"
+	"""
+	Go for it,Lan!
+	"""
 	keyWait
 	end
 }
@@ -173444,7 +182369,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Yaaaaaah!"
+	"""
+	Yaaaaaah!
+	"""
 	wait
 		frames = 40
 	clearMsg
@@ -173457,7 +182384,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Let's go,MegaMan!"
+	"""
+	Let's go,MegaMan!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -173467,7 +182396,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Roger!"
+	"""
+	Roger!
+	"""
 	keyWait
 	end
 }
@@ -173478,7 +182409,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"It's dark in here."
+	"""
+	It's dark in here.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -173529,7 +182462,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"You bet!"
+	"""
+	You bet!
+	"""
 	keyWait
 	end
 }
@@ -173579,7 +182514,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"I agree."
+	"""
+	I agree.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -173651,7 +182588,9 @@ script 4 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"\"Cleaners1\""
+	"""
+	"Cleaners1"
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -173726,7 +182665,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"You bet!"
+	"""
+	You bet!
+	"""
 	keyWait
 	end
 }
@@ -173736,7 +182677,9 @@ script 4 mmbn3 {
 	msgOpen
 	playerAnimate
 		animation = 27
-	"How's that,MegaMan?"
+	"""
+	How's that,MegaMan?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -173773,7 +182716,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = NormalNaviGreen
 	msgOpen
-	"Emergency,emergency!"
+	"""
+	Emergency,emergency!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -173840,7 +182785,9 @@ script 4 mmbn3 {
 	msgOpen
 	playerAnimate
 		animation = 4
-	"Thanks,Lan!"
+	"""
+	Thanks,Lan!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -173864,7 +182811,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Hold on."
+	"""
+	Hold on.
+	"""
 	keyWait
 	end
 }
@@ -173903,7 +182852,9 @@ script 0 mmbn3 {
 	msgOpen
 	playerAnimate
 		animation = 27
-	"How's that,MegaMan?"
+	"""
+	How's that,MegaMan?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -173939,7 +182890,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Roger!"
+	"""
+	Roger!
+	"""
 	keyWait
 	end
 }
@@ -173949,7 +182902,9 @@ script 5 mmbn3 {
 	msgOpen
 	playerAnimate
 		animation = 27
-	"How's that,MegaMan?"
+	"""
+	How's that,MegaMan?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -173986,7 +182941,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = FlashMan
 	msgOpen
-	"MegaMan!"
+	"""
+	MegaMan!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -174030,7 +182987,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan!"
+	"""
+	Lan!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -174046,7 +183005,9 @@ script 4 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"set!"
+	"""
+	set!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -174056,7 +183017,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Execute!"
+	"""
+	Execute!
+	"""
 	keyWait
 	end
 }
@@ -174107,7 +183070,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = FlashMan
 	msgOpen
-	"Yes,sir! Rule 98!"
+	"""
+	Yes,sir! Rule 98!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -174138,7 +183103,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = FlashMan
 	msgOpen
-	"Yes,sir!"
+	"""
+	Yes,sir!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -174165,7 +183132,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Whoa!"
+	"""
+	Whoa!
+	"""
 	keyWait
 	end
 }
@@ -174173,7 +183142,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = Ray
 	msgOpen
-	"Well done,FlashMan!"
+	"""
+	Well done,FlashMan!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -174190,7 +183161,9 @@ script 8 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Farewell!"
+	"""
+	Farewell!
+	"""
 	keyWait
 	clearMsg
 	playerAnimate
@@ -174208,13 +183181,19 @@ script 9 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
 	"""
@@ -174224,13 +183203,19 @@ script 9 mmbn3 {
 	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	" Ngh!"
+	"""
+	 Ngh!
+	"""
 	keyWait
 	end
 }
@@ -174301,7 +183286,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"Were we hypnotized?"
+	"""
+	Were we hypnotized?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -174330,7 +183317,9 @@ script 3 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Thanks!"
+	"""
+	Thanks!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -174340,7 +183329,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"No problem!"
+	"""
+	No problem!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -174394,7 +183385,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"See you tomorrow!"
+	"""
+	See you tomorrow!
+	"""
 	keyWait
 	end
 }
@@ -174449,7 +183442,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Get ready,MegaMan!"
+	"""
+	Get ready,MegaMan!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -174459,7 +183454,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"You bet,Lan!"
+	"""
+	You bet,Lan!
+	"""
 	keyWait
 	end
 }
@@ -174489,10 +183486,15 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = NormalNaviGreen
 	msgOpen
-	"The time limit is…"
+	"""
+	The time limit is…
+	"""
 	flagSet
 		flag = 57
-	"\none minute!"
+	"""
+	
+	one minute!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -174509,10 +183511,15 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = NormalNaviGreen
 	msgOpen
-	"The time limit is…"
+	"""
+	The time limit is…
+	"""
 	flagSet
 		flag = 57
-	"\none minute!"
+	"""
+	
+	one minute!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -174529,10 +183536,15 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = NormalNaviGreen
 	msgOpen
-	"The time limit is…"
+	"""
+	The time limit is…
+	"""
 	flagSet
 		flag = 57
-	"\none minute!"
+	"""
+	
+	one minute!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -174549,7 +183561,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = NormalNaviGreen
 	msgOpen
-	"Good luck!"
+	"""
+	Good luck!
+	"""
 	keyWait
 	end
 }
@@ -174562,10 +183576,15 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = NormalNaviGreen
 	msgOpen
-	"Wonderful!!\n"
+	"""
+	Wonderful!!
+	
+	"""
 	soundPlay
 		track = 301
-	"Congratulations!!"
+	"""
+	Congratulations!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -174584,7 +183603,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = NormalNaviGreen
 	msgOpen
-	"Too bad!!"
+	"""
+	Too bad!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -174669,7 +183690,9 @@ script 15 mmbn3 {
 	"""
 	soundPlay
 		track = 301
-	"Congratulations!!"
+	"""
+	Congratulations!!
+	"""
 	keyWait
 	end
 }
@@ -174936,7 +183959,9 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Try again!"
+	"""
+	Try again!
+	"""
 	keyWait
 	end
 }
@@ -174954,7 +183979,9 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Try again!"
+	"""
+	Try again!
+	"""
 	keyWait
 	end
 }
@@ -174972,7 +183999,9 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Try again!"
+	"""
+	Try again!
+	"""
 	keyWait
 	end
 }
@@ -175016,7 +184045,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = Ray
 	msgOpen
-	"I have returned."
+	"""
+	I have returned.
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -175024,7 +184055,9 @@ script 0 mmbn3 {
 }
 script 1 mmbn3 {
 	mugshotHide
-	"And? Did you get it?"
+	"""
+	And? Did you get it?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -175034,7 +184067,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Ray
 	msgOpen
-	"As you commanded."
+	"""
+	As you commanded.
+	"""
 	keyWait
 	end
 }
@@ -175042,7 +184077,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Ray
 	msgOpen
-	"Here it is,my lord."
+	"""
+	Here it is,my lord.
+	"""
 	keyWait
 	end
 }
@@ -175050,10 +184087,15 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = LordWily
 	msgOpen
-	"Heh heh heh…"
+	"""
+	Heh heh heh…
+	"""
 	wait
 		frames = 16
-	"\nHah hah hah hah!"
+	"""
+	
+	Hah hah hah hah!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -175088,7 +184130,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = LordWily
 	msgOpen
-	"Next,it's your turn…"
+	"""
+	Next,it's your turn…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -175112,7 +184156,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = LordWily
 	msgOpen
-	"And that would be…?"
+	"""
+	And that would be…?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -175137,10 +184183,15 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = LordWily
 	msgOpen
-	"Hah hah hah!"
+	"""
+	Hah hah hah!
+	"""
 	wait
 		frames = 16
-	"\nMuwah hah hah hah!"
+	"""
+	
+	Muwah hah hah hah!
+	"""
 	keyWait
 	end
 }
@@ -175151,7 +184202,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = Chisao
 	msgOpen
-	"Ex'coose me!"
+	"""
+	Ex'coose me!
+	"""
 	keyWait
 	end
 }
@@ -175159,7 +184212,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = Chisao
 	msgOpen
-	"Ex'COOSE me!!"
+	"""
+	Ex'COOSE me!!
+	"""
 	keyWait
 	end
 }
@@ -175167,7 +184222,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Chisao
 	msgOpen
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	end
 }
@@ -175175,7 +184232,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Chisao
 	msgOpen
-	"!"
+	"""
+	!
+	"""
 	keyWait
 	end
 }
@@ -175183,7 +184242,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = Chisao
 	msgOpen
-	"Ex'coose me!"
+	"""
+	Ex'coose me!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -175193,7 +184254,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = Cossak
 	msgOpen
-	"Huh?"
+	"""
+	Huh?
+	"""
 	keyWait
 	flagSet
 		flag = 1029
@@ -175221,7 +184284,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = Cossak
 	msgOpen
-	"?"
+	"""
+	?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -175258,7 +184323,9 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = Chisao
 	msgOpen
-	"Oh…"
+	"""
+	Oh…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -175336,7 +184403,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Y・ur ho・ewor・!"
+	"""
+	Y・ur ho・ewor・!
+	"""
 	keyWait
 	end
 }
@@ -175358,7 +184427,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"So・ry…"
+	"""
+	So・ry…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -175480,7 +184551,9 @@ script 13 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Oh,by the way…!"
+	"""
+	Oh,by the way…!
+	"""
 	keyWait
 	end
 }
@@ -175488,10 +184561,14 @@ script 14 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Wh…"
+	"""
+	Wh…
+	"""
 	waitSkip
 		frames = 30
-	" What now?"
+	"""
+	 What now?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -175569,7 +184646,9 @@ script 19 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Yeah,OK!"
+	"""
+	Yeah,OK!
+	"""
 	keyWait
 	end
 }
@@ -175624,10 +184703,15 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Yai
 	msgOpen
-	"You little brat!\n"
+	"""
+	You little brat!
+	
+	"""
 	flagClear
 		flag = 1028
-	"Why,I oughta…"
+	"""
+	Why,I oughta…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -175648,7 +184732,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan?"
+	"""
+	Lan?
+	"""
 	keyWait
 	clearMsg
 	playerAnimate
@@ -175668,14 +184754,19 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Hey,yeah!\n"
+	"""
+	Hey,yeah!
+	
+	"""
 	playerAnimate
 		animation = 4
 	wait
 		frames = 60
 	playerAnimate
 		animation = 7
-	"Well? What is it?"
+	"""
+	Well? What is it?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -175705,7 +184796,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = Yai
 	msgOpen
-	"……"
+	"""
+	……
+	"""
 	flagClear
 		flag = 1027
 	"""
@@ -175737,7 +184830,9 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"Oh,Lan…"
+	"""
+	Oh,Lan…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -175777,7 +184872,9 @@ script 13 mmbn3 {
 	mugshotShow
 		mugshot = Chisao
 	msgOpen
-	"And HURRY!"
+	"""
+	And HURRY!
+	"""
 	keyWait
 	flagSet
 		flag = 1027
@@ -175790,7 +184887,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"Chisao!"
+	"""
+	Chisao!
+	"""
 	keyWait
 	end
 }
@@ -175798,7 +184897,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = Chisao
 	msgOpen
-	"Big brother!"
+	"""
+	Big brother!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -175808,7 +184909,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"Chisao!!"
+	"""
+	Chisao!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -175818,7 +184921,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Chisao
 	msgOpen
-	"Big brother!!!"
+	"""
+	Big brother!!!
+	"""
 	keyWait
 	end
 }
@@ -175826,7 +184931,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = Yai
 	msgOpen
-	"Oh,how sweet…"
+	"""
+	Oh,how sweet…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -175836,7 +184943,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"Isn't it,though?"
+	"""
+	Isn't it,though?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -175882,7 +184991,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"Right."
+	"""
+	Right.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -175913,7 +185024,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"That's OK,but…"
+	"""
+	That's OK,but…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -175930,7 +185043,9 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"Oh,that. Uh,well…"
+	"""
+	Oh,that. Uh,well…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -175975,7 +185090,9 @@ script 13 mmbn3 {
 	mugshotShow
 		mugshot = Yai
 	msgOpen
-	"Snicker…!"
+	"""
+	Snicker…!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -175985,7 +185102,9 @@ script 14 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"Oh,come on,Dex!"
+	"""
+	Oh,come on,Dex!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -176011,7 +185130,9 @@ script 16 mmbn3 {
 	mugshotShow
 		mugshot = Yai
 	msgOpen
-	"Huh?! Why,you…!"
+	"""
+	Huh?! Why,you…!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -176035,7 +185156,9 @@ script 18 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Who,me?!"
+	"""
+	Who,me?!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -176058,7 +185181,9 @@ script 20 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"Uh,yeah,sure!"
+	"""
+	Uh,yeah,sure!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -176102,7 +185227,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"Chisao?"
+	"""
+	Chisao?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -176112,7 +185239,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Chisao
 	msgOpen
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	end
 }
@@ -176142,7 +185271,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Wait,Dex!"
+	"""
+	Wait,Dex!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -176152,7 +185283,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"Lan…"
+	"""
+	Lan…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -176279,7 +185412,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"Ha ha! Me too,kid!"
+	"""
+	Ha ha! Me too,kid!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -176317,7 +185452,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = Sunayama
 	msgOpen
-	"Well hello there!"
+	"""
+	Well hello there!
+	"""
 	flagSet
 		flag = 1029
 	keyWait
@@ -176329,7 +185466,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"?"
+	"""
+	?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -176397,7 +185536,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"What? Really?!"
+	"""
+	What? Really?!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -176480,7 +185621,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Yep."
+	"""
+	Yep.
+	"""
 	keyWait
 	end
 }
@@ -176511,7 +185654,9 @@ script 13 mmbn3 {
 	printItem
 		buffer = 0
 		item = 93
-	"\"!"
+	"""
+	"!
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -176534,7 +185679,9 @@ script 15 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"What should we do?"
+	"""
+	What should we do?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -176634,7 +185781,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Let's go,MegaMan!"
+	"""
+	Let's go,MegaMan!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -176644,7 +185793,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Roger!"
+	"""
+	Roger!
+	"""
 	keyWait
 	end
 }
@@ -176682,10 +185833,15 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"The Virus King?\n"
+	"""
+	The Virus King?
+	
+	"""
 	playerAnimate
 		animation = 26
-	"Lan,be careful!"
+	"""
+	Lan,be careful!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -176716,7 +185872,10 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Huh?\n"
+	"""
+	Huh?
+	
+	"""
 	playerAnimate
 		animation = 1
 	"""
@@ -176730,7 +185889,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = HeelNavi
 	msgOpen
-	"…C'mon,guys!"
+	"""
+	…C'mon,guys!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -176822,7 +185983,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	clearMsg
 	playerAnimate
@@ -176871,7 +186034,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"It ・ooks t・at ・ay…"
+	"""
+	It ・ooks t・at ・ay…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -176924,7 +186089,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = OfficialNavi
 	msgOpen
-	"OK! Great job,kid!"
+	"""
+	OK! Great job,kid!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -176976,7 +186143,9 @@ script 4 mmbn3 {
 	"""
 	flagSet
 		flag = 1028
-	"Something wrong?"
+	"""
+	Something wrong?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -177000,7 +186169,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = OfficialNavi
 	msgOpen
-	"Strange? No…"
+	"""
+	Strange? No…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -177073,7 +186244,9 @@ script 10 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Lan! LAN!!"
+	"""
+	Lan! LAN!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -177103,7 +186276,9 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"\""
+	"""
+	"
+	"""
 	printItem
 		buffer = 0
 		item = 10
@@ -177113,7 +186288,9 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Later that night…"
+	"""
+	Later that night…
+	"""
 	keyWait
 	end
 }
@@ -177121,7 +186298,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Man,this is no fun…"
+	"""
+	Man,this is no fun…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -177208,7 +186387,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Hey! That's right!!"
+	"""
+	Hey! That's right!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -177294,7 +186475,9 @@ script 13 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 212
-	"Ding-dong!"
+	"""
+	Ding-dong!
+	"""
 	wait
 		frames = 70
 	soundEnableTextSFX
@@ -177316,7 +186499,9 @@ script 15 mmbn3 {
 	mugshotShow
 		mugshot = Dad
 	msgOpen
-	"I'm home,everyone!"
+	"""
+	I'm home,everyone!
+	"""
 	keyWait
 	end
 }
@@ -177324,7 +186509,9 @@ script 16 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Dad!! Hey!!!"
+	"""
+	Dad!! Hey!!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -177334,7 +186521,9 @@ script 17 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Welcome home!"
+	"""
+	Welcome home!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -177429,7 +186618,9 @@ script 24 mmbn3 {
 	mugshotShow
 		mugshot = Mom
 	msgOpen
-	"Sorry,honey!!"
+	"""
+	Sorry,honey!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -177438,7 +186629,9 @@ script 24 mmbn3 {
 script 25 mmbn3 {
 	mugshotHide
 	msgOpen
-	"Ha,ha,ha!"
+	"""
+	Ha,ha,ha!
+	"""
 	keyWait
 	end
 }
@@ -177446,7 +186639,9 @@ script 26 mmbn3 {
 	mugshotShow
 		mugshot = Dad
 	msgOpen
-	"Oh,by the way…"
+	"""
+	Oh,by the way…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -177473,7 +186668,9 @@ script 28 mmbn3 {
 	mugshotShow
 		mugshot = Dad
 	msgOpen
-	"Well,let's see…"
+	"""
+	Well,let's see…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -177490,7 +186687,9 @@ script 29 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Can you fix it?"
+	"""
+	Can you fix it?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -177500,7 +186699,9 @@ script 30 mmbn3 {
 	mugshotShow
 		mugshot = Dad
 	msgOpen
-	"Of course!"
+	"""
+	Of course!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -177510,7 +186711,9 @@ script 31 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Cool! Thanks,dad!"
+	"""
+	Cool! Thanks,dad!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -177581,7 +186784,9 @@ script 36 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Yeah,I guess…"
+	"""
+	Yeah,I guess…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -177605,7 +186810,9 @@ script 38 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"OK,OK!"
+	"""
+	OK,OK!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -177647,10 +186854,14 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Yawn…!"
+	"""
+	Yawn…!
+	"""
 	keyWait
 	clearMsg
-	"Sorry… The \""
+	"""
+	Sorry… The "
+	"""
 	printItem
 		buffer = 0
 		item = 10
@@ -177695,7 +186906,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Whew!"
+	"""
+	Whew!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -177716,7 +186929,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = MsMari
 	msgOpen
-	"Lan,you're late!"
+	"""
+	Lan,you're late!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -177739,7 +186954,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"Aw,yeah!"
+	"""
+	Aw,yeah!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -177749,7 +186966,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"Off to Yoka!"
+	"""
+	Off to Yoka!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -177786,7 +187005,9 @@ script 6 mmbn3 {
 script 7 mmbn3 {
 	mugshotHide
 	msgOpen
-	"Yes,ma'am!!!!"
+	"""
+	Yes,ma'am!!!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -177796,7 +187017,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = MsMari
 	msgOpen
-	"OK,let's goooo!!"
+	"""
+	OK,let's goooo!!
+	"""
 	keyWait
 	end
 }
@@ -177806,7 +187029,9 @@ script 8 mmbn3 {
 script 0 mmbn3 {
 	mugshotHide
 	msgOpen
-	"Later that day…"
+	"""
+	Later that day…
+	"""
 	keyWait
 	end
 }
@@ -177814,10 +187039,15 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = MsMari
 	msgOpen
-	"Is everyone here?"
+	"""
+	Is everyone here?
+	"""
 	waitSkip
 		frames = 30
-	"\nWe've reached Yoka!"
+	"""
+	
+	We've reached Yoka!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -177827,7 +187057,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"All riiiight!"
+	"""
+	All riiiight!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -177837,7 +187069,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"Yeah!"
+	"""
+	Yeah!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -177888,7 +187122,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"Oh,come on!!"
+	"""
+	Oh,come on!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -177898,7 +187134,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"No way!"
+	"""
+	No way!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -177928,7 +187166,9 @@ script 9 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"See you later!"
+	"""
+	See you later!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -177937,7 +187177,9 @@ script 9 mmbn3 {
 script 10 mmbn3 {
 	mugshotHide
 	msgOpen
-	"Yes,ma'am!!"
+	"""
+	Yes,ma'am!!
+	"""
 	keyWait
 	end
 }
@@ -177948,10 +187190,14 @@ script 0 mmbn3 {
 	mugshotHide
 	msgOpen
 	soundDisableTextSFX
-	"…"
+	"""
+	…
+	"""
 	soundPlay
 		track = 217
-	"Creeeeak…"
+	"""
+	Creeeeak…
+	"""
 	wait
 		frames = 60
 	soundEnableTextSFX
@@ -177977,7 +187223,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"It sure does!"
+	"""
+	It sure does!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -178007,7 +187255,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"…Sure!"
+	"""
+	…Sure!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -178017,10 +187267,14 @@ script 5 mmbn3 {
 	mugshotHide
 	msgOpen
 	soundDisableTextSFX
-	"…"
+	"""
+	…
+	"""
 	soundPlay
 		track = 217
-	"Creeeeak…"
+	"""
+	Creeeeak…
+	"""
 	wait
 		frames = 60
 	soundEnableTextSFX
@@ -178045,7 +187299,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"I'll get you!!!!"
+	"""
+	I'll get you!!!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -178055,7 +187311,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Oh yeah? How's this!"
+	"""
+	Oh yeah? How's this!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -178091,7 +187349,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = OrangeShirtBoy
 	msgOpen
-	"Ha ha ha!! YEAH!"
+	"""
+	Ha ha ha!! YEAH!
+	"""
 	keyWait
 	end
 }
@@ -178169,7 +187429,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Yeah! Go ahead!"
+	"""
+	Yeah! Go ahead!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -178180,13 +187442,18 @@ script 6 mmbn3 {
 	msgOpen
 	soundSetTextSFX
 		track = 196
-	"…beep beep beep…\n"
+	"""
+	…beep beep beep…
+	
+	"""
 	soundDisableTextSFX
 	soundPlay
 		track = 220
 	playerAnimate
 		animation = 24
-	"Bing!!!"
+	"""
+	Bing!!!
+	"""
 	playerFinish
 	playerAnimate
 		animation = 4
@@ -178208,7 +187475,9 @@ script 7 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"…Huh?"
+	"""
+	…Huh?
+	"""
 	keyWait
 	end
 }
@@ -178274,7 +187543,9 @@ script 1 mmbn3 {
 script 2 mmbn3 {
 	mugshotHide
 	msgOpen
-	"Yes,ma'am!!"
+	"""
+	Yes,ma'am!!
+	"""
 	keyWait
 	end
 }
@@ -178296,7 +187567,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"OK!"
+	"""
+	OK!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -178306,7 +187579,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"OK,see you later!"
+	"""
+	OK,see you later!
+	"""
 	keyWait
 	end
 }
@@ -178343,14 +187618,18 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Yeah,I guess so."
+	"""
+	Yeah,I guess so.
+	"""
 	keyWait
 	end
 }
 script 3 mmbn3 {
 	mugshotHide
 	msgOpen
-	"Here we are!"
+	"""
+	Here we are!
+	"""
 	keyWait
 	end
 }
@@ -178358,7 +187637,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"You're late!"
+	"""
+	You're late!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -178396,7 +187677,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"Hey,did you notice…"
+	"""
+	Hey,did you notice…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -178463,13 +187746,20 @@ script 12 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 135
-	"Roaaaaaar!"
+	"""
+	Roaaaaaar!
+	"""
 	wait
 		frames = 90
-	"\n"
+	"""
+	
+	
+	"""
 	soundPlay
 		track = 150
-	"Groooooowl!!!"
+	"""
+	Groooooowl!!!
+	"""
 	wait
 		frames = 120
 	keyWait
@@ -178482,7 +187772,9 @@ script 13 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"L-Lan…"
+	"""
+	L-Lan…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -178524,13 +187816,20 @@ script 16 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 136
-	"Grrrrrowl!"
+	"""
+	Grrrrrowl!
+	"""
 	wait
 		frames = 90
-	"\n"
+	"""
+	
+	
+	"""
 	flagClear
 		flag = 1085
-	"Grrrrrr!!!"
+	"""
+	Grrrrrr!!!
+	"""
 	soundEnableTextSFX
 	keyWait
 	end
@@ -178539,7 +187838,9 @@ script 17 mmbn3 {
 	mugshotShow
 		mugshot = Yai
 	msgOpen
-	"(Be calm… be calm…)"
+	"""
+	(Be calm… be calm…)
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -178549,7 +187850,9 @@ script 18 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"Lan,what's going on?"
+	"""
+	Lan,what's going on?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -178571,7 +187874,9 @@ script 19 mmbn3 {
 script 20 mmbn3 {
 	mugshotHide
 	msgOpen
-	"…elp meeeee!"
+	"""
+	…elp meeeee!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -178581,7 +187886,9 @@ script 21 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"?!"
+	"""
+	?!
+	"""
 	keyWait
 	end
 }
@@ -178589,7 +187896,9 @@ script 22 mmbn3 {
 	mugshotShow
 		mugshot = Chisao
 	msgOpen
-	"Heeeelp meeeee!"
+	"""
+	Heeeelp meeeee!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -178599,7 +187908,9 @@ script 23 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"It's Chisao!"
+	"""
+	It's Chisao!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -178609,7 +187920,9 @@ script 24 mmbn3 {
 	mugshotShow
 		mugshot = Chisao
 	msgOpen
-	"Wahhhhh!!!"
+	"""
+	Wahhhhh!!!
+	"""
 	keyWait
 	end
 }
@@ -178617,7 +187930,9 @@ script 25 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"Chisaooooo!!"
+	"""
+	Chisaooooo!!
+	"""
 	keyWait
 	end
 }
@@ -178638,7 +187953,9 @@ script 27 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"Lan!"
+	"""
+	Lan!
+	"""
 	keyWait
 	clearMsg
 	playerAnimate
@@ -178650,7 +187967,9 @@ script 28 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"I'll do something!"
+	"""
+	I'll do something!
+	"""
 	keyWait
 	end
 }
@@ -178659,7 +187978,9 @@ script 29 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 135
-	"Roaaaar!!!"
+	"""
+	Roaaaar!!!
+	"""
 	wait
 		frames = 60
 	keyWait
@@ -178672,7 +187993,9 @@ script 30 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Wh… Whoa!!"
+	"""
+	Wh… Whoa!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -178682,7 +188005,9 @@ script 31 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"Eeeeeeeek!!!!"
+	"""
+	Eeeeeeeek!!!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -178692,7 +188017,9 @@ script 32 mmbn3 {
 	mugshotShow
 		mugshot = Yai
 	msgOpen
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -178714,7 +188041,9 @@ script 34 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 135
-	"Roaaaar!!!!"
+	"""
+	Roaaaar!!!!
+	"""
 	wait
 		frames = 60
 	keyWait
@@ -178738,7 +188067,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Chisao!"
+	"""
+	Chisao!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -178762,7 +188093,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Good idea!"
+	"""
+	Good idea!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -178802,7 +188135,9 @@ script 5 mmbn3 {
 script 6 mmbn3 {
 	mugshotHide
 	msgOpen
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -178812,7 +188147,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"Chisao!!"
+	"""
+	Chisao!!
+	"""
 	keyWait
 	end
 }
@@ -178820,7 +188157,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"Lan! Where's Chisao?"
+	"""
+	Lan! Where's Chisao?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -178832,7 +188171,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Up there!"
+	"""
+	Up there!
+	"""
 	keyWait
 	end
 }
@@ -178853,7 +188194,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = Chisao
 	msgOpen
-	"Br… brother?"
+	"""
+	Br… brother?
+	"""
 	keyWait
 	flagSet
 		flag = 1029
@@ -178869,7 +188212,9 @@ script 12 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"…and where am I?"
+	"""
+	…and where am I?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -178879,7 +188224,9 @@ script 12 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Sob,sob!"
+	"""
+	Sob,sob!
+	"""
 	keyWait
 	flagSet
 		flag = 1029
@@ -178889,7 +188236,9 @@ script 13 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"Chisaooooo!"
+	"""
+	Chisaooooo!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -178913,7 +188262,9 @@ script 15 mmbn3 {
 	mugshotShow
 		mugshot = ZooWoman
 	msgOpen
-	"Somebody help!!!!!"
+	"""
+	Somebody help!!!!!
+	"""
 	keyWait
 	end
 }
@@ -179055,7 +188406,9 @@ script 25 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan!"
+	"""
+	Lan!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -179065,7 +188418,9 @@ script 26 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"OK! I'll go!"
+	"""
+	OK! I'll go!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -179124,7 +188479,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Roger!"
+	"""
+	Roger!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -179134,7 +188491,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Hurry,MegaMan!"
+	"""
+	Hurry,MegaMan!
+	"""
 	keyWait
 	end
 }
@@ -179145,7 +188504,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"!!!"
+	"""
+	!!!
+	"""
 	keyWait
 	end
 }
@@ -179158,7 +188519,9 @@ script 1 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 135
-	"Roaaaar!"
+	"""
+	Roaaaar!
+	"""
 	wait
 		frames = 100
 	keyWait
@@ -179171,7 +188534,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Is that a virus?"
+	"""
+	Is that a virus?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -179200,10 +188565,15 @@ script 4 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 135
-	"Roaaaaar!"
+	"""
+	Roaaaaar!
+	"""
 	wait
 		frames = 100
-	"\n"
+	"""
+	
+	
+	"""
 	soundEnableTextSFX
 	"""
 	So you've found
@@ -179245,7 +188615,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = BeastMan
 	msgOpen
-	"Oh,how cute."
+	"""
+	Oh,how cute.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -179315,7 +188687,9 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"The WWW?!"
+	"""
+	The WWW?!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -179393,10 +188767,15 @@ script 13 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 135
-	"Roaaaaar!"
+	"""
+	Roaaaaar!
+	"""
 	wait
 		frames = 90
-	"\n"
+	"""
+	
+	
+	"""
 	soundEnableTextSFX
 	waitHold
 }
@@ -179448,7 +188827,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Inukai
 	msgOpen
-	"Oops,gotta run…!"
+	"""
+	Oops,gotta run…!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -179458,7 +188839,9 @@ script 3 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Time to run!!"
+	"""
+	Time to run!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -179484,7 +188867,9 @@ script 5 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 284
-	"Click…"
+	"""
+	Click…
+	"""
 	wait
 		frames = 60
 	keyWait
@@ -179537,14 +188922,18 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Chisao!"
+	"""
+	Chisao!
+	"""
 	keyWait
 	end
 }
 script 1 mmbn3 {
 	mugshotHide
 	msgOpen
-	"SCRAAAW!"
+	"""
+	SCRAAAW!
+	"""
 	wait
 		frames = 60
 	keyWait
@@ -179568,7 +188957,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Watch out!!"
+	"""
+	Watch out!!
+	"""
 	keyWait
 	end
 }
@@ -179616,7 +189007,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"No,Chisao…"
+	"""
+	No,Chisao…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -179626,7 +189019,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Dex,it's OK!"
+	"""
+	Dex,it's OK!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -179663,7 +189058,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Yeah!"
+	"""
+	Yeah!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -179673,7 +189070,9 @@ script 12 mmbn3 {
 	mugshotShow
 		mugshot = Yai
 	msgOpen
-	"I think I might cry!"
+	"""
+	I think I might cry!
+	"""
 	keyWait
 	end
 }
@@ -179711,7 +189110,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"So you're leaving?"
+	"""
+	So you're leaving?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -179721,7 +189122,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"No,don't worry!"
+	"""
+	No,don't worry!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -179793,7 +189196,9 @@ script 6 mmbn3 {
 	msgOpen
 	playerAnimate
 		animation = 24
-	"Ah,it was nothing!"
+	"""
+	Ah,it was nothing!
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -179868,7 +189273,9 @@ script 10 mmbn3 {
 script 11 mmbn3 {
 	mugshotHide
 	msgOpen
-	"Ha ha ha ha!!!!"
+	"""
+	Ha ha ha ha!!!!
+	"""
 	keyWait
 	end
 }
@@ -179912,7 +189319,9 @@ script 1 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"\"Cybergeddon\"!!"
+	"""
+	"Cybergeddon"!!
+	"""
 	keyWait
 	flagClear
 		flag = 1028
@@ -179926,7 +189335,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = LordWily
 	msgOpen
-	"Mwa-ha-ha-ha-ha!!"
+	"""
+	Mwa-ha-ha-ha-ha!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -179938,7 +189349,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = LordWily
 	msgOpen
-	"Wheeze…! Gasp…!"
+	"""
+	Wheeze…! Gasp…!
+	"""
 	wait
 		frames = 44
 	"""
@@ -179966,7 +189379,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = LordWily
 	msgOpen
-	"Mwa-ha-ha-ha-ha!!"
+	"""
+	Mwa-ha-ha-ha-ha!!
+	"""
 	keyWait
 	end
 }
@@ -180110,16 +189525,24 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"L"
+	"""
+	L
+	"""
 	waitSkip
 		frames = 20
-	"a"
+	"""
+	a
+	"""
 	waitSkip
 		frames = 20
-	"n"
+	"""
+	n
+	"""
 	waitSkip
 		frames = 20
-	"!"
+	"""
+	!
+	"""
 	waitSkip
 		frames = 20
 	"""
@@ -180129,16 +189552,24 @@ script 5 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"I knew it! "
+	"""
+	I knew it! 
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -180162,16 +189593,24 @@ script 6 mmbn3 {
 	mugshotHide
 	msgOpen
 	soundDisableTextSFX
-	"Ding-"
+	"""
+	Ding-
+	"""
 	wait
 		frames = 35
-	"dong "
+	"""
+	dong 
+	"""
 	wait
 		frames = 38
-	"ding-"
+	"""
+	ding-
+	"""
 	wait
 		frames = 35
-	"dong…"
+	"""
+	dong…
+	"""
 	wait
 		frames = 80
 	keyWait
@@ -180209,7 +189648,9 @@ script 7 mmbn3 {
 script 8 mmbn3 {
 	mugshotHide
 	msgOpen
-	"Goodbye,Ms.Mari!"
+	"""
+	Goodbye,Ms.Mari!
+	"""
 	keyWait
 	end
 }
@@ -180257,7 +189698,9 @@ script 12 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Reeeeally?"
+	"""
+	Reeeeally?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -180281,7 +189724,9 @@ script 14 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Oh,all right."
+	"""
+	Oh,all right.
+	"""
 	keyWait
 	end
 }
@@ -180306,7 +189751,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Are you OK,Higsby?"
+	"""
+	Are you OK,Higsby?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -180316,7 +189763,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Higsby
 	msgOpen
-	"Huh? Yes,I'm fine."
+	"""
+	Huh? Yes,I'm fine.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -180388,7 +189837,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Me? A job?"
+	"""
+	Me? A job?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -180426,7 +189877,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"B-But…"
+	"""
+	B-But…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -180566,7 +190019,9 @@ script 13 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Yeah… huh!"
+	"""
+	Yeah… huh!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -180583,7 +190038,9 @@ script 14 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"I'm counting on you!"
+	"""
+	I'm counting on you!
+	"""
 	keyWait
 	clearMsg
 	end
@@ -180632,11 +190089,15 @@ script 1 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 131
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = R
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -180677,7 +190138,9 @@ script 3 mmbn3 {
 	flagSet
 		flag = 1307
 	soundDisableTextSFX
-	"Beep beep beep!"
+	"""
+	Beep beep beep!
+	"""
 	soundEnableTextSFX
 	keyWait
 	end
@@ -180686,7 +190149,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan! You got mail!"
+	"""
+	Lan! You got mail!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -180771,7 +190236,9 @@ script 6 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Let's go for it,Lan!"
+	"""
+	Let's go for it,Lan!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -180783,7 +190250,9 @@ script 7 mmbn3 {
 	msgOpen
 	playerAnimate
 		animation = 24
-	"Of course!"
+	"""
+	Of course!
+	"""
 	playerFinish
 	flagSet
 		flag = 1309
@@ -180833,7 +190302,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"We did it,Lan!"
+	"""
+	We did it,Lan!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -180923,7 +190394,9 @@ script 6 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Right,everyone?"
+	"""
+	Right,everyone?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -180948,7 +190421,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = Glide
 	msgOpen
-	"I shall do my best."
+	"""
+	I shall do my best.
+	"""
 	keyWait
 	clearMsg
 	msgClose
@@ -180973,7 +190448,9 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"ProtoMan!"
+	"""
+	ProtoMan!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -181065,7 +190542,9 @@ script 15 mmbn3 {
 	mugshotShow
 		mugshot = ProtoMan
 	msgOpen
-	"Of course!"
+	"""
+	Of course!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -181116,7 +190595,9 @@ script 17 mmbn3 {
 	mugshotShow
 		mugshot = ProtoMan
 	msgOpen
-	"Yes,sir!"
+	"""
+	Yes,sir!
+	"""
 	keyWait
 	end
 }
@@ -181222,7 +190703,9 @@ script 23 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Sure,I guess so!"
+	"""
+	Sure,I guess so!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -181320,7 +190803,9 @@ script 4 mmbn3 {
 	soundPlay
 		track = 134
 	soundDisableTextSFX
-	"Beep beep beep!"
+	"""
+	Beep beep beep!
+	"""
 	soundEnableTextSFX
 	keyWait
 	end
@@ -181329,10 +190814,14 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan! You got mail!"
+	"""
+	Lan! You got mail!
+	"""
 	keyWait
 	clearMsg
-	"Maybe it's Mayl?"
+	"""
+	Maybe it's Mayl?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -181411,7 +190900,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Morning,Mayl!"
+	"""
+	Morning,Mayl!
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -181510,7 +191001,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = Higsby
 	msgOpen
-	"Good morning,huh!"
+	"""
+	Good morning,huh!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -181534,7 +191027,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = Higsby
 	msgOpen
-	"Thank you,huh!"
+	"""
+	Thank you,huh!
+	"""
 	keyWait
 	clearMsg
 	flagClear
@@ -181602,7 +191097,10 @@ script 11 mmbn3 {
 	msgOpen
 	flagClear
 		flag = 1310
-	"Huh! Now then,Mayl.\n"
+	"""
+	Huh! Now then,Mayl.
+	
+	"""
 	flagSet
 		flag = 1307
 	"""
@@ -181618,7 +191116,9 @@ script 12 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"Um,yeah,of course…"
+	"""
+	Um,yeah,of course…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -181799,7 +191299,9 @@ script 23 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Good luck!"
+	"""
+	Good luck!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -181824,11 +191326,15 @@ script 24 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 143
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = *
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -181846,11 +191352,15 @@ script 25 mmbn3 {
 	msgOpen
 	flagClear
 		flag = 1307
-	"A \""
+	"""
+	A "
+	"""
 	printChip
 		buffer = 0
 		chip = 143
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = *
@@ -181882,7 +191392,9 @@ script 27 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Yeah,yeah."
+	"""
+	Yeah,yeah.
+	"""
 	keyWait
 	end
 }
@@ -181909,7 +191421,9 @@ script 1 mmbn3 {
 	flagSet
 		flag = 1308
 	soundDisableTextSFX
-	"Ding-dong!"
+	"""
+	Ding-dong!
+	"""
 	wait
 		frames = 60
 	keyWait
@@ -182019,7 +191533,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Yeah,thanks Mayl!"
+	"""
+	Yeah,thanks Mayl!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -182112,7 +191628,9 @@ script 7 mmbn3 {
 	msgOpen
 	flagSet
 		flag = 1309
-	"Exactly! Huh!"
+	"""
+	Exactly! Huh!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -182122,7 +191640,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Whatever…"
+	"""
+	Whatever…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -182134,7 +191654,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"Eeeeeek!!"
+	"""
+	Eeeeeek!!
+	"""
 	keyWait
 	clearMsg
 	flagClear
@@ -182146,7 +191668,9 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Mayl!"
+	"""
+	Mayl!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -182167,7 +191691,9 @@ script 12 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"What happened?!"
+	"""
+	What happened?!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -182223,7 +191749,9 @@ script 15 mmbn3 {
 	clearMsg
 	flagClear
 		flag = 1309
-	"HUH-YUUUUM!"
+	"""
+	HUH-YUUUUM!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -182235,7 +191763,9 @@ script 16 mmbn3 {
 	soundDisableTextSFX
 	flagSet
 		flag = 1310
-	"Beep beep beep!"
+	"""
+	Beep beep beep!
+	"""
 	wait
 		frames = 90
 	keyWait
@@ -182285,7 +191815,9 @@ script 17 mmbn3 {
 	mugshotShow
 		mugshot = Roll
 	msgOpen
-	"Oh,my!"
+	"""
+	Oh,my!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -182338,7 +191870,9 @@ script 21 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"The WWW again?!"
+	"""
+	The WWW again?!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -182484,7 +192018,9 @@ script 2 mmbn3 {
 	msgOpen
 	flagSet
 		flag = 1307
-	"Blub!"
+	"""
+	Blub!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -182541,13 +192077,19 @@ script 5 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Blub"
+	"""
+	Blub
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -182571,7 +192113,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"He wants to fight?!"
+	"""
+	He wants to fight?!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -182600,10 +192144,14 @@ script 7 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -182649,7 +192197,9 @@ script 9 mmbn3 {
 	msgOpen
 	flagSet
 		flag = 1308
-	"Ack! He got me!"
+	"""
+	Ack! He got me!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -182659,7 +192209,9 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Go get him,MegaMan!"
+	"""
+	Go get him,MegaMan!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -182669,7 +192221,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Roger!"
+	"""
+	Roger!
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -182679,7 +192233,9 @@ script 11 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"A trail!"
+	"""
+	A trail!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -182784,16 +192340,24 @@ script 4 mmbn3 {
 	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	" That's it!"
+	"""
+	 That's it!
+	"""
 	keyWait
 	clearMsg
-	"Compression!"
+	"""
+	Compression!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -182870,7 +192434,9 @@ script 8 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Blublublub!"
+	"""
+	Blublublub!
+	"""
 	keyWait
 	end
 }
@@ -182920,7 +192486,9 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Please take this."
+	"""
+	Please take this.
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -182940,7 +192508,9 @@ script 1 mmbn3 {
 	printItem
 		buffer = 0
 		item = 13
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -183073,7 +192643,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"I've got it,Lan!"
+	"""
+	I've got it,Lan!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -183143,7 +192715,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Well?"
+	"""
+	Well?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -183160,7 +192734,9 @@ script 4 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"than I have. Huh!"
+	"""
+	than I have. Huh!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -183205,7 +192781,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Whoa!"
+	"""
+	Whoa!
+	"""
 	keyWait
 	end
 }
@@ -183330,7 +192908,9 @@ script 5 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"This \""
+	"""
+	This "
+	"""
 	printItem
 		buffer = 0
 		item = 13
@@ -183363,32 +192943,51 @@ script 6 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 266
-	"Clack,click…"
+	"""
+	Clack,click…
+	"""
 	wait
 		frames = 90
-	"\n"
+	"""
+	
+	
+	"""
 	soundPlay
 		track = 282
-	"Beep beep!…"
+	"""
+	Beep beep!…
+	"""
 	wait
 		frames = 60
-	"\n"
+	"""
+	
+	
+	"""
 	soundPlay
 		track = 219
-	"Beep beep beep!…"
+	"""
+	Beep beep beep!…
+	"""
 	wait
 		frames = 60
 	keyWait
 	clearMsg
 	soundPlay
 		track = 165
-	"Ka-chunk!"
+	"""
+	Ka-chunk!
+	"""
 	wait
 		frames = 30
-	"\n"
+	"""
+	
+	
+	"""
 	soundPlay
 		track = 220
-	"Ping!"
+	"""
+	Ping!
+	"""
 	wait
 		frames = 60
 	keyWait
@@ -183399,7 +192998,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = Cossak
 	msgOpen
-	"There we go."
+	"""
+	There we go.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -183451,7 +193052,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Thank you,sir!"
+	"""
+	Thank you,sir!
+	"""
 	keyWait
 	end
 }
@@ -183537,7 +193140,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"MegaMan!"
+	"""
+	MegaMan!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -183628,7 +193233,9 @@ script 7 mmbn3 {
 	printItem
 		buffer = 0
 		item = 14
-	"\" and"
+	"""
+	" and
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -183665,7 +193272,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = BubbleMan
 	msgOpen
-	"Just GO already!"
+	"""
+	Just GO already!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -183730,7 +193339,9 @@ script 12 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Away we goooo!"
+	"""
+	Away we goooo!
+	"""
 	keyWait
 	end
 }
@@ -183750,7 +193361,9 @@ script 14 mmbn3 {
 	mugshotShow
 		mugshot = BubbleMan
 	msgOpen
-	"Anyway,MegaMan!"
+	"""
+	Anyway,MegaMan!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -183780,7 +193393,9 @@ script 15 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan!"
+	"""
+	Lan!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -183790,7 +193405,9 @@ script 16 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Gotcha!"
+	"""
+	Gotcha!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -183850,7 +193467,9 @@ script 2 mmbn3 {
 	printItem
 		buffer = 0
 		item = 14
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -183876,7 +193495,9 @@ script 4 mmbn3 {
 	msgOpen
 	flagClear
 		flag = 1308
-	"Run? Run where?"
+	"""
+	Run? Run where?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -183915,7 +193536,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Hey! Wait!"
+	"""
+	Hey! Wait!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -183952,7 +193575,9 @@ script 1 mmbn3 {
 	printItem
 		buffer = 0
 		item = 14
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -183985,7 +193610,9 @@ script 3 mmbn3 {
 	msgOpen
 	flagSet
 		flag = 1309
-	"We're running again?"
+	"""
+	We're running again?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -184013,7 +193640,9 @@ script 5 mmbn3 {
 	msgOpen
 	flagClear
 		flag = 1308
-	"So,where to next?"
+	"""
+	So,where to next?
+	"""
 	keyWait
 	end
 }
@@ -184023,7 +193652,9 @@ script 6 mmbn3 {
 	msgOpen
 	flagClear
 		flag = 1310
-	"Yoka 1!"
+	"""
+	Yoka 1!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -184095,7 +193726,9 @@ script 1 mmbn3 {
 	msgOpen
 	flagSet
 		flag = 1310
-	"No sir!"
+	"""
+	No sir!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -184210,7 +193843,9 @@ script 1 mmbn3 {
 	printItem
 		buffer = 0
 		item = 14
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -184229,7 +193864,9 @@ script 2 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Right? Right?"
+	"""
+	Right? Right?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -184320,7 +193957,9 @@ script 1 mmbn3 {
 script 2 mmbn3 {
 	mugshotHide
 	msgOpen
-	"Briiiinnng!"
+	"""
+	Briiiinnng!
+	"""
 	keyWait
 	end
 }
@@ -184395,7 +194034,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Right!"
+	"""
+	Right!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -184405,7 +194046,9 @@ script 7 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"set!!"
+	"""
+	set!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -184415,7 +194058,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Execute!"
+	"""
+	Execute!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -184425,7 +194070,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = BubbleMan
 	msgOpen
-	"Blubbbbb!"
+	"""
+	Blubbbbb!
+	"""
 	keyWait
 	end
 }
@@ -184436,7 +194083,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = BubbleMan
 	msgOpen
-	"Nooooo!!!"
+	"""
+	Nooooo!!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -184538,10 +194187,14 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = BubbleMan
 	msgOpen
-	"Blub!"
+	"""
+	Blub!
+	"""
 	keyWait
 	clearMsg
-	"Blub blu…!!!"
+	"""
+	Blub blu…!!!
+	"""
 	keyWait
 	end
 }
@@ -184549,7 +194202,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"ProtoMan!"
+	"""
+	ProtoMan!
+	"""
 	keyWait
 	end
 }
@@ -184591,7 +194246,9 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"What?!"
+	"""
+	What?!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -184615,7 +194272,9 @@ script 12 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"!!"
+	"""
+	!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -184625,7 +194284,9 @@ script 13 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"………"
+	"""
+	………
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -184635,7 +194296,9 @@ script 14 mmbn3 {
 	mugshotShow
 		mugshot = Higsby
 	msgOpen
-	"Lan! Lan!"
+	"""
+	Lan! Lan!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -184684,7 +194347,9 @@ script 16 mmbn3 {
 	mugshotShow
 		mugshot = ProtoMan
 	msgOpen
-	"Yes,sir!"
+	"""
+	Yes,sir!
+	"""
 	keyWait
 	end
 }
@@ -184692,7 +194357,9 @@ script 17 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"………"
+	"""
+	………
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -184717,7 +194384,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Are you two okay?"
+	"""
+	Are you two okay?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -184729,7 +194398,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"Yeah,we're fine!"
+	"""
+	Yeah,we're fine!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -184761,7 +194432,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Higsby
 	msgOpen
-	"Great work,Lan! Huh!"
+	"""
+	Great work,Lan! Huh!
+	"""
 	keyWait
 	clearMsg
 	flagSet
@@ -184773,7 +194446,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"Thanks Lan!"
+	"""
+	Thanks Lan!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -184783,7 +194458,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = MsMari
 	msgOpen
-	"Thank you,Lan!"
+	"""
+	Thank you,Lan!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -184793,7 +194470,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Uh,sure…"
+	"""
+	Uh,sure…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -184939,7 +194618,9 @@ script 14 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Yeah."
+	"""
+	Yeah.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -184968,7 +194649,9 @@ script 15 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"What are you saying?"
+	"""
+	What are you saying?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -184999,7 +194682,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = Chaud
 	msgOpen
-	"………"
+	"""
+	………
+	"""
 	keyWait
 	end
 }
@@ -185007,7 +194692,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = ChaudsDad
 	msgOpen
-	"Well,what is it?"
+	"""
+	Well,what is it?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -185017,7 +194704,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Chaud
 	msgOpen
-	"Um………"
+	"""
+	Um………
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -185041,7 +194730,9 @@ script 3 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Idiot. I'm leaving…"
+	"""
+	Idiot. I'm leaving…
+	"""
 	keyWait
 	end
 }
@@ -185049,7 +194740,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = Chaud
 	msgOpen
-	"No,really,dad!"
+	"""
+	No,really,dad!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -185098,7 +194791,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = Chaud
 	msgOpen
-	"………"
+	"""
+	………
+	"""
 	keyWait
 	end
 }
@@ -185109,7 +194804,9 @@ script 0 mmbn3 {
 	mugshotHide
 	msgOpen
 	soundDisableTextSFX
-	"Beep beep beep!"
+	"""
+	Beep beep beep!
+	"""
 	keyWait
 	soundEnableTextSFX
 	end
@@ -185224,10 +194921,14 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = PurpleNavi
 	msgOpen
-	"OK! We're on in…"
+	"""
+	OK! We're on in…
+	"""
 	keyWait
 	clearMsg
-	"5… 4… 3… 2……"
+	"""
+	5… 4… 3… 2……
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -185350,10 +195051,14 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = PurpleNavi
 	msgOpen
-	"Oh no!"
+	"""
+	Oh no!
+	"""
 	keyWait
 	clearMsg
-	"This just in!"
+	"""
+	This just in!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -185449,7 +195154,9 @@ script 12 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Roger!"
+	"""
+	Roger!
+	"""
 	keyWait
 	end
 }
@@ -185460,7 +195167,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = GirlNaviOrange
 	msgOpen
-	"Eeeeeeeeek!"
+	"""
+	Eeeeeeeeek!
+	"""
 	keyWait
 	end
 }
@@ -185479,7 +195188,9 @@ script 2 mmbn3 {
 	mugshotHide
 	msgOpen
 	soundDisableTextSFX
-	"Briiinnng!"
+	"""
+	Briiinnng!
+	"""
 	keyWait
 	soundEnableTextSFX
 	end
@@ -185512,7 +195223,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"What's happening?!"
+	"""
+	What's happening?!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -185536,7 +195249,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Where exactly is he?"
+	"""
+	Where exactly is he?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -185546,10 +195261,14 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"Beach 1,by the…"
+	"""
+	Beach 1,by the…
+	"""
 	keyWait
 	clearMsg
-	"Look out! GutsMan!"
+	"""
+	Look out! GutsMan!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -185561,22 +195280,35 @@ script 9 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 284
-	"Thunk!\n"
+	"""
+	Thunk!
+	
+	"""
 	soundPlay
 		track = 260
-	"Boop!"
+	"""
+	Boop!
+	"""
 	wait
 		frames = 58
-	" "
+	"""
+	 
+	"""
 	soundPlay
 		track = 260
-	"Boop!"
+	"""
+	Boop!
+	"""
 	wait
 		frames = 58
-	" "
+	"""
+	 
+	"""
 	soundPlay
 		track = 260
-	"Boop!"
+	"""
+	Boop!
+	"""
 	wait
 		frames = 58
 	keyWait
@@ -185630,7 +195362,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"GutsMan!"
+	"""
+	GutsMan!
+	"""
 	keyWait
 	end
 }
@@ -185720,7 +195454,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = HeelNavi
 	msgOpen
-	"We've… been… had…"
+	"""
+	We've… been… had…
+	"""
 	keyWait
 	end
 }
@@ -185728,7 +195464,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"ProtoMan!"
+	"""
+	ProtoMan!
+	"""
 	keyWait
 	flagSet
 		flag = 1537
@@ -185747,10 +195485,14 @@ script 8 mmbn3 {
 	clearMsg
 	flagClear
 		flag = 1537
-	"He'll slaughter me!"
+	"""
+	He'll slaughter me!
+	"""
 	keyWait
 	clearMsg
-	"I'm outta here!"
+	"""
+	I'm outta here!
+	"""
 	keyWait
 	end
 }
@@ -185758,7 +195500,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"ProtoMan…"
+	"""
+	ProtoMan…
+	"""
 	keyWait
 	end
 }
@@ -185818,7 +195562,9 @@ script 13 mmbn3 {
 	mugshotShow
 		mugshot = GirlNaviOrange
 	msgOpen
-	"…He's so dreamy!"
+	"""
+	…He's so dreamy!
+	"""
 	keyWait
 	end
 }
@@ -185839,7 +195585,9 @@ script 15 mmbn3 {
 	mugshotShow
 		mugshot = GirlNaviOrange
 	msgOpen
-	"…Ohhh,ProtoMan!"
+	"""
+	…Ohhh,ProtoMan!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -186000,10 +195748,14 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = LordWily
 	msgOpen
-	"I'm counting on you."
+	"""
+	I'm counting on you.
+	"""
 	keyWait
 	clearMsg
-	"Delete it!"
+	"""
+	Delete it!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -186012,7 +195764,9 @@ script 4 mmbn3 {
 script 5 mmbn3 {
 	mugshotHide
 	msgOpen
-	"Deleeeete it!"
+	"""
+	Deleeeete it!
+	"""
 	keyWait
 	end
 }
@@ -186037,7 +195791,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"What?"
+	"""
+	What?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -186047,7 +195803,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Mom
 	msgOpen
-	"Just come down here!"
+	"""
+	Just come down here!
+	"""
 	keyWait
 	end
 }
@@ -186117,7 +195875,9 @@ script 6 mmbn3 {
 	printItem
 		buffer = 0
 		item = 15
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	playerFinish
 	playerReset
@@ -186154,7 +195914,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"See you later,mom!"
+	"""
+	See you later,mom!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -186164,7 +195926,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = Mom
 	msgOpen
-	"Be careful,Lan!"
+	"""
+	Be careful,Lan!
+	"""
 	keyWait
 	end
 }
@@ -186175,7 +195939,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = Dad
 	msgOpen
-	"Oh,hi there,Lan!"
+	"""
+	Oh,hi there,Lan!
+	"""
 	keyWait
 	end
 }
@@ -186360,7 +196126,9 @@ script 8 mmbn3 {
 	printItem
 		buffer = 0
 		item = 16
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	playerFinish
 	playerReset
@@ -186396,7 +196164,9 @@ script 10 mmbn3 {
 	msgOpen
 	flagSet
 		flag = 1538
-	"Yes."
+	"""
+	Yes.
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -186498,7 +196268,9 @@ script 16 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"He makes me so mad!"
+	"""
+	He makes me so mad!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -186588,7 +196360,9 @@ script 3 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 228
-	"Gasp!!"
+	"""
+	Gasp!!
+	"""
 	keyWait
 	soundEnableTextSFX
 	end
@@ -186624,7 +196398,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"It's not that."
+	"""
+	It's not that.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -186806,7 +196582,9 @@ script 1 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Hahahaha!"
+	"""
+	Hahahaha!
+	"""
 	keyWait
 	end
 }
@@ -186885,7 +196663,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Right!"
+	"""
+	Right!
+	"""
 	keyWait
 	end
 }
@@ -186908,7 +196688,9 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"The N1 Grand Prix!!!"
+	"""
+	The N1 Grand Prix!!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -186922,15 +196704,21 @@ script 1 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 249
-	"Yeeeaahh!"
+	"""
+	Yeeeaahh!
+	"""
 	wait
 		frames = 40
 	clearMsg
-	"Yippeeeee!"
+	"""
+	Yippeeeee!
+	"""
 	wait
 		frames = 40
 	clearMsg
-	"Woohoooo!!"
+	"""
+	Woohoooo!!
+	"""
 	wait
 		frames = 40
 	keyWait
@@ -187073,7 +196861,9 @@ script 7 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Jenniferrrrr!!"
+	"""
+	Jenniferrrrr!!
+	"""
 	keyWait
 	flagSet
 		flag = 1553
@@ -187097,7 +196887,9 @@ script 8 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Johnsonnnnn!!"
+	"""
+	Johnsonnnnn!!
+	"""
 	keyWait
 	flagSet
 		flag = 1554
@@ -187126,7 +196918,9 @@ script 9 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Koetsuuuuu!!"
+	"""
+	Koetsuuuuu!!
+	"""
 	keyWait
 	flagSet
 		flag = 1555
@@ -187156,7 +196950,9 @@ script 10 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Yoshiooooo!!"
+	"""
+	Yoshiooooo!!
+	"""
 	keyWait
 	flagSet
 		flag = 1594
@@ -187166,7 +196962,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = Sunayama
 	msgOpen
-	"Who is this guy?!"
+	"""
+	Who is this guy?!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -187181,7 +196979,9 @@ script 11 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"NetBattler Q!!!!"
+	"""
+	NetBattler Q!!!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -187328,7 +197128,9 @@ script 17 mmbn3 {
 	mugshotShow
 		mugshot = Sunayama
 	msgOpen
-	"Please be patient!"
+	"""
+	Please be patient!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -187385,7 +197187,9 @@ script 19 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Hades Isle!"
+	"""
+	Hades Isle!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -187406,7 +197210,9 @@ script 20 mmbn3 {
 	mugshotShow
 		mugshot = Sunayama
 	msgOpen
-	"Now then,everyone!"
+	"""
+	Now then,everyone!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -187463,7 +197269,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Pronto?"
+	"""
+	Pronto?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -187534,7 +197342,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"OK!"
+	"""
+	OK!
+	"""
 	keyWait
 	end
 }
@@ -187567,7 +197377,9 @@ script 7 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 261
-	"Psshhhhh!"
+	"""
+	Psshhhhh!
+	"""
 	wait
 		frames = 30
 	keyWait
@@ -187615,7 +197427,9 @@ script 10 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Uh-uhhhghh……"
+	"""
+	Uh-uhhhghh……
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -187625,7 +197439,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan! Lan!"
+	"""
+	Lan! Lan!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -187644,16 +197460,25 @@ script 12 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 162
-	"Ka-chink!"
+	"""
+	Ka-chink!
+	"""
 	wait
 		frames = 60
-	"\n"
+	"""
+	
+	
+	"""
 	soundPlay
 		track = 162
-	"Ka-chink! "
+	"""
+	Ka-chink! 
+	"""
 	soundPlay
 		track = 162
-	"Ka-chink!"
+	"""
+	Ka-chink!
+	"""
 	wait
 		frames = 60
 	keyWait
@@ -187672,7 +197497,9 @@ script 13 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Lan! La…"
+	"""
+	Lan! La…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -187717,7 +197544,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"…Uh… uugh."
+	"""
+	…Uh… uugh.
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -187976,7 +197805,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan! Be careful!"
+	"""
+	Lan! Be careful!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -188034,7 +197865,9 @@ script 0 mmbn3 {
 	printFolderName
 		buffer = 0
 		entry = 3
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -188051,7 +197884,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = Man
 	msgOpen
-	"I see."
+	"""
+	I see.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -188061,7 +197896,9 @@ script 1 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"operation skills!"
+	"""
+	operation skills!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -188118,7 +197955,9 @@ script 4 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"\""
+	"""
+	"
+	"""
 	printItem
 		buffer = 0
 		item = 18
@@ -188194,13 +198033,20 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Jack in!!"
+	"""
+	Jack in!!
+	"""
 	wait
 		frames = 10
-	"\nMegaMan,"
+	"""
+	
+	MegaMan,
+	"""
 	wait
 		frames = 10
-	"Execute!!"
+	"""
+	Execute!!
+	"""
 	keyWait
 	end
 }
@@ -188237,7 +198083,9 @@ script 0 mmbn3 {
 script 1 mmbn3 {
 	mugshotHide
 	msgOpen
-	"All four \""
+	"""
+	All four "
+	"""
 	printItem
 		buffer = 0
 		item = 18
@@ -188247,7 +198095,9 @@ script 1 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Now for the results."
+	"""
+	Now for the results.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -188262,7 +198112,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = SciLabMan
 	msgOpen
-	"Wha…!!"
+	"""
+	Wha…!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -188349,7 +198201,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan……"
+	"""
+	Lan……
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -188379,7 +198233,9 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Yeah!"
+	"""
+	Yeah!
+	"""
 	keyWait
 	end
 }
@@ -188449,7 +198305,9 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"enter which door."
+	"""
+	enter which door.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -188539,7 +198397,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = NetbattlerQ
 	msgOpen
-	"………"
+	"""
+	………
+	"""
 	keyWait
 	end
 }
@@ -188628,7 +198488,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"You ready,MegaMan?"
+	"""
+	You ready,MegaMan?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -188638,7 +198500,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Roger!"
+	"""
+	Roger!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -188666,10 +198530,14 @@ script 7 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"set!"
+	"""
+	set!
+	"""
 	keyWait
 	clearMsg
-	"Execute!"
+	"""
+	Execute!
+	"""
 	keyWait
 	end
 }
@@ -188751,7 +198619,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"You ready,MegaMan?"
+	"""
+	You ready,MegaMan?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -188761,7 +198631,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Roger!"
+	"""
+	Roger!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -188789,10 +198661,14 @@ script 7 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"set!"
+	"""
+	set!
+	"""
 	keyWait
 	clearMsg
-	"Execute!"
+	"""
+	Execute!
+	"""
 	keyWait
 	end
 }
@@ -188875,7 +198751,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"You ready,MegaMan?"
+	"""
+	You ready,MegaMan?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -188885,7 +198763,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Roger!"
+	"""
+	Roger!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -188913,10 +198793,14 @@ script 7 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"set!"
+	"""
+	set!
+	"""
 	keyWait
 	clearMsg
-	"Execute!"
+	"""
+	Execute!
+	"""
 	keyWait
 	end
 }
@@ -188993,7 +198877,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"You ready,MegaMan?"
+	"""
+	You ready,MegaMan?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -189003,7 +198889,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Roger!"
+	"""
+	Roger!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -189031,10 +198919,14 @@ script 7 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"set!"
+	"""
+	set!
+	"""
 	keyWait
 	clearMsg
-	"Execute!"
+	"""
+	Execute!
+	"""
 	keyWait
 	end
 }
@@ -189045,7 +198937,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"We did it,MegaMan!"
+	"""
+	We did it,MegaMan!
+	"""
 	keyWait
 	end
 }
@@ -189067,7 +198961,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Yeah!!"
+	"""
+	Yeah!!
+	"""
 	keyWait
 	end
 }
@@ -189075,7 +198971,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Tamako
 	msgOpen
-	"You two can do it!"
+	"""
+	You two can do it!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -189107,7 +199005,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = Tamako
 	msgOpen
-	"Aaaaaaaaahhhhhhh!!"
+	"""
+	Aaaaaaaaahhhhhhh!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -189117,7 +199017,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Tamako!!"
+	"""
+	Tamako!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -189202,7 +199104,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"You bet!!"
+	"""
+	You bet!!
+	"""
 	keyWait
 	end
 }
@@ -189243,7 +199147,9 @@ script 13 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Really?!"
+	"""
+	Really?!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -189357,13 +199263,19 @@ script 0 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 262
-	"Beeep!"
+	"""
+	Beeep!
+	"""
 	wait
 		frames = 60
-	" "
+	"""
+	 
+	"""
 	soundPlay
 		track = 162
-	"Ka-chink!"
+	"""
+	Ka-chink!
+	"""
 	wait
 		frames = 30
 	keyWait
@@ -189396,7 +199308,9 @@ script 1 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"I'm all fired up!"
+	"""
+	I'm all fired up!
+	"""
 	keyWait
 	end
 }
@@ -189427,7 +199341,9 @@ script 1 mmbn3 {
 script 2 mmbn3 {
 	mugshotHide
 	msgOpen
-	"In Arena 1:"
+	"""
+	In Arena 1:
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -189486,7 +199402,9 @@ script 4 mmbn3 {
 script 5 mmbn3 {
 	mugshotHide
 	msgOpen
-	"In Arena 2:"
+	"""
+	In Arena 2:
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -189546,7 +199464,9 @@ script 8 mmbn3 {
 script 9 mmbn3 {
 	mugshotHide
 	msgOpen
-	"In Arena 3:"
+	"""
+	In Arena 3:
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -189593,7 +199513,9 @@ script 11 mmbn3 {
 script 12 mmbn3 {
 	mugshotHide
 	msgOpen
-	"In Arena 4:"
+	"""
+	In Arena 4:
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -189677,7 +199599,9 @@ script 17 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"This is it,Dex!"
+	"""
+	This is it,Dex!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -189687,7 +199611,9 @@ script 18 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"Come get me,Lan!"
+	"""
+	Come get me,Lan!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -189696,7 +199622,9 @@ script 18 mmbn3 {
 script 19 mmbn3 {
 	mugshotHide
 	msgOpen
-	"Here we go!"
+	"""
+	Here we go!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -189705,13 +199633,19 @@ script 19 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Battle routines,"
+	"""
+	Battle routines,
+	"""
 	waitSkip
 		frames = 30
-	"set!"
+	"""
+	set!
+	"""
 	keyWait
 	clearMsg
-	"Execute!"
+	"""
+	Execute!
+	"""
 	keyWait
 	end
 }
@@ -189722,7 +199656,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Yes!"
+	"""
+	Yes!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -189732,7 +199668,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"No! I lost!!"
+	"""
+	No! I lost!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -189742,7 +199680,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"We're in the top 4!"
+	"""
+	We're in the top 4!
+	"""
 	keyWait
 	end
 }
@@ -189784,7 +199724,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = Yai
 	msgOpen
-	"Eeeeek!"
+	"""
+	Eeeeek!
+	"""
 	keyWait
 	end
 }
@@ -189809,7 +199751,9 @@ script 7 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"What's going on?!"
+	"""
+	What's going on?!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -189819,7 +199763,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = NetbattlerQ
 	msgOpen
-	"…You're mine!"
+	"""
+	…You're mine!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -189829,7 +199775,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = Glide
 	msgOpen
-	"Nooo! Miss Yaaai!!"
+	"""
+	Nooo! Miss Yaaai!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -189841,13 +199789,17 @@ script 10 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 169
-	"Ka-boooom!!"
+	"""
+	Ka-boooom!!
+	"""
 	wait
 		frames = 60
 	keyWait
 	clearMsg
 	soundEnableTextSFX
-	"Glyde is deleted!"
+	"""
+	Glyde is deleted!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -189865,7 +199817,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = Yai
 	msgOpen
-	"N-no!"
+	"""
+	N-no!
+	"""
 	keyWait
 	end
 }
@@ -189887,7 +199841,9 @@ script 13 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Yeah,huh…"
+	"""
+	Yeah,huh…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -189913,7 +199869,9 @@ script 14 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"These contestants!"
+	"""
+	These contestants!
+	"""
 	keyWait
 	end
 }
@@ -189936,13 +199894,19 @@ script 15 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 262
-	"Beeeep!"
+	"""
+	Beeeep!
+	"""
 	wait
 		frames = 60
-	" "
+	"""
+	 
+	"""
 	soundPlay
 		track = 162
-	"Ka-chink!"
+	"""
+	Ka-chink!
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -190085,7 +200049,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = Chaud
 	msgOpen
-	"Get lost."
+	"""
+	Get lost.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -190130,7 +200096,9 @@ script 3 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"How naive are you?"
+	"""
+	How naive are you?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -190177,7 +200145,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"What's with you?"
+	"""
+	What's with you?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -190213,7 +200183,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Why?"
+	"""
+	Why?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -190229,7 +200201,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = Chaud
 	msgOpen
-	"………"
+	"""
+	………
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -190246,7 +200220,9 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Weak? Who's weak?!"
+	"""
+	Weak? Who's weak?!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -190409,21 +200385,27 @@ script 2 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 249
-	"Yaaaaay!"
+	"""
+	Yaaaaay!
+	"""
 	wait
 		frames = 180
 	keyWait
 	clearMsg
 	soundPlay
 		track = 249
-	"Yippeeee!"
+	"""
+	Yippeeee!
+	"""
 	wait
 		frames = 180
 	keyWait
 	clearMsg
 	soundPlay
 		track = 249
-	"Wooohoooo!"
+	"""
+	Wooohoooo!
+	"""
 	wait
 		frames = 180
 	keyWait
@@ -190468,7 +200450,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = Ribitta
 	msgOpen
-	"Now from Tora!"
+	"""
+	Now from Tora!
+	"""
 	keyWait
 	end
 }
@@ -190503,7 +200487,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = Ribitta
 	msgOpen
-	"My,what confidence!"
+	"""
+	My,what confidence!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -190544,7 +200530,9 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = NetbattlerQ
 	msgOpen
-	"………"
+	"""
+	………
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -190660,10 +200648,14 @@ script 16 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"What?!"
+	"""
+	What?!
+	"""
 	keyWait
 	clearMsg
-	"I'll show you!!"
+	"""
+	I'll show you!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -190742,7 +200734,9 @@ script 20 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Oooh,I'm gonna…!"
+	"""
+	Oooh,I'm gonna…!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -190783,10 +200777,14 @@ script 22 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"set!"
+	"""
+	set!
+	"""
 	keyWait
 	clearMsg
-	"Execute!"
+	"""
+	Execute!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -190796,7 +200794,9 @@ script 23 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Go,MegaMan!!"
+	"""
+	Go,MegaMan!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -190806,7 +200806,9 @@ script 24 mmbn3 {
 	mugshotShow
 		mugshot = Tora
 	msgOpen
-	"Get him,KingMan!"
+	"""
+	Get him,KingMan!
+	"""
 	keyWait
 	end
 }
@@ -190838,7 +200840,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = Tora
 	msgOpen
-	"………"
+	"""
+	………
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -190848,7 +200852,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"……Tora?"
+	"""
+	……Tora?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -190858,7 +200864,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Tora
 	msgOpen
-	"Laaannnnn!"
+	"""
+	Laaannnnn!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -190909,7 +200917,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Huh?!"
+	"""
+	Huh?!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -190945,7 +200955,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Tora……"
+	"""
+	Tora……
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -190976,7 +200988,9 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"OK!!"
+	"""
+	OK!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -191056,7 +201070,9 @@ script 14 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"That's my line!"
+	"""
+	That's my line!
+	"""
 	keyWait
 	end
 }
@@ -191064,7 +201080,9 @@ script 15 mmbn3 {
 	mugshotHide
 	msgOpen
 	soundDisableTextSFX
-	"Beep beep beep!"
+	"""
+	Beep beep beep!
+	"""
 	keyWait
 	soundEnableTextSFX
 	end
@@ -191079,7 +201097,9 @@ script 16 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"It says,"
+	"""
+	It says,
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -191185,7 +201205,9 @@ script 2 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Are you all right?"
+	"""
+	Are you all right?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -191336,7 +201358,9 @@ script 12 mmbn3 {
 	mugshotHide
 	msgOpen
 	soundDisableTextSFX
-	"Briiinnng!"
+	"""
+	Briiinnng!
+	"""
 	keyWait
 	soundEnableTextSFX
 	end
@@ -191356,7 +201380,9 @@ script 14 mmbn3 {
 	mugshotShow
 		mugshot = Yai
 	msgOpen
-	"Hello,Lan?"
+	"""
+	Hello,Lan?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -191412,7 +201438,9 @@ script 17 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"What a relief!"
+	"""
+	What a relief!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -191456,10 +201484,14 @@ script 19 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Oh,I will!"
+	"""
+	Oh,I will!
+	"""
 	keyWait
 	clearMsg
-	"Wish me luck!"
+	"""
+	Wish me luck!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -191471,7 +201503,9 @@ script 20 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 284
-	"Click!"
+	"""
+	Click!
+	"""
 	wait
 		frames = 30
 	keyWait
@@ -191503,7 +201537,9 @@ script 22 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Go win it for us!"
+	"""
+	Go win it for us!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -191527,7 +201563,9 @@ script 24 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Thanks guys!"
+	"""
+	Thanks guys!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -191546,7 +201584,9 @@ script 25 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 249
-	"Ooooohhh!!"
+	"""
+	Ooooohhh!!
+	"""
 	wait
 		frames = 180
 	keyWait
@@ -191569,7 +201609,9 @@ script 26 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Let's go,Lan!"
+	"""
+	Let's go,Lan!
+	"""
 	keyWait
 	end
 }
@@ -191609,7 +201651,9 @@ script 29 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"Good luck!"
+	"""
+	Good luck!
+	"""
 	keyWait
 	end
 }
@@ -191688,7 +201732,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = NormalNaviGreen
 	msgOpen
-	"Huff! Huff! Huff!"
+	"""
+	Huff! Huff! Huff!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -191745,7 +201791,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = ProtoMan
 	msgOpen
-	"\"This form\"?"
+	"""
+	"This form"?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -191755,7 +201803,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = Chaud
 	msgOpen
-	"ProtoMan! Be alert!"
+	"""
+	ProtoMan! Be alert!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -191765,7 +201815,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = ProtoMan
 	msgOpen
-	"Yes sir!"
+	"""
+	Yes sir!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -191811,7 +201863,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = DesertMan
 	msgOpen
-	"Gwahh…… Gwahh……"
+	"""
+	Gwahh…… Gwahh……
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -191821,7 +201875,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = ProtoMan
 	msgOpen
-	"……!!"
+	"""
+	……!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -191932,7 +201988,9 @@ script 15 mmbn3 {
 	mugshotShow
 		mugshot = ProtoMan
 	msgOpen
-	"Yes,sir!"
+	"""
+	Yes,sir!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -191942,7 +202000,9 @@ script 16 mmbn3 {
 	mugshotShow
 		mugshot = ProtoMan
 	msgOpen
-	"Prepare to die!"
+	"""
+	Prepare to die!
+	"""
 	keyWait
 	clearMsg
 }
@@ -191950,7 +202010,9 @@ script 17 mmbn3 {
 	mugshotShow
 		mugshot = NetbattlerQ
 	msgOpen
-	"Now!"
+	"""
+	Now!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -192032,13 +202094,19 @@ script 22 mmbn3 {
 	mugshotShow
 		mugshot = ProtoMan
 	msgOpen
-	"Blind Mode!!"
+	"""
+	Blind Mode!!
+	"""
 	keyWait
 	clearMsg
-	"…There you are!"
+	"""
+	…There you are!
+	"""
 	keyWait
 	clearMsg
-	"Hyaaah!"
+	"""
+	Hyaaah!
+	"""
 	keyWait
 	end
 }
@@ -192129,7 +202197,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = NetbattlerQ
 	msgOpen
-	"That's right!"
+	"""
+	That's right!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -192150,7 +202220,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = NetbattlerQ
 	msgOpen
-	"Who am I,you ask?"
+	"""
+	Who am I,you ask?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -192165,7 +202237,9 @@ script 2 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"NetBattler Q!!!!"
+	"""
+	NetBattler Q!!!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -192186,7 +202260,9 @@ script 3 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Sunayamaaaaaa!!"
+	"""
+	Sunayamaaaaaa!!
+	"""
 	keyWait
 	end
 }
@@ -192208,7 +202284,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = Sunayama
 	msgOpen
-	"That's right!"
+	"""
+	That's right!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -192319,7 +202397,9 @@ script 9 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"And then…"
+	"""
+	And then…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -192375,7 +202455,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = Sunayama
 	msgOpen
-	"Hee hee hee!"
+	"""
+	Hee hee hee!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -192423,7 +202505,9 @@ script 13 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Let's get him!"
+	"""
+	Let's get him!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -192460,7 +202544,9 @@ script 15 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Lights off!!"
+	"""
+	Lights off!!
+	"""
 	keyWait
 	end
 }
@@ -192552,7 +202638,9 @@ script 20 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan!"
+	"""
+	Lan!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -192623,7 +202711,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = Chaud
 	msgOpen
-	"………"
+	"""
+	………
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -192660,7 +202750,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = Sunayama
 	msgOpen
-	"Oh,no no!"
+	"""
+	Oh,no no!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -192683,7 +202775,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = Chaud
 	msgOpen
-	"!!"
+	"""
+	!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -192712,7 +202806,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = Chaud
 	msgOpen
-	"You coward!!"
+	"""
+	You coward!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -192756,7 +202852,9 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = Chaud
 	msgOpen
-	"Grrr!"
+	"""
+	Grrr!
+	"""
 	keyWait
 	end
 }
@@ -192815,7 +202913,9 @@ script 13 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"I have an idea!"
+	"""
+	I have an idea!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -192860,7 +202960,9 @@ script 15 mmbn3 {
 	msgOpen
 	flagClear
 		flag = 1538
-	"Trust me!"
+	"""
+	Trust me!
+	"""
 	keyWait
 	end
 }
@@ -192888,7 +202990,9 @@ script 17 mmbn3 {
 	mugshotShow
 		mugshot = Chaud
 	msgOpen
-	"I'm sorry,ProtoMan……"
+	"""
+	I'm sorry,ProtoMan……
+	"""
 	keyWait
 	end
 }
@@ -192946,7 +203050,9 @@ script 21 mmbn3 {
 	mugshotShow
 		mugshot = Chaud
 	msgOpen
-	"OK!"
+	"""
+	OK!
+	"""
 	keyWait
 	end
 }
@@ -193034,10 +203140,14 @@ script 25 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Battle routine,"
+	"""
+	Battle routine,
+	"""
 	waitSkip
 		frames = 30
-	"set!"
+	"""
+	set!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -193047,7 +203157,9 @@ script 26 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Execute!"
+	"""
+	Execute!
+	"""
 	keyWait
 	end
 }
@@ -193085,7 +203197,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Sunayama
 	msgOpen
-	"Ah!"
+	"""
+	Ah!
+	"""
 	keyWait
 	clearMsg
 	mugshotAnimate
@@ -193138,7 +203252,9 @@ script 5 mmbn3 {
 	msgOpen
 	flagClear
 		flag = 1537
-	"Wily?!"
+	"""
+	Wily?!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -193148,7 +203264,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = Sunayama
 	msgOpen
-	"Now's my chance!"
+	"""
+	Now's my chance!
+	"""
 	keyWait
 	end
 }
@@ -193156,7 +203274,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = Sunayama
 	msgOpen
-	"No,not you!!"
+	"""
+	No,not you!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -193184,7 +203304,9 @@ script 9 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"We have you now!!"
+	"""
+	We have you now!!
+	"""
 	keyWait
 	clearMsg
 	flagClear
@@ -193244,7 +203366,9 @@ script 12 mmbn3 {
 	mugshotShow
 		mugshot = Chaud
 	msgOpen
-	"What is it?"
+	"""
+	What is it?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -193299,7 +203423,9 @@ script 15 mmbn3 {
 	mugshotShow
 		mugshot = Chaud
 	msgOpen
-	"Lan……"
+	"""
+	Lan……
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -193337,7 +203463,9 @@ script 17 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Someday…"
+	"""
+	Someday…
+	"""
 	keyWait
 	end
 }
@@ -193394,7 +203522,9 @@ script 20 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Yeah."
+	"""
+	Yeah.
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -193487,7 +203617,9 @@ script 0 mmbn3 {
 	wait
 		frames = 32
 	clearMsg
-	"Mwahahahahaha!"
+	"""
+	Mwahahahahaha!
+	"""
 	keyWait
 	end
 }
@@ -193662,7 +203794,9 @@ script 9 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"No problem!"
+	"""
+	No problem!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -193788,7 +203922,9 @@ script 4 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"end of Beach Street."
+	"""
+	end of Beach Street.
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -193966,7 +204102,9 @@ script 17 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"All right!"
+	"""
+	All right!
+	"""
 	keyWait
 	end
 }
@@ -194111,7 +204249,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"The Tree of Life?"
+	"""
+	The Tree of Life?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -194301,12 +204441,16 @@ script 1 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 226
-	"Peep! "
+	"""
+	Peep! 
+	"""
 	wait
 		frames = 30
 	soundPlay
 		track = 209
-	"Ka-chunk!"
+	"""
+	Ka-chunk!
+	"""
 	wait
 		frames = 30
 	keyWait
@@ -194323,7 +204467,9 @@ script 1 mmbn3 {
 	printItem
 		buffer = 0
 		item = 22
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -194455,7 +204601,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = Nurse
 	msgOpen
-	"You will? Thank you!"
+	"""
+	You will? Thank you!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -194477,7 +204625,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Yes,ma'am!"
+	"""
+	Yes,ma'am!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -194504,16 +204654,25 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Mamoru."
+	"""
+	Mamoru.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"\nWhere could you be?"
+	"""
+	
+	Where could you be?
+	"""
 	keyWait
 	end
 }
@@ -194524,7 +204683,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Mamoru?"
+	"""
+	Mamoru?
+	"""
 	keyWait
 	end
 }
@@ -194538,7 +204699,9 @@ script 1 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"NetBattler Lan!"
+	"""
+	NetBattler Lan!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -194548,7 +204711,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"What? You know me?"
+	"""
+	What? You know me?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -194611,7 +204776,9 @@ script 6 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Awesome!"
+	"""
+	Awesome!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -194704,7 +204871,9 @@ script 12 mmbn3 {
 	mugshotShow
 		mugshot = Mamoru
 	msgOpen
-	"All right!"
+	"""
+	All right!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -194728,7 +204897,9 @@ script 14 mmbn3 {
 	mugshotShow
 		mugshot = Mamoru
 	msgOpen
-	"I love it!"
+	"""
+	I love it!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -194805,7 +204976,9 @@ script 18 mmbn3 {
 	mugshotShow
 		mugshot = Mamoru
 	msgOpen
-	"No,that's all right."
+	"""
+	No,that's all right.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -194881,7 +205054,9 @@ script 22 mmbn3 {
 	mugshotShow
 		mugshot = Mamoru
 	msgOpen
-	"…Yeah."
+	"""
+	…Yeah.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -194908,16 +205083,24 @@ script 24 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Yeah"
+	"""
+	Yeah
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -194963,7 +205146,9 @@ script 1 mmbn3 {
 	printItem
 		buffer = 0
 		item = 22
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -194979,7 +205164,9 @@ script 2 mmbn3 {
 	printItem
 		buffer = 0
 		item = 22
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -195062,7 +205249,9 @@ script 8 mmbn3 {
 	mugshotPalette
 		palette = 2
 	msgOpen
-	"What?!"
+	"""
+	What?!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -195107,10 +205296,14 @@ script 10 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Uh,yeah…"
+	"""
+	Uh,yeah…
+	"""
 	keyWait
 	clearMsg
-	"Sorry,I gotta go."
+	"""
+	Sorry,I gotta go.
+	"""
 	keyWait
 	end
 }
@@ -195261,7 +205454,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Hi,mom! I'm home!"
+	"""
+	Hi,mom! I'm home!
+	"""
 	keyWait
 	end
 }
@@ -195404,7 +205599,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = Mom
 	msgOpen
-	"Hurry down,you two!"
+	"""
+	Hurry down,you two!
+	"""
 	keyWait
 	end
 }
@@ -195526,7 +205723,9 @@ script 14 mmbn3 {
 	mugshotShow
 		mugshot = Tora
 	msgOpen
-	"That guy Chaud."
+	"""
+	That guy Chaud.
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -195654,7 +205853,9 @@ script 21 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"And you want me to…?"
+	"""
+	And you want me to…?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -195705,7 +205906,9 @@ script 24 mmbn3 {
 	mugshotShow
 		mugshot = Tora
 	msgOpen
-	"Oh yeah?"
+	"""
+	Oh yeah?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -195722,10 +205925,14 @@ script 25 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Hmmmmm…"
+	"""
+	Hmmmmm…
+	"""
 	keyWait
 	clearMsg
-	"Fine! I'll do it!"
+	"""
+	Fine! I'll do it!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -195768,7 +205975,9 @@ script 27 mmbn3 {
 script 0 mmbn3 {
 	mugshotHide
 	msgOpen
-	"The next morning…"
+	"""
+	The next morning…
+	"""
 	keyWait
 	end
 }
@@ -195776,7 +205985,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Huh? Where's Tora?"
+	"""
+	Huh? Where's Tora?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -195818,7 +206029,9 @@ script 4 mmbn3 {
 	mugshotHide
 	msgOpen
 	soundDisableTextSFX
-	"Beep beep beep!"
+	"""
+	Beep beep beep!
+	"""
 	keyWait
 	soundEnableTextSFX
 	end
@@ -195840,7 +206053,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"What's it say?"
+	"""
+	What's it say?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -195894,7 +206109,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Hey,Dex!"
+	"""
+	Hey,Dex!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -195918,10 +206135,14 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"Oh. Uh,well…"
+	"""
+	Oh. Uh,well…
+	"""
 	keyWait
 	clearMsg
-	"Actually it's,uh…"
+	"""
+	Actually it's,uh…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -195931,7 +206152,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Tora
 	msgOpen
-	"Yo! Lan!!"
+	"""
+	Yo! Lan!!
+	"""
 	keyWait
 	end
 }
@@ -195953,7 +206176,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"Oh! You!"
+	"""
+	Oh! You!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -196006,7 +206231,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = Tora
 	msgOpen
-	"Get with it!"
+	"""
+	Get with it!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -196016,7 +206243,9 @@ script 8 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"By NetBattling!"
+	"""
+	By NetBattling!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -196052,7 +206281,9 @@ script 9 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"set!"
+	"""
+	set!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -196062,7 +206293,9 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = GutsMan
 	msgOpen
-	"Yeehaw!! Execute!"
+	"""
+	Yeehaw!! Execute!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -196144,7 +206377,9 @@ script 16 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"Yeah!"
+	"""
+	Yeah!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -196169,7 +206404,9 @@ script 17 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"See ya!"
+	"""
+	See ya!
+	"""
 	keyWait
 	end
 }
@@ -196177,7 +206414,10 @@ script 18 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"See ya.\n"
+	"""
+	See ya.
+	
+	"""
 	flagSet
 		flag = 1793
 	"""
@@ -196308,7 +206548,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Yeah,sure."
+	"""
+	Yeah,sure.
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -196318,7 +206560,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Tora
 	msgOpen
-	"Actually…"
+	"""
+	Actually…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -196347,7 +206591,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = Tora
 	msgOpen
-	"Ten hours a day."
+	"""
+	Ten hours a day.
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -196384,7 +206630,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"!!"
+	"""
+	!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -196429,7 +206677,9 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"No way!"
+	"""
+	No way!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -196549,7 +206799,9 @@ script 16 mmbn3 {
 	mugshotShow
 		mugshot = Tora
 	msgOpen
-	"…Yeah,you're right!"
+	"""
+	…Yeah,you're right!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -196590,7 +206842,9 @@ script 17 mmbn3 {
 	printFolderName
 		buffer = 0
 		entry = 1
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -196623,7 +206877,9 @@ script 19 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"All right!"
+	"""
+	All right!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -196693,7 +206949,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Aw,shut up!"
+	"""
+	Aw,shut up!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -196710,7 +206968,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Ms.Mari's here!"
+	"""
+	Ms.Mari's here!
+	"""
 	keyWait
 	end
 }
@@ -196786,7 +207046,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"What is it,Ms.Mari?"
+	"""
+	What is it,Ms.Mari?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -196796,7 +207058,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = MsMari
 	msgOpen
-	"Um…"
+	"""
+	Um…
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -196829,7 +207093,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"What?!"
+	"""
+	What?!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -196839,7 +207105,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"You're kidding!!"
+	"""
+	You're kidding!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -196913,7 +207181,9 @@ script 14 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Right!"
+	"""
+	Right!
+	"""
 	keyWait
 	end
 }
@@ -196921,7 +207191,9 @@ script 15 mmbn3 {
 	mugshotShow
 		mugshot = MsMari
 	msgOpen
-	"Lan!"
+	"""
+	Lan!
+	"""
 	keyWait
 	end
 }
@@ -196938,7 +207210,9 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"We're too late."
+	"""
+	We're too late.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -196950,7 +207224,9 @@ script 0 mmbn3 {
 	clearMsg
 	mugshotAnimate
 		animation = 0
-	"……Knucklehead."
+	"""
+	……Knucklehead.
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -196960,7 +207236,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan…"
+	"""
+	Lan…
+	"""
 	keyWait
 	clearMsg
 	msgClose
@@ -196976,7 +207254,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"…Is this it,MegaMan?"
+	"""
+	…Is this it,MegaMan?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -197019,7 +207299,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"……Okay."
+	"""
+	……Okay.
+	"""
 	keyWait
 	end
 }
@@ -197043,19 +207325,29 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Dex!!"
+	"""
+	Dex!!
+	"""
 	keyWait
 	clearMsg
-	"Why"
+	"""
+	Why
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -197104,7 +207396,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"……"
+	"""
+	……
+	"""
 	wait
 		frames = 180
 	flagClear
@@ -197158,7 +207452,9 @@ script 12 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Everyone!"
+	"""
+	Everyone!
+	"""
 	keyWait
 	end
 }
@@ -197179,7 +207475,9 @@ script 13 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Sniff,sniff…"
+	"""
+	Sniff,sniff…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -197330,7 +207628,9 @@ script 23 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"Hey,you guys!"
+	"""
+	Hey,you guys!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -197340,7 +207640,9 @@ script 23 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Goodbye!"
+	"""
+	Goodbye!
+	"""
 	keyWait
 	end
 }
@@ -197348,7 +207650,9 @@ script 24 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Dex is really gone…"
+	"""
+	Dex is really gone…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -197358,7 +207662,9 @@ script 24 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"……Lan?"
+	"""
+	……Lan?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -197368,7 +207674,9 @@ script 25 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -197378,7 +207686,9 @@ script 26 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan…?"
+	"""
+	Lan…?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -197407,7 +207717,9 @@ script 28 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"All right!"
+	"""
+	All right!
+	"""
 	keyWait
 	end
 }
@@ -197415,7 +207727,9 @@ script 29 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"Adios!"
+	"""
+	Adios!
+	"""
 	keyWait
 	end
 }
@@ -197449,7 +207763,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Hmm. I don't know."
+	"""
+	Hmm. I don't know.
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -197484,7 +207800,9 @@ script 5 mmbn3 {
 	mugshotHide
 	msgOpen
 	soundDisableTextSFX
-	"Beep beep beep!"
+	"""
+	Beep beep beep!
+	"""
 	keyWait
 	soundEnableTextSFX
 	end
@@ -197500,13 +207818,19 @@ script 6 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -197516,7 +207840,9 @@ script 6 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"It says,"
+	"""
+	It says,
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -197565,7 +207891,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Hey,Mamoru!"
+	"""
+	Hey,Mamoru!
+	"""
 	keyWait
 	end
 }
@@ -197573,7 +207901,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = Mamoru
 	msgOpen
-	"Lan! You came!"
+	"""
+	Lan! You came!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -197583,7 +207913,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"How're you feeling?"
+	"""
+	How're you feeling?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -197647,7 +207979,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Huh?"
+	"""
+	Huh?
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -197685,7 +208019,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"!!"
+	"""
+	!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -197739,16 +208075,24 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = Mamoru
 	msgOpen
-	"Lan."
+	"""
+	Lan.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	" Thank you!"
+	"""
+	 Thank you!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -197760,16 +208104,24 @@ script 12 mmbn3 {
 	msgOpen
 	mugshotAnimate
 		animation = 0
-	"Hmm"
+	"""
+	Hmm
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	keyWait
 	clearMsg
 	mugshotAnimate
@@ -197809,7 +208161,9 @@ script 13 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 25
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = M
@@ -197858,7 +208212,9 @@ script 15 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Yippee! Yippee!"
+	"""
+	Yippee! Yippee!
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -197867,10 +208223,14 @@ script 15 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	" …Uh,"
+	"""
+	 …Uh,
+	"""
 	waitSkip
 		frames = 30
-	"ahkuh…"
+	"""
+	ahkuh…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -197884,7 +208244,9 @@ script 16 mmbn3 {
 	mugshotShow
 		mugshot = Mamoru
 	msgOpen
-	"Ah!"
+	"""
+	Ah!
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -197893,16 +208255,24 @@ script 16 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"H-help m…"
+	"""
+	H-help m…
+	"""
 	keyWait
 	clearMsg
-	"Uhhgh…"
+	"""
+	Uhhgh…
+	"""
 	keyWait
 	end
 }
@@ -197937,7 +208307,9 @@ script 19 mmbn3 {
 	mugshotShow
 		mugshot = Mamoru
 	msgOpen
-	"Huff… Huff…"
+	"""
+	Huff… Huff…
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -197947,28 +208319,44 @@ script 19 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -198007,7 +208395,9 @@ script 21 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Right!"
+	"""
+	Right!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -198037,10 +208427,14 @@ script 23 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"What?!"
+	"""
+	What?!
+	"""
 	keyWait
 	clearMsg
-	"You mean…"
+	"""
+	You mean…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -198050,16 +208444,24 @@ script 24 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Yes"
+	"""
+	Yes
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -198083,7 +208485,9 @@ script 25 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Oh! Yeah!"
+	"""
+	Oh! Yeah!
+	"""
 	keyWait
 	end
 }
@@ -198101,7 +208505,9 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Mamoru!"
+	"""
+	Mamoru!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -198111,7 +208517,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = Mamoru
 	msgOpen
-	"Ugh… Uuuuuuuuh…"
+	"""
+	Ugh… Uuuuuuuuh…
+	"""
 	keyWait
 	end
 }
@@ -198133,7 +208541,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Nurse
 	msgOpen
-	"Yes!"
+	"""
+	Yes!
+	"""
 	keyWait
 	end
 }
@@ -198154,7 +208564,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Uh,yes!"
+	"""
+	Uh,yes!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -198196,7 +208608,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Operate?!"
+	"""
+	Operate?!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -198219,10 +208633,14 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"He refuses?"
+	"""
+	He refuses?
+	"""
 	keyWait
 	clearMsg
-	"Why?"
+	"""
+	Why?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -198287,7 +208705,9 @@ script 12 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"You're right!"
+	"""
+	You're right!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -198311,7 +208731,9 @@ script 13 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Hmmm… Let's see."
+	"""
+	Hmmm… Let's see.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -198328,11 +208750,15 @@ script 13 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 25
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = M
-	",\""
+	"""
+	,"
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -198348,7 +208774,9 @@ script 14 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Yeah,that's it!"
+	"""
+	Yeah,that's it!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -198372,7 +208800,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"How do you feel?"
+	"""
+	How do you feel?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -198396,10 +208826,14 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Oh."
+	"""
+	Oh.
+	"""
 	keyWait
 	clearMsg
-	"……"
+	"""
+	……
+	"""
 	waitSkip
 		frames = 40
 	"""
@@ -198493,7 +208927,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = Mamoru
 	msgOpen
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -198531,7 +208967,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan…"
+	"""
+	Lan…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -198650,11 +209088,15 @@ script 14 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 25
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = M
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -198731,7 +209173,9 @@ script 18 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Yeah,you're right."
+	"""
+	Yeah,you're right.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -198794,7 +209238,9 @@ script 3 mmbn3 {
 	mugshotHide
 	msgOpen
 	soundDisableTextSFX
-	"Beep beep beep!"
+	"""
+	Beep beep beep!
+	"""
 	keyWait
 	soundEnableTextSFX
 	end
@@ -198816,7 +209262,9 @@ script 4 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"It says,"
+	"""
+	It says,
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -198853,7 +209301,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"What?!"
+	"""
+	What?!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -198870,7 +209320,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Yeah!"
+	"""
+	Yeah!
+	"""
 	keyWait
 	end
 }
@@ -198896,7 +209348,9 @@ script 1 mmbn3 {
 	msgOpen
 	mugshotAnimate
 		animation = 0
-	"Unh…"
+	"""
+	Unh…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -198944,7 +209398,10 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Nurse…\n"
+	"""
+	Nurse…
+	
+	"""
 	flagSet
 		flag = 1793
 	"""
@@ -199126,7 +209583,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"…You're right."
+	"""
+	…You're right.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -199144,7 +209603,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Down to the lobby!"
+	"""
+	Down to the lobby!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -199156,14 +209617,18 @@ script 1 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 167
-	"Whirrrrr…"
+	"""
+	Whirrrrr…
+	"""
 	wait
 		frames = 60
 	keyWait
 	clearMsg
 	soundPlay
 		track = 241
-	"Bang! Ka-clunk!"
+	"""
+	Bang! Ka-clunk!
+	"""
 	wait
 		frames = 60
 	keyWait
@@ -199192,14 +209657,18 @@ script 3 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 242
-	"Clunkclunkclunkclunk…"
+	"""
+	Clunkclunkclunkclunk…
+	"""
 	wait
 		frames = 60
 	keyWait
 	clearMsg
 	soundPlay
 		track = 167
-	"Whee… Whirrrrr!"
+	"""
+	Whee… Whirrrrr!
+	"""
 	wait
 		frames = 60
 	keyWait
@@ -199223,7 +209692,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"What's going on?!"
+	"""
+	What's going on?!
+	"""
 	keyWait
 	soundPlayBGM
 		track = 13
@@ -199258,7 +209729,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan,the intercom!"
+	"""
+	Lan,the intercom!
+	"""
 	keyWait
 	end
 }
@@ -199340,7 +209813,9 @@ script 13 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Let's go!"
+	"""
+	Let's go!
+	"""
 	keyWait
 	end
 }
@@ -199368,7 +209843,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = Nurse
 	msgOpen
-	"Oh! It's you!"
+	"""
+	Oh! It's you!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -199524,7 +210001,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = Nurse
 	msgOpen
-	"Yes! From outside!"
+	"""
+	Yes! From outside!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -199555,7 +210034,9 @@ script 12 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"The emergency exit!"
+	"""
+	The emergency exit!
+	"""
 	keyWait
 	end
 }
@@ -199563,7 +210044,9 @@ script 13 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"This must be it!"
+	"""
+	This must be it!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -199628,7 +210111,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Roger!"
+	"""
+	Roger!
+	"""
 	keyWait
 	end
 }
@@ -199659,7 +210144,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"All right!"
+	"""
+	All right!
+	"""
 	keyWait
 	end
 }
@@ -199670,7 +210157,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"This window's open."
+	"""
+	This window's open.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -199687,7 +210176,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan,you can't!"
+	"""
+	Lan,you can't!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -199697,7 +210188,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Oh yes I can!"
+	"""
+	Oh yes I can!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -199707,7 +210200,9 @@ script 2 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Bombs away!"
+	"""
+	Bombs away!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -199717,7 +210212,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Roger!"
+	"""
+	Roger!
+	"""
 	keyWait
 	end
 }
@@ -199725,7 +210222,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Aaaaaahhhh!!"
+	"""
+	Aaaaaahhhh!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -199737,7 +210236,9 @@ script 5 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 250
-	"Splaaaash!"
+	"""
+	Splaaaash!
+	"""
 	wait
 		frames = 60
 	keyWait
@@ -199763,7 +210264,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"MegaMan! Are you OK?"
+	"""
+	MegaMan! Are you OK?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -199773,7 +210276,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Yeah,I'm fine!"
+	"""
+	Yeah,I'm fine!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -199803,7 +210308,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Right!"
+	"""
+	Right!
+	"""
 	keyWait
 	end
 }
@@ -199814,7 +210321,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Look at these vines!"
+	"""
+	Look at these vines!
+	"""
 	keyWait
 	end
 }
@@ -199829,7 +210338,9 @@ script 1 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Lan! Jack me in!"
+	"""
+	Lan! Jack me in!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -199850,7 +210361,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Jack i…"
+	"""
+	Jack i…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -199862,7 +210375,9 @@ script 4 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 167
-	"Whirrrrr!"
+	"""
+	Whirrrrr!
+	"""
 	wait
 		frames = 60
 	keyWait
@@ -199899,13 +210414,20 @@ script 7 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 167
-	"Whirrr!"
+	"""
+	Whirrr!
+	"""
 	wait
 		frames = 60
-	"\n"
+	"""
+	
+	
+	"""
 	soundPlay
 		track = 193
-	"Ding-dong!"
+	"""
+	Ding-dong!
+	"""
 	keyWait
 	soundEnableTextSFX
 	end
@@ -199981,7 +210503,9 @@ script 12 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"A Net society spy?"
+	"""
+	A Net society spy?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -200003,7 +210527,9 @@ script 13 mmbn3 {
 	mugshotShow
 		mugshot = Anetta
 	msgOpen
-	"OK! Right! Sure!"
+	"""
+	OK! Right! Sure!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -200121,7 +210647,9 @@ script 19 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 190
-	"Bleep!"
+	"""
+	Bleep!
+	"""
 	keyWait
 	clearMsg
 	soundEnableTextSFX
@@ -200152,7 +210680,9 @@ script 21 mmbn3 {
 	mugshotShow
 		mugshot = Anetta
 	msgOpen
-	"I know,PlantMan!"
+	"""
+	I know,PlantMan!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -200205,7 +210735,9 @@ script 24 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Stop right there!"
+	"""
+	Stop right there!
+	"""
 	keyWait
 	end
 }
@@ -200244,7 +210776,9 @@ script 27 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"OK!"
+	"""
+	OK!
+	"""
 	keyWait
 	end
 }
@@ -200269,7 +210803,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Roger!"
+	"""
+	Roger!
+	"""
 	keyWait
 	end
 }
@@ -200307,7 +210843,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"PlantMan!"
+	"""
+	PlantMan!
+	"""
 	keyWait
 	end
 }
@@ -200315,7 +210853,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = PlantMan
 	msgOpen
-	"You must be MegaMan."
+	"""
+	You must be MegaMan.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -200452,7 +210992,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = PlantMan
 	msgOpen
-	"Very well…"
+	"""
+	Very well…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -200470,7 +211012,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Where's PlantMan?!"
+	"""
+	Where's PlantMan?!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -200506,7 +211050,9 @@ script 1 mmbn3 {
 script 0 mmbn3 {
 	mugshotHide
 	msgOpen
-	"Bang! Bang! Bang!"
+	"""
+	Bang! Bang! Bang!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -200533,7 +211079,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Scientist
 	msgOpen
-	"Who's there?!"
+	"""
+	Who's there?!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -200584,7 +211132,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"!!"
+	"""
+	!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -200659,13 +211209,20 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Jack in!!"
+	"""
+	Jack in!!
+	"""
 	wait
 		frames = 10
-	"\nMegaMan,"
+	"""
+	
+	MegaMan,
+	"""
 	wait
 		frames = 10
-	"Execute!!"
+	"""
+	Execute!!
+	"""
 	keyWait
 	end
 }
@@ -200690,7 +211247,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"PlantMan!"
+	"""
+	PlantMan!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -200700,7 +211259,9 @@ script 1 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Hurry!"
+	"""
+	Hurry!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -200710,7 +211271,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Roger!"
+	"""
+	Roger!
+	"""
 	keyWait
 	end
 }
@@ -200741,7 +211304,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"What TetraCode?"
+	"""
+	What TetraCode?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -200779,7 +211344,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"The Beast…?"
+	"""
+	The Beast…?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -200795,7 +211362,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = PlantMan
 	msgOpen
-	"Precisely!"
+	"""
+	Precisely!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -200818,7 +211387,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan! He's coming!"
+	"""
+	Lan! He's coming!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -200828,7 +211399,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"We can handle him!"
+	"""
+	We can handle him!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -200864,7 +211437,9 @@ script 8 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"set!"
+	"""
+	set!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -200874,7 +211449,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Execute!"
+	"""
+	Execute!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -200904,16 +211481,24 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"However"
+	"""
+	However
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -200923,16 +211508,24 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Just one more"
+	"""
+	Just one more
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -200955,7 +211548,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Alpha?!"
+	"""
+	Alpha?!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -200965,16 +211560,24 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = PlantMan
 	msgOpen
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"Aghh!!"
+	"""
+	Aghh!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -200983,16 +211586,24 @@ script 2 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	keyWait
 	clearMsg
-	"Farewell,MegaMan."
+	"""
+	Farewell,MegaMan.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -201002,19 +211613,29 @@ script 2 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"!!"
+	"""
+	!!
+	"""
 	keyWait
 	clearMsg
-	"Aaaaaagh!"
+	"""
+	Aaaaaagh!
+	"""
 	keyWait
 	end
 }
@@ -201022,13 +211643,19 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Alpha"
+	"""
+	Alpha
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -201059,7 +211686,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Right!"
+	"""
+	Right!
+	"""
 	keyWait
 	end
 }
@@ -201093,7 +211722,9 @@ script 7 mmbn3 {
 	clearMsg
 	flagSet
 		flag = 1794
-	"Oh,no!!"
+	"""
+	Oh,no!!
+	"""
 	keyWait
 	end
 }
@@ -201134,7 +211765,9 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Nurse! Nurse!"
+	"""
+	Nurse! Nurse!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -201222,7 +211855,9 @@ script 15 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Ppphhh………………"
+	"""
+	Ppphhh………………
+	"""
 	keyWait
 	end
 }
@@ -201230,7 +211865,9 @@ script 16 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"MegaMan!"
+	"""
+	MegaMan!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -201251,16 +211888,24 @@ script 18 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"L-Lan"
+	"""
+	L-Lan
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	keyWait
 	end
 }
@@ -201287,7 +211932,9 @@ script 20 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"It worked…"
+	"""
+	It worked…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -201297,7 +211944,9 @@ script 21 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"MegaMan,jack out!"
+	"""
+	MegaMan,jack out!
+	"""
 	keyWait
 	end
 }
@@ -201355,7 +212004,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Oh,no…"
+	"""
+	Oh,no…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -201383,7 +212034,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Yeah. You're right."
+	"""
+	Yeah. You're right.
+	"""
 	keyWait
 	clearMsg
 }
@@ -201404,23 +212057,33 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"I hope so."
+	"""
+	I hope so.
+	"""
 	keyWait
 	end
 }
 script 8 mmbn3 {
 	mugshotHide
 	msgOpen
-	"Five hours later"
+	"""
+	Five hours later
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	keyWait
@@ -201432,19 +212095,29 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = Mamoru
 	msgOpen
-	"L"
+	"""
+	L
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"n"
+	"""
+	n
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -201453,25 +212126,39 @@ script 9 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"e"
+	"""
+	e
+	"""
 	waitSkip
 		frames = 30
-	"g"
+	"""
+	g
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"M"
+	"""
+	M
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -201540,10 +212227,14 @@ script 13 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"A… All right!"
+	"""
+	A… All right!
+	"""
 	keyWait
 	clearMsg
-	"Nurse!!"
+	"""
+	Nurse!!
+	"""
 	keyWait
 	end
 }
@@ -201659,7 +212350,9 @@ script 18 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"I see…"
+	"""
+	I see…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -201704,7 +212397,9 @@ script 21 mmbn3 {
 	mugshotShow
 		mugshot = Mamoru
 	msgOpen
-	"Yeah!"
+	"""
+	Yeah!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -201728,7 +212423,9 @@ script 23 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Right!"
+	"""
+	Right!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -201752,7 +212449,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = LordWily
 	msgOpen
-	"It's been a while."
+	"""
+	It's been a while.
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -201807,7 +212506,9 @@ script 2 mmbn3 {
 script 3 mmbn3 {
 	mugshotHide
 	msgOpen
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -201817,7 +212518,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = LordWily
 	msgOpen
-	"Hee hee hee!"
+	"""
+	Hee hee hee!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -201882,12 +212585,18 @@ script 7 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 284
-	"Voomp!"
+	"""
+	Voomp!
+	"""
 	soundEnableTextSFX
-	" "
+	"""
+	 
+	"""
 	soundPlay
 		track = 328
-	"Zzhzhhhzhhhh…"
+	"""
+	Zzhzhhhzhhhh…
+	"""
 	keyWait
 	end
 }
@@ -201895,7 +212604,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = LordWily
 	msgOpen
-	"Hee hee hee!"
+	"""
+	Hee hee hee!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -201912,7 +212623,9 @@ script 8 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"is nearly at hand!"
+	"""
+	is nearly at hand!
+	"""
 	keyWait
 	flagClear
 		flag = 2095
@@ -201926,7 +212639,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = LordWily
 	msgOpen
-	"Muwahahahahahaha!"
+	"""
+	Muwahahahahahaha!
+	"""
 	keyWait
 	end
 }
@@ -201993,7 +212708,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Yai
 	msgOpen
-	"Yeah! And besides…"
+	"""
+	Yeah! And besides…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -202034,7 +212751,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"What is it,Ms.Mari?"
+	"""
+	What is it,Ms.Mari?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -202078,7 +212797,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"Way to go,Lan!"
+	"""
+	Way to go,Lan!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -202127,7 +212848,9 @@ script 13 mmbn3 {
 	mugshotShow
 		mugshot = MsMari
 	msgOpen
-	"Lan,wait!"
+	"""
+	Lan,wait!
+	"""
 	keyWait
 	end
 }
@@ -202229,7 +212952,9 @@ script 18 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"the awards ceremony!"
+	"""
+	the awards ceremony!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -202253,7 +212978,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Dad!"
+	"""
+	Dad!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -202287,7 +213014,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = SciLabMan
 	msgOpen
-	"Ahem!"
+	"""
+	Ahem!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -202329,7 +213058,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Thank you!"
+	"""
+	Thank you!
+	"""
 	keyWait
 	clearMsg
 	flagSet
@@ -202381,7 +213112,9 @@ script 6 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"home,MegaMan!"
+	"""
+	home,MegaMan!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -202391,7 +213124,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Yeah,sounds great!"
+	"""
+	Yeah,sounds great!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -202401,10 +213136,14 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = Dad
 	msgOpen
-	"Lan,"
+	"""
+	Lan,
+	"""
 	playerAnimate
 		animation = 7
-	"I'm proud of you."
+	"""
+	I'm proud of you.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -202420,7 +213159,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"OK…"
+	"""
+	OK…
+	"""
 	keyWait
 	end
 }
@@ -202428,7 +213169,9 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = Scientist
 	msgOpen
-	"Come now,Dr.Hikari."
+	"""
+	Come now,Dr.Hikari.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -202442,7 +213185,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = Scientist
 	msgOpen
-	"Lan,"
+	"""
+	Lan,
+	"""
 	playerAnimate
 		animation = 7
 	"""
@@ -202480,7 +213225,9 @@ script 13 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"A hero?"
+	"""
+	A hero?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -202538,7 +213285,9 @@ script 16 mmbn3 {
 	mugshotShow
 		mugshot = Dad
 	msgOpen
-	"OK,be careful!"
+	"""
+	OK,be careful!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -202550,7 +213299,9 @@ script 17 mmbn3 {
 	msgOpen
 	mugshotAnimate
 		animation = 0
-	"(Ha! I'm a hero!)"
+	"""
+	(Ha! I'm a hero!)
+	"""
 	keyWait
 	end
 }
@@ -202642,7 +213393,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Match!"
+	"""
+	Match!
+	"""
 	keyWait
 	end
 }
@@ -202797,7 +213550,9 @@ script 11 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"See for yourself!"
+	"""
+	See for yourself!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -202807,7 +213562,9 @@ script 12 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Hmmmm…"
+	"""
+	Hmmmm…
+	"""
 	keyWait
 	end
 }
@@ -202815,7 +213572,9 @@ script 13 mmbn3 {
 	mugshotShow
 		mugshot = Scientist
 	msgOpen
-	"Lan!"
+	"""
+	Lan!
+	"""
 	keyWait
 	clearMsg
 	playerAnimate
@@ -202851,7 +213610,9 @@ script 15 mmbn3 {
 	mugshotShow
 		mugshot = MrMatch
 	msgOpen
-	"Still doubtful,eh?"
+	"""
+	Still doubtful,eh?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -202881,7 +213642,9 @@ script 16 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Quick,let's go!"
+	"""
+	Quick,let's go!
+	"""
 	keyWait
 	end
 }
@@ -202922,7 +213685,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Good job,MegaMan!"
+	"""
+	Good job,MegaMan!
+	"""
 	keyWait
 	end
 }
@@ -202930,7 +213695,9 @@ script 2 mmbn3 {
 	mugshotHide
 	msgOpen
 	soundDisableTextSFX
-	"Beep beep beep!"
+	"""
+	Beep beep beep!
+	"""
 	keyWait
 	soundEnableTextSFX
 	end
@@ -202939,7 +213706,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"You got mail!"
+	"""
+	You got mail!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -202949,7 +213718,9 @@ script 3 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"It says,"
+	"""
+	It says,
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -203017,7 +213788,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"We did it,Lan!"
+	"""
+	We did it,Lan!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -203039,7 +213812,9 @@ script 2 mmbn3 {
 	mugshotHide
 	msgOpen
 	soundDisableTextSFX
-	"Beep beep beep!"
+	"""
+	Beep beep beep!
+	"""
 	keyWait
 	soundEnableTextSFX
 	end
@@ -203055,7 +213830,9 @@ script 3 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"It says,"
+	"""
+	It says,
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -203089,7 +213866,9 @@ script 4 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"\"Hurry over here!\""
+	"""
+	"Hurry over here!"
+	"""
 	flagAddMail
 		flag = 4373
 	flagClear
@@ -203123,7 +213902,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Roger!"
+	"""
+	Roger!
+	"""
 	keyWait
 	end
 }
@@ -203146,7 +213927,9 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Gaaaaaaah!"
+	"""
+	Gaaaaaaah!
+	"""
 	keyWait
 	end
 }
@@ -203154,7 +213937,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"He was pretty tough!"
+	"""
+	He was pretty tough!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -203188,7 +213973,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Gasp!"
+	"""
+	Gasp!
+	"""
 	keyWait
 	end
 }
@@ -203229,7 +214016,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Oh,no!"
+	"""
+	Oh,no!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -203261,7 +214050,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = HeelNavi
 	msgOpen
-	"Huh? Who's there?!"
+	"""
+	Huh? Who's there?!
+	"""
 	keyWait
 	end
 }
@@ -203294,7 +214085,9 @@ script 9 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"You traitor!"
+	"""
+	You traitor!
+	"""
 	keyWait
 	end
 }
@@ -203319,7 +214112,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = FlameMan
 	msgOpen
-	"Whraaaaaaaaah!!"
+	"""
+	Whraaaaaaaaah!!
+	"""
 	keyWait
 	end
 }
@@ -203327,7 +214122,9 @@ script 12 mmbn3 {
 	mugshotShow
 		mugshot = HeelNavi
 	msgOpen
-	"Aaaaaaah!"
+	"""
+	Aaaaaaah!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -203347,7 +214144,9 @@ script 13 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Nice to meet you!"
+	"""
+	Nice to meet you!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -203357,7 +214156,9 @@ script 14 mmbn3 {
 	mugshotShow
 		mugshot = FlameMan
 	msgOpen
-	"Whraaah!"
+	"""
+	Whraaah!
+	"""
 	keyWait
 	end
 }
@@ -203438,7 +214239,9 @@ script 19 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Jack me out!"
+	"""
+	Jack me out!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -203471,7 +214274,9 @@ script 21 mmbn3 {
 	mugshotHide
 	msgOpen
 	soundDisableTextSFX
-	"Beep beep beep!"
+	"""
+	Beep beep beep!
+	"""
 	soundEnableTextSFX
 	keyWait
 	end
@@ -203480,7 +214285,9 @@ script 22 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan! You got mail!"
+	"""
+	Lan! You got mail!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -203522,7 +214329,9 @@ script 23 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Anonymous mail…"
+	"""
+	Anonymous mail…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -203614,7 +214423,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"You mean Mr.Match?"
+	"""
+	You mean Mr.Match?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -203644,7 +214455,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Scent of danger?"
+	"""
+	Scent of danger?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -203667,7 +214480,9 @@ script 7 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Farewell!"
+	"""
+	Farewell!
+	"""
 	keyWait
 	end
 }
@@ -203688,7 +214503,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"I have no idea."
+	"""
+	I have no idea.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -203745,7 +214562,9 @@ script 12 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Right!"
+	"""
+	Right!
+	"""
 	keyWait
 	end
 }
@@ -203917,7 +214736,9 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Grrr…!"
+	"""
+	Grrr…!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -203961,7 +214782,9 @@ script 11 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"I'll be waiting!"
+	"""
+	I'll be waiting!
+	"""
 	keyWait
 	end
 }
@@ -203983,7 +214806,9 @@ script 13 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Oh,stop it!"
+	"""
+	Oh,stop it!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -204035,7 +214860,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"What? Another one?"
+	"""
+	What? Another one?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -204071,7 +214898,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Yeah,yeah."
+	"""
+	Yeah,yeah.
+	"""
 	keyWait
 	end
 }
@@ -204082,7 +214911,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"We're done,Mr.Match."
+	"""
+	We're done,Mr.Match.
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -204137,7 +214968,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Aw,man…"
+	"""
+	Aw,man…
+	"""
 	keyWait
 	end
 }
@@ -204176,11 +215009,15 @@ script 1 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 179
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = T
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -204256,11 +215093,15 @@ script 5 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 179
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = T
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -204285,7 +215126,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = MrMatch
 	msgOpen
-	"Thanks a lot,Lan!"
+	"""
+	Thanks a lot,Lan!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -204355,16 +215198,25 @@ script 3 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 242
-	"Clunk! Kaclunk-clunk!"
+	"""
+	Clunk! Kaclunk-clunk!
+	"""
 	wait
 		frames = 60
-	"\n"
+	"""
+	
+	
+	"""
 	soundPlay
 		track = 262
-	"Beeee"
+	"""
+	Beeee
+	"""
 	wait
 		frames = 60
-	"p!!"
+	"""
+	p!!
+	"""
 	soundEnableTextSFX
 	keyWait
 	clearMsg
@@ -204375,7 +215227,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = BusinessMan
 	msgOpen
-	"What in the…?!"
+	"""
+	What in the…?!
+	"""
 	keyWait
 	end
 }
@@ -204385,13 +215239,20 @@ script 5 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 242
-	"Clunk! Kaclunk-clunk!"
+	"""
+	Clunk! Kaclunk-clunk!
+	"""
 	wait
 		frames = 42
-	"\n"
+	"""
+	
+	
+	"""
 	soundPlay
 		track = 242
-	"Clunk-clunk-clunk!"
+	"""
+	Clunk-clunk-clunk!
+	"""
 	wait
 		frames = 48
 	soundEnableTextSFX
@@ -204402,7 +215263,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = SciLabMan
 	msgOpen
-	"Maybe it's broken?"
+	"""
+	Maybe it's broken?
+	"""
 	keyWait
 	clearMsg
 	flagClear
@@ -204434,7 +215297,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = SciLabMan
 	msgOpen
-	"Be careful…"
+	"""
+	Be careful…
+	"""
 	keyWait
 	end
 }
@@ -204444,7 +215309,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = BusinessMan
 	msgOpen
-	"Fire!"
+	"""
+	Fire!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -204454,7 +215321,9 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = SciLabMan
 	msgOpen
-	"Someone! Help!"
+	"""
+	Someone! Help!
+	"""
 	keyWait
 	end
 }
@@ -204478,7 +215347,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = SciLabMan
 	msgOpen
-	"What happened?!"
+	"""
+	What happened?!
+	"""
 	keyWait
 	end
 }
@@ -204597,7 +215468,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = Scientist
 	msgOpen
-	"Huff… Huff…"
+	"""
+	Huff… Huff…
+	"""
 	keyWait
 	clearMsg
 	flagSet
@@ -204730,7 +215603,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = Dad
 	msgOpen
-	"What are you doing?!"
+	"""
+	What are you doing?!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -204784,7 +215659,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = SciLabMan
 	msgOpen
-	"Huff… Huff…"
+	"""
+	Huff… Huff…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -204812,7 +215689,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = Dad
 	msgOpen
-	"You guys…"
+	"""
+	You guys…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -204830,7 +215709,9 @@ script 0 mmbn3 {
 	mugshotHide
 	msgOpen
 	soundDisableTextSFX
-	"Beep beep beep!"
+	"""
+	Beep beep beep!
+	"""
 	soundEnableTextSFX
 	keyWait
 	end
@@ -204839,7 +215720,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan! You got mail!"
+	"""
+	Lan! You got mail!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -204849,7 +215732,9 @@ script 1 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -204914,7 +215799,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"………"
+	"""
+	………
+	"""
 	keyWait
 	clearMsg
 	soundPlayBGM
@@ -204940,7 +215827,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Right!"
+	"""
+	Right!
+	"""
 	keyWait
 	end
 }
@@ -204951,7 +215840,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Sir!"
+	"""
+	Sir!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -204967,7 +215858,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = SciLabMan
 	msgOpen
-	"You're Dr.Hikari's…"
+	"""
+	You're Dr.Hikari's…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -204977,7 +215870,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Where is he?!"
+	"""
+	Where is he?!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -205000,7 +215895,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"No…!"
+	"""
+	No…!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -205062,7 +215959,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"No…"
+	"""
+	No…
+	"""
 	keyWait
 	end
 }
@@ -205070,7 +215969,9 @@ script 9 mmbn3 {
 	mugshotHide
 	msgOpen
 	soundDisableTextSFX
-	"Briiiiing!"
+	"""
+	Briiiiing!
+	"""
 	keyWait
 	soundEnableTextSFX
 	end
@@ -205137,7 +216038,9 @@ script 13 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"perfectly! Hahahaha!"
+	"""
+	perfectly! Hahahaha!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -205147,13 +216050,19 @@ script 14 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"I helped you"
+	"""
+	I helped you
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -205196,7 +216105,9 @@ script 16 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"I'm the reason…?"
+	"""
+	I'm the reason…?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -205257,16 +216168,24 @@ script 18 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = MegaMan
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"No!!"
+	"""
+	No!!
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -205286,7 +216205,9 @@ script 18 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = Lan
-	"Grrrr…!"
+	"""
+	Grrrr…!
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -205306,7 +216227,9 @@ script 18 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = Lan
-	"N-no… I can't be!"
+	"""
+	N-no… I can't be!
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -205325,7 +216248,9 @@ script 19 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"A… game?"
+	"""
+	A… game?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -205418,7 +216343,9 @@ script 23 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Fire!!!!!"
+	"""
+	Fire!!!!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -205428,7 +216355,9 @@ script 24 mmbn3 {
 	mugshotShow
 		mugshot = FlameMan
 	msgOpen
-	"Whraaaaaah!"
+	"""
+	Whraaaaaah!
+	"""
 	keyWait
 	end
 }
@@ -205477,7 +216406,9 @@ script 27 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"That program…"
+	"""
+	That program…
+	"""
 	keyWait
 	end
 }
@@ -205488,7 +216419,9 @@ script 0 mmbn3 {
 	mugshotHide
 	msgOpen
 	soundDisableTextSFX
-	"Briiiiing!"
+	"""
+	Briiiiing!
+	"""
 	keyWait
 	soundEnableTextSFX
 	end
@@ -205528,22 +216461,31 @@ script 2 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 284
-	"Click!\n"
+	"""
+	Click!
+	
+	"""
 	wait
 		frames = 30
 	soundPlay
 		track = 260
-	"Boop! "
+	"""
+	Boop! 
+	"""
 	wait
 		frames = 58
 	soundPlay
 		track = 260
-	"Boop! "
+	"""
+	Boop! 
+	"""
 	wait
 		frames = 58
 	soundPlay
 		track = 260
-	"Boop…"
+	"""
+	Boop…
+	"""
 	wait
 		frames = 55
 	keyWait
@@ -205571,7 +216513,9 @@ script 0 mmbn3 {
 	mugshotHide
 	msgOpen
 	soundDisableTextSFX
-	"Briiiiing!"
+	"""
+	Briiiiing!
+	"""
 	keyWait
 	soundEnableTextSFX
 	end
@@ -205611,22 +216555,31 @@ script 2 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 284
-	"Click!\n"
+	"""
+	Click!
+	
+	"""
 	wait
 		frames = 30
 	soundPlay
 		track = 260
-	"Boop! "
+	"""
+	Boop! 
+	"""
 	wait
 		frames = 58
 	soundPlay
 		track = 260
-	"Boop! "
+	"""
+	Boop! 
+	"""
 	wait
 		frames = 58
 	soundPlay
 		track = 260
-	"Boop…"
+	"""
+	Boop…
+	"""
 	wait
 		frames = 55
 	keyWait
@@ -205654,7 +216607,9 @@ script 0 mmbn3 {
 	mugshotHide
 	msgOpen
 	soundDisableTextSFX
-	"Briiiiing!"
+	"""
+	Briiiiing!
+	"""
 	keyWait
 	soundEnableTextSFX
 	end
@@ -205694,22 +216649,31 @@ script 2 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 284
-	"Click!\n"
+	"""
+	Click!
+	
+	"""
 	wait
 		frames = 30
 	soundPlay
 		track = 260
-	"Boop! "
+	"""
+	Boop! 
+	"""
 	wait
 		frames = 58
 	soundPlay
 		track = 260
-	"Boop! "
+	"""
+	Boop! 
+	"""
 	wait
 		frames = 58
 	soundPlay
 		track = 260
-	"Boop…"
+	"""
+	Boop…
+	"""
 	wait
 		frames = 55
 	keyWait
@@ -205737,7 +216701,9 @@ script 0 mmbn3 {
 	mugshotHide
 	msgOpen
 	soundDisableTextSFX
-	"Briiiiing!"
+	"""
+	Briiiiing!
+	"""
 	keyWait
 	soundEnableTextSFX
 	end
@@ -205778,22 +216744,31 @@ script 2 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 284
-	"Click!\n"
+	"""
+	Click!
+	
+	"""
 	wait
 		frames = 30
 	soundPlay
 		track = 260
-	"Boop! "
+	"""
+	Boop! 
+	"""
 	wait
 		frames = 58
 	soundPlay
 		track = 260
-	"Boop! "
+	"""
+	Boop! 
+	"""
 	wait
 		frames = 58
 	soundPlay
 		track = 260
-	"Boop…"
+	"""
+	Boop…
+	"""
 	wait
 		frames = 55
 	keyWait
@@ -205820,7 +216795,9 @@ script 0 mmbn3 {
 	mugshotHide
 	msgOpen
 	soundDisableTextSFX
-	"Briiiiing!"
+	"""
+	Briiiiing!
+	"""
 	keyWait
 	soundEnableTextSFX
 	end
@@ -205902,7 +216879,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Undernet 3,right?"
+	"""
+	Undernet 3,right?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -205939,7 +216918,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"What?!"
+	"""
+	What?!
+	"""
 	keyWait
 	end
 }
@@ -206018,7 +216999,9 @@ script 3 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"He's in Undernet 3!"
+	"""
+	He's in Undernet 3!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -206028,7 +217011,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Right!"
+	"""
+	Right!
+	"""
 	keyWait
 	end
 }
@@ -206039,7 +217024,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"!!"
+	"""
+	!!
+	"""
 	keyWait
 	end
 }
@@ -206083,7 +217070,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Is it FlameMan?"
+	"""
+	Is it FlameMan?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -206121,7 +217110,9 @@ script 5 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Let's keep going!"
+	"""
+	Let's keep going!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -206131,7 +217122,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"R-Roger!"
+	"""
+	R-Roger!
+	"""
 	keyWait
 	end
 }
@@ -206142,7 +217135,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"An earthquake!"
+	"""
+	An earthquake!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -206151,7 +217146,9 @@ script 0 mmbn3 {
 script 1 mmbn3 {
 	mugshotHide
 	msgOpen
-	"Grkkgrrrchkchkk!!"
+	"""
+	Grkkgrrrchkchkk!!
+	"""
 	keyWait
 	end
 }
@@ -206170,13 +217167,18 @@ script 2 mmbn3 {
 script 3 mmbn3 {
 	mugshotHide
 	msgOpen
-	"Grgrgrrgrgr!\n"
+	"""
+	Grgrgrrgrgr!
+	
+	"""
 	soundDisableTextSFX
 	soundPlay
 		track = 257
 	flagSet
 		flag = 2097
-	"Crack!!"
+	"""
+	Crack!!
+	"""
 	flagSet
 		flag = 2096
 	soundEnableTextSFX
@@ -206227,7 +217229,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Right!"
+	"""
+	Right!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -206265,7 +217269,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"I don't know."
+	"""
+	I don't know.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -206294,7 +217300,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Yeah!"
+	"""
+	Yeah!
+	"""
 	keyWait
 	end
 }
@@ -206305,7 +217313,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"!!"
+	"""
+	!!
+	"""
 	keyWait
 	end
 }
@@ -206381,7 +217391,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"We're being watched…"
+	"""
+	We're being watched…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -206391,7 +217403,9 @@ script 5 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Let's find FlameMan!"
+	"""
+	Let's find FlameMan!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -206401,7 +217415,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Right!"
+	"""
+	Right!
+	"""
 	keyWait
 	end
 }
@@ -206472,7 +217488,9 @@ script 3 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"I'm all fired up!"
+	"""
+	I'm all fired up!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -206520,13 +217538,19 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Let's get him!"
+	"""
+	Let's get him!
+	"""
 	keyWait
 	clearMsg
-	"Battle routine,"
+	"""
+	Battle routine,
+	"""
 	waitSkip
 		frames = 30
-	"set!"
+	"""
+	set!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -206536,7 +217560,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Execute!"
+	"""
+	Execute!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -206560,7 +217586,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = FlameMan
 	msgOpen
-	"Whraaaaaaah!!"
+	"""
+	Whraaaaaaah!!
+	"""
 	keyWait
 	end
 }
@@ -206571,7 +217599,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = FlameMan
 	msgOpen
-	"Whraah,whraaaaaah!"
+	"""
+	Whraah,whraaaaaah!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -206581,7 +217611,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Huff… Huff…"
+	"""
+	Huff… Huff…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -206651,7 +217683,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = FlameMan
 	msgOpen
-	"Whraaaaaah!"
+	"""
+	Whraaaaaah!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -206662,7 +217696,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Aaah!!"
+	"""
+	Aaah!!
+	"""
 	keyWait
 	end
 }
@@ -206680,7 +217716,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = FlameMan
 	msgOpen
-	"Whraa…?!"
+	"""
+	Whraa…?!
+	"""
 	keyWait
 	end
 }
@@ -206708,7 +217746,9 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = FlameMan
 	msgOpen
-	"Whra,whraaaah!"
+	"""
+	Whra,whraaaah!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -206755,7 +217795,9 @@ script 13 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Aa…! Aaaah……!"
+	"""
+	Aa…! Aaaah……!
+	"""
 	keyWait
 	clearMsg
 	flagSet
@@ -206801,7 +217843,9 @@ script 16 mmbn3 {
 	mugshotShow
 		mugshot = FlameMan
 	msgOpen
-	"Whrahahahah!"
+	"""
+	Whrahahahah!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -206822,7 +217866,9 @@ script 18 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"!!"
+	"""
+	!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -206897,13 +217943,19 @@ script 22 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -207048,7 +218100,9 @@ script 7 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"DarkAura!"
+	"""
+	DarkAura!
+	"""
 	keyWait
 	end
 }
@@ -207138,7 +218192,9 @@ script 12 mmbn3 {
 	mugshotShow
 		mugshot = OfficialNavi
 	msgOpen
-	"Be my guest!"
+	"""
+	Be my guest!
+	"""
 	keyWait
 	end
 }
@@ -207146,7 +218202,9 @@ script 13 mmbn3 {
 	mugshotShow
 		mugshot = Bass
 	msgOpen
-	"EarthBreak!"
+	"""
+	EarthBreak!
+	"""
 	keyWait
 	end
 }
@@ -207194,7 +218252,9 @@ script 16 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 291
-	"Zhzhzhhhzh!"
+	"""
+	Zhzhzhhhzh!
+	"""
 	wait
 		frames = 120
 	soundEnableTextSFX
@@ -207320,7 +218380,9 @@ script 22 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 290
-	"Zh-Zhhzhh… zzhz…"
+	"""
+	Zh-Zhhzhh… zzhz…
+	"""
 	wait
 		frames = 120
 	soundEnableTextSFX
@@ -207352,7 +218414,9 @@ script 24 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Uu… uuh…"
+	"""
+	Uu… uuh…
+	"""
 	keyWait
 	end
 }
@@ -207402,7 +218466,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Dad!"
+	"""
+	Dad!
+	"""
 	keyWait
 	end
 }
@@ -207423,7 +218489,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Dad
 	msgOpen
-	"Yes… I think so…"
+	"""
+	Yes… I think so…
+	"""
 	keyWait
 	end
 }
@@ -207512,7 +218580,9 @@ script 7 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 258
-	"Thump!"
+	"""
+	Thump!
+	"""
 	soundEnableTextSFX
 	keyWait
 	clearMsg
@@ -207523,7 +218593,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Daaaaaad!!!"
+	"""
+	Daaaaaad!!!
+	"""
 	keyWait
 	clearMsg
 	flagSet
@@ -207542,7 +218614,9 @@ script 9 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Hurry!"
+	"""
+	Hurry!
+	"""
 	keyWait
 	end
 }
@@ -207618,7 +218692,9 @@ script 2 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Sniff…!"
+	"""
+	Sniff…!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -207628,7 +218704,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan…"
+	"""
+	Lan…
+	"""
 	keyWait
 	end
 }
@@ -207669,7 +218747,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	end
 }
@@ -207802,7 +218882,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = DrillMan
 	msgOpen
-	"Yes,my lord."
+	"""
+	Yes,my lord.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -207832,7 +218914,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = DrillMan
 	msgOpen
-	"Deleeete!!"
+	"""
+	Deleeete!!
+	"""
 	keyWait
 	end
 }
@@ -207860,10 +218944,14 @@ script 9 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -207890,7 +218978,9 @@ script 9 mmbn3 {
 	wait
 		frames = 32
 	clearMsg
-	"Mwa-ha-ha-ha-ha!!!"
+	"""
+	Mwa-ha-ha-ha-ha!!!
+	"""
 	keyWait
 	end
 }
@@ -207983,7 +219073,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -208035,7 +219127,9 @@ script 4 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 212
-	"Ding-dong!"
+	"""
+	Ding-dong!
+	"""
 	wait
 		frames = 60
 	keyWait
@@ -208109,7 +219203,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	end
 }
@@ -208217,7 +219313,9 @@ script 16 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	end
 }
@@ -208225,7 +219323,9 @@ script 17 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"What is it,Lan?"
+	"""
+	What is it,Lan?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -208330,7 +219430,9 @@ script 25 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"Uh… OK…"
+	"""
+	Uh… OK…
+	"""
 	keyWait
 	end
 }
@@ -208359,7 +219461,9 @@ script 27 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"I know,I know…!"
+	"""
+	I know,I know…!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -208416,7 +219520,9 @@ script 29 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 212
-	"Ding-dong!"
+	"""
+	Ding-dong!
+	"""
 	wait
 		frames = 60
 	keyWait
@@ -208591,7 +219697,9 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"A door?"
+	"""
+	A door?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -208629,7 +219737,9 @@ script 12 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Alpha?"
+	"""
+	Alpha?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -208639,7 +219749,9 @@ script 13 mmbn3 {
 	mugshotShow
 		mugshot = Chaud
 	msgOpen
-	"Yes."
+	"""
+	Yes.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -208688,10 +219800,14 @@ script 14 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -208728,7 +219844,9 @@ script 16 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"A last resort?"
+	"""
+	A last resort?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -208873,7 +219991,9 @@ script 23 mmbn3 {
 	mugshotShow
 		mugshot = Chaud
 	msgOpen
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -208926,7 +220046,9 @@ script 26 mmbn3 {
 	msgOpen
 	playerAnimate
 		animation = 3
-	"Chaud…"
+	"""
+	Chaud…
+	"""
 	keyWait
 	end
 }
@@ -208954,10 +220076,14 @@ script 27 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -208978,7 +220104,9 @@ script 28 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Chaud…"
+	"""
+	Chaud…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -209001,7 +220129,9 @@ script 30 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"…OK."
+	"""
+	…OK.
+	"""
 	keyWait
 	end
 }
@@ -209021,7 +220151,9 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Is that right,Sean?"
+	"""
+	Is that right,Sean?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -209115,7 +220247,9 @@ script 4 mmbn3 {
 	mugshotPalette
 		palette = 2
 	msgOpen
-	"I see. Then what?"
+	"""
+	I see. Then what?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -209161,13 +220295,19 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = Sean
 	msgOpen
-	"The ultimate Navi."
+	"""
+	The ultimate Navi.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -209193,7 +220333,9 @@ script 8 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 289
-	"Thump!"
+	"""
+	Thump!
+	"""
 	soundEnableTextSFX
 	keyWait
 	clearMsg
@@ -209206,7 +220348,9 @@ script 9 mmbn3 {
 	mugshotPalette
 		palette = 2
 	msgOpen
-	"…Is someone there?!"
+	"""
+	…Is someone there?!
+	"""
 	keyWait
 	end
 }
@@ -209227,7 +220371,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = Sean
 	msgOpen
-	"Lan!"
+	"""
+	Lan!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -209274,7 +220420,9 @@ script 15 mmbn3 {
 	mugshotShow
 		mugshot = Sean
 	msgOpen
-	"See you,Lan."
+	"""
+	See you,Lan.
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -209426,7 +220574,9 @@ script 23 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"I'm so sorry…"
+	"""
+	I'm so sorry…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -209533,10 +220683,14 @@ script 29 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Right!"
+	"""
+	Right!
+	"""
 	keyWait
 	clearMsg
-	"See you later,dad!"
+	"""
+	See you later,dad!
+	"""
 	keyWait
 	end
 }
@@ -209622,7 +220776,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Uh…"
+	"""
+	Uh…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -209639,7 +220795,9 @@ script 5 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Let's do this,Lan!"
+	"""
+	Let's do this,Lan!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -209697,7 +220855,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"The ranking?"
+	"""
+	The ranking?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -209819,7 +220979,9 @@ script 14 mmbn3 {
 	printNaviCustProgram
 		buffer = 0
 		program = 46
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -209831,7 +220993,9 @@ script 15 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"What's this?"
+	"""
+	What's this?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -209890,7 +221054,9 @@ script 17 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Let's go!"
+	"""
+	Let's go!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -209900,7 +221066,9 @@ script 18 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Roger!!"
+	"""
+	Roger!!
+	"""
 	keyWait
 	end
 }
@@ -209951,7 +221119,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = HeelNavi
 	msgOpen
-	"Who are YOU?"
+	"""
+	Who are YOU?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -209975,7 +221145,9 @@ script 3 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Huh,huh,huh!"
+	"""
+	Huh,huh,huh!
+	"""
 	keyWait
 	end
 }
@@ -209992,7 +221164,9 @@ script 4 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Ho-hee-hee-hee!"
+	"""
+	Ho-hee-hee-hee!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -210002,7 +221176,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"We're surrounded!"
+	"""
+	We're surrounded!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -210099,7 +221275,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = HeelNavi
 	msgOpen
-	"Huh,huh,huh!"
+	"""
+	Huh,huh,huh!
+	"""
 	keyWait
 	clearMsg
 	flagClear
@@ -210142,7 +221320,9 @@ script 13 mmbn3 {
 	mugshotShow
 		mugshot = HeelNavi
 	msgOpen
-	"No rules,eh?"
+	"""
+	No rules,eh?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -210200,7 +221380,9 @@ script 16 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Roger!"
+	"""
+	Roger!
+	"""
 	keyWait
 	end
 }
@@ -210223,7 +221405,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"You want some more?"
+	"""
+	You want some more?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -210341,7 +221525,9 @@ script 2 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 290
-	"Zh… zzhzhzzzzz…"
+	"""
+	Zh… zzhzhzzzzz…
+	"""
 	wait
 		frames = 148
 	soundEnableTextSFX
@@ -210396,13 +221582,20 @@ script 4 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 291
-	"Zzhzzhzh… zzhnnnn…"
+	"""
+	Zzhzzhzh… zzhnnnn…
+	"""
 	wait
 		frames = 148
-	"\n"
+	"""
+	
+	
+	"""
 	soundPlay
 		track = 284
-	"Click!"
+	"""
+	Click!
+	"""
 	soundEnableTextSFX
 	keyWait
 	clearMsg
@@ -210433,7 +221626,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Hmmm…"
+	"""
+	Hmmm…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -210456,7 +221651,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Right!"
+	"""
+	Right!
+	"""
 	keyWait
 	end
 }
@@ -210474,7 +221671,9 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Here."
+	"""
+	Here.
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -210494,7 +221693,9 @@ script 1 mmbn3 {
 	printItem
 		buffer = 0
 		item = 27
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerAnimate
 		animation = 1
@@ -210507,7 +221708,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"All right!"
+	"""
+	All right!
+	"""
 	keyWait
 	end
 }
@@ -210541,7 +221744,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"You know S?!"
+	"""
+	You know S?!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -210577,7 +221782,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"But…"
+	"""
+	But…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -210647,7 +221854,9 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"He's gone…"
+	"""
+	He's gone…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -210671,7 +221880,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"This isn't good…"
+	"""
+	This isn't good…
+	"""
 	keyWait
 	end
 }
@@ -210679,7 +221890,9 @@ script 12 mmbn3 {
 	mugshotHide
 	msgOpen
 	soundDisableTextSFX
-	"Beep beep beep!"
+	"""
+	Beep beep beep!
+	"""
 	soundEnableTextSFX
 	keyWait
 	end
@@ -210688,7 +221901,9 @@ script 13 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan! You got mail!"
+	"""
+	Lan! You got mail!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -210769,13 +221984,20 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Roll!"
+	"""
+	Roll!
+	"""
 	wait
 		frames = 60
-	"\n"
+	"""
+	
+	
+	"""
 	playerAnimate
 		animation = 7
-	"Hey,Roll!"
+	"""
+	Hey,Roll!
+	"""
 	wait
 		frames = 60
 	keyWait
@@ -210932,7 +222154,9 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan! Here they come!"
+	"""
+	Lan! Here they come!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -210949,7 +222173,9 @@ script 11 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Get him!!"
+	"""
+	Get him!!
+	"""
 	keyWait
 	end
 }
@@ -211019,7 +222245,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Now what do we do?"
+	"""
+	Now what do we do?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -211052,7 +222280,9 @@ script 6 mmbn3 {
 	soundDisableTextSFX
 	flagSet
 		flag = 2307
-	"Beep beep beep!"
+	"""
+	Beep beep beep!
+	"""
 	keyWait
 	soundEnableTextSFX
 	end
@@ -211061,7 +222291,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan! Another mail!"
+	"""
+	Lan! Another mail!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -211145,7 +222377,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Right!"
+	"""
+	Right!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -211341,7 +222575,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = CloakedNavi
 	msgOpen
-	"Let's fight…"
+	"""
+	Let's fight…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -211358,7 +222594,9 @@ script 12 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"What?"
+	"""
+	What?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -211409,7 +222647,9 @@ script 14 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Is it really OK?"
+	"""
+	Is it really OK?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -211444,7 +222684,9 @@ script 16 mmbn3 {
 	printItem
 		buffer = 0
 		item = 28
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	playerFinish
 	playerReset
@@ -211468,7 +222710,9 @@ script 18 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Thank you…"
+	"""
+	Thank you…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -211546,7 +222790,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = BeastMan
 	msgOpen
-	"Grrrrrr…"
+	"""
+	Grrrrrr…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -211601,7 +222847,9 @@ script 3 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 135
-	"Grrrrrrr!!"
+	"""
+	Grrrrrrr!!
+	"""
 	wait
 		frames = 90
 	soundEnableTextSFX
@@ -211612,7 +222860,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Wait!"
+	"""
+	Wait!
+	"""
 	keyWait
 	end
 }
@@ -211641,7 +222891,9 @@ script 6 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"BeastMan got away."
+	"""
+	BeastMan got away.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -211696,7 +222948,9 @@ script 8 mmbn3 {
 	printItem
 		buffer = 0
 		item = 29
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	playerFinish
 	playerReset
@@ -211737,7 +222991,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Who are you?"
+	"""
+	Who are you?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -211754,7 +223010,9 @@ script 12 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"So I'm a nobody,now."
+	"""
+	So I'm a nobody,now.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -211777,7 +223035,9 @@ script 13 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Really?!"
+	"""
+	Really?!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -211801,7 +223061,9 @@ script 15 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Thanks a lot!"
+	"""
+	Thanks a lot!
+	"""
 	keyWait
 	end
 }
@@ -211829,7 +223091,9 @@ script 17 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Wha…?!"
+	"""
+	Wha…?!
+	"""
 	wait
 		frames = 20
 	end
@@ -211841,7 +223105,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = HeelNavi
 	msgOpen
-	"Nooooooo!!"
+	"""
+	Nooooooo!!
+	"""
 	keyWait
 	end
 }
@@ -211870,7 +223136,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Yeah."
+	"""
+	Yeah.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -211892,7 +223160,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Roger!"
+	"""
+	Roger!
+	"""
 	keyWait
 	end
 }
@@ -211933,7 +223203,9 @@ script 1 mmbn3 {
 	printItem
 		buffer = 0
 		item = 30
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	playerFinish
 	playerReset
@@ -211978,7 +223250,9 @@ script 4 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Try a little harder!"
+	"""
+	Try a little harder!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -212037,7 +223311,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Oh boy…"
+	"""
+	Oh boy…
+	"""
 	keyWait
 	end
 }
@@ -212083,7 +223359,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Still,we have to go!"
+	"""
+	Still,we have to go!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -212120,7 +223398,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Roger!"
+	"""
+	Roger!
+	"""
 	keyWait
 	end
 }
@@ -212162,7 +223442,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Wha…!"
+	"""
+	Wha…!
+	"""
 	keyWait
 	end
 }
@@ -212225,7 +223507,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = HeelNavi
 	msgOpen
-	"Hooooo!!"
+	"""
+	Hooooo!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -212292,7 +223576,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"GutsMan!!"
+	"""
+	GutsMan!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -212350,7 +223636,9 @@ script 14 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Go get 'em,GutsMan!"
+	"""
+	Go get 'em,GutsMan!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -212402,7 +223690,9 @@ script 18 mmbn3 {
 	mugshotShow
 		mugshot = HeelNavi
 	msgOpen
-	"W-W-What's going on?"
+	"""
+	W-W-What's going on?
+	"""
 	keyWait
 	end
 }
@@ -212417,7 +223707,9 @@ script 19 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Aaaaarrrrghh!!"
+	"""
+	Aaaaarrrrghh!!
+	"""
 	keyWait
 	end
 }
@@ -212526,7 +223818,9 @@ script 26 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Aw,Dex…"
+	"""
+	Aw,Dex…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -212543,7 +223837,9 @@ script 27 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"GutsMan! Jack out!"
+	"""
+	GutsMan! Jack out!
+	"""
 	keyWait
 	end
 }
@@ -212566,7 +223862,9 @@ script 29 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Right."
+	"""
+	Right.
+	"""
 	keyWait
 	end
 }
@@ -212574,7 +223872,9 @@ script 30 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"What is it,GutsMa…"
+	"""
+	What is it,GutsMa…
+	"""
 	keyWait
 	clearMsg
 	playerAnimate
@@ -212620,7 +223920,9 @@ script 33 mmbn3 {
 	mugshotShow
 		mugshot = GutsMan
 	msgOpen
-	"Heh heh heh…"
+	"""
+	Heh heh heh…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -212649,7 +223951,9 @@ script 34 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"You're #3?"
+	"""
+	You're #3?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -212693,7 +223997,9 @@ script 36 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"You know S?"
+	"""
+	You know S?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -212732,7 +224038,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Now,tell me about S!"
+	"""
+	Now,tell me about S!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -212851,7 +224159,9 @@ script 6 mmbn3 {
 	printItem
 		buffer = 0
 		item = 31
-	"\"?"
+	"""
+	"?
+	"""
 	keyWait
 	end
 }
@@ -212884,7 +224194,9 @@ script 8 mmbn3 {
 	printItem
 		buffer = 0
 		item = 31
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -212992,7 +224304,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Really?!"
+	"""
+	Really?!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -213082,7 +224396,10 @@ script 7 mmbn3 {
 	printItem
 		buffer = 0
 		item = 32
-	"\"!!\n"
+	"""
+	"!!
+	
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -213098,7 +224415,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"The Undernet server…"
+	"""
+	The Undernet server…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -213183,7 +224502,9 @@ script 12 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Serenade? You mean…"
+	"""
+	Serenade? You mean…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -213207,7 +224528,9 @@ script 14 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Really?!"
+	"""
+	Really?!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -213282,7 +224605,9 @@ script 18 mmbn3 {
 	printItem
 		buffer = 0
 		item = 32
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -213294,7 +224619,9 @@ script 19 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"The Undernet server…"
+	"""
+	The Undernet server…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -213389,14 +224716,18 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Wh-who said that?!"
+	"""
+	Wh-who said that?!
+	"""
 	keyWait
 	end
 }
 script 4 mmbn3 {
 	mugshotHide
 	msgOpen
-	"Jack in…"
+	"""
+	Jack in…
+	"""
 	keyWait
 	end
 }
@@ -213424,7 +224755,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Ready and willing!"
+	"""
+	Ready and willing!
+	"""
 	keyWait
 	end
 }
@@ -213434,7 +224767,9 @@ script 6 mmbn3 {
 script 0 mmbn3 {
 	mugshotHide
 	msgOpen
-	"Proceed."
+	"""
+	Proceed.
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -213444,7 +224779,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan,I'm going in!"
+	"""
+	Lan,I'm going in!
+	"""
 	keyWait
 	end
 }
@@ -213511,7 +224848,9 @@ script 4 mmbn3 {
 script 5 mmbn3 {
 	mugshotHide
 	msgOpen
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -213535,7 +224874,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"A Chosen One…?"
+	"""
+	A Chosen One…?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -213631,7 +224972,9 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -213654,7 +224997,9 @@ script 12 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"MegaMan…"
+	"""
+	MegaMan…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -213664,10 +225009,14 @@ script 13 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan…!!"
+	"""
+	Lan…!!
+	"""
 	keyWait
 	clearMsg
-	"Aaaaaah!"
+	"""
+	Aaaaaah!
+	"""
 	keyWait
 	flagSet
 		flag = 2306
@@ -213689,7 +225038,9 @@ script 14 mmbn3 {
 script 15 mmbn3 {
 	mugshotHide
 	msgOpen
-	"So he is frozen…"
+	"""
+	So he is frozen…
+	"""
 	keyWait
 	clearMsg
 	soundStop
@@ -213710,7 +225061,9 @@ script 16 mmbn3 {
 script 17 mmbn3 {
 	mugshotHide
 	msgOpen
-	"…Mm?"
+	"""
+	…Mm?
+	"""
 	keyWait
 	end
 }
@@ -213768,7 +225121,9 @@ script 21 mmbn3 {
 	printItem
 		buffer = 0
 		item = 34
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerAnimate
 		animation = 7
@@ -213823,7 +225178,9 @@ script 25 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Roger!"
+	"""
+	Roger!
+	"""
 	keyWait
 	end
 }
@@ -213856,7 +225213,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Who's there?!"
+	"""
+	Who's there?!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -213877,7 +225236,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Mamoru!"
+	"""
+	Mamoru!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -213887,7 +225248,9 @@ script 3 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"You?!"
+	"""
+	You?!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -214076,7 +225439,9 @@ script 12 mmbn3 {
 	mugshotShow
 		mugshot = Mamoru
 	msgOpen
-	"The ultimate beast…"
+	"""
+	The ultimate beast…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -214092,7 +225457,9 @@ script 13 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"SciLab…?"
+	"""
+	SciLab…?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -214106,22 +225473,31 @@ script 14 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 299
-	"Weoo! "
+	"""
+	Weoo! 
+	"""
 	wait
 		frames = 60
 	soundPlay
 		track = 299
-	"Weoo!\n"
+	"""
+	Weoo!
+	
+	"""
 	wait
 		frames = 60
 	soundPlay
 		track = 299
-	"Weoo! "
+	"""
+	Weoo! 
+	"""
 	wait
 		frames = 60
 	soundPlay
 		track = 299
-	"Weoo!"
+	"""
+	Weoo!
+	"""
 	wait
 		frames = 60
 	keyWait
@@ -214175,7 +225551,9 @@ script 17 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Roger!"
+	"""
+	Roger!
+	"""
 	keyWait
 	end
 }
@@ -214196,7 +225574,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = DrillMan
 	msgOpen
-	"Drill mode!"
+	"""
+	Drill mode!
+	"""
 	keyWait
 	end
 }
@@ -214204,7 +225584,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = DrillMan
 	msgOpen
-	"Activate TetraCodes!"
+	"""
+	Activate TetraCodes!
+	"""
 	keyWait
 	end
 }
@@ -214212,7 +225594,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = DrillMan
 	msgOpen
-	"Alpha is mine!"
+	"""
+	Alpha is mine!
+	"""
 	keyWait
 	end
 }
@@ -214242,10 +225626,14 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = DrillMan
 	msgOpen
-	"Official scum…"
+	"""
+	Official scum…
+	"""
 	keyWait
 	clearMsg
-	"You're too late!"
+	"""
+	You're too late!
+	"""
 	keyWait
 	end
 }
@@ -214253,7 +225641,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = DrillMan
 	msgOpen
-	"Drill mode!"
+	"""
+	Drill mode!
+	"""
 	keyWait
 	end
 }
@@ -214261,7 +225651,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = DrillMan
 	msgOpen
-	"Hah!"
+	"""
+	Hah!
+	"""
 	keyWait
 	end
 }
@@ -214289,7 +225681,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Hand over Alpha!"
+	"""
+	Hand over Alpha!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -214299,7 +225693,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = DrillMan
 	msgOpen
-	"…MegaMan!"
+	"""
+	…MegaMan!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -214329,7 +225725,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"What I've done?"
+	"""
+	What I've done?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -214367,7 +225765,9 @@ script 4 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"set!"
+	"""
+	set!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -214377,7 +225777,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Execute!"
+	"""
+	Execute!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -214408,7 +225810,9 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Arrrrrrrh!!!"
+	"""
+	Arrrrrrrh!!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -214417,7 +225821,9 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Aaaaaahhhhhh!!"
+	"""
+	Aaaaaahhhhhh!!
+	"""
 	keyWait
 	end
 }
@@ -214459,7 +225865,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Right…"
+	"""
+	Right…
+	"""
 	keyWait
 	end
 }
@@ -214507,7 +225915,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"No! He's got Alpha!"
+	"""
+	No! He's got Alpha!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -214570,7 +225980,9 @@ script 12 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Right!"
+	"""
+	Right!
+	"""
 	keyWait
 	end
 }
@@ -214578,7 +225990,9 @@ script 13 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"GigaFreeze!!"
+	"""
+	GigaFreeze!!
+	"""
 	keyWait
 	end
 }
@@ -214586,7 +226000,9 @@ script 14 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Did we get him?!"
+	"""
+	Did we get him?!
+	"""
 	keyWait
 	end
 }
@@ -214594,7 +226010,9 @@ script 15 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"It can't be!!"
+	"""
+	It can't be!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -214654,7 +226072,9 @@ script 18 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Farewell."
+	"""
+	Farewell.
+	"""
 	keyWait
 	end
 }
@@ -214732,10 +226152,15 @@ script 1 mmbn3 {
 	clearMsg
 	flagClear
 		flag = 2305
-	"Hee,hee,hee…"
+	"""
+	Hee,hee,hee…
+	"""
 	wait
 		frames = 18
-	"\nGwa-ha-ha-ha-ha-ha!!"
+	"""
+	
+	Gwa-ha-ha-ha-ha-ha!!
+	"""
 	keyWait
 	end
 }
@@ -214746,7 +226171,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Where am I?"
+	"""
+	Where am I?
+	"""
 	keyWait
 	end
 }
@@ -214773,7 +226200,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan…"
+	"""
+	Lan…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -214811,7 +226240,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"I called you,Lan."
+	"""
+	I called you,Lan.
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -214834,7 +226265,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"To say goodbye."
+	"""
+	To say goodbye.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -214877,7 +226310,9 @@ script 9 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Thank you,Lan."
+	"""
+	Thank you,Lan.
+	"""
 	keyWait
 	end
 }
@@ -214912,7 +226347,9 @@ script 11 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Ahhhhhhhhh!!"
+	"""
+	Ahhhhhhhhh!!
+	"""
 	keyWait
 	end
 }
@@ -214923,7 +226360,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Hub…"
+	"""
+	Hub…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -214933,7 +226372,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan! Lan!"
+	"""
+	Lan! Lan!
+	"""
 	keyWait
 	end
 }
@@ -214941,7 +226382,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Was that… a dream?"
+	"""
+	Was that… a dream?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -215037,7 +226480,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Yeah,I guess…"
+	"""
+	Yeah,I guess…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -215061,7 +226506,9 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Wow…"
+	"""
+	Wow…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -215105,7 +226552,9 @@ script 12 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Yeah,I guess so."
+	"""
+	Yeah,I guess so.
+	"""
 	keyWait
 	end
 }
@@ -215156,12 +226605,16 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"What it really is…?"
+	"""
+	What it really is…?
+	"""
 	keyWait
 	clearMsg
 	mugshotAnimate
 		animation = 0
-	"Gulp…"
+	"""
+	Gulp…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -215276,18 +226729,26 @@ script 5 mmbn3 {
 	clearMsg
 	mugshotAnimate
 		animation = 0
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	mugshotAnimate
 		animation = 1
-	"deleted his Navi."
+	"""
+	deleted his Navi.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -215311,7 +226772,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"An accident?"
+	"""
+	An accident?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -215454,13 +226917,19 @@ script 11 mmbn3 {
 		animation = 0
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	keyWait
 	clearMsg
 	mugshotAnimate
@@ -215520,7 +226989,9 @@ script 13 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"It MUST be deleted!!"
+	"""
+	It MUST be deleted!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -215534,22 +227005,33 @@ script 14 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 299
-	"Weoo! "
+	"""
+	Weoo! 
+	"""
 	wait
 		frames = 64
 	soundPlay
 		track = 299
-	"Weoo! "
+	"""
+	Weoo! 
+	"""
 	wait
 		frames = 64
 	soundPlay
 		track = 299
-	"Weoo!"
+	"""
+	Weoo!
+	"""
 	wait
 		frames = 64
-	"\n"
+	"""
+	
+	
+	"""
 	soundEnableTextSFX
-	"Emergency!!"
+	"""
+	Emergency!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -215587,7 +227069,9 @@ script 16 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Gosh,I hope not!"
+	"""
+	Gosh,I hope not!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -215609,7 +227093,9 @@ script 17 mmbn3 {
 script 18 mmbn3 {
 	mugshotHide
 	msgOpen
-	"Roger!!"
+	"""
+	Roger!!
+	"""
 	keyWait
 	end
 }
@@ -215617,7 +227103,9 @@ script 19 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan,let's go,too!"
+	"""
+	Lan,let's go,too!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -215627,7 +227115,9 @@ script 20 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"You bet!"
+	"""
+	You bet!
+	"""
 	keyWait
 	end
 }
@@ -215658,7 +227148,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"L-Lan!!"
+	"""
+	L-Lan!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -215675,10 +227167,14 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Just trust me!"
+	"""
+	Just trust me!
+	"""
 	keyWait
 	clearMsg
-	"Now,get going!"
+	"""
+	Now,get going!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -215688,7 +227184,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"Lan!! Look out!!"
+	"""
+	Lan!! Look out!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -215718,7 +227216,9 @@ script 5 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Please forgive me!"
+	"""
+	Please forgive me!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -215764,7 +227264,9 @@ script 8 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 297
-	"Bee-bee-beep…"
+	"""
+	Bee-bee-beep…
+	"""
 	wait
 		frames = 60
 	keyWait
@@ -215789,7 +227291,9 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Dex!! Hurry!!"
+	"""
+	Dex!! Hurry!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -215832,7 +227336,9 @@ script 13 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 297
-	"Beep! Bee-bee-beep…!"
+	"""
+	Beep! Bee-bee-beep…!
+	"""
 	wait
 		frames = 60
 	keyWait
@@ -215847,7 +227353,9 @@ script 14 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Whaaa!"
+	"""
+	Whaaa!
+	"""
 	keyWait
 	end
 }
@@ -215866,7 +227374,9 @@ script 16 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"I… I think so…"
+	"""
+	I… I think so…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -215909,7 +227419,9 @@ script 18 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 297
-	"Beebeebeebeep!"
+	"""
+	Beebeebeebeep!
+	"""
 	wait
 		frames = 60
 	keyWait
@@ -215922,7 +227434,9 @@ script 19 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"There's the port!!"
+	"""
+	There's the port!!
+	"""
 	keyWait
 	clearMsg
 	flagSet
@@ -215933,7 +227447,9 @@ script 20 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Got it!!"
+	"""
+	Got it!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -215951,7 +227467,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan!"
+	"""
+	Lan!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -216000,7 +227518,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"What do you mean?"
+	"""
+	What do you mean?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -216097,7 +227617,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Roger!"
+	"""
+	Roger!
+	"""
 	keyWait
 	end
 }
@@ -216108,7 +227630,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = SciLabMan
 	msgOpen
-	"Are you OK,Lan?!"
+	"""
+	Are you OK,Lan?!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -216164,7 +227688,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Wh… What do you mean?"
+	"""
+	Wh… What do you mean?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -216188,7 +227714,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"You mean the virus?"
+	"""
+	You mean the virus?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -216205,11 +227733,15 @@ script 6 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Was "
+	"""
+	Was 
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 129
-	"!!"
+	"""
+	!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -216222,7 +227754,9 @@ script 7 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 129
-	"?!"
+	"""
+	?!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -216288,7 +227822,9 @@ script 10 mmbn3 {
 	flagSet
 		flag = 2627
 	soundDisableTextSFX
-	"Beep beep beep!!"
+	"""
+	Beep beep beep!!
+	"""
 	wait
 		frames = 90
 	keyWait
@@ -216300,7 +227836,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = SciLabMan
 	msgOpen
-	"Yes…?"
+	"""
+	Yes…?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -216325,7 +227863,9 @@ script 12 mmbn3 {
 	msgOpen
 	flagSet
 		flag = 2628
-	"What happened?!"
+	"""
+	What happened?!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -216337,7 +227877,9 @@ script 13 mmbn3 {
 	msgOpen
 	flagClear
 		flag = 2630
-	"Seems that "
+	"""
+	Seems that 
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 129
@@ -216375,7 +227917,9 @@ script 15 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"War?!"
+	"""
+	War?!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -216422,7 +227966,9 @@ script 17 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 129
-	"s!"
+	"""
+	s!
+	"""
 	keyWait
 	end
 }
@@ -216432,7 +227978,9 @@ script 18 mmbn3 {
 	msgOpen
 	flagClear
 		flag = 2630
-	"Chaud,come with me!"
+	"""
+	Chaud,come with me!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -216442,7 +227990,9 @@ script 19 mmbn3 {
 	mugshotShow
 		mugshot = Chaud
 	msgOpen
-	"Yes,sir!"
+	"""
+	Yes,sir!
+	"""
 	keyWait
 	end
 }
@@ -216450,7 +228000,9 @@ script 20 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"I'm coming,too!!"
+	"""
+	I'm coming,too!!
+	"""
 	keyWait
 	clearMsg
 	flagSet
@@ -216492,7 +228044,9 @@ script 23 mmbn3 {
 	mugshotHide
 	msgOpen
 	soundDisableTextSFX
-	"Beep beep beep!!"
+	"""
+	Beep beep beep!!
+	"""
 	keyWait
 	soundEnableTextSFX
 	end
@@ -216507,7 +228061,9 @@ script 24 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"From mom!"
+	"""
+	From mom!
+	"""
 	keyWait
 	end
 }
@@ -216528,10 +228084,14 @@ script 26 mmbn3 {
 	mugshotShow
 		mugshot = Mom
 	msgOpen
-	"Lan,help me!"
+	"""
+	Lan,help me!
+	"""
 	keyWait
 	clearMsg
-	"It's your dad!"
+	"""
+	It's your dad!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -216575,7 +228135,9 @@ script 29 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"What?!"
+	"""
+	What?!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -216598,7 +228160,9 @@ script 30 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Roger!"
+	"""
+	Roger!
+	"""
 	keyWait
 	end
 }
@@ -216609,7 +228173,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Mom!!"
+	"""
+	Mom!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -216619,7 +228185,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = Mom
 	msgOpen
-	"Lan!"
+	"""
+	Lan!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -216629,7 +228197,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Have you found dad?!"
+	"""
+	Have you found dad?!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -216639,7 +228209,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Mom
 	msgOpen
-	"No,not yet…"
+	"""
+	No,not yet…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -216649,7 +228221,9 @@ script 3 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Oh,what shall we do?"
+	"""
+	Oh,what shall we do?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -216659,7 +228233,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Medication?"
+	"""
+	Medication?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -216704,7 +228280,9 @@ script 6 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Oh,no!!"
+	"""
+	Oh,no!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -216760,7 +228338,9 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"OK!"
+	"""
+	OK!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -216777,7 +228357,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = Mom
 	msgOpen
-	"Lan…"
+	"""
+	Lan…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -216804,7 +228386,10 @@ script 12 mmbn3 {
 	printItem
 		buffer = 0
 		item = 38
-	"\"!!\n"
+	"""
+	"!!
+	
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -216830,7 +228415,9 @@ script 14 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Roger!"
+	"""
+	Roger!
+	"""
 	keyWait
 	end
 }
@@ -216841,7 +228428,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Dad!!"
+	"""
+	Dad!!
+	"""
 	keyWait
 	end
 }
@@ -216849,7 +228438,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = Dad
 	msgOpen
-	"So you followed me…"
+	"""
+	So you followed me…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -216896,7 +228487,9 @@ script 3 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 129
-	"s' attack."
+	"""
+	s' attack.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -216947,7 +228540,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Why?!"
+	"""
+	Why?!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -216970,7 +228565,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = Dad
 	msgOpen
-	"………"
+	"""
+	………
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -217001,7 +228598,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"………"
+	"""
+	………
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -217032,7 +228631,9 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"………"
+	"""
+	………
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -217075,7 +228676,9 @@ script 12 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"What?!"
+	"""
+	What?!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -217091,7 +228694,9 @@ script 13 mmbn3 {
 	mugshotShow
 		mugshot = Dad
 	msgOpen
-	"Yes."
+	"""
+	Yes.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -217134,7 +228739,9 @@ script 13 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Not even by Wily."
+	"""
+	Not even by Wily.
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -217146,10 +228753,14 @@ script 14 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 282
-	"Bee-beep…"
+	"""
+	Bee-beep…
+	"""
 	soundPlay
 		track = 262
-	" Beeeep!!"
+	"""
+	 Beeeep!!
+	"""
 	soundEnableTextSFX
 	keyWait
 	clearMsg
@@ -217167,7 +228778,9 @@ script 15 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"…Argh!!"
+	"""
+	…Argh!!
+	"""
 	keyWait
 	end
 }
@@ -217175,7 +228788,9 @@ script 16 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Dad!!"
+	"""
+	Dad!!
+	"""
 	keyWait
 	end
 }
@@ -217210,7 +228825,9 @@ script 18 mmbn3 {
 	keyWait
 	clearMsg
 	mugshotHide
-	"Gulp…"
+	"""
+	Gulp…
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -217267,7 +228884,9 @@ script 21 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"And I have MegaMan!"
+	"""
+	And I have MegaMan!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -217311,7 +228930,9 @@ script 23 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Dad…"
+	"""
+	Dad…
+	"""
 	wait
 		frames = 60
 	keyWait
@@ -217345,7 +228966,9 @@ script 25 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"\"Demon Waters\"?"
+	"""
+	"Demon Waters"?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -217385,7 +229008,9 @@ script 27 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Demon Waters…"
+	"""
+	Demon Waters…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -217496,7 +229121,9 @@ script 31 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Roger!!"
+	"""
+	Roger!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -217506,7 +229133,9 @@ script 32 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"We will!!"
+	"""
+	We will!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -217564,7 +229193,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = LordWily
 	msgOpen
-	"Precisely!!"
+	"""
+	Precisely!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -217628,7 +229259,9 @@ script 5 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Just burnin',baby!"
+	"""
+	Just burnin',baby!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -217652,7 +229285,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = LordWily
 	msgOpen
-	"Inukai?"
+	"""
+	Inukai?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -217669,7 +229304,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = Sunayama
 	msgOpen
-	"………"
+	"""
+	………
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -217692,7 +229329,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = LordWily
 	msgOpen
-	"Muwahahaha!"
+	"""
+	Muwahahaha!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -217729,7 +229368,9 @@ script 9 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Delete it!!"
+	"""
+	Delete it!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -217739,7 +229380,9 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = Ray
 	msgOpen
-	"Delete it!!"
+	"""
+	Delete it!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -217749,7 +229392,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = Sunayama
 	msgOpen
-	"Deleeeete itttt!!"
+	"""
+	Deleeeete itttt!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -217759,7 +229404,9 @@ script 12 mmbn3 {
 	mugshotShow
 		mugshot = Anetta
 	msgOpen
-	"Delete it!!"
+	"""
+	Delete it!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -217769,7 +229416,9 @@ script 13 mmbn3 {
 	mugshotShow
 		mugshot = MrMatch
 	msgOpen
-	"De! Lete! It!"
+	"""
+	De! Lete! It!
+	"""
 	keyWait
 	flagSet
 		flag = 2625
@@ -217783,7 +229432,9 @@ script 14 mmbn3 {
 	mugshotShow
 		mugshot = LordWily
 	msgOpen
-	"Muwahahahahaha!!"
+	"""
+	Muwahahahahaha!!
+	"""
 	keyWait
 	end
 }
@@ -217791,7 +229442,9 @@ script 15 mmbn3 {
 	mugshotShow
 		mugshot = LordWily
 	msgOpen
-	"Ah,ahem…"
+	"""
+	Ah,ahem…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -217849,7 +229502,9 @@ script 15 mmbn3 {
 	clearMsg
 	flagSet
 		flag = 2625
-	"MUWAHAHAHAHA!!"
+	"""
+	MUWAHAHAHAHA!!
+	"""
 	keyWait
 	end
 }
@@ -217907,7 +229562,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"No."
+	"""
+	No.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -217930,7 +229587,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan…"
+	"""
+	Lan…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -217959,7 +229618,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Roger!"
+	"""
+	Roger!
+	"""
 	keyWait
 	end
 }
@@ -218008,7 +229669,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"What the…?"
+	"""
+	What the…?
+	"""
 	keyWait
 	end
 }
@@ -218063,7 +229726,9 @@ script 7 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"We worry about you!"
+	"""
+	We worry about you!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -218086,7 +229751,9 @@ script 8 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"We're goin' with ya!"
+	"""
+	We're goin' with ya!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -218110,10 +229777,14 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Thanks,guys…"
+	"""
+	Thanks,guys…
+	"""
 	keyWait
 	clearMsg
-	"But…"
+	"""
+	But…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -218123,7 +229794,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"No \"buts\" about it!"
+	"""
+	No "buts" about it!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -218139,7 +229812,9 @@ script 12 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Dex…"
+	"""
+	Dex…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -218256,16 +229931,25 @@ script 18 mmbn3 {
 	mugshotShow
 		mugshot = Yai
 	msgOpen
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"\nI know…"
+	"""
+	
+	I know…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -218284,7 +229968,9 @@ script 19 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"Lan,we'll wait here."
+	"""
+	Lan,we'll wait here.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -218346,7 +230032,9 @@ script 23 mmbn3 {
 	mugshotShow
 		mugshot = Tora
 	msgOpen
-	"Hold that boat!!"
+	"""
+	Hold that boat!!
+	"""
 	keyWait
 	flagSet
 		flag = 2626
@@ -218371,7 +230059,9 @@ script 25 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Tora!!"
+	"""
+	Tora!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -218439,7 +230129,9 @@ script 29 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Tora…"
+	"""
+	Tora…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -218540,7 +230232,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Yeah!!"
+	"""
+	Yeah!!
+	"""
 	keyWait
 	end
 }
@@ -218579,7 +230273,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"OK! Jack in!!"
+	"""
+	OK! Jack in!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -218603,7 +230299,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"No,not at all!"
+	"""
+	No,not at all!
+	"""
 	keyWait
 	end
 }
@@ -218666,7 +230364,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = Chaud
 	msgOpen
-	"Who's there?!"
+	"""
+	Who's there?!
+	"""
 	keyWait
 	end
 }
@@ -218674,7 +230374,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"It's you!!"
+	"""
+	It's you!!
+	"""
 	keyWait
 	end
 }
@@ -218682,7 +230384,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = Chaud
 	msgOpen
-	"You know him?"
+	"""
+	You know him?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -218745,7 +230449,9 @@ script 13 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Huh?!"
+	"""
+	Huh?!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -218928,7 +230634,9 @@ script 21 mmbn3 {
 	mugshotShow
 		mugshot = Tora
 	msgOpen
-	"S-So…"
+	"""
+	S-So…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -218978,7 +230686,9 @@ script 23 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Pulse in!"
+	"""
+	Pulse in!
+	"""
 	keyWait
 	soundPlay
 		track = 317
@@ -218987,7 +230697,9 @@ script 23 mmbn3 {
 script 24 mmbn3 {
 	mugshotHide
 	msgOpen
-	"OK,I've pulsed in."
+	"""
+	OK,I've pulsed in.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -219052,19 +230764,25 @@ script 1 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 162
-	"Click!"
+	"""
+	Click!
+	"""
 	wait
 		frames = 27
 	soundPlay
 		track = 162
-	" Clack!…"
+	"""
+	 Clack!…
+	"""
 	wait
 		frames = 24
 	keyWait
 	clearMsg
 	soundPlay
 		track = 220
-	"Ping!!"
+	"""
+	Ping!!
+	"""
 	soundEnableTextSFX
 	keyWait
 	end
@@ -219087,16 +230805,24 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Cossak
 	msgOpen
-	"!!"
+	"""
+	!!
+	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -219179,7 +230905,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = Cossak
 	msgOpen
-	"Arrgh!!"
+	"""
+	Arrgh!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -219210,7 +230938,9 @@ script 8 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Behold!"
+	"""
+	Behold!
+	"""
 	keyWait
 	flagSet
 		flag = 2626
@@ -219234,13 +230964,19 @@ script 9 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"And I survived."
+	"""
+	And I survived.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	keyWait
@@ -219361,7 +231097,9 @@ script 14 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"And I can do this!"
+	"""
+	And I can do this!
+	"""
 	keyWait
 	flagSet
 		flag = 2625
@@ -219384,7 +231122,9 @@ script 15 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Human fool!"
+	"""
+	Human fool!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -219435,7 +231175,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = Cossak
 	msgOpen
-	"Aggghhhh!!"
+	"""
+	Aggghhhh!!
+	"""
 	keyWait
 	end
 }
@@ -219443,7 +231185,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Cossack!!"
+	"""
+	Cossack!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -219499,7 +231243,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = Cossak
 	msgOpen
-	"Please. Delete Bass…"
+	"""
+	Please. Delete Bass…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -219509,31 +231255,49 @@ script 4 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"Please…"
+	"""
+	Please…
+	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 20
 	keyWait
@@ -219545,18 +231309,26 @@ script 4 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	" Bass…"
+	"""
+	 Bass…
+	"""
 	keyWait
 	clearMsg
 	mugshotAnimate
 		animation = 0
-	"Nghh……"
+	"""
+	Nghh……
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -219566,7 +231338,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Cossack!!"
+	"""
+	Cossack!!
+	"""
 	keyWait
 	end
 }
@@ -219574,7 +231348,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = Chaud
 	msgOpen
-	"Don't touch him!"
+	"""
+	Don't touch him!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -219616,10 +231392,14 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Thanks,Dex!!"
+	"""
+	Thanks,Dex!!
+	"""
 	keyWait
 	clearMsg
-	"C'mon! Let's go!"
+	"""
+	C'mon! Let's go!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -219629,7 +231409,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = Chaud
 	msgOpen
-	"Agreed."
+	"""
+	Agreed.
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -219668,7 +231450,9 @@ script 1 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 318
-	"Beep! Beep!!"
+	"""
+	Beep! Beep!!
+	"""
 	soundEnableTextSFX
 	keyWait
 	clearMsg
@@ -219679,7 +231463,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Tora
 	msgOpen
-	"What's that sound?"
+	"""
+	What's that sound?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -219695,7 +231481,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Huh? Above me?"
+	"""
+	Huh? Above me?
+	"""
 	keyWait
 	end
 }
@@ -219703,7 +231491,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"What IS that?!"
+	"""
+	What IS that?!
+	"""
 	keyWait
 	end
 }
@@ -219717,7 +231507,9 @@ script 5 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Here it comes!!"
+	"""
+	Here it comes!!
+	"""
 	keyWait
 	end
 }
@@ -219741,7 +231533,9 @@ script 7 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 318
-	"Beep! Beep!"
+	"""
+	Beep! Beep!
+	"""
 	soundEnableTextSFX
 	keyWait
 	clearMsg
@@ -219752,7 +231546,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan! Look out!!"
+	"""
+	Lan! Look out!!
+	"""
 	keyWait
 	flagSet
 		flag = 2625
@@ -219762,7 +231558,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Whoa!"
+	"""
+	Whoa!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -219807,7 +231605,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = Tora
 	msgOpen
-	"What?!"
+	"""
+	What?!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -219817,7 +231617,9 @@ script 11 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"…………"
+	"""
+	…………
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -219827,10 +231629,15 @@ script 12 mmbn3 {
 	mugshotShow
 		mugshot = Chaud
 	msgOpen
-	"Careful!\n"
+	"""
+	Careful!
+	
+	"""
 	flagClear
 		flag = 2626
-	"Here it comes again!"
+	"""
+	Here it comes again!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -219847,7 +231654,9 @@ script 13 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"But what can we do?"
+	"""
+	But what can we do?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -219897,7 +231706,9 @@ script 16 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"OK! Now!!"
+	"""
+	OK! Now!!
+	"""
 	keyWait
 	flagSet
 		flag = 2626
@@ -219926,7 +231737,9 @@ script 18 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Yaaaaah!!"
+	"""
+	Yaaaaah!!
+	"""
 	keyWait
 	end
 }
@@ -219948,7 +231761,9 @@ script 20 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Gotcha!!"
+	"""
+	Gotcha!!
+	"""
 	keyWait
 	end
 }
@@ -219987,7 +231802,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"OK!!"
+	"""
+	OK!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -220004,7 +231821,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Roger!!"
+	"""
+	Roger!!
+	"""
 	keyWait
 	end
 }
@@ -220048,7 +231867,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = FlashMan
 	msgOpen
-	"Wahahaha!!"
+	"""
+	Wahahaha!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -220093,7 +231914,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = FlashMan
 	msgOpen
-	"Yes,sir!!"
+	"""
+	Yes,sir!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -220122,7 +231945,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Full Synchro?!"
+	"""
+	Full Synchro?!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -220192,7 +232017,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan!!"
+	"""
+	Lan!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -220202,13 +232029,20 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Here we go!"
+	"""
+	Here we go!
+	"""
 	keyWait
 	clearMsg
-	"Battle routine,"
+	"""
+	Battle routine,
+	"""
 	waitSkip
 		frames = 30
-	"\nset!"
+	"""
+	
+	set!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -220218,7 +232052,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Execute!"
+	"""
+	Execute!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -220235,7 +232071,9 @@ script 12 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Wahahaha!!"
+	"""
+	Wahahaha!!
+	"""
 	keyWait
 	end
 }
@@ -220274,7 +232112,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = FlashMan
 	msgOpen
-	"Yes,sir!!"
+	"""
+	Yes,sir!!
+	"""
 	keyWait
 	end
 }
@@ -220298,7 +232138,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = FlashMan
 	msgOpen
-	"Shining…!"
+	"""
+	Shining…!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -220308,7 +232150,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = Tora
 	msgOpen
-	"Checkmate!!"
+	"""
+	Checkmate!!
+	"""
 	keyWait
 	end
 }
@@ -220318,7 +232162,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Tora!!"
+	"""
+	Tora!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -220355,7 +232201,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = Tora
 	msgOpen
-	"Look who's talking!"
+	"""
+	Look who's talking!
+	"""
 	keyWait
 	end
 }
@@ -220363,7 +232211,9 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = FlashMan
 	msgOpen
-	"Whaaaaaa!!"
+	"""
+	Whaaaaaa!!
+	"""
 	keyWait
 	end
 }
@@ -220371,7 +232221,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Thanks,Tora!"
+	"""
+	Thanks,Tora!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -220410,7 +232262,9 @@ script 14 mmbn3 {
 	msgOpen
 	playerAnimate
 		animation = 4
-	"Roger!"
+	"""
+	Roger!
+	"""
 	keyWait
 	end
 }
@@ -220421,7 +232275,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"What is this place?"
+	"""
+	What is this place?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -220465,7 +232321,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Chaud
 	msgOpen
-	"Looks that way…"
+	"""
+	Looks that way…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -220482,10 +232340,14 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Well…"
+	"""
+	Well…
+	"""
 	keyWait
 	clearMsg
-	"Let's find it!"
+	"""
+	Let's find it!
+	"""
 	keyWait
 	end
 }
@@ -220534,7 +232396,9 @@ script 2 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"We have to move!!"
+	"""
+	We have to move!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -220544,7 +232408,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"I know,I know!!"
+	"""
+	I know,I know!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -220562,7 +232428,9 @@ script 4 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Let's move on!"
+	"""
+	Let's move on!
+	"""
 	keyWait
 	end
 }
@@ -220573,7 +232441,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Whoa! Another one!"
+	"""
+	Whoa! Another one!
+	"""
 	keyWait
 	end
 }
@@ -220601,7 +232471,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Yeah!"
+	"""
+	Yeah!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -220611,10 +232483,14 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Chaud
 	msgOpen
-	"Ready,set…"
+	"""
+	Ready,set…
+	"""
 	keyWait
 	clearMsg
-	"Go!"
+	"""
+	Go!
+	"""
 	keyWait
 	flagSet
 		flag = 2626
@@ -220646,7 +232522,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = Chaud
 	msgOpen
-	"Gotcha."
+	"""
+	Gotcha.
+	"""
 	keyWait
 	flagSet
 		flag = 2626
@@ -220658,7 +232536,9 @@ script 6 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 318
-	"Beep… Beep…"
+	"""
+	Beep… Beep…
+	"""
 	soundEnableTextSFX
 	keyWait
 	clearMsg
@@ -220669,7 +232549,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan!!"
+	"""
+	Lan!!
+	"""
 	wait
 		frames = 30
 	clearMsg
@@ -220684,7 +232566,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Wha…!!"
+	"""
+	Wha…!!
+	"""
 	wait
 		frames = 10
 	end
@@ -220693,7 +232577,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Whoa!"
+	"""
+	Whoa!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -220703,7 +232589,9 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan! Run!"
+	"""
+	Lan! Run!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -220715,7 +232603,9 @@ script 11 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 318
-	"Beep beep beep!!"
+	"""
+	Beep beep beep!!
+	"""
 	soundEnableTextSFX
 	keyWait
 	flagSet
@@ -220740,7 +232630,9 @@ script 13 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 318
-	"Beep beep beep!!"
+	"""
+	Beep beep beep!!
+	"""
 	soundEnableTextSFX
 	keyWait
 	clearMsg
@@ -220764,7 +232656,9 @@ script 15 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Dex!!"
+	"""
+	Dex!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -220800,7 +232694,9 @@ script 18 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Gotcha!!"
+	"""
+	Gotcha!!
+	"""
 	keyWait
 	end
 }
@@ -220825,7 +232721,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Roger!"
+	"""
+	Roger!
+	"""
 	keyWait
 	end
 }
@@ -220836,7 +232734,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"BubbleMan!!"
+	"""
+	BubbleMan!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -220886,7 +232786,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = BubbleMan
 	msgOpen
-	"Blub blub blub!"
+	"""
+	Blub blub blub!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -220915,10 +232817,15 @@ script 4 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Battle routine,"
+	"""
+	Battle routine,
+	"""
 	waitSkip
 		frames = 30
-	"\nset!"
+	"""
+	
+	set!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -220928,7 +232835,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Execute!"
+	"""
+	Execute!
+	"""
 	keyWait
 	end
 }
@@ -220954,7 +232863,9 @@ script 0 mmbn3 {
 	clearMsg
 	flagSet
 		flag = 2626
-	"Blu-blu-bwaaah!!"
+	"""
+	Blu-blu-bwaaah!!
+	"""
 	keyWait
 	end
 }
@@ -220976,7 +232887,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"No!"
+	"""
+	No!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -220999,7 +232912,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Roger!!"
+	"""
+	Roger!!
+	"""
 	keyWait
 	end
 }
@@ -221032,7 +232947,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"MegaMan! Below you!!"
+	"""
+	MegaMan! Below you!!
+	"""
 	keyWait
 	end
 }
@@ -221040,14 +232957,19 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Whoa!"
+	"""
+	Whoa!
+	"""
 	keyWait
 	end
 }
 script 4 mmbn3 {
 	mugshotHide
 	msgOpen
-	"Zuoooh… Zazooooh…\n"
+	"""
+	Zuoooh… Zazooooh…
+	
+	"""
 	playerAnimate
 		animation = 28
 	"""
@@ -221089,7 +233011,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Sunayama!!"
+	"""
+	Sunayama!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -221106,7 +233030,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = Sunayama
 	msgOpen
-	"Hah!!"
+	"""
+	Hah!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -221130,7 +233056,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"You escaped…?!"
+	"""
+	You escaped…?!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -221140,7 +233068,9 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = Sunayama
 	msgOpen
-	"You bet!"
+	"""
+	You bet!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -221196,7 +233126,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan! This is bad!"
+	"""
+	Lan! This is bad!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -221225,7 +233157,9 @@ script 13 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Yaahhh!"
+	"""
+	Yaahhh!
+	"""
 	keyWait
 	end
 }
@@ -221276,7 +233210,9 @@ script 17 mmbn3 {
 	mugshotShow
 		mugshot = GutsMan
 	msgOpen
-	"Gaaaahhhh!!"
+	"""
+	Gaaaahhhh!!
+	"""
 	keyWait
 	flagSet
 		flag = 2629
@@ -221293,7 +233229,9 @@ script 18 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Argh!!"
+	"""
+	Argh!!
+	"""
 	keyWait
 	flagSet
 		flag = 2626
@@ -221303,7 +233241,9 @@ script 19 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"Now,Lan!!"
+	"""
+	Now,Lan!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -221319,10 +233259,15 @@ script 20 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Battle routine,"
+	"""
+	Battle routine,
+	"""
 	waitSkip
 		frames = 30
-	"\nset!"
+	"""
+	
+	set!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -221332,7 +233277,9 @@ script 21 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Execute!"
+	"""
+	Execute!
+	"""
 	keyWait
 	end
 }
@@ -221343,7 +233290,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = DesertMan
 	msgOpen
-	"Yaaaaaahhh!!"
+	"""
+	Yaaaaaahhh!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -221355,7 +233304,9 @@ script 1 mmbn3 {
 	msgOpen
 	flagSet
 		flag = 2626
-	"Arrrrrgh!!"
+	"""
+	Arrrrrgh!!
+	"""
 	keyWait
 	end
 }
@@ -221363,7 +233314,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan!!"
+	"""
+	Lan!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -221393,7 +233346,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Roger!"
+	"""
+	Roger!
+	"""
 	keyWait
 	end
 }
@@ -221404,10 +233359,15 @@ script 0 mmbn3 {
 	mugshotHide
 	msgOpen
 	soundDisableTextSFX
-	"Crunch… Crunch…\n"
+	"""
+	Crunch… Crunch…
+	
+	"""
 	soundPlay
 		track = 321
-	"Rumble…"
+	"""
+	Rumble…
+	"""
 	wait
 		frames = 6
 	keyWait
@@ -221420,7 +233380,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"What's that noise?"
+	"""
+	What's that noise?
+	"""
 	keyWait
 	clearMsg
 	msgClose
@@ -221453,7 +233415,9 @@ script 3 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 321
-	"Rumble…"
+	"""
+	Rumble…
+	"""
 	wait
 		frames = 60
 	soundEnableTextSFX
@@ -221466,7 +233430,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Huh?"
+	"""
+	Huh?
+	"""
 	keyWait
 	playerAnimate
 		animation = 1
@@ -221476,7 +233442,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Whoa!!"
+	"""
+	Whoa!!
+	"""
 	wait
 		frames = 10
 	end
@@ -221485,10 +233453,14 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Wow,that was close…"
+	"""
+	Wow,that was close…
+	"""
 	keyWait
 	clearMsg
-	"Chaud!!"
+	"""
+	Chaud!!
+	"""
 	keyWait
 	end
 }
@@ -221509,7 +233481,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = Chaud
 	msgOpen
-	"L-Lan…!"
+	"""
+	L-Lan…!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -221559,7 +233533,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"No way!!"
+	"""
+	No way!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -221576,7 +233552,9 @@ script 11 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"C'mon,MegaMan!!"
+	"""
+	C'mon,MegaMan!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -221586,7 +233564,9 @@ script 12 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"You bet!!"
+	"""
+	You bet!!
+	"""
 	keyWait
 	end
 }
@@ -221611,7 +233591,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Roger!"
+	"""
+	Roger!
+	"""
 	keyWait
 	end
 }
@@ -221656,7 +233638,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"What?!"
+	"""
+	What?!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -221721,7 +233705,9 @@ script 5 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Right,Anetta?"
+	"""
+	Right,Anetta?
+	"""
 	keyWait
 	clearMsg
 	flagSet
@@ -221767,7 +233753,9 @@ script 7 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Ready,FlameMan?"
+	"""
+	Ready,FlameMan?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -221777,7 +233765,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = FlameMan
 	msgOpen
-	"Grrrrahhhh!!"
+	"""
+	Grrrrahhhh!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -221800,7 +233790,9 @@ script 9 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Full Synchro!!"
+	"""
+	Full Synchro!!
+	"""
 	keyWait
 	end
 }
@@ -221821,10 +233813,14 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = Anetta
 	msgOpen
-	"Of course!!"
+	"""
+	Of course!!
+	"""
 	keyWait
 	clearMsg
-	"Full Synchro!!"
+	"""
+	Full Synchro!!
+	"""
 	keyWait
 	end
 }
@@ -221860,7 +233856,9 @@ script 14 mmbn3 {
 	mugshotShow
 		mugshot = Anetta
 	msgOpen
-	"Here we come!!"
+	"""
+	Here we come!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -221870,7 +233868,9 @@ script 15 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan! Watch out!"
+	"""
+	Lan! Watch out!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -221886,10 +233886,15 @@ script 16 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Double routine!"
+	"""
+	Double routine!
+	"""
 	waitSkip
 		frames = 30
-	"\nSet!"
+	"""
+	
+	Set!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -221899,7 +233904,9 @@ script 17 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Execute!"
+	"""
+	Execute!
+	"""
 	keyWait
 	end
 }
@@ -221917,7 +233924,9 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Araaaaagh!!"
+	"""
+	Araaaaagh!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -221941,7 +233950,9 @@ script 1 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"So hot…"
+	"""
+	So hot…
+	"""
 	keyWait
 	end
 }
@@ -221963,7 +233974,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Yeah!"
+	"""
+	Yeah!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -221980,7 +233993,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"OK!"
+	"""
+	OK!
+	"""
 	keyWait
 	end
 }
@@ -222018,7 +234033,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Yeah,let's go!"
+	"""
+	Yeah,let's go!
+	"""
 	keyWait
 	end
 }
@@ -222055,7 +234072,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Yeah!"
+	"""
+	Yeah!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -222078,7 +234097,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"That's quite a door!"
+	"""
+	That's quite a door!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -222120,7 +234141,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan…"
+	"""
+	Lan…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -222129,7 +234152,9 @@ script 3 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Forever and ever!"
+	"""
+	Forever and ever!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -222139,7 +234164,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Thanks!!"
+	"""
+	Thanks!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -222155,7 +234182,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Roger!!"
+	"""
+	Roger!!
+	"""
 	keyWait
 	end
 }
@@ -222163,7 +234192,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Wh-What?!"
+	"""
+	Wh-What?!
+	"""
 	keyWait
 	end
 }
@@ -222171,7 +234202,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan,get back!!"
+	"""
+	Lan,get back!!
+	"""
 	keyWait
 	end
 }
@@ -222260,7 +234293,9 @@ script 13 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Ready,Lan!"
+	"""
+	Ready,Lan!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -222305,7 +234340,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Roger!!"
+	"""
+	Roger!!
+	"""
 	keyWait
 	end
 }
@@ -222381,7 +234418,10 @@ script 3 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"\nset!"
+	"""
+	
+	set!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -222391,7 +234431,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Execute!"
+	"""
+	Execute!
+	"""
 	keyWait
 	end
 }
@@ -222402,7 +234444,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = DrillMan
 	msgOpen
-	"Agh! Is this it?!"
+	"""
+	Agh! Is this it?!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -222412,7 +234456,9 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Vweeeeeen!!"
+	"""
+	Vweeeeeen!!
+	"""
 	keyWait
 	end
 }
@@ -222433,10 +234479,14 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Roger…!"
+	"""
+	Roger…!
+	"""
 	keyWait
 	clearMsg
-	"Wha!!"
+	"""
+	Wha!!
+	"""
 	keyWait
 	end
 }
@@ -222444,7 +234494,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"MegaMan!!"
+	"""
+	MegaMan!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -222468,7 +234520,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan! RUN!!"
+	"""
+	Lan! RUN!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -222492,7 +234546,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = DrillMan
 	msgOpen
-	"Stupid human!"
+	"""
+	Stupid human!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -222509,7 +234565,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"LAN!!"
+	"""
+	LAN!!
+	"""
 	keyWait
 	end
 }
@@ -222517,7 +234575,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = DrillMan
 	msgOpen
-	"Vweeeeeen!!"
+	"""
+	Vweeeeeen!!
+	"""
 	keyWait
 	end
 }
@@ -222579,7 +234639,9 @@ script 13 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Go,quick!"
+	"""
+	Go,quick!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -222589,7 +234651,9 @@ script 14 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"………OK!"
+	"""
+	………OK!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -222617,7 +234681,9 @@ script 16 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"OK!!"
+	"""
+	OK!!
+	"""
 	keyWait
 	end
 }
@@ -222775,7 +234841,9 @@ script 6 mmbn3 {
 	clearMsg
 	flagSet
 		flag = 2626
-	"Muwahahahaha!!"
+	"""
+	Muwahahahaha!!
+	"""
 	keyWait
 	clearMsg
 	flagClear
@@ -222801,7 +234869,9 @@ script 7 mmbn3 {
 	clearMsg
 	soundPlay
 		track = 317
-	"Pulse Transmission!!"
+	"""
+	Pulse Transmission!!
+	"""
 	keyWait
 	clearMsg
 	msgClose
@@ -222840,7 +234910,9 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Huh?!"
+	"""
+	Huh?!
+	"""
 	keyWait
 	end
 }
@@ -222848,7 +234920,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Can't we use that?"
+	"""
+	Can't we use that?
+	"""
 	keyWait
 	end
 }
@@ -222922,10 +234996,14 @@ script 15 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan…"
+	"""
+	Lan…
+	"""
 	keyWait
 	clearMsg
-	"OK! Let's go!!"
+	"""
+	OK! Let's go!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -222973,7 +235051,9 @@ script 18 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Ready!!"
+	"""
+	Ready!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -222989,10 +235069,15 @@ script 19 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Go!!\n"
+	"""
+	Go!!
+	
+	"""
 	soundPlay
 		track = 317
-	"Pulse Transmission!!"
+	"""
+	Pulse Transmission!!
+	"""
 	keyWait
 	end
 }
@@ -223000,7 +235085,9 @@ script 20 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Ahaaaaaahg!!"
+	"""
+	Ahaaaaaahg!!
+	"""
 	keyWait
 	end
 }
@@ -223011,7 +235098,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"L… L… La…"
+	"""
+	L… L… La…
+	"""
 	keyWait
 	end
 }
@@ -223019,7 +235108,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan!"
+	"""
+	Lan!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -223041,7 +235132,9 @@ script 2 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"I'm in Cyberworld!"
+	"""
+	I'm in Cyberworld!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -223058,7 +235151,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"I agree! It is!"
+	"""
+	I agree! It is!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -223081,7 +235176,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan? What's wrong?"
+	"""
+	Lan? What's wrong?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -223111,7 +235208,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Yeah!"
+	"""
+	Yeah!
+	"""
 	keyWait
 	end
 }
@@ -223133,7 +235232,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Roger!!"
+	"""
+	Roger!!
+	"""
 	keyWait
 	end
 }
@@ -223151,7 +235252,9 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"\"Guardian\"!"
+	"""
+	"Guardian"!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -223264,7 +235367,9 @@ script 5 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"You amuse me…"
+	"""
+	You amuse me…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -223293,7 +235398,9 @@ script 6 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Get Ability Program!"
+	"""
+	Get Ability Program!
+	"""
 	keyWait
 	end
 }
@@ -223301,7 +235408,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Wily!!"
+	"""
+	Wily!!
+	"""
 	keyWait
 	end
 }
@@ -223335,7 +235444,9 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Bass!!"
+	"""
+	Bass!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -223488,10 +235599,15 @@ script 16 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Battle routine,"
+	"""
+	Battle routine,
+	"""
 	waitSkip
 		frames = 30
-	" \nset!"
+	"""
+	 
+	set!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -223501,7 +235617,9 @@ script 17 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Execute!"
+	"""
+	Execute!
+	"""
 	keyWait
 	end
 }
@@ -223539,7 +235657,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Bass
 	msgOpen
-	"What…?!"
+	"""
+	What…?!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -223592,7 +235712,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = Bass
 	msgOpen
-	"Wily… You…"
+	"""
+	Wily… You…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -223622,7 +235744,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"That's dirty,old man!"
+	"""
+	That's dirty,old man!
+	"""
 	keyWait
 	end
 }
@@ -223630,7 +235754,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Whoa!!"
+	"""
+	Whoa!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -223640,7 +235766,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = Bass
 	msgOpen
-	"!!"
+	"""
+	!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -223669,10 +235797,14 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = Bass
 	msgOpen
-	"Guraaagh!!"
+	"""
+	Guraaagh!!
+	"""
 	keyWait
 	clearMsg
-	"Graaaaaauggghh!"
+	"""
+	Graaaaaauggghh!
+	"""
 	keyWait
 	end
 }
@@ -223680,7 +235812,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Bass!!"
+	"""
+	Bass!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -223699,7 +235833,9 @@ script 12 mmbn3 {
 	msgOpen
 	flagSet
 		flag = 2628
-	"Ahahaha!!"
+	"""
+	Ahahaha!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -223725,7 +235861,9 @@ script 12 mmbn3 {
 	clearMsg
 	flagSet
 		flag = 2629
-	"Aahahahaha!!"
+	"""
+	Aahahahaha!!
+	"""
 	keyWait
 	clearMsg
 	flagClear
@@ -223736,13 +235874,19 @@ script 13 mmbn3 {
 	mugshotShow
 		mugshot = LordWily
 	msgOpen
-	"Huh…?!"
+	"""
+	Huh…?!
+	"""
 	keyWait
 	clearMsg
-	"Stop!! Why…?!"
+	"""
+	Stop!! Why…?!
+	"""
 	keyWait
 	clearMsg
-	"Aaaahhhhh!!"
+	"""
+	Aaaahhhhh!!
+	"""
 	keyWait
 	end
 }
@@ -223750,7 +235894,9 @@ script 14 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Wily!"
+	"""
+	Wily!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -223766,7 +235912,9 @@ script 15 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan!"
+	"""
+	Lan!
+	"""
 	keyWait
 	end
 }
@@ -223774,7 +235922,9 @@ script 16 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"So this is Alpha!!"
+	"""
+	So this is Alpha!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -223820,7 +235970,9 @@ script 18 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"set!"
+	"""
+	set!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -223830,7 +235982,9 @@ script 19 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Execute!"
+	"""
+	Execute!
+	"""
 	keyWait
 	end
 }
@@ -223853,10 +236007,14 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Whew…"
+	"""
+	Whew…
+	"""
 	keyWait
 	clearMsg
-	"Lan…"
+	"""
+	Lan…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -223944,7 +236102,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"OK…"
+	"""
+	OK…
+	"""
 	keyWait
 	end
 }
@@ -223989,7 +236149,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Familiar…?"
+	"""
+	Familiar…?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -224042,7 +236204,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan,look…"
+	"""
+	Lan,look…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -224064,7 +236228,9 @@ script 7 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"SciLab?"
+	"""
+	SciLab?
+	"""
 	keyWait
 	end
 }
@@ -224117,7 +236283,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Who's there?!"
+	"""
+	Who's there?!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -224165,7 +236333,9 @@ script 14 mmbn3 {
 	mugshotShow
 		mugshot = TadashiHikari
 	msgOpen
-	"Gramps?"
+	"""
+	Gramps?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -224194,7 +236364,9 @@ script 15 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Didn't we,Hub!"
+	"""
+	Didn't we,Hub!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -224218,7 +236390,9 @@ script 17 mmbn3 {
 	mugshotShow
 		mugshot = TadashiHikari
 	msgOpen
-	"…Wily?"
+	"""
+	…Wily?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -224261,7 +236435,9 @@ script 19 mmbn3 {
 	mugshotShow
 		mugshot = TadashiHikari
 	msgOpen
-	"I see…"
+	"""
+	I see…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -224346,7 +236522,9 @@ script 22 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Of course!!"
+	"""
+	Of course!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -224356,7 +236534,9 @@ script 22 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Right,MegaMan?!"
+	"""
+	Right,MegaMan?!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -224366,7 +236546,9 @@ script 23 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Yeah!!"
+	"""
+	Yeah!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -224413,7 +236595,9 @@ script 25 mmbn3 {
 	printItem
 		buffer = 0
 		item = 43
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -224492,7 +236676,9 @@ script 29 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"But,Gramps!!"
+	"""
+	But,Gramps!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -224522,12 +236708,16 @@ script 31 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"…OK."
+	"""
+	…OK.
+	"""
 	keyWait
 	clearMsg
 	flagSet
 		flag = 2625
-	"C'mon,Lan! Let's go!"
+	"""
+	C'mon,Lan! Let's go!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -224537,7 +236727,9 @@ script 32 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Gramps…"
+	"""
+	Gramps…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -224561,7 +236753,9 @@ script 33 mmbn3 {
 	mugshotShow
 		mugshot = TadashiHikari
 	msgOpen
-	"You do that!"
+	"""
+	You do that!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -224598,7 +236792,9 @@ script 35 mmbn3 {
 	mugshotShow
 		mugshot = TadashiHikari
 	msgOpen
-	"Goodbye!"
+	"""
+	Goodbye!
+	"""
 	keyWait
 	end
 }
@@ -224643,7 +236839,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Yeah…"
+	"""
+	Yeah…
+	"""
 	keyWait
 	end
 }
@@ -224651,7 +236849,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Whoa!!"
+	"""
+	Whoa!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -224668,7 +236868,9 @@ script 4 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Whoa!!"
+	"""
+	Whoa!!
+	"""
 	keyWait
 	end
 }
@@ -224677,7 +236879,9 @@ script 5 mmbn3 {
 		frames = 90
 	mugshotHide
 	msgOpen
-	"…an! …Lan…!"
+	"""
+	…an! …Lan…!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -224693,7 +236897,9 @@ script 6 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Gasp!"
+	"""
+	Gasp!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -224703,7 +236909,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan,are you awake?!"
+	"""
+	Lan,are you awake?!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -224767,7 +236975,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"…Looks that way."
+	"""
+	…Looks that way.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -224790,7 +237000,9 @@ script 12 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"No…!!"
+	"""
+	No…!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -224868,7 +237080,9 @@ script 15 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Cut that out!"
+	"""
+	Cut that out!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -224966,7 +237180,9 @@ script 18 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"H… Hub…"
+	"""
+	H… Hub…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -224975,7 +237191,9 @@ script 18 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"But… But…"
+	"""
+	But… But…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -225024,7 +237242,9 @@ script 20 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Just don't leave me!"
+	"""
+	Just don't leave me!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -225041,7 +237261,9 @@ script 21 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Thank you!"
+	"""
+	Thank you!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -225051,7 +237273,9 @@ script 22 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"MegaMaaaaaan!!!"
+	"""
+	MegaMaaaaaan!!!
+	"""
 	keyWait
 	end
 }
@@ -225059,7 +237283,9 @@ script 23 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Goodbye,Lan!"
+	"""
+	Goodbye,Lan!
+	"""
 	keyWait
 	end
 }
@@ -225105,7 +237331,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Huh…? Dex?"
+	"""
+	Huh…? Dex?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -225115,7 +237343,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"Lan,are you OK?!"
+	"""
+	Lan,are you OK?!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -225154,7 +237384,9 @@ script 6 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"C'mon,MegaMan!!"
+	"""
+	C'mon,MegaMan!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -225200,7 +237432,9 @@ script 9 mmbn3 {
 	msgOpen
 	flagClear
 		flag = 2625
-	"No,no!!"
+	"""
+	No,no!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -225236,7 +237470,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"MegaMan…"
+	"""
+	MegaMan…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -225269,7 +237505,9 @@ script 13 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"But,MegaMan!"
+	"""
+	But,MegaMan!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -225293,7 +237531,9 @@ script 15 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"What?!"
+	"""
+	What?!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -225338,10 +237578,14 @@ script 18 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Oh…"
+	"""
+	Oh…
+	"""
 	keyWait
 	clearMsg
-	"…MegaMan…"
+	"""
+	…MegaMan…
+	"""
 	keyWait
 	end
 }
@@ -225381,7 +237625,9 @@ script 21 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"Lan! To the boat!!"
+	"""
+	Lan! To the boat!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -225393,7 +237639,9 @@ script 22 mmbn3 {
 	msgOpen
 	flagSet
 		flag = 2625
-	"OK!"
+	"""
+	OK!
+	"""
 	keyWait
 	end
 }
@@ -225423,25 +237671,39 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"And"
+	"""
+	And
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	keyWait
 	end
 }
@@ -225463,16 +237725,24 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = Chaud
 	msgOpen
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"Hmm."
+	"""
+	Hmm.
+	"""
 	keyWait
 	flagSet
 		flag = 2626
@@ -225496,16 +237766,25 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"We made it."
+	"""
+	We made it.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"\nMegaMan."
+	"""
+	
+	MegaMan.
+	"""
 	keyWait
 	end
 }
@@ -225513,7 +237792,9 @@ script 5 mmbn3 {
 	mugshotShow
 		mugshot = Yai
 	msgOpen
-	"Hey! Guys!!"
+	"""
+	Hey! Guys!!
+	"""
 	keyWait
 	end
 }
@@ -225521,7 +237802,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Yai! Mayl!"
+	"""
+	Yai! Mayl!
+	"""
 	keyWait
 	end
 }
@@ -225555,22 +237838,34 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -225607,10 +237902,15 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = Dex
 	msgOpen
-	"You're kidding!\n"
+	"""
+	You're kidding!
+	
+	"""
 	flagSet
 		flag = 2625
-	"C'mon,let's go!!"
+	"""
+	C'mon,let's go!!
+	"""
 	keyWait
 	end
 }
@@ -225687,7 +237987,9 @@ script 15 mmbn3 {
 	mugshotShow
 		mugshot = Chisao
 	msgOpen
-	"Dex!!"
+	"""
+	Dex!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -225755,13 +238057,19 @@ script 19 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"Sniff!"
+	"""
+	Sniff!
+	"""
 	keyWait
 	flagSet
 		flag = 2626
@@ -225771,7 +238079,9 @@ script 20 mmbn3 {
 	mugshotShow
 		mugshot = Chaud
 	msgOpen
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -225781,7 +238091,9 @@ script 21 mmbn3 {
 	mugshotShow
 		mugshot = ChaudsDad
 	msgOpen
-	"Chaud."
+	"""
+	Chaud.
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -225791,19 +238103,29 @@ script 22 mmbn3 {
 	mugshotShow
 		mugshot = Chaud
 	msgOpen
-	"Yes"
+	"""
+	Yes
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	" father?"
+	"""
+	 father?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -225813,7 +238135,9 @@ script 23 mmbn3 {
 	mugshotShow
 		mugshot = ChaudsDad
 	msgOpen
-	"Good job."
+	"""
+	Good job.
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -225823,16 +238147,24 @@ script 24 mmbn3 {
 	mugshotShow
 		mugshot = Chaud
 	msgOpen
-	"…Father…"
+	"""
+	…Father…
+	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -225856,13 +238188,19 @@ script 25 mmbn3 {
 	mugshotShow
 		mugshot = ChaudsDad
 	msgOpen
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	keyWait
@@ -225895,7 +238233,9 @@ script 26 mmbn3 {
 	mugshotShow
 		mugshot = Chaud
 	msgOpen
-	"Yes,sir…"
+	"""
+	Yes,sir…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -225907,7 +238247,9 @@ script 27 mmbn3 {
 	mugshotShow
 		mugshot = ChaudsDad
 	msgOpen
-	"…"
+	"""
+	…
+	"""
 	wait
 		frames = 60
 	"""
@@ -225951,7 +238293,9 @@ script 30 mmbn3 {
 	mugshotShow
 		mugshot = Chaud
 	msgOpen
-	"No,father…"
+	"""
+	No,father…
+	"""
 	keyWait
 	flagClear
 		flag = 2626
@@ -225967,7 +238311,9 @@ script 31 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Thank you!"
+	"""
+	Thank you!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -225977,7 +238323,9 @@ script 32 mmbn3 {
 	mugshotShow
 		mugshot = Chaud
 	msgOpen
-	"I did nothing."
+	"""
+	I did nothing.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -226035,7 +238383,9 @@ script 35 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"What do you mean?"
+	"""
+	What do you mean?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -226045,7 +238395,9 @@ script 36 mmbn3 {
 	mugshotShow
 		mugshot = Chaud
 	msgOpen
-	"…Your Navi."
+	"""
+	…Your Navi.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -226075,7 +238427,9 @@ script 37 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"I…"
+	"""
+	I…
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -226146,10 +238500,14 @@ script 41 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Chaud…"
+	"""
+	Chaud…
+	"""
 	keyWait
 	clearMsg
-	"I will! You bet!"
+	"""
+	I will! You bet!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -226189,7 +238547,9 @@ script 44 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Huh? Really?"
+	"""
+	Huh? Really?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -226225,7 +238585,9 @@ script 47 mmbn3 {
 	msgOpen
 	waitSkip
 		frames = 30
-	"Lan…"
+	"""
+	Lan…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -226305,7 +238667,9 @@ script 52 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Huh? …Oh."
+	"""
+	Huh? …Oh.
+	"""
 	wait
 		frames = 60
 	keyWait
@@ -226325,13 +238689,19 @@ script 53 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"I'm back!"
+	"""
+	I'm back!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -226341,7 +238711,9 @@ script 54 mmbn3 {
 	mugshotShow
 		mugshot = Mayl
 	msgOpen
-	"…Sob!"
+	"""
+	…Sob!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -226392,16 +238764,25 @@ script 57 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Mayl."
+	"""
+	Mayl.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"\nI'm back! I'm OK!"
+	"""
+	
+	I'm back! I'm OK!
+	"""
 	keyWait
 	end
 }
@@ -226499,7 +238880,9 @@ script 63 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Maybe so…"
+	"""
+	Maybe so…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -226509,7 +238892,9 @@ script 64 mmbn3 {
 	mugshotShow
 		mugshot = Tora
 	msgOpen
-	"…Ha ha!"
+	"""
+	…Ha ha!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -226567,7 +238952,9 @@ script 68 mmbn3 {
 	mugshotShow
 		mugshot = Tora
 	msgOpen
-	"'Course you will!"
+	"""
+	'Course you will!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -226618,10 +239005,14 @@ script 70 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Lan! "
+	"""
+	Lan! 
+	"""
 	waitSkip
 		frames = 60
-	"It was fun!"
+	"""
+	It was fun!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -226631,16 +239022,25 @@ script 71 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Tora."
+	"""
+	Tora.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"\nI had fun,too!"
+	"""
+	
+	I had fun,too!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -226650,7 +239050,9 @@ script 72 mmbn3 {
 	mugshotShow
 		mugshot = Tora
 	msgOpen
-	"Bye!"
+	"""
+	Bye!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -226672,16 +239074,24 @@ script 73 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"Hah! Bye!"
+	"""
+	Hah! Bye!
+	"""
 	keyWait
 	end
 }
@@ -226696,13 +239106,19 @@ script 74 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"Sniff!"
+	"""
+	Sniff!
+	"""
 	keyWait
 	end
 }
@@ -226710,7 +239126,9 @@ script 75 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Dad…"
+	"""
+	Dad…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -226747,22 +239165,34 @@ script 78 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -226788,7 +239218,9 @@ script 80 mmbn3 {
 	msgOpen
 	waitSkip
 		frames = 60
-	"It's not that…"
+	"""
+	It's not that…
+	"""
 	keyWait
 	end
 }
@@ -226845,13 +239277,19 @@ script 82 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -226883,7 +239321,9 @@ script 83 mmbn3 {
 	mugshotShow
 		mugshot = Mom
 	msgOpen
-	"Honey…"
+	"""
+	Honey…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -226932,7 +239372,9 @@ script 85 mmbn3 {
 	msgOpen
 	waitSkip
 		frames = 120
-	"No!"
+	"""
+	No!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -227059,7 +239501,9 @@ script 90 mmbn3 {
 	printItem
 		buffer = 0
 		item = 43
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -227090,13 +239534,19 @@ script 92 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -227113,10 +239563,14 @@ script 93 mmbn3 {
 	mugshotShow
 		mugshot = Dad
 	msgOpen
-	"…"
+	"""
+	…
+	"""
 	waitSkip
 		frames = 30
-	"Yes,I did."
+	"""
+	Yes,I did.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -227148,7 +239602,9 @@ script 94 mmbn3 {
 	msgOpen
 	waitSkip
 		frames = 30
-	"Oh…"
+	"""
+	Oh…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -227198,7 +239654,9 @@ script 97 mmbn3 {
 	mugshotShow
 		mugshot = Dad
 	msgOpen
-	"Thank you,Lan…"
+	"""
+	Thank you,Lan…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -227208,16 +239666,24 @@ script 98 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Huh…"
+	"""
+	Huh…
+	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -227240,7 +239706,9 @@ script 99 mmbn3 {
 	mugshotShow
 		mugshot = Dad
 	msgOpen
-	"OK…"
+	"""
+	OK…
+	"""
 	keyWait
 	end
 }
@@ -227290,13 +239758,19 @@ script 102 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -227321,13 +239795,19 @@ script 102 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"I can do it all"
+	"""
+	I can do it all
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -227336,18 +239816,26 @@ script 102 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	" myself…"
+	"""
+	 myself…
+	"""
 	waitSkip
 		frames = 30
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -227373,7 +239861,9 @@ script 104 mmbn3 {
 	mugshotShow
 		mugshot = Mamoru
 	msgOpen
-	"You've got us!"
+	"""
+	You've got us!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -227385,7 +239875,9 @@ script 105 mmbn3 {
 	msgOpen
 	waitSkip
 		frames = 120
-	"You guys…"
+	"""
+	You guys…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -227434,7 +239926,9 @@ script 109 mmbn3 {
 	mugshotShow
 		mugshot = Chaud
 	msgOpen
-	"Heh…"
+	"""
+	Heh…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -227463,7 +239957,9 @@ script 111 mmbn3 {
 	mugshotShow
 		mugshot = Mamoru
 	msgOpen
-	"Me,too!"
+	"""
+	Me,too!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -227540,7 +240036,9 @@ script 114 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Yeah!!"
+	"""
+	Yeah!!
+	"""
 	keyWait
 	end
 }
@@ -227553,10 +240051,14 @@ script 115 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	keyWait
@@ -227615,10 +240117,14 @@ script 115 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	keyWait
@@ -227628,7 +240134,9 @@ script 116 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"MegaMan,"
+	"""
+	MegaMan,
+	"""
 	waitSkip
 		frames = 60
 	"""
@@ -227669,7 +240177,9 @@ script 117 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"MegaMan?!"
+	"""
+	MegaMan?!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -227745,13 +240255,19 @@ script 120 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -227769,13 +240285,19 @@ script 120 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	keyWait
@@ -227784,13 +240306,20 @@ script 120 mmbn3 {
 script 121 mmbn3 {
 	mugshotHide
 	msgOpen
-	"Jack in!!"
+	"""
+	Jack in!!
+	"""
 	wait
 		frames = 10
-	"\nMegaMan,"
+	"""
+	
+	MegaMan,
+	"""
 	wait
 		frames = 10
-	"Execute!"
+	"""
+	Execute!
+	"""
 	keyWait
 	end
 }
@@ -227806,7 +240335,9 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"…Grrr… Growwwll…"
+	"""
+	…Grrr… Growwwll…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -227815,7 +240346,9 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Grrr… Roarrr!!"
+	"""
+	Grrr… Roarrr!!
+	"""
 	keyWait
 	end
 }
@@ -227839,7 +240372,9 @@ script 2 mmbn3 {
 	msgOpen
 	flagSet
 		flag = 421
-	"I'm getting ready!"
+	"""
+	I'm getting ready!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -227870,7 +240405,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"I know! I know!"
+	"""
+	I know! I know!
+	"""
 	keyWait
 	end
 }
@@ -227910,7 +240447,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = Mom
 	msgOpen
-	"OK! Good night!"
+	"""
+	OK! Good night!
+	"""
 	keyWait
 	end
 }
@@ -227950,13 +240489,19 @@ script 9 mmbn3 {
 script 10 mmbn3 {
 	mugshotHide
 	msgOpen
-	"I'm home!"
+	"""
+	I'm home!
+	"""
 	keyWait
 	clearMsg
-	"Welcome home,honey."
+	"""
+	Welcome home,honey.
+	"""
 	keyWait
 	clearMsg
-	"Where's Lan?"
+	"""
+	Where's Lan?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -227978,7 +240523,9 @@ script 10 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Yeah."
+	"""
+	Yeah.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -227987,7 +240534,9 @@ script 10 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"I'm sure he will."
+	"""
+	I'm sure he will.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -228010,7 +240559,9 @@ script 10 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"What would that be?"
+	"""
+	What would that be?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -228039,7 +240590,9 @@ script 10 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"So what did it say?"
+	"""
+	So what did it say?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -228070,7 +240623,9 @@ script 10 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"A certain area?"
+	"""
+	A certain area?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -228111,27 +240666,40 @@ script 10 mmbn3 {
 }
 script 11 mmbn3 {
 	msgOpen
-	"The next morning"
+	"""
+	The next morning
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	keyWait
 	clearMsg
 	soundDisableTextSFX
 	soundPlay
 		track = 219
-	"Bee-bee-beep! \n"
+	"""
+	Bee-bee-beep! 
+	
+	"""
 	wait
 		frames = 20
 	soundPlay
 		track = 219
-	"Bee-bee-beep!!"
+	"""
+	Bee-bee-beep!!
+	"""
 	wait
 		frames = 20
 	soundEnableTextSFX
@@ -228143,13 +240711,19 @@ script 11 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	keyWait
@@ -228161,16 +240735,24 @@ script 11 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"Huh?"
+	"""
+	Huh?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -228179,13 +240761,19 @@ script 11 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"That voice! Mega"
+	"""
+	That voice! Mega
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
 	"""
@@ -228194,16 +240782,24 @@ script 11 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	" a dream?"
+	"""
+	 a dream?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -228212,16 +240808,24 @@ script 11 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 60
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 60
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 60
-	"Good morning,Lan!!"
+	"""
+	Good morning,Lan!!
+	"""
 	keyWait
 	end
 }
@@ -228529,25 +241133,34 @@ script 17 mmbn3 {
 	printEnemyName
 		buffer = 1
 		enemy = 0
-	":\n"
+	"""
+	:
+	
+	"""
 	printBuffer
 		minLength = 2
 		padZeros = true
 		padLeft = true
 		buffer = 2
-	":"
+	"""
+	:
+	"""
 	printBuffer
 		minLength = 2
 		padZeros = true
 		padLeft = true
 		buffer = 3
-	":"
+	"""
+	:
+	"""
 	printBuffer
 		minLength = 2
 		padZeros = true
 		padLeft = true
 		buffer = 4
-	"!"
+	"""
+	!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -228557,7 +241170,10 @@ script 17 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Take the challenge?\n"
+	"""
+	Take the challenge?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -228565,7 +241181,9 @@ script 17 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -228573,7 +241191,9 @@ script 17 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -228614,25 +241234,34 @@ script 19 mmbn3 {
 	mugshotShow
 		mugshot = HeelNavi
 	msgOpen
-	"Time to deletion…\n"
+	"""
+	Time to deletion…
+	
+	"""
 	printBuffer
 		minLength = 2
 		padZeros = true
 		padLeft = true
 		buffer = 2
-	":"
+	"""
+	:
+	"""
 	printBuffer
 		minLength = 2
 		padZeros = true
 		padLeft = true
 		buffer = 3
-	":"
+	"""
+	:
+	"""
 	printBuffer
 		minLength = 2
 		padZeros = true
 		padLeft = true
 		buffer = 4
-	"!"
+	"""
+	!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -228677,7 +241306,9 @@ script 21 mmbn3 {
 	printEnemyName
 		buffer = 1
 		enemy = 0
-	"!"
+	"""
+	!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -228699,7 +241330,9 @@ script 22 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -228707,7 +241340,9 @@ script 22 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -228728,7 +241363,9 @@ script 23 mmbn3 {
 	mugshotShow
 		mugshot = HeelNavi
 	msgOpen
-	"Come back any time."
+	"""
+	Come back any time.
+	"""
 	keyWait
 	end
 }
@@ -228772,11 +241409,15 @@ script 24 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 307
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = S
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	playerFinish
 	playerReset
@@ -228847,11 +241488,15 @@ script 27 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 309
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = A
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	playerFinish
 	playerReset
@@ -228886,7 +241531,9 @@ script 28 mmbn3 {
 script 0 mmbn3 {
 	mugshotHide
 	msgOpen
-	"The door opens!!"
+	"""
+	The door opens!!
+	"""
 	keyWait
 	end
 }
@@ -228933,7 +241580,9 @@ script 4 mmbn3 {
 	mugshotShow
 		mugshot = DarkMan
 	msgOpen
-	"Shhh…"
+	"""
+	Shhh…
+	"""
 	keyWait
 	end
 }
@@ -228955,7 +241604,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Who are you?!"
+	"""
+	Who are you?!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -228965,7 +241616,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = DarkMan
 	msgOpen
-	"Shhh… Shhh…"
+	"""
+	Shhh… Shhh…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -229022,7 +241675,9 @@ script 9 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"Set!"
+	"""
+	Set!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -229032,7 +241687,9 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Execute!"
+	"""
+	Execute!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -229076,7 +241733,9 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Rrrrgghhh…"
+	"""
+	Rrrrgghhh…
+	"""
 	keyWait
 	end
 }
@@ -229131,7 +241790,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"I agree…"
+	"""
+	I agree…
+	"""
 	keyWait
 	end
 }
@@ -229141,7 +241802,9 @@ script 3 mmbn3 {
 script 0 mmbn3 {
 	mugshotHide
 	msgOpen
-	"The door opens!!"
+	"""
+	The door opens!!
+	"""
 	keyWait
 	end
 }
@@ -229235,7 +241898,9 @@ script 5 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"En garde!"
+	"""
+	En garde!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -229245,13 +241910,19 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Here he comes!!"
+	"""
+	Here he comes!!
+	"""
 	keyWait
 	clearMsg
-	"Battle routine! "
+	"""
+	Battle routine! 
+	"""
 	waitSkip
 		frames = 30
-	"Set!"
+	"""
+	Set!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -229261,7 +241932,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Execute!"
+	"""
+	Execute!
+	"""
 	keyWait
 	end
 }
@@ -229272,7 +241945,9 @@ script 0 mmbn3 {
 	mugshotShow
 		mugshot = JapanMan
 	msgOpen
-	"Unngh!!"
+	"""
+	Unngh!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -229288,7 +241963,9 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"…Arrrgh!!"
+	"""
+	…Arrrgh!!
+	"""
 	keyWait
 	end
 }
@@ -229296,7 +241973,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Wow,was he strong…"
+	"""
+	Wow,was he strong…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -229333,7 +242012,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Yeah…"
+	"""
+	Yeah…
+	"""
 	keyWait
 	end
 }
@@ -229343,7 +242024,9 @@ script 3 mmbn3 {
 script 0 mmbn3 {
 	mugshotHide
 	msgOpen
-	"The door opens!!"
+	"""
+	The door opens!!
+	"""
 	keyWait
 	end
 }
@@ -229397,7 +242080,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"So you're… Serenade!"
+	"""
+	So you're… Serenade!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -229495,7 +242180,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"\"Mercy\"…?"
+	"""
+	"Mercy"…?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -229525,7 +242212,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Let's go,Lan!!"
+	"""
+	Let's go,Lan!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -229541,10 +242230,14 @@ script 10 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Battle routine! "
+	"""
+	Battle routine! 
+	"""
 	waitSkip
 		frames = 30
-	"Set!"
+	"""
+	Set!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -229554,7 +242247,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Execute!"
+	"""
+	Execute!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -229564,7 +242259,9 @@ script 12 mmbn3 {
 	mugshotShow
 		mugshot = Serenade
 	msgOpen
-	"Come to me…"
+	"""
+	Come to me…
+	"""
 	keyWait
 	end
 }
@@ -229613,7 +242310,9 @@ script 1 mmbn3 {
 	printItem
 		buffer = 0
 		item = 58
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -229645,7 +242344,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"\"He\"…?"
+	"""
+	"He"…?
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -229764,7 +242465,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"……"
+	"""
+	……
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -229781,7 +242484,9 @@ script 8 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Farewell…"
+	"""
+	Farewell…
+	"""
 	keyWait
 	flagSet
 		flag = 2625
@@ -229791,7 +242496,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Wait,Serenade!"
+	"""
+	Wait,Serenade!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -229801,7 +242508,9 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"They're gone…"
+	"""
+	They're gone…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -229811,7 +242520,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Yeah…"
+	"""
+	Yeah…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -229828,7 +242539,9 @@ script 12 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"Yeah…"
+	"""
+	Yeah…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -229852,7 +242565,9 @@ script 13 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"I agree!"
+	"""
+	I agree!
+	"""
 	keyWait
 	end
 }
@@ -229865,7 +242580,9 @@ script 0 mmbn3 {
 	soundPlay
 		track = 136
 	soundDisableTextSFX
-	"Grrrrr…"
+	"""
+	Grrrrr…
+	"""
 	wait
 		frames = 120
 	soundEnableTextSFX
@@ -229878,7 +242595,9 @@ script 1 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Wha?!"
+	"""
+	Wha?!
+	"""
 	keyWait
 	end
 }
@@ -229933,7 +242652,9 @@ script 5 mmbn3 {
 	soundPlay
 		track = 135
 	soundDisableTextSFX
-	"Roaaaaarrr!!"
+	"""
+	Roaaaaarrr!!
+	"""
 	wait
 		frames = 90
 	soundEnableTextSFX
@@ -229957,7 +242678,9 @@ script 7 mmbn3 {
 	soundStop
 	mugshotHide
 	msgOpen
-	"I have awakened…"
+	"""
+	I have awakened…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -229979,7 +242702,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"It's coming,Lan!!"
+	"""
+	It's coming,Lan!!
+	"""
 	keyWait
 	end
 }
@@ -229989,7 +242714,9 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Bass…!!"
+	"""
+	Bass…!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -230012,7 +242739,9 @@ script 12 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"He doesn't remember?"
+	"""
+	He doesn't remember?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -230056,7 +242785,9 @@ script 14 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Lan!!"
+	"""
+	Lan!!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -230066,7 +242797,9 @@ script 15 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"So it WAS him!!"
+	"""
+	So it WAS him!!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -230075,10 +242808,14 @@ script 15 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Battle routine! "
+	"""
+	Battle routine! 
+	"""
 	waitSkip
 		frames = 30
-	"Set!"
+	"""
+	Set!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -230088,7 +242825,9 @@ script 16 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Execute!"
+	"""
+	Execute!
+	"""
 	keyWait
 	end
 }
@@ -230160,7 +242899,9 @@ script 3 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"You're wrong!"
+	"""
+	You're wrong!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -230218,7 +242959,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = Bass
 	msgOpen
-	"………"
+	"""
+	………
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -230249,7 +242992,9 @@ script 6 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Uraaaaaagh!!"
+	"""
+	Uraaaaaagh!!
+	"""
 	keyWait
 	end
 }
@@ -230257,7 +243002,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Wha?!"
+	"""
+	Wha?!
+	"""
 	keyWait
 	end
 }
@@ -230265,10 +243012,14 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Bass!!"
+	"""
+	Bass!!
+	"""
 	keyWait
 	clearMsg
-	"He's gone…"
+	"""
+	He's gone…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -230280,7 +243031,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"MegaMan,are you OK?!"
+	"""
+	MegaMan,are you OK?!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -230290,7 +243043,9 @@ script 10 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Yes… I am…"
+	"""
+	Yes… I am…
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -230367,7 +243122,9 @@ script 14 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Right?!"
+	"""
+	Right?!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -230377,7 +243134,9 @@ script 15 mmbn3 {
 	mugshotShow
 		mugshot = Lan
 	msgOpen
-	"…Yeah! You bet!"
+	"""
+	…Yeah! You bet!
+	"""
 	keyWait
 	clearMsg
 	jump
@@ -230413,13 +243172,19 @@ script 17 mmbn3 {
 	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	waitSkip
 		frames = 30
-	"Just kidding!"
+	"""
+	Just kidding!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -230436,7 +243201,9 @@ script 18 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"Roger!!"
+	"""
+	Roger!!
+	"""
 	keyWait
 	end
 }
@@ -230472,7 +243239,10 @@ script 1 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"OK\n"
+	"""
+	OK
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -230480,7 +243250,10 @@ script 1 mmbn3 {
 		down = 2
 	space
 		count = 2
-	"Explain\n"
+	"""
+	Explain
+	
+	"""
 	option
 		left = 2
 		right = 2
@@ -230488,7 +243261,9 @@ script 1 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"No,thanks"
+	"""
+	No,thanks
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -230544,7 +243319,10 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = NormalNaviGreen
 	msgOpen
-	"The minimum bet is\n"
+	"""
+	The minimum bet is
+	
+	"""
 	printBuffer
 		minLength = 0
 		padZeros = false
@@ -230559,7 +243337,9 @@ script 2 mmbn3 {
 		padZeros = false
 		padLeft = true
 		buffer = 2
-	"."
+	"""
+	.
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -230570,7 +243350,9 @@ script 2 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -230578,7 +243360,9 @@ script 2 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -230591,7 +243375,9 @@ script 2 mmbn3 {
 		]
 	mugshotShow
 		mugshot = NormalNaviGreen
-	"Changed your mind?"
+	"""
+	Changed your mind?
+	"""
 	keyWait
 	clearMsg
 	option
@@ -230601,7 +243387,9 @@ script 2 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -230609,7 +243397,9 @@ script 2 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -230657,7 +243447,9 @@ script 6 mmbn3 {
 	mugshotShow
 		mugshot = NormalNaviGreen
 	msgOpenQuick
-	"You're sure?"
+	"""
+	You're sure?
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -230668,7 +243460,9 @@ script 6 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -230676,7 +243470,9 @@ script 6 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -230693,7 +243489,9 @@ script 6 mmbn3 {
 }
 script 7 mmbn3 {
 	msgOpen
-	"And the winner is…!"
+	"""
+	And the winner is…!
+	"""
 	keyWait
 	end
 }
@@ -230701,7 +243499,9 @@ script 8 mmbn3 {
 	mugshotShow
 		mugshot = NormalNaviGreen
 	msgOpen
-	"Too bad!"
+	"""
+	Too bad!
+	"""
 	keyWait
 	end
 }
@@ -230709,7 +243509,9 @@ script 9 mmbn3 {
 	mugshotShow
 		mugshot = NormalNaviGreen
 	msgOpen
-	"Try again?"
+	"""
+	Try again?
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -230720,7 +243522,9 @@ script 9 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -230728,7 +243532,9 @@ script 9 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -230759,7 +243565,9 @@ script 10 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -230767,7 +243575,9 @@ script 10 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -230786,7 +243596,9 @@ script 11 mmbn3 {
 	mugshotShow
 		mugshot = NormalNaviGreen
 	msgOpen
-	"Really wanna stop?"
+	"""
+	Really wanna stop?
+	"""
 	keyWait
 	clearMsg
 	mugshotHide
@@ -230797,7 +243609,9 @@ script 11 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -230805,7 +243619,9 @@ script 11 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -230880,7 +243696,9 @@ script 17 mmbn3 {
 		padZeros = false
 		padLeft = true
 		buffer = 2
-	" Zennys\"!!"
+	"""
+	 Zennys"!!
+	"""
 	playerFinish
 	playerAnimate
 		animation = 4
@@ -230893,7 +243711,9 @@ script 18 mmbn3 {
 	mugshotShow
 		mugshot = NormalNaviGreen
 	msgOpen
-	"Come again!"
+	"""
+	Come again!
+	"""
 	keyWait
 	end
 }
@@ -230914,10 +243734,14 @@ script 20 mmbn3 {
 		chip = 142
 		code = H
 		amount = 1
-	"MegaMan got:"
+	"""
+	MegaMan got:
+	"""
 	keyWait
 	clearMsg
-	"\""
+	"""
+	"
+	"""
 	printBuffer
 		minLength = 0
 		padZeros = false
@@ -230931,11 +243755,15 @@ script 20 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 142
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = H
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	end
 }
@@ -230945,10 +243773,14 @@ script 21 mmbn3 {
 		chip = 39
 		code = L
 		amount = 1
-	"MegaMan got:"
+	"""
+	MegaMan got:
+	"""
 	keyWait
 	clearMsg
-	"\""
+	"""
+	"
+	"""
 	printBuffer
 		minLength = 0
 		padZeros = false
@@ -230962,11 +243794,15 @@ script 21 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 39
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = H
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	end
 }
@@ -230976,10 +243812,14 @@ script 22 mmbn3 {
 		chip = 48
 		code = O
 		amount = 1
-	"MegaMan got:"
+	"""
+	MegaMan got:
+	"""
 	keyWait
 	clearMsg
-	"\""
+	"""
+	"
+	"""
 	printBuffer
 		minLength = 0
 		padZeros = false
@@ -230993,11 +243833,15 @@ script 22 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 48
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = O
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	end
 }
@@ -231019,7 +243863,9 @@ script 23 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Sure! "
+	"""
+	Sure! 
+	"""
 	option
 		left = 0
 		right = 0
@@ -231027,7 +243873,9 @@ script 23 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Nope"
+	"""
+	Nope
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -231961,7 +244809,10 @@ script 0 mmbn3 {
 		delay = 0
 	color
 		palette = 3
-	"Do what?\n"
+	"""
+	Do what?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -231969,7 +244820,10 @@ script 0 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Edit folder\n"
+	"""
+	Edit folder
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -231977,7 +244831,9 @@ script 0 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Use folder"
+	"""
+	Use folder
+	"""
 	select
 		default = 0
 		BSeparate = true
@@ -232013,11 +244869,16 @@ script 1 mmbn3 {
 		delay = 0
 	color
 		palette = 3
-	"Equipped\n"
+	"""
+	Equipped
+	
+	"""
 	printFolderName
 		buffer = 1
 		entry = 0
-	"!"
+	"""
+	!
+	"""
 	keyWait
 	msgOpenInvisible
 		unused = 21
@@ -232132,7 +244993,10 @@ script 5 mmbn3 {
 		delay = 0
 	color
 		palette = 3
-	"Do what?\n"
+	"""
+	Do what?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -232140,7 +245004,9 @@ script 5 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Use folder"
+	"""
+	Use folder
+	"""
 	select
 		default = 0
 		BSeparate = true
@@ -232183,7 +245049,9 @@ script 6 mmbn3 {
 	end
 }
 script 11 mmbn3s {
-	"Pack"
+	"""
+	Pack
+	"""
 	end
 }
 script 13 mmbn3 {
@@ -232496,7 +245364,9 @@ script 22 mmbn3 {
 		delay = 0
 	color
 		palette = 3
-	"No new mail…"
+	"""
+	No new mail…
+	"""
 	waitHold
 }
 script 24 mmbn3 {
@@ -232525,11 +245395,16 @@ script 24 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"?\n"
+	"""
+	"?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -232537,7 +245412,9 @@ script 24 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -232545,7 +245422,9 @@ script 24 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 1
 		BSeparate = true
@@ -232712,7 +245591,9 @@ script 29 mmbn3 {
 	end
 }
 script 30 mmbn3s {
-	"   ??"
+	"""
+	   ??
+	"""
 	end
 }
 script 31 mmbn3s {
@@ -232724,19 +245605,27 @@ script 31 mmbn3s {
 	end
 }
 script 34 mmbn3s {
-	"StdrdChip"
+	"""
+	StdrdChip
+	"""
 	end
 }
 script 35 mmbn3s {
-	"MegaChip"
+	"""
+	MegaChip
+	"""
 	end
 }
 script 36 mmbn3s {
-	"GigaChip"
+	"""
+	GigaChip
+	"""
 	end
 }
 script 37 mmbn3s {
-	"P.A.Notes"
+	"""
+	P.A.Notes
+	"""
 	end
 }
 script 40 mmbn3s {
@@ -232778,7 +245667,9 @@ script 41 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -232786,7 +245677,9 @@ script 41 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 1
 		BSeparate = true
@@ -232800,11 +245693,15 @@ script 41 mmbn3 {
 	waitHold
 }
 script 42 mmbn3s {
-	"RUN…"
+	"""
+	RUN…
+	"""
 	end
 }
 script 43 mmbn3s {
-	"OK!"
+	"""
+	OK!
+	"""
 	end
 }
 script 44 mmbn3 {
@@ -232883,7 +245780,9 @@ script 45 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -232891,7 +245790,9 @@ script 45 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = true
@@ -232952,7 +245853,9 @@ script 46 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -232960,7 +245863,9 @@ script 46 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = true
@@ -232974,7 +245879,9 @@ script 46 mmbn3 {
 	waitHold
 }
 script 47 mmbn3s {
-	"*"
+	"""
+	*
+	"""
 	end
 }
 script 48 mmbn3 {
@@ -232996,7 +245903,9 @@ script 48 mmbn3 {
 		delay = 0
 	color
 		palette = 3
-	"My current status!"
+	"""
+	My current status!
+	"""
 	waitHold
 }
 script 49 mmbn3 {
@@ -233018,7 +245927,10 @@ script 49 mmbn3 {
 		delay = 0
 	color
 		palette = 3
-	"My current status!\n"
+	"""
+	My current status!
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -233026,7 +245938,9 @@ script 49 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"NaviCust"
+	"""
+	NaviCust
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -233057,7 +245971,10 @@ script 50 mmbn3 {
 		delay = 0
 	color
 		palette = 3
-	"My current status!\n"
+	"""
+	My current status!
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -233065,7 +245982,10 @@ script 50 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"NaviCust\n"
+	"""
+	NaviCust
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -233076,7 +245996,9 @@ script 50 mmbn3 {
 	printItem
 		buffer = 1
 		item = 0
-	" Style"
+	"""
+	 Style
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -233108,11 +246030,16 @@ script 51 mmbn3 {
 		delay = 0
 	color
 		palette = 3
-	"Returned to\n"
+	"""
+	Returned to
+	
+	"""
 	printItem
 		buffer = 0
 		item = 128
-	"!"
+	"""
+	!
+	"""
 	keyWait
 	waitHold
 }
@@ -233135,16 +246062,22 @@ script 52 mmbn3 {
 		delay = 0
 	color
 		palette = 3
-	"Equipped "
+	"""
+	Equipped 
+	"""
 	printItem
 		buffer = 1
 		item = 0
-	"!"
+	"""
+	!
+	"""
 	keyWait
 	waitHold
 }
 script 53 mmbn3s {
-	"Attack LV"
+	"""
+	Attack LV
+	"""
 	printBuffer
 		buffer = 0
 		minLength = 2
@@ -233153,7 +246086,9 @@ script 53 mmbn3s {
 	end
 }
 script 54 mmbn3s {
-	"Speed  LV"
+	"""
+	Speed  LV
+	"""
 	printBuffer
 		buffer = 0
 		minLength = 2
@@ -233162,7 +246097,9 @@ script 54 mmbn3s {
 	end
 }
 script 55 mmbn3s {
-	"Charge LV"
+	"""
+	Charge LV
+	"""
 	printBuffer
 		buffer = 0
 		minLength = 2
@@ -233171,7 +246108,9 @@ script 55 mmbn3s {
 	end
 }
 script 56 mmbn3s {
-	"Pwr ElecLV"
+	"""
+	Pwr ElecLV
+	"""
 	printBuffer
 		buffer = 0
 		minLength = 1
@@ -233180,7 +246119,9 @@ script 56 mmbn3s {
 	end
 }
 script 57 mmbn3s {
-	"Pwr HeatLV"
+	"""
+	Pwr HeatLV
+	"""
 	printBuffer
 		buffer = 0
 		minLength = 1
@@ -233189,7 +246130,9 @@ script 57 mmbn3s {
 	end
 }
 script 58 mmbn3s {
-	"Pwr AquaLV"
+	"""
+	Pwr AquaLV
+	"""
 	printBuffer
 		buffer = 0
 		minLength = 1
@@ -233198,7 +246141,9 @@ script 58 mmbn3s {
 	end
 }
 script 59 mmbn3s {
-	"Pwr WoodLV"
+	"""
+	Pwr WoodLV
+	"""
 	printBuffer
 		buffer = 0
 		minLength = 1
@@ -233207,25 +246152,35 @@ script 59 mmbn3s {
 	end
 }
 script 60 mmbn3s {
-	"Pwr Invis"
+	"""
+	Pwr Invis
+	"""
 	end
 }
 script 61 mmbn3s {
-	"Pwr ChargeS"
+	"""
+	Pwr ChargeS
+	"""
 	end
 }
 script 62 mmbn3s {
-	"RegChip "
+	"""
+	RegChip 
+	"""
 	printBuffer
 		buffer = 0
 		minLength = 2
 		padZeros = false
 		padLeft = true
-	"[MB]"
+	"""
+	[MB]
+	"""
 	end
 }
 script 63 mmbn3s {
-	"MegaChip "
+	"""
+	MegaChip 
+	"""
 	printBuffer
 		buffer = 0
 		minLength = 2
@@ -233234,7 +246189,9 @@ script 63 mmbn3s {
 	end
 }
 script 64 mmbn3s {
-	"GigaChip "
+	"""
+	GigaChip 
+	"""
 	printBuffer
 		buffer = 0
 		minLength = 2
@@ -233273,7 +246230,9 @@ script 65 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -233281,7 +246240,9 @@ script 65 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -233330,7 +246291,9 @@ script 66 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -233338,7 +246301,9 @@ script 66 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -233381,7 +246346,10 @@ script 67 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Try again?\n"
+	"""
+	Try again?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -233389,7 +246357,9 @@ script 67 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -233397,7 +246367,9 @@ script 67 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -233438,29 +246410,41 @@ script 68 mmbn3 {
 	waitHold
 }
 script 69 mmbn3s {
-	"Play Time"
+	"""
+	Play Time
+	"""
 	end
 }
 script 70 mmbn3s {
-	"Library"
+	"""
+	Library
+	"""
 	end
 }
 script 71 mmbn3s {
-	"BtlChips"
+	"""
+	BtlChips
+	"""
 	end
 }
 script 72 mmbn3s {
-	"Credits"
+	"""
+	Credits
+	"""
 	end
 }
 script 73 mmbn3s {
-	"  "
+	"""
+	  
+	"""
 	printBuffer
 		buffer = 0
 		minLength = 2
 		padZeros = true
 		padLeft = true
-	":"
+	"""
+	:
+	"""
 	printBuffer
 		buffer = 1
 		minLength = 2
@@ -233469,7 +246453,9 @@ script 73 mmbn3s {
 	end
 }
 script 74 mmbn3s {
-	"S/M/G"
+	"""
+	S/M/G
+	"""
 	end
 }
 script 75 mmbn3s {
@@ -233481,7 +246467,9 @@ script 75 mmbn3s {
 	end
 }
 script 76 mmbn3s {
-	" "
+	"""
+	 
+	"""
 	printBuffer
 		buffer = 0
 		minLength = 6
@@ -233495,7 +246483,9 @@ script 77 mmbn3s {
 		minLength = 6
 		padZeros = false
 		padLeft = true
-	"z"
+	"""
+	z
+	"""
 	end
 }
 script 80 mmbn3 {
@@ -233545,7 +246535,10 @@ script 82 mmbn3 {
 	printItem
 		buffer = 1
 		item = 0
-	"\"?\n"
+	"""
+	"?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -233553,7 +246546,9 @@ script 82 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -233561,7 +246556,9 @@ script 82 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -233672,7 +246669,9 @@ script 86 mmbn3 {
 		mugshot = MegaMan
 	color
 		palette = 3
-	"\""
+	"""
+	"
+	"""
 	printItem
 		buffer = 1
 		item = 0
@@ -233800,7 +246799,9 @@ script 90 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -233808,7 +246809,9 @@ script 90 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -233857,7 +246860,9 @@ script 91 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -233865,7 +246870,9 @@ script 91 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -233908,7 +246915,10 @@ script 92 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Try again?\n"
+	"""
+	Try again?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -233916,7 +246926,9 @@ script 92 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -233924,7 +246936,9 @@ script 92 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -234246,7 +247260,10 @@ script 104 mmbn3 {
 	waitHold
 }
 script 105 mmbn3s {
-	"Chips held:\n"
+	"""
+	Chips held:
+	
+	"""
 	printBuffer
 		buffer = 0
 		minLength = 6
@@ -234255,63 +247272,93 @@ script 105 mmbn3s {
 	end
 }
 script 106 mmbn3s {
-	"   Record\n   "
+	"""
+	   Record
+	   
+	"""
 	printBuffer
 		buffer = 0
 		minLength = 3
 		padZeros = false
 		padLeft = true
-	"/W"
+	"""
+	/W
+	"""
 	printBuffer
 		buffer = 1
 		minLength = 3
 		padZeros = false
 		padLeft = true
-	"\n"
+	"""
+	
+	
+	"""
 	end
 }
 script 107 mmbn3s {
-	"NetBattle"
+	"""
+	NetBattle
+	"""
 	end
 }
 script 108 mmbn3s {
-	"See Library"
+	"""
+	See Library
+	"""
 	end
 }
 script 109 mmbn3s {
-	"Trade chips"
+	"""
+	Trade chips
+	"""
 	end
 }
 script 110 mmbn3s {
-	"Trade prgrm"
+	"""
+	Trade prgrm
+	"""
 	end
 }
 script 111 mmbn3s {
-	"Lightweight"
+	"""
+	Lightweight
+	"""
 	end
 }
 script 112 mmbn3s {
-	"Midweight"
+	"""
+	Midweight
+	"""
 	end
 }
 script 113 mmbn3s {
-	"Heavyweight"
+	"""
+	Heavyweight
+	"""
 	end
 }
 script 114 mmbn3s {
-	"Tri-Battle"
+	"""
+	Tri-Battle
+	"""
 	end
 }
 script 115 mmbn3s {
-	"Practice"
+	"""
+	Practice
+	"""
 	end
 }
 script 116 mmbn3s {
-	"Real"
+	"""
+	Real
+	"""
 	end
 }
 script 117 mmbn3s {
-	"Tournament"
+	"""
+	Tournament
+	"""
 	end
 }
 script 118 mmbn3 {
@@ -234479,7 +247526,9 @@ script 123 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -234487,7 +247536,9 @@ script 123 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -234597,13 +247648,19 @@ script 128 mmbn3 {
 		delay = 0
 	color
 		palette = 3
-	"That makes "
+	"""
+	That makes 
+	"""
 	printBuffer
 		minLength = 1
 		padZeros = false
 		padLeft = false
 		buffer = 1
-	"\nwins! Again?\n"
+	"""
+	
+	wins! Again?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -234611,7 +247668,9 @@ script 128 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -234619,7 +247678,9 @@ script 128 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -234676,52 +247737,85 @@ script 130 mmbn3 {
 		delay = 0
 	color
 		palette = 3
-	"Analyzing!\n"
+	"""
+	Analyzing!
+	
+	"""
 	wait
 		frames = 60
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 60
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 60
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 60
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 60
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 60
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 60
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 60
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 60
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 60
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 60
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 60
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 60
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 60
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 60
-	"."
+	"""
+	.
+	"""
 	waitHold
 }
 script 131 mmbn3 {
@@ -234777,11 +247871,15 @@ script 132 mmbn3 {
 	waitHold
 }
 script 133 mmbn3s {
-	"Menu"
+	"""
+	Menu
+	"""
 	end
 }
 script 134 mmbn3s {
-	"None"
+	"""
+	None
+	"""
 	end
 }
 script 136 mmbn3 {
@@ -234994,7 +248092,9 @@ script 150 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"OK "
+	"""
+	OK 
+	"""
 	option
 		left = 0
 		right = 0
@@ -235002,7 +248102,9 @@ script 150 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Cancel"
+	"""
+	Cancel
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -235094,7 +248196,10 @@ script 155 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = MegaMan
-	"Try again?\n"
+	"""
+	Try again?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -235102,7 +248207,9 @@ script 155 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -235110,7 +248217,9 @@ script 155 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -235150,7 +248259,10 @@ script 156 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = MegaMan
-	"Try again?\n"
+	"""
+	Try again?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -235158,7 +248270,9 @@ script 156 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -235166,7 +248280,9 @@ script 156 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -235245,7 +248361,10 @@ script 0 mmbn3 {
 		delay = 0
 	color
 		palette = 3
-	"Do what?\n"
+	"""
+	Do what?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -235253,7 +248372,10 @@ script 0 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Edit folder\n"
+	"""
+	Edit folder
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -235261,7 +248383,9 @@ script 0 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Use folder"
+	"""
+	Use folder
+	"""
 	select
 		default = 0
 		BSeparate = true
@@ -235295,11 +248419,16 @@ script 1 mmbn3 {
 		delay = 0
 	color
 		palette = 3
-	"Equip\n"
+	"""
+	Equip
+	
+	"""
 	printFolderName
 		buffer = 1
 		entry = 0
-	"!"
+	"""
+	!
+	"""
 	keyWait
 	msgOpenInvisible
 		unused = 21
@@ -235406,7 +248535,10 @@ script 5 mmbn3 {
 		delay = 0
 	color
 		palette = 3
-	"Do what?\n"
+	"""
+	Do what?
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -235414,7 +248546,9 @@ script 5 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Use folder"
+	"""
+	Use folder
+	"""
 	select
 		default = 0
 		BSeparate = true
@@ -235455,7 +248589,9 @@ script 6 mmbn3 {
 	end
 }
 script 11 mmbn3s {
-	"Pack"
+	"""
+	Pack
+	"""
 	end
 }
 script 13 mmbn3 {
@@ -235748,7 +248884,9 @@ script 22 mmbn3 {
 		delay = 0
 	color
 		palette = 3
-	"No new mail"
+	"""
+	No new mail
+	"""
 	waitHold
 }
 script 24 mmbn3 {
@@ -235775,11 +248913,16 @@ script 24 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"?\n"
+	"""
+	"?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -235787,7 +248930,9 @@ script 24 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -235795,7 +248940,9 @@ script 24 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 1
 		BSeparate = true
@@ -235952,7 +249099,9 @@ script 29 mmbn3 {
 	end
 }
 script 30 mmbn3s {
-	"   ??"
+	"""
+	   ??
+	"""
 	end
 }
 script 31 mmbn3s {
@@ -235964,19 +249113,27 @@ script 31 mmbn3s {
 	end
 }
 script 34 mmbn3s {
-	"StdrdChip"
+	"""
+	StdrdChip
+	"""
 	end
 }
 script 35 mmbn3s {
-	"MegaChip"
+	"""
+	MegaChip
+	"""
 	end
 }
 script 36 mmbn3s {
-	"GigaChip"
+	"""
+	GigaChip
+	"""
 	end
 }
 script 37 mmbn3s {
-	"P.A.Notes"
+	"""
+	P.A.Notes
+	"""
 	end
 }
 script 40 mmbn3s {
@@ -236016,7 +249173,9 @@ script 41 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -236024,7 +249183,9 @@ script 41 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 1
 		BSeparate = true
@@ -236038,11 +249199,15 @@ script 41 mmbn3 {
 	waitHold
 }
 script 42 mmbn3s {
-	"RUN…"
+	"""
+	RUN…
+	"""
 	end
 }
 script 43 mmbn3s {
-	"OK!"
+	"""
+	OK!
+	"""
 	end
 }
 script 44 mmbn3 {
@@ -236121,7 +249286,9 @@ script 45 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -236129,7 +249296,9 @@ script 45 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = true
@@ -236190,7 +249359,9 @@ script 46 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -236198,7 +249369,9 @@ script 46 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = true
@@ -236212,7 +249385,9 @@ script 46 mmbn3 {
 	waitHold
 }
 script 47 mmbn3s {
-	"*"
+	"""
+	*
+	"""
 	end
 }
 script 48 mmbn3 {
@@ -236255,7 +249430,10 @@ script 49 mmbn3 {
 		delay = 0
 	color
 		palette = 3
-	"My current status!\n"
+	"""
+	My current status!
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -236263,7 +249441,9 @@ script 49 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"NaviCust"
+	"""
+	NaviCust
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -236292,7 +249472,10 @@ script 50 mmbn3 {
 		delay = 0
 	color
 		palette = 3
-	"My current status!\n"
+	"""
+	My current status!
+	
+	"""
 	option
 		left = 0
 		right = 0
@@ -236300,7 +249483,10 @@ script 50 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"NaviCust\n"
+	"""
+	NaviCust
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -236311,7 +249497,9 @@ script 50 mmbn3 {
 	printItem
 		buffer = 1
 		item = 0
-	" Style"
+	"""
+	 Style
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -236341,11 +249529,16 @@ script 51 mmbn3 {
 		delay = 0
 	color
 		palette = 3
-	"Returned to\n"
+	"""
+	Returned to
+	
+	"""
 	printItem
 		buffer = 0
 		item = 128
-	"!"
+	"""
+	!
+	"""
 	keyWait
 	waitHold
 }
@@ -236366,16 +249559,22 @@ script 52 mmbn3 {
 		delay = 0
 	color
 		palette = 3
-	"Equipped "
+	"""
+	Equipped 
+	"""
 	printItem
 		buffer = 1
 		item = 0
-	"!"
+	"""
+	!
+	"""
 	keyWait
 	waitHold
 }
 script 53 mmbn3s {
-	"Attack LV"
+	"""
+	Attack LV
+	"""
 	printBuffer
 		buffer = 0
 		minLength = 2
@@ -236384,7 +249583,9 @@ script 53 mmbn3s {
 	end
 }
 script 54 mmbn3s {
-	"Speed  LV"
+	"""
+	Speed  LV
+	"""
 	printBuffer
 		buffer = 0
 		minLength = 2
@@ -236393,7 +249594,9 @@ script 54 mmbn3s {
 	end
 }
 script 55 mmbn3s {
-	"Charge LV"
+	"""
+	Charge LV
+	"""
 	printBuffer
 		buffer = 0
 		minLength = 2
@@ -236402,7 +249605,9 @@ script 55 mmbn3s {
 	end
 }
 script 56 mmbn3s {
-	"Pwr ElecLV"
+	"""
+	Pwr ElecLV
+	"""
 	printBuffer
 		buffer = 0
 		minLength = 1
@@ -236411,7 +249616,9 @@ script 56 mmbn3s {
 	end
 }
 script 57 mmbn3s {
-	"Pwr HeatLV"
+	"""
+	Pwr HeatLV
+	"""
 	printBuffer
 		buffer = 0
 		minLength = 1
@@ -236420,7 +249627,9 @@ script 57 mmbn3s {
 	end
 }
 script 58 mmbn3s {
-	"Pwr AquaLV"
+	"""
+	Pwr AquaLV
+	"""
 	printBuffer
 		buffer = 0
 		minLength = 1
@@ -236429,7 +249638,9 @@ script 58 mmbn3s {
 	end
 }
 script 59 mmbn3s {
-	"Pwr WoodLV"
+	"""
+	Pwr WoodLV
+	"""
 	printBuffer
 		buffer = 0
 		minLength = 1
@@ -236438,25 +249649,35 @@ script 59 mmbn3s {
 	end
 }
 script 60 mmbn3s {
-	"Pwr Invis"
+	"""
+	Pwr Invis
+	"""
 	end
 }
 script 61 mmbn3s {
-	"Pwr ChargeS"
+	"""
+	Pwr ChargeS
+	"""
 	end
 }
 script 62 mmbn3s {
-	"RegChip "
+	"""
+	RegChip 
+	"""
 	printBuffer
 		buffer = 0
 		minLength = 2
 		padZeros = false
 		padLeft = true
-	"[MB]"
+	"""
+	[MB]
+	"""
 	end
 }
 script 63 mmbn3s {
-	"MegaChips "
+	"""
+	MegaChips 
+	"""
 	printBuffer
 		buffer = 0
 		minLength = 2
@@ -236465,7 +249686,9 @@ script 63 mmbn3s {
 	end
 }
 script 64 mmbn3s {
-	"GigaChip "
+	"""
+	GigaChip 
+	"""
 	printBuffer
 		buffer = 0
 		minLength = 2
@@ -236502,7 +249725,9 @@ script 65 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -236510,7 +249735,9 @@ script 65 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -236557,7 +249784,9 @@ script 66 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -236565,7 +249794,9 @@ script 66 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -236606,7 +249837,10 @@ script 67 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Try again?\n"
+	"""
+	Try again?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -236614,7 +249848,9 @@ script 67 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -236622,7 +249858,9 @@ script 67 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -236661,29 +249899,41 @@ script 68 mmbn3 {
 	waitHold
 }
 script 69 mmbn3s {
-	"Play Time"
+	"""
+	Play Time
+	"""
 	end
 }
 script 70 mmbn3s {
-	"Library"
+	"""
+	Library
+	"""
 	end
 }
 script 71 mmbn3s {
-	"BtlChips"
+	"""
+	BtlChips
+	"""
 	end
 }
 script 72 mmbn3s {
-	"Credits"
+	"""
+	Credits
+	"""
 	end
 }
 script 73 mmbn3s {
-	"  "
+	"""
+	  
+	"""
 	printBuffer
 		buffer = 0
 		minLength = 2
 		padZeros = true
 		padLeft = true
-	":"
+	"""
+	:
+	"""
 	printBuffer
 		buffer = 1
 		minLength = 2
@@ -236692,7 +249942,9 @@ script 73 mmbn3s {
 	end
 }
 script 74 mmbn3s {
-	"S/M/G"
+	"""
+	S/M/G
+	"""
 	end
 }
 script 75 mmbn3s {
@@ -236704,7 +249956,9 @@ script 75 mmbn3s {
 	end
 }
 script 76 mmbn3s {
-	" "
+	"""
+	 
+	"""
 	printBuffer
 		buffer = 0
 		minLength = 6
@@ -236718,7 +249972,9 @@ script 77 mmbn3s {
 		minLength = 6
 		padZeros = false
 		padLeft = true
-	"z"
+	"""
+	z
+	"""
 	end
 }
 script 80 mmbn3 {
@@ -236764,7 +250020,10 @@ script 82 mmbn3 {
 	printItem
 		buffer = 1
 		item = 0
-	"\"?\n"
+	"""
+	"?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -236772,7 +250031,9 @@ script 82 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -236780,7 +250041,9 @@ script 82 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -236891,7 +250154,9 @@ script 86 mmbn3 {
 		mugshot = MegaMan
 	color
 		palette = 3
-	"\""
+	"""
+	"
+	"""
 	printItem
 		buffer = 1
 		item = 0
@@ -237015,7 +250280,9 @@ script 90 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -237023,7 +250290,9 @@ script 90 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -237070,7 +250339,9 @@ script 91 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -237078,7 +250349,9 @@ script 91 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -237119,7 +250392,10 @@ script 92 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Try again?\n"
+	"""
+	Try again?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -237127,7 +250403,9 @@ script 92 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -237135,7 +250413,9 @@ script 92 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -237433,7 +250713,10 @@ script 104 mmbn3 {
 	waitHold
 }
 script 105 mmbn3s {
-	"Chips held:\n"
+	"""
+	Chips held:
+	
+	"""
 	printBuffer
 		buffer = 0
 		minLength = 6
@@ -237442,63 +250725,93 @@ script 105 mmbn3s {
 	end
 }
 script 106 mmbn3s {
-	"   Record\n   "
+	"""
+	   Record
+	   
+	"""
 	printBuffer
 		buffer = 0
 		minLength = 3
 		padZeros = false
 		padLeft = true
-	"/W"
+	"""
+	/W
+	"""
 	printBuffer
 		buffer = 1
 		minLength = 3
 		padZeros = false
 		padLeft = true
-	"\n"
+	"""
+	
+	
+	"""
 	end
 }
 script 107 mmbn3s {
-	"NetBattle"
+	"""
+	NetBattle
+	"""
 	end
 }
 script 108 mmbn3s {
-	"See Library"
+	"""
+	See Library
+	"""
 	end
 }
 script 109 mmbn3s {
-	"Trade chips"
+	"""
+	Trade chips
+	"""
 	end
 }
 script 110 mmbn3s {
-	"Trade prgrm"
+	"""
+	Trade prgrm
+	"""
 	end
 }
 script 111 mmbn3s {
-	"Lightweight"
+	"""
+	Lightweight
+	"""
 	end
 }
 script 112 mmbn3s {
-	"Midweight"
+	"""
+	Midweight
+	"""
 	end
 }
 script 113 mmbn3s {
-	"Heavyweight"
+	"""
+	Heavyweight
+	"""
 	end
 }
 script 114 mmbn3s {
-	"Tri-Battle"
+	"""
+	Tri-Battle
+	"""
 	end
 }
 script 115 mmbn3s {
-	"Practice"
+	"""
+	Practice
+	"""
 	end
 }
 script 116 mmbn3s {
-	"Real"
+	"""
+	Real
+	"""
 	end
 }
 script 117 mmbn3s {
-	"Tournament"
+	"""
+	Tournament
+	"""
 	end
 }
 script 118 mmbn3 {
@@ -237654,7 +250967,9 @@ script 123 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -237662,7 +250977,9 @@ script 123 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -237764,13 +251081,19 @@ script 128 mmbn3 {
 		delay = 0
 	color
 		palette = 3
-	"That makes "
+	"""
+	That makes 
+	"""
 	printBuffer
 		minLength = 1
 		padZeros = false
 		padLeft = false
 		buffer = 1
-	"\nwins! Again?\n"
+	"""
+	
+	wins! Again?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -237778,7 +251101,9 @@ script 128 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -237786,7 +251111,9 @@ script 128 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -237839,52 +251166,85 @@ script 130 mmbn3 {
 		delay = 0
 	color
 		palette = 3
-	"Analyzing!\n"
+	"""
+	Analyzing!
+	
+	"""
 	wait
 		frames = 60
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 60
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 60
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 60
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 60
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 60
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 60
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 60
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 60
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 60
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 60
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 60
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 60
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 60
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 60
-	"."
+	"""
+	.
+	"""
 	waitHold
 }
 script 131 mmbn3 {
@@ -237936,11 +251296,15 @@ script 132 mmbn3 {
 	waitHold
 }
 script 133 mmbn3s {
-	"Menu"
+	"""
+	Menu
+	"""
 	end
 }
 script 134 mmbn3s {
-	"None"
+	"""
+	None
+	"""
 	end
 }
 script 136 mmbn3 {
@@ -238147,7 +251511,9 @@ script 150 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"OK "
+	"""
+	OK 
+	"""
 	option
 		left = 0
 		right = 0
@@ -238155,7 +251521,9 @@ script 150 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"Cancel"
+	"""
+	Cancel
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -238241,7 +251609,10 @@ script 155 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Try again?\n"
+	"""
+	Try again?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -238249,7 +251620,9 @@ script 155 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -238257,7 +251630,9 @@ script 155 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -238295,7 +251670,10 @@ script 156 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Try again?\n"
+	"""
+	Try again?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -238303,7 +251681,9 @@ script 156 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -238311,7 +251691,9 @@ script 156 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -239025,7 +252407,9 @@ script 3 mmbn3 {
 	printItem
 		buffer = 0
 		item = 81
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	waitHold
 }
@@ -239124,7 +252508,9 @@ script 4 mmbn3 {
 		amount = 1
 	startGiveFolder
 		folder = 10
-	"Lan got:"
+	"""
+	Lan got:
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -239133,7 +252519,9 @@ script 4 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"\""
+	"""
+	"
+	"""
 	printNaviCustProgram
 		buffer = 0
 		program = 30
@@ -239151,7 +252539,9 @@ script 4 mmbn3 {
 	printNaviCustProgram
 		buffer = 0
 		program = 42
-	",\""
+	"""
+	,"
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -239161,7 +252551,9 @@ script 4 mmbn3 {
 	printFolderName
 		buffer = 0
 		entry = 10
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	waitHold
 }
@@ -239307,7 +252699,9 @@ script 8 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Here,use this!"
+	"""
+	Here,use this!
+	"""
 	keyWait
 	clearMsg
 	checkFlag
@@ -239323,10 +252717,14 @@ script 8 mmbn3 {
 		chip = 220
 		code = R
 		amount = 1
-	"Lan got a"
+	"""
+	Lan got a
+	"""
 	keyWait
 	clearMsg
-	"\""
+	"""
+	"
+	"""
 	printItem
 		buffer = 0
 		item = 80
@@ -239337,11 +252735,15 @@ script 8 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 220
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = R
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	waitHold
 }
@@ -239463,7 +252865,9 @@ script 11 mmbn3 {
 	printItem
 		buffer = 0
 		item = 95
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	waitHold
 }
@@ -239549,7 +252953,9 @@ script 13 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Good luck!"
+	"""
+	Good luck!
+	"""
 	keyWait
 	clearMsg
 	checkFlag
@@ -239568,7 +252974,9 @@ script 13 mmbn3 {
 	printItem
 		buffer = 0
 		item = 97
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	waitHold
 }
@@ -239799,7 +253207,9 @@ script 21 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Hurry over here!"
+	"""
+	Hurry over here!
+	"""
 	keyWait
 	waitHold
 }
@@ -240146,7 +253556,9 @@ script 30 mmbn3 {
 	printNaviCustProgram
 		buffer = 0
 		program = 22
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	waitHold
 }
@@ -240163,7 +253575,9 @@ script 31 mmbn3 {
 		top = 140
 	msgOpenInvisible
 		unused = 12
-	"Lan,check it out!"
+	"""
+	Lan,check it out!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -240623,7 +254037,9 @@ script 41 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Rule #1:"
+	"""
+	Rule #1:
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -240633,7 +254049,9 @@ script 41 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Rule #2:"
+	"""
+	Rule #2:
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -240643,7 +254061,9 @@ script 41 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Rule #3:"
+	"""
+	Rule #3:
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -242727,11 +256147,15 @@ script 50 mmbn3 {
 	end
 }
 script 51 mmbn3s {
-	"RUN?"
+	"""
+	RUN?
+	"""
 	end
 }
 script 52 mmbn3s {
-	"■"
+	"""
+	■
+	"""
 	end
 }
 @archive 7EB974
@@ -242927,7 +256351,9 @@ script 2 mmbn3 {
 		flipY = false
 		palette = 2
 	msgOpenAltQuick
-	"Let's add \""
+	"""
+	Let's add "
+	"""
 	printNaviCustProgram
 		buffer = 0
 		program = 30
@@ -242938,7 +256364,9 @@ script 2 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Choose \""
+	"""
+	Choose "
+	"""
 	printNaviCustProgram
 		buffer = 0
 		program = 30
@@ -243002,7 +256430,9 @@ script 3 mmbn3 {
 	printNaviCustProgram
 		buffer = 0
 		program = 30
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	end
 }
@@ -243022,7 +256452,9 @@ script 10 mmbn3 {
 	printNaviCustProgram
 		buffer = 0
 		program = 30
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	end
 }
@@ -243074,10 +256506,14 @@ script 15 mmbn3 {
 	printNaviCustProgram
 		buffer = 0
 		program = 41
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	clearMsg
-	"Try it,Lan!"
+	"""
+	Try it,Lan!
+	"""
 	keyWait
 	end
 }
@@ -243097,7 +256533,9 @@ script 16 mmbn3 {
 	printNaviCustProgram
 		buffer = 0
 		program = 41
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	end
 }
@@ -243151,7 +256589,9 @@ script 20 mmbn3 {
 	printNaviCustProgram
 		buffer = 0
 		program = 41
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	flagSet
 		flag = 163
@@ -243187,7 +256627,9 @@ script 21 mmbn3 {
 	printNaviCustProgram
 		buffer = 0
 		program = 41
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	end
 }
@@ -243200,7 +256642,9 @@ script 22 mmbn3 {
 		flipY = false
 		palette = 2
 	msgOpenAlt
-	"\""
+	"""
+	"
+	"""
 	printNaviCustProgram
 		buffer = 0
 		program = 41
@@ -243221,7 +256665,9 @@ script 23 mmbn3 {
 		flipY = false
 		palette = 2
 	msgOpenAlt
-	"\""
+	"""
+	"
+	"""
 	printNaviCustProgram
 		buffer = 0
 		program = 30
@@ -243250,10 +256696,14 @@ script 25 mmbn3 {
 	printNaviCustProgram
 		buffer = 0
 		program = 42
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	clearMsg
-	"Try it,Lan!"
+	"""
+	Try it,Lan!
+	"""
 	keyWait
 	end
 }
@@ -243337,7 +256787,9 @@ script 29 mmbn3 {
 		flipY = false
 		palette = 2
 	msgOpenAlt
-	"…and this \""
+	"""
+	…and this "
+	"""
 	printNaviCustProgram
 		buffer = 0
 		program = 42
@@ -243366,7 +256818,9 @@ script 30 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Now,you try it!"
+	"""
+	Now,you try it!
+	"""
 	keyWait
 	end
 }
@@ -243379,7 +256833,9 @@ script 31 mmbn3 {
 		flipY = false
 		palette = 2
 	msgOpenAlt
-	"\""
+	"""
+	"
+	"""
 	printNaviCustProgram
 		buffer = 0
 		program = 42
@@ -243455,7 +256911,9 @@ script 35 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Try hitting RUN,Lan!"
+	"""
+	Try hitting RUN,Lan!
+	"""
 	keyWait
 	end
 }
@@ -243503,7 +256961,9 @@ script 37 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = MegaMan
-	"Mmmmph…"
+	"""
+	Mmmmph…
+	"""
 	keyWait
 	clearMsg
 	mugshotShow
@@ -243635,7 +257095,9 @@ script 0 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -243643,7 +257105,9 @@ script 0 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -243680,7 +257144,9 @@ script 4 mmbn3 {
 	msgOpen
 	playerAnimate
 		animation = 27
-	"It's a virus!!"
+	"""
+	It's a virus!!
+	"""
 	keyWait
 	playerUnlock
 	startRandomBattle
@@ -243708,11 +257174,15 @@ script 5 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 17
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = I
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	keyWait
 	end
@@ -243729,7 +257199,9 @@ script 6 mmbn3 {
 		padZeros = false
 		padLeft = false
 		buffer = 1
-	" Zennys\"!!"
+	"""
+	 Zennys"!!
+	"""
 	playerFinish
 	keyWait
 	end
@@ -243754,7 +257226,9 @@ script 7 mmbn3 {
 }
 script 8 mmbn3 {
 	msgOpen
-	"You found something…"
+	"""
+	You found something…
+	"""
 	keyWait
 	clearMsg
 	playerAnimate
@@ -243771,18 +257245,24 @@ script 8 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 17
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = I
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	keyWait
 	end
 }
 script 9 mmbn3 {
 	msgOpen
-	"You found something…"
+	"""
+	You found something…
+	"""
 	keyWait
 	clearMsg
 	playerAnimate
@@ -243799,11 +257279,15 @@ script 9 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 17
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = I
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	keyWait
 	end
@@ -243845,7 +257329,9 @@ script 15 mmbn3 {
 		x = 10
 		y = 65288
 		z = 0
-	"The door opened!"
+	"""
+	The door opened!
+	"""
 	keyWait
 	soundPlay
 		track = 231
@@ -243968,7 +257454,9 @@ script 44 mmbn3 {
 }
 script 45 mmbn3 {
 	msgOpen
-	"You found something…"
+	"""
+	You found something…
+	"""
 	keyWait
 	clearMsg
 	playerAnimate
@@ -243985,11 +257473,15 @@ script 45 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 139
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = W
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	keyWait
 	end
@@ -244040,7 +257532,9 @@ script 53 mmbn3 {
 		x = 65526
 		y = 132
 		z = 0
-	"The door opened!"
+	"""
+	The door opened!
+	"""
 	keyWait
 	soundPlay
 		track = 231
@@ -244184,7 +257678,9 @@ script 81 mmbn3 {
 		x = 30
 		y = 236
 		z = 0
-	"The door opened!"
+	"""
+	The door opened!
+	"""
 	keyWait
 	soundPlay
 		track = 231
@@ -244233,7 +257729,9 @@ script 86 mmbn3 {
 		x = 126
 		y = 236
 		z = 0
-	"The door opened!"
+	"""
+	The door opened!
+	"""
 	keyWait
 	soundPlay
 		track = 231
@@ -244311,7 +257809,9 @@ script 99 mmbn3 {
 		x = 190
 		y = 142
 		z = 0
-	"A door opened!"
+	"""
+	A door opened!
+	"""
 	keyWait
 	soundPlay
 		track = 231
@@ -244344,7 +257844,9 @@ script 108 mmbn3 {
 		jumpIfTrue = 3
 		jumpIfFalse = continue
 	msgOpen
-	"You found something…"
+	"""
+	You found something…
+	"""
 	keyWait
 	clearMsg
 	playerAnimate
@@ -244361,11 +257863,15 @@ script 108 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 16
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = F
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	keyWait
 	end
@@ -244389,7 +257895,9 @@ script 113 mmbn3 {
 		jumpIfTrue = 3
 		jumpIfFalse = continue
 	msgOpen
-	"You found something…"
+	"""
+	You found something…
+	"""
 	keyWait
 	clearMsg
 	playerAnimate
@@ -244406,11 +257914,15 @@ script 113 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 16
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = F
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	keyWait
 	end
@@ -244424,7 +257936,9 @@ script 115 mmbn3 {
 		jumpIfTrue = 3
 		jumpIfFalse = continue
 	msgOpen
-	"You found something…"
+	"""
+	You found something…
+	"""
 	keyWait
 	clearMsg
 	playerAnimate
@@ -244441,11 +257955,15 @@ script 115 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 16
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = F
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	keyWait
 	end
@@ -244466,7 +257984,9 @@ script 119 mmbn3 {
 		jumpIfTrue = 3
 		jumpIfFalse = continue
 	msgOpen
-	"You found something…"
+	"""
+	You found something…
+	"""
 	keyWait
 	clearMsg
 	startGiveRandomZenny
@@ -244491,7 +258011,9 @@ script 122 mmbn3 {
 		jumpIfTrue = 3
 		jumpIfFalse = continue
 	msgOpen
-	"You found something…"
+	"""
+	You found something…
+	"""
 	keyWait
 	clearMsg
 	startGiveRandomZenny
@@ -244514,7 +258036,9 @@ script 124 mmbn3 {
 		jumpIfTrue = 3
 		jumpIfFalse = continue
 	msgOpen
-	"You found something…"
+	"""
+	You found something…
+	"""
 	keyWait
 	clearMsg
 	playerAnimate
@@ -244531,11 +258055,15 @@ script 124 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 16
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = F
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	keyWait
 	end
@@ -244550,7 +258078,9 @@ script 126 mmbn3 {
 		jumpIfTrue = 3
 		jumpIfFalse = continue
 	msgOpen
-	"You found something…"
+	"""
+	You found something…
+	"""
 	keyWait
 	clearMsg
 	startGiveRandomZenny
@@ -244569,7 +258099,9 @@ script 127 mmbn3 {
 		jumpIfTrue = 3
 		jumpIfFalse = continue
 	msgOpen
-	"You found something…"
+	"""
+	You found something…
+	"""
 	keyWait
 	clearMsg
 	playerAnimate
@@ -244586,11 +258118,15 @@ script 127 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 16
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = F
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	keyWait
 	end
@@ -244607,7 +258143,9 @@ script 130 mmbn3 {
 		jumpIfTrue = 3
 		jumpIfFalse = continue
 	msgOpen
-	"You found something…"
+	"""
+	You found something…
+	"""
 	keyWait
 	clearMsg
 	playerAnimate
@@ -244624,11 +258162,15 @@ script 130 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 16
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = F
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	keyWait
 	end
@@ -244687,7 +258229,10 @@ script 2 mmbn3 {
 		mugshot = MegaMan
 	textSpeed
 		delay = 0
-	"Are you leaving now?\n"
+	"""
+	Are you leaving now?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -244695,7 +258240,9 @@ script 2 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -244703,7 +258250,9 @@ script 2 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -244722,7 +258271,9 @@ script 3 mmbn3 {
 		mugshot = NormalNaviGreen
 	textSpeed
 		delay = 0
-	"Please come again!"
+	"""
+	Please come again!
+	"""
 	waitHold
 }
 script 4 mmbn3 {
@@ -244731,11 +258282,16 @@ script 4 mmbn3 {
 		mugshot = NormalNaviGreen
 	textSpeed
 		delay = 0
-	"\""
+	"""
+	"
+	"""
 	printItem
 		buffer = 1
 		item = 0
-	"\"?\n"
+	"""
+	"?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -244743,7 +258299,9 @@ script 4 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -244751,7 +258309,9 @@ script 4 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -244770,15 +258330,22 @@ script 5 mmbn3 {
 		mugshot = NormalNaviGreen
 	textSpeed
 		delay = 0
-	"\""
+	"""
+	"
+	"""
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"?\n"
+	"""
+	"?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -244786,7 +258353,9 @@ script 5 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -244794,7 +258363,9 @@ script 5 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -244817,11 +258388,15 @@ script 6 mmbn3 {
 		mugshot = MegaMan
 	textSpeed
 		delay = 0
-	"I bought \""
+	"""
+	I bought "
+	"""
 	printItem
 		buffer = 1
 		item = 0
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	waitHold
 }
@@ -244842,11 +258417,15 @@ script 7 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	waitHold
 }
@@ -244860,7 +258439,9 @@ script 8 mmbn3 {
 		mugshot = MegaMan
 	textSpeed
 		delay = 0
-	"Not enough Zennys…"
+	"""
+	Not enough Zennys…
+	"""
 	keyWait
 	waitHold
 }
@@ -244900,11 +258481,16 @@ script 11 mmbn3 {
 		mugshot = NormalNaviGreen
 	textSpeed
 		delay = 0
-	"\""
+	"""
+	"
+	"""
 	printNaviCustProgram
 		buffer = 1
 		program = 0
-	"\"?\n"
+	"""
+	"?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -244912,7 +258498,9 @@ script 11 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -244920,7 +258508,9 @@ script 11 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -244950,12 +258540,16 @@ script 12 mmbn3 {
 	printNaviCustProgram
 		buffer = 1
 		program = 0
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	waitHold
 }
 script 13 mmbn3s {
-	" "
+	"""
+	 
+	"""
 	printBuffer
 		buffer = 0
 		minLength = 6
@@ -244969,7 +258563,9 @@ script 14 mmbn3s {
 		minLength = 6
 		padZeros = false
 		padLeft = true
-	"z"
+	"""
+	z
+	"""
 	end
 }
 script 15 mmbn3s {
@@ -244978,21 +258574,28 @@ script 15 mmbn3s {
 		minLength = 6
 		padZeros = false
 		padLeft = true
-	"z"
+	"""
+	z
+	"""
 	end
 }
 script 16 mmbn3s {
 	end
 }
 script 17 mmbn3s {
-	"-------"
+	"""
+	-------
+	"""
 	end
 }
 script 18 mmbn3 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
-	"Are you leaving now?\n"
+	"""
+	Are you leaving now?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -245000,7 +258603,9 @@ script 18 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -245008,7 +258613,9 @@ script 18 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -245032,7 +258639,9 @@ script 19 mmbn3 {
 	printItem
 		buffer = 1
 		item = 0
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	waitHold
 }
@@ -245047,11 +258656,15 @@ script 20 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	waitHold
 }
@@ -245059,7 +258672,9 @@ script 21 mmbn3 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
-	"Insufficient Zennys."
+	"""
+	Insufficient Zennys.
+	"""
 	keyWait
 	waitHold
 }
@@ -245067,7 +258682,9 @@ script 22 mmbn3 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
-	"Can't hold any more."
+	"""
+	Can't hold any more.
+	"""
 	keyWait
 	waitHold
 }
@@ -245082,7 +258699,9 @@ script 23 mmbn3 {
 	printNaviCustProgram
 		buffer = 1
 		program = 0
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	waitHold
 }
@@ -245129,7 +258748,10 @@ script 2 mmbn3 {
 		mugshot = MegaMan
 	textSpeed
 		delay = 0
-	"Are you leaving now?\n"
+	"""
+	Are you leaving now?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -245137,7 +258759,9 @@ script 2 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -245145,7 +258769,9 @@ script 2 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -245166,7 +258792,9 @@ script 3 mmbn3 {
 		palette = 1
 	textSpeed
 		delay = 0
-	"Please come again!"
+	"""
+	Please come again!
+	"""
 	waitHold
 }
 script 4 mmbn3 {
@@ -245177,11 +258805,16 @@ script 4 mmbn3 {
 		palette = 1
 	textSpeed
 		delay = 0
-	"\""
+	"""
+	"
+	"""
 	printItem
 		buffer = 1
 		item = 0
-	"\"?\n"
+	"""
+	"?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -245189,7 +258822,9 @@ script 4 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -245197,7 +258832,9 @@ script 4 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -245218,15 +258855,22 @@ script 5 mmbn3 {
 		palette = 1
 	textSpeed
 		delay = 0
-	"\""
+	"""
+	"
+	"""
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"?\n"
+	"""
+	"?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -245234,7 +258878,9 @@ script 5 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -245242,7 +258888,9 @@ script 5 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -245272,7 +258920,9 @@ script 6 mmbn3 {
 	printItem
 		buffer = 1
 		item = 0
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	waitHold
 }
@@ -245293,11 +258943,15 @@ script 7 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	waitHold
 }
@@ -245311,7 +258965,9 @@ script 8 mmbn3 {
 		mugshot = MegaMan
 	textSpeed
 		delay = 0
-	"Not enough BugFrags…"
+	"""
+	Not enough BugFrags…
+	"""
 	keyWait
 	waitHold
 }
@@ -245355,11 +259011,16 @@ script 11 mmbn3 {
 		palette = 1
 	textSpeed
 		delay = 0
-	"\""
+	"""
+	"
+	"""
 	printNaviCustProgram
 		buffer = 1
 		program = 0
-	"\"?\n"
+	"""
+	"?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -245367,7 +259028,9 @@ script 11 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -245375,7 +259038,9 @@ script 11 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -245405,12 +259070,16 @@ script 12 mmbn3 {
 	printNaviCustProgram
 		buffer = 1
 		program = 0
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	waitHold
 }
 script 13 mmbn3s {
-	" "
+	"""
+	 
+	"""
 	printBuffer
 		buffer = 0
 		minLength = 6
@@ -245424,7 +259093,9 @@ script 14 mmbn3s {
 		minLength = 6
 		padZeros = false
 		padLeft = true
-	"z"
+	"""
+	z
+	"""
 	end
 }
 script 15 mmbn3s {
@@ -245433,21 +259104,28 @@ script 15 mmbn3s {
 		minLength = 6
 		padZeros = false
 		padLeft = true
-	"z"
+	"""
+	z
+	"""
 	end
 }
 script 16 mmbn3s {
 	end
 }
 script 17 mmbn3s {
-	"-------"
+	"""
+	-------
+	"""
 	end
 }
 script 18 mmbn3 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
-	"Are you leaving now?\n"
+	"""
+	Are you leaving now?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -245455,7 +259133,9 @@ script 18 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -245463,7 +259143,9 @@ script 18 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -245487,7 +259169,9 @@ script 19 mmbn3 {
 	printItem
 		buffer = 1
 		item = 0
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	waitHold
 }
@@ -245502,11 +259186,15 @@ script 20 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	waitHold
 }
@@ -245525,7 +259213,9 @@ script 22 mmbn3 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
-	"Can't hold any more."
+	"""
+	Can't hold any more.
+	"""
 	keyWait
 	waitHold
 }
@@ -245540,7 +259230,9 @@ script 23 mmbn3 {
 	printNaviCustProgram
 		buffer = 1
 		program = 0
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	waitHold
 }
@@ -245583,7 +259275,10 @@ script 2 mmbn3 {
 		mugshot = MegaMan
 	textSpeed
 		delay = 0
-	"Are you leaving now?\n"
+	"""
+	Are you leaving now?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -245591,7 +259286,9 @@ script 2 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -245599,7 +259296,9 @@ script 2 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -245618,7 +259317,9 @@ script 3 mmbn3 {
 		mugshot = Higsby
 	textSpeed
 		delay = 0
-	"Come again,huh!"
+	"""
+	Come again,huh!
+	"""
 	waitHold
 }
 script 5 mmbn3 {
@@ -245627,15 +259328,22 @@ script 5 mmbn3 {
 		mugshot = Higsby
 	textSpeed
 		delay = 0
-	"\""
+	"""
+	"
+	"""
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"?\n"
+	"""
+	"?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -245643,7 +259351,9 @@ script 5 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -245651,7 +259361,9 @@ script 5 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -245675,16 +259387,25 @@ script 6 mmbn3 {
 	clearMsg
 	mugshotShow
 		mugshot = NumberMan
-	"Transferring now!\n"
+	"""
+	Transferring now!
+	
+	"""
 	wait
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 20
 	"""
@@ -245705,11 +259426,15 @@ script 7 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"!!"
+	"""
+	"!!
+	"""
 	keyWait
 	waitHold
 }
@@ -245723,7 +259448,9 @@ script 8 mmbn3 {
 		mugshot = MegaMan
 	textSpeed
 		delay = 0
-	"Not enough Zennys…"
+	"""
+	Not enough Zennys…
+	"""
 	keyWait
 	waitHold
 }
@@ -245759,7 +259486,9 @@ script 10 mmbn3 {
 	waitHold
 }
 script 13 mmbn3s {
-	" "
+	"""
+	 
+	"""
 	printBuffer
 		buffer = 0
 		minLength = 6
@@ -245773,7 +259502,9 @@ script 14 mmbn3s {
 		minLength = 6
 		padZeros = false
 		padLeft = true
-	"z"
+	"""
+	z
+	"""
 	end
 }
 script 15 mmbn3s {
@@ -245782,21 +259513,28 @@ script 15 mmbn3s {
 		minLength = 6
 		padZeros = false
 		padLeft = true
-	"z"
+	"""
+	z
+	"""
 	end
 }
 script 16 mmbn3s {
 	end
 }
 script 17 mmbn3s {
-	"-------"
+	"""
+	-------
+	"""
 	end
 }
 script 18 mmbn3 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
-	"Are you leaving now?\n"
+	"""
+	Are you leaving now?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -245804,7 +259542,9 @@ script 18 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -245812,7 +259552,9 @@ script 18 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -245836,11 +259578,15 @@ script 20 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	waitHold
 }
@@ -245848,7 +259594,9 @@ script 21 mmbn3 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
-	"Insufficient Zennys."
+	"""
+	Insufficient Zennys.
+	"""
 	keyWait
 	waitHold
 }
@@ -245856,7 +259604,9 @@ script 22 mmbn3 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
-	"Can't hold any more."
+	"""
+	Can't hold any more.
+	"""
 	keyWait
 	waitHold
 }
@@ -245866,7 +259616,9 @@ script 24 mmbn3 {
 		mugshot = Higsby
 	textSpeed
 		delay = 0
-	"A \""
+	"""
+	A "
+	"""
 	printChip
 		buffer = 1
 		chip = 0
@@ -245884,7 +259636,9 @@ script 25 mmbn3 {
 		mugshot = Higsby
 	textSpeed
 		delay = 0
-	"A \""
+	"""
+	A "
+	"""
 	printChip
 		buffer = 1
 		chip = 0
@@ -245902,7 +259656,9 @@ script 26 mmbn3 {
 		mugshot = Higsby
 	textSpeed
 		delay = 0
-	"A \""
+	"""
+	A "
+	"""
 	printChip
 		buffer = 1
 		chip = 0
@@ -245920,7 +259676,9 @@ script 27 mmbn3 {
 		mugshot = Higsby
 	textSpeed
 		delay = 0
-	"I have a \""
+	"""
+	I have a "
+	"""
 	printCode
 		buffer = 2
 		code = A
@@ -245933,7 +259691,10 @@ script 27 mmbn3 {
 		padZeros = false
 		padLeft = false
 		buffer = 3
-	"z,OK?\n"
+	"""
+	z,OK?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -245941,7 +259702,9 @@ script 27 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -245949,7 +259712,9 @@ script 27 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -246029,7 +259794,10 @@ script 2 mmbn3 {
 		mugshot = MegaMan
 	textSpeed
 		delay = 0
-	"Are you leaving now?\n"
+	"""
+	Are you leaving now?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -246037,7 +259805,9 @@ script 2 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -246045,7 +259815,9 @@ script 2 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -246064,7 +259836,9 @@ script 3 mmbn3 {
 		mugshot = PurpleNavi
 	textSpeed
 		delay = 0
-	"Please come again!"
+	"""
+	Please come again!
+	"""
 	waitHold
 }
 script 4 mmbn3 {
@@ -246073,11 +259847,16 @@ script 4 mmbn3 {
 		mugshot = PurpleNavi
 	textSpeed
 		delay = 0
-	"\""
+	"""
+	"
+	"""
 	printItem
 		buffer = 1
 		item = 0
-	"\"?\n"
+	"""
+	"?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -246085,7 +259864,9 @@ script 4 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -246093,7 +259874,9 @@ script 4 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -246112,15 +259895,22 @@ script 5 mmbn3 {
 		mugshot = PurpleNavi
 	textSpeed
 		delay = 0
-	"\""
+	"""
+	"
+	"""
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"?\n"
+	"""
+	"?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -246128,7 +259918,9 @@ script 5 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -246136,7 +259928,9 @@ script 5 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -246159,11 +259953,15 @@ script 6 mmbn3 {
 		mugshot = MegaMan
 	textSpeed
 		delay = 0
-	"I bought \""
+	"""
+	I bought "
+	"""
 	printItem
 		buffer = 1
 		item = 0
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	waitHold
 }
@@ -246184,11 +259982,15 @@ script 7 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	waitHold
 }
@@ -246202,7 +260004,9 @@ script 8 mmbn3 {
 		mugshot = MegaMan
 	textSpeed
 		delay = 0
-	"Not enough Zennys…"
+	"""
+	Not enough Zennys…
+	"""
 	keyWait
 	waitHold
 }
@@ -246242,11 +260046,16 @@ script 11 mmbn3 {
 		mugshot = PurpleNavi
 	textSpeed
 		delay = 0
-	"\""
+	"""
+	"
+	"""
 	printNaviCustProgram
 		buffer = 1
 		program = 0
-	"\"?\n"
+	"""
+	"?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -246254,7 +260063,9 @@ script 11 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -246262,7 +260073,9 @@ script 11 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -246292,12 +260105,16 @@ script 12 mmbn3 {
 	printNaviCustProgram
 		buffer = 1
 		program = 0
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	waitHold
 }
 script 13 mmbn3s {
-	" "
+	"""
+	 
+	"""
 	printBuffer
 		buffer = 0
 		minLength = 6
@@ -246311,7 +260128,9 @@ script 14 mmbn3s {
 		minLength = 6
 		padZeros = false
 		padLeft = true
-	"z"
+	"""
+	z
+	"""
 	end
 }
 script 15 mmbn3s {
@@ -246320,21 +260139,28 @@ script 15 mmbn3s {
 		minLength = 6
 		padZeros = false
 		padLeft = true
-	"z"
+	"""
+	z
+	"""
 	end
 }
 script 16 mmbn3s {
 	end
 }
 script 17 mmbn3s {
-	"-------"
+	"""
+	-------
+	"""
 	end
 }
 script 18 mmbn3 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
-	"Are you leaving now?\n"
+	"""
+	Are you leaving now?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -246342,7 +260168,9 @@ script 18 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -246350,7 +260178,9 @@ script 18 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -246374,7 +260204,9 @@ script 19 mmbn3 {
 	printItem
 		buffer = 1
 		item = 0
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	waitHold
 }
@@ -246389,11 +260221,15 @@ script 20 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	waitHold
 }
@@ -246401,7 +260237,9 @@ script 21 mmbn3 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
-	"Insufficient Zennys."
+	"""
+	Insufficient Zennys.
+	"""
 	keyWait
 	waitHold
 }
@@ -246409,7 +260247,9 @@ script 22 mmbn3 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
-	"Can't hold any more."
+	"""
+	Can't hold any more.
+	"""
 	keyWait
 	waitHold
 }
@@ -246424,7 +260264,9 @@ script 23 mmbn3 {
 	printNaviCustProgram
 		buffer = 1
 		program = 0
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	waitHold
 }
@@ -246467,7 +260309,10 @@ script 2 mmbn3 {
 		mugshot = MegaMan
 	textSpeed
 		delay = 0
-	"Are you leaving now?\n"
+	"""
+	Are you leaving now?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -246475,7 +260320,9 @@ script 2 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -246483,7 +260330,9 @@ script 2 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -246502,7 +260351,9 @@ script 3 mmbn3 {
 		mugshot = OfficialNavi
 	textSpeed
 		delay = 0
-	"Y'all come back,now!"
+	"""
+	Y'all come back,now!
+	"""
 	waitHold
 }
 script 4 mmbn3 {
@@ -246511,11 +260362,16 @@ script 4 mmbn3 {
 		mugshot = OfficialNavi
 	textSpeed
 		delay = 0
-	"\""
+	"""
+	"
+	"""
 	printItem
 		buffer = 1
 		item = 0
-	",\"right?\n"
+	"""
+	,"right?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -246523,7 +260379,9 @@ script 4 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -246531,7 +260389,9 @@ script 4 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -246550,15 +260410,22 @@ script 5 mmbn3 {
 		mugshot = OfficialNavi
 	textSpeed
 		delay = 0
-	"\""
+	"""
+	"
+	"""
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	",\"right?\n"
+	"""
+	,"right?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -246566,7 +260433,9 @@ script 5 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -246574,7 +260443,9 @@ script 5 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -246597,11 +260468,15 @@ script 6 mmbn3 {
 		mugshot = MegaMan
 	textSpeed
 		delay = 0
-	"I bought \""
+	"""
+	I bought "
+	"""
 	printItem
 		buffer = 1
 		item = 0
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	waitHold
 }
@@ -246622,11 +260497,15 @@ script 7 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	waitHold
 }
@@ -246640,7 +260519,9 @@ script 8 mmbn3 {
 		mugshot = MegaMan
 	textSpeed
 		delay = 0
-	"Not enough Zennys…"
+	"""
+	Not enough Zennys…
+	"""
 	keyWait
 	waitHold
 }
@@ -246680,11 +260561,16 @@ script 11 mmbn3 {
 		mugshot = OfficialNavi
 	textSpeed
 		delay = 0
-	"\""
+	"""
+	"
+	"""
 	printNaviCustProgram
 		buffer = 1
 		program = 0
-	",\"right?\n"
+	"""
+	,"right?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -246692,7 +260578,9 @@ script 11 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -246700,7 +260588,9 @@ script 11 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -246730,12 +260620,16 @@ script 12 mmbn3 {
 	printNaviCustProgram
 		buffer = 1
 		program = 0
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	waitHold
 }
 script 13 mmbn3s {
-	" "
+	"""
+	 
+	"""
 	printBuffer
 		buffer = 0
 		minLength = 6
@@ -246749,7 +260643,9 @@ script 14 mmbn3s {
 		minLength = 6
 		padZeros = false
 		padLeft = true
-	"z"
+	"""
+	z
+	"""
 	end
 }
 script 15 mmbn3s {
@@ -246758,21 +260654,28 @@ script 15 mmbn3s {
 		minLength = 6
 		padZeros = false
 		padLeft = true
-	"z"
+	"""
+	z
+	"""
 	end
 }
 script 16 mmbn3s {
 	end
 }
 script 17 mmbn3s {
-	"-------"
+	"""
+	-------
+	"""
 	end
 }
 script 18 mmbn3 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
-	"Are you leaving now?\n"
+	"""
+	Are you leaving now?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -246780,7 +260683,9 @@ script 18 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -246788,7 +260693,9 @@ script 18 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -246812,7 +260719,9 @@ script 19 mmbn3 {
 	printItem
 		buffer = 1
 		item = 0
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	waitHold
 }
@@ -246827,11 +260736,15 @@ script 20 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	waitHold
 }
@@ -246839,7 +260752,9 @@ script 21 mmbn3 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
-	"Insufficient Zennys."
+	"""
+	Insufficient Zennys.
+	"""
 	keyWait
 	waitHold
 }
@@ -246847,7 +260762,9 @@ script 22 mmbn3 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
-	"Can't hold any more."
+	"""
+	Can't hold any more.
+	"""
 	keyWait
 	waitHold
 }
@@ -246862,7 +260779,9 @@ script 23 mmbn3 {
 	printNaviCustProgram
 		buffer = 1
 		program = 0
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	waitHold
 }
@@ -246905,7 +260824,10 @@ script 2 mmbn3 {
 		mugshot = MegaMan
 	textSpeed
 		delay = 0
-	"Are you leaving now?\n"
+	"""
+	Are you leaving now?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -246913,7 +260835,9 @@ script 2 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -246921,7 +260845,9 @@ script 2 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -246940,7 +260866,9 @@ script 3 mmbn3 {
 		mugshot = HeelNavi
 	textSpeed
 		delay = 0
-	"Come again,ssssooon!"
+	"""
+	Come again,ssssooon!
+	"""
 	waitHold
 }
 script 4 mmbn3 {
@@ -246949,11 +260877,16 @@ script 4 mmbn3 {
 		mugshot = HeelNavi
 	textSpeed
 		delay = 0
-	"\""
+	"""
+	"
+	"""
 	printItem
 		buffer = 1
 		item = 0
-	",\"eh?\n"
+	"""
+	,"eh?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -246961,7 +260894,9 @@ script 4 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -246969,7 +260904,9 @@ script 4 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -246988,15 +260925,22 @@ script 5 mmbn3 {
 		mugshot = HeelNavi
 	textSpeed
 		delay = 0
-	"\""
+	"""
+	"
+	"""
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	",\"eh?\n"
+	"""
+	,"eh?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -247004,7 +260948,9 @@ script 5 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -247012,7 +260958,9 @@ script 5 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -247042,7 +260990,9 @@ script 6 mmbn3 {
 	printItem
 		buffer = 1
 		item = 0
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	waitHold
 }
@@ -247063,11 +261013,15 @@ script 7 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	waitHold
 }
@@ -247081,7 +261035,9 @@ script 8 mmbn3 {
 		mugshot = MegaMan
 	textSpeed
 		delay = 0
-	"Not enough BugFrags…"
+	"""
+	Not enough BugFrags…
+	"""
 	keyWait
 	waitHold
 }
@@ -247121,11 +261077,16 @@ script 11 mmbn3 {
 		mugshot = HeelNavi
 	textSpeed
 		delay = 0
-	"\""
+	"""
+	"
+	"""
 	printNaviCustProgram
 		buffer = 1
 		program = 0
-	",\"eh?\n"
+	"""
+	,"eh?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -247133,7 +261094,9 @@ script 11 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -247141,7 +261104,9 @@ script 11 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -247171,12 +261136,16 @@ script 12 mmbn3 {
 	printNaviCustProgram
 		buffer = 1
 		program = 0
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	waitHold
 }
 script 13 mmbn3s {
-	" "
+	"""
+	 
+	"""
 	printBuffer
 		buffer = 0
 		minLength = 6
@@ -247190,7 +261159,9 @@ script 14 mmbn3s {
 		minLength = 6
 		padZeros = false
 		padLeft = true
-	"z"
+	"""
+	z
+	"""
 	end
 }
 script 15 mmbn3s {
@@ -247199,21 +261170,28 @@ script 15 mmbn3s {
 		minLength = 6
 		padZeros = false
 		padLeft = true
-	"z"
+	"""
+	z
+	"""
 	end
 }
 script 16 mmbn3s {
 	end
 }
 script 17 mmbn3s {
-	"-------"
+	"""
+	-------
+	"""
 	end
 }
 script 18 mmbn3 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
-	"Are you leaving now?\n"
+	"""
+	Are you leaving now?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -247221,7 +261199,9 @@ script 18 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -247229,7 +261209,9 @@ script 18 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -247253,7 +261235,9 @@ script 19 mmbn3 {
 	printItem
 		buffer = 1
 		item = 0
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	waitHold
 }
@@ -247268,11 +261252,15 @@ script 20 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	waitHold
 }
@@ -247291,7 +261279,9 @@ script 22 mmbn3 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
-	"Can't hold any more."
+	"""
+	Can't hold any more.
+	"""
 	keyWait
 	waitHold
 }
@@ -247306,7 +261296,9 @@ script 23 mmbn3 {
 	printNaviCustProgram
 		buffer = 1
 		program = 0
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	waitHold
 }
@@ -247349,7 +261341,10 @@ script 2 mmbn3 {
 		mugshot = MegaMan
 	textSpeed
 		delay = 0
-	"Are you leaving now?\n"
+	"""
+	Are you leaving now?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -247357,7 +261352,9 @@ script 2 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -247365,7 +261362,9 @@ script 2 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -247384,7 +261383,9 @@ script 3 mmbn3 {
 		mugshot = HeelNavi
 	textSpeed
 		delay = 0
-	"Come again!"
+	"""
+	Come again!
+	"""
 	waitHold
 }
 script 4 mmbn3 {
@@ -247393,11 +261394,16 @@ script 4 mmbn3 {
 		mugshot = HeelNavi
 	textSpeed
 		delay = 0
-	"\""
+	"""
+	"
+	"""
 	printItem
 		buffer = 1
 		item = 0
-	"\"?\n"
+	"""
+	"?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -247405,7 +261411,9 @@ script 4 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -247413,7 +261421,9 @@ script 4 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -247432,15 +261442,22 @@ script 5 mmbn3 {
 		mugshot = HeelNavi
 	textSpeed
 		delay = 0
-	"\""
+	"""
+	"
+	"""
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"?\n"
+	"""
+	"?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -247448,7 +261465,9 @@ script 5 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -247456,7 +261475,9 @@ script 5 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -247479,11 +261500,15 @@ script 6 mmbn3 {
 		mugshot = MegaMan
 	textSpeed
 		delay = 0
-	"I bought \""
+	"""
+	I bought "
+	"""
 	printItem
 		buffer = 1
 		item = 0
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	waitHold
 }
@@ -247504,11 +261529,15 @@ script 7 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	waitHold
 }
@@ -247522,7 +261551,9 @@ script 8 mmbn3 {
 		mugshot = MegaMan
 	textSpeed
 		delay = 0
-	"Not enough Zennys…"
+	"""
+	Not enough Zennys…
+	"""
 	keyWait
 	waitHold
 }
@@ -247562,11 +261593,16 @@ script 11 mmbn3 {
 		mugshot = HeelNavi
 	textSpeed
 		delay = 0
-	"\""
+	"""
+	"
+	"""
 	printNaviCustProgram
 		buffer = 1
 		program = 0
-	"\"?\n"
+	"""
+	"?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -247574,7 +261610,9 @@ script 11 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -247582,7 +261620,9 @@ script 11 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -247612,12 +261652,16 @@ script 12 mmbn3 {
 	printNaviCustProgram
 		buffer = 1
 		program = 0
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	waitHold
 }
 script 13 mmbn3s {
-	" "
+	"""
+	 
+	"""
 	printBuffer
 		buffer = 0
 		minLength = 6
@@ -247631,7 +261675,9 @@ script 14 mmbn3s {
 		minLength = 6
 		padZeros = false
 		padLeft = true
-	"z"
+	"""
+	z
+	"""
 	end
 }
 script 15 mmbn3s {
@@ -247640,21 +261686,28 @@ script 15 mmbn3s {
 		minLength = 6
 		padZeros = false
 		padLeft = true
-	"z"
+	"""
+	z
+	"""
 	end
 }
 script 16 mmbn3s {
 	end
 }
 script 17 mmbn3s {
-	"-------"
+	"""
+	-------
+	"""
 	end
 }
 script 18 mmbn3 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
-	"Are you leaving now?\n"
+	"""
+	Are you leaving now?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -247662,7 +261715,9 @@ script 18 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -247670,7 +261725,9 @@ script 18 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -247694,7 +261751,9 @@ script 19 mmbn3 {
 	printItem
 		buffer = 1
 		item = 0
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	waitHold
 }
@@ -247709,11 +261768,15 @@ script 20 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	waitHold
 }
@@ -247721,7 +261784,9 @@ script 21 mmbn3 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
-	"Insufficient Zennys."
+	"""
+	Insufficient Zennys.
+	"""
 	keyWait
 	waitHold
 }
@@ -247729,7 +261794,9 @@ script 22 mmbn3 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
-	"Can't hold any more."
+	"""
+	Can't hold any more.
+	"""
 	keyWait
 	waitHold
 }
@@ -247744,7 +261811,9 @@ script 23 mmbn3 {
 	printNaviCustProgram
 		buffer = 1
 		program = 0
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	waitHold
 }
@@ -247787,7 +261856,10 @@ script 2 mmbn3 {
 		mugshot = MegaMan
 	textSpeed
 		delay = 0
-	"Are you leaving now?\n"
+	"""
+	Are you leaving now?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -247795,7 +261867,9 @@ script 2 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -247803,7 +261877,9 @@ script 2 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -247822,7 +261898,9 @@ script 3 mmbn3 {
 		mugshot = CloakedNavi
 	textSpeed
 		delay = 0
-	"………Come… again…"
+	"""
+	………Come… again…
+	"""
 	waitHold
 }
 script 4 mmbn3 {
@@ -247831,11 +261909,16 @@ script 4 mmbn3 {
 		mugshot = CloakedNavi
 	textSpeed
 		delay = 0
-	"………\""
+	"""
+	………"
+	"""
 	printItem
 		buffer = 1
 		item = 0
-	"\"?\n"
+	"""
+	"?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -247843,7 +261926,9 @@ script 4 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -247851,7 +261936,9 @@ script 4 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -247870,15 +261957,22 @@ script 5 mmbn3 {
 		mugshot = CloakedNavi
 	textSpeed
 		delay = 0
-	"………\""
+	"""
+	………"
+	"""
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"?\n"
+	"""
+	"?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -247886,7 +261980,9 @@ script 5 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -247894,7 +261990,9 @@ script 5 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -247917,11 +262015,15 @@ script 6 mmbn3 {
 		mugshot = MegaMan
 	textSpeed
 		delay = 0
-	"I bought \""
+	"""
+	I bought "
+	"""
 	printItem
 		buffer = 1
 		item = 0
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	waitHold
 }
@@ -247942,11 +262044,15 @@ script 7 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	waitHold
 }
@@ -247960,7 +262066,9 @@ script 8 mmbn3 {
 		mugshot = MegaMan
 	textSpeed
 		delay = 0
-	"Not enough Zennys…"
+	"""
+	Not enough Zennys…
+	"""
 	keyWait
 	waitHold
 }
@@ -248001,11 +262109,16 @@ script 11 mmbn3 {
 		mugshot = CloakedNavi
 	textSpeed
 		delay = 0
-	"………\""
+	"""
+	………"
+	"""
 	printNaviCustProgram
 		buffer = 1
 		program = 0
-	"\"?\n"
+	"""
+	"?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -248013,7 +262126,9 @@ script 11 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -248021,7 +262136,9 @@ script 11 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -248051,12 +262168,16 @@ script 12 mmbn3 {
 	printNaviCustProgram
 		buffer = 1
 		program = 0
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	waitHold
 }
 script 13 mmbn3s {
-	" "
+	"""
+	 
+	"""
 	printBuffer
 		buffer = 0
 		minLength = 6
@@ -248070,7 +262191,9 @@ script 14 mmbn3s {
 		minLength = 6
 		padZeros = false
 		padLeft = true
-	"z"
+	"""
+	z
+	"""
 	end
 }
 script 15 mmbn3s {
@@ -248079,21 +262202,28 @@ script 15 mmbn3s {
 		minLength = 6
 		padZeros = false
 		padLeft = true
-	"z"
+	"""
+	z
+	"""
 	end
 }
 script 16 mmbn3s {
 	end
 }
 script 17 mmbn3s {
-	"-------"
+	"""
+	-------
+	"""
 	end
 }
 script 18 mmbn3 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
-	"Are you leaving now?\n"
+	"""
+	Are you leaving now?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -248101,7 +262231,9 @@ script 18 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -248109,7 +262241,9 @@ script 18 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -248133,7 +262267,9 @@ script 19 mmbn3 {
 	printItem
 		buffer = 1
 		item = 0
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	waitHold
 }
@@ -248148,11 +262284,15 @@ script 20 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	waitHold
 }
@@ -248160,7 +262300,9 @@ script 21 mmbn3 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
-	"Insufficient Zennys."
+	"""
+	Insufficient Zennys.
+	"""
 	keyWait
 	waitHold
 }
@@ -248168,7 +262310,9 @@ script 22 mmbn3 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
-	"Can't hold any more."
+	"""
+	Can't hold any more.
+	"""
 	keyWait
 	waitHold
 }
@@ -248183,7 +262327,9 @@ script 23 mmbn3 {
 	printNaviCustProgram
 		buffer = 1
 		program = 0
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	waitHold
 }
@@ -248226,7 +262372,10 @@ script 2 mmbn3 {
 		mugshot = MegaMan
 	textSpeed
 		delay = 0
-	"Are you leaving now?\n"
+	"""
+	Are you leaving now?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -248234,7 +262383,9 @@ script 2 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -248242,7 +262393,9 @@ script 2 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -248261,7 +262414,9 @@ script 3 mmbn3 {
 		mugshot = Higsby
 	textSpeed
 		delay = 0
-	"Come again,huh!"
+	"""
+	Come again,huh!
+	"""
 	waitHold
 }
 script 4 mmbn3 {
@@ -248270,11 +262425,16 @@ script 4 mmbn3 {
 		mugshot = Higsby
 	textSpeed
 		delay = 0
-	"\""
+	"""
+	"
+	"""
 	printItem
 		buffer = 1
 		item = 0
-	"\"?\n"
+	"""
+	"?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -248282,7 +262442,9 @@ script 4 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -248290,7 +262452,9 @@ script 4 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -248309,15 +262473,22 @@ script 5 mmbn3 {
 		mugshot = Higsby
 	textSpeed
 		delay = 0
-	"\""
+	"""
+	"
+	"""
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"?\n"
+	"""
+	"?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -248325,7 +262496,9 @@ script 5 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -248333,7 +262506,9 @@ script 5 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -248356,11 +262531,15 @@ script 6 mmbn3 {
 		mugshot = MegaMan
 	textSpeed
 		delay = 0
-	"I bought \""
+	"""
+	I bought "
+	"""
 	printItem
 		buffer = 1
 		item = 0
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	waitHold
 }
@@ -248381,11 +262560,15 @@ script 7 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	waitHold
 }
@@ -248399,7 +262582,9 @@ script 8 mmbn3 {
 		mugshot = MegaMan
 	textSpeed
 		delay = 0
-	"Not enough Zennys…"
+	"""
+	Not enough Zennys…
+	"""
 	keyWait
 	waitHold
 }
@@ -248439,11 +262624,16 @@ script 11 mmbn3 {
 		mugshot = Higsby
 	textSpeed
 		delay = 0
-	"\""
+	"""
+	"
+	"""
 	printNaviCustProgram
 		buffer = 1
 		program = 0
-	",\"huh?\n"
+	"""
+	,"huh?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -248451,7 +262641,9 @@ script 11 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -248459,7 +262651,9 @@ script 11 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -248489,12 +262683,16 @@ script 12 mmbn3 {
 	printNaviCustProgram
 		buffer = 1
 		program = 0
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	waitHold
 }
 script 13 mmbn3s {
-	" "
+	"""
+	 
+	"""
 	printBuffer
 		buffer = 0
 		minLength = 6
@@ -248508,7 +262706,9 @@ script 14 mmbn3s {
 		minLength = 6
 		padZeros = false
 		padLeft = true
-	"z"
+	"""
+	z
+	"""
 	end
 }
 script 15 mmbn3s {
@@ -248517,21 +262717,28 @@ script 15 mmbn3s {
 		minLength = 6
 		padZeros = false
 		padLeft = true
-	"z"
+	"""
+	z
+	"""
 	end
 }
 script 16 mmbn3s {
 	end
 }
 script 17 mmbn3s {
-	"-------"
+	"""
+	-------
+	"""
 	end
 }
 script 18 mmbn3 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
-	"Are you leaving now?\n"
+	"""
+	Are you leaving now?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -248539,7 +262746,9 @@ script 18 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -248547,7 +262756,9 @@ script 18 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -248571,7 +262782,9 @@ script 19 mmbn3 {
 	printItem
 		buffer = 1
 		item = 0
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	waitHold
 }
@@ -248586,11 +262799,15 @@ script 20 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	waitHold
 }
@@ -248598,7 +262815,9 @@ script 21 mmbn3 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
-	"Insufficient Zennys."
+	"""
+	Insufficient Zennys.
+	"""
 	keyWait
 	waitHold
 }
@@ -248606,7 +262825,9 @@ script 22 mmbn3 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
-	"Can't hold any more."
+	"""
+	Can't hold any more.
+	"""
 	keyWait
 	waitHold
 }
@@ -248621,7 +262842,9 @@ script 23 mmbn3 {
 	printNaviCustProgram
 		buffer = 1
 		program = 0
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	waitHold
 }
@@ -248664,7 +262887,10 @@ script 2 mmbn3 {
 		mugshot = MegaMan
 	textSpeed
 		delay = 0
-	"Are you leaving now?\n"
+	"""
+	Are you leaving now?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -248672,7 +262898,9 @@ script 2 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -248680,7 +262908,9 @@ script 2 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -248699,7 +262929,9 @@ script 3 mmbn3 {
 		mugshot = Scientist
 	textSpeed
 		delay = 0
-	"Please come again!"
+	"""
+	Please come again!
+	"""
 	waitHold
 }
 script 4 mmbn3 {
@@ -248708,11 +262940,16 @@ script 4 mmbn3 {
 		mugshot = Scientist
 	textSpeed
 		delay = 0
-	"\""
+	"""
+	"
+	"""
 	printItem
 		buffer = 1
 		item = 0
-	"\"?\n"
+	"""
+	"?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -248720,7 +262957,9 @@ script 4 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -248728,7 +262967,9 @@ script 4 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -248747,15 +262988,22 @@ script 5 mmbn3 {
 		mugshot = Scientist
 	textSpeed
 		delay = 0
-	"\""
+	"""
+	"
+	"""
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"?\n"
+	"""
+	"?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -248763,7 +263011,9 @@ script 5 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -248771,7 +263021,9 @@ script 5 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -248794,11 +263046,15 @@ script 6 mmbn3 {
 		mugshot = MegaMan
 	textSpeed
 		delay = 0
-	"I bought \""
+	"""
+	I bought "
+	"""
 	printItem
 		buffer = 1
 		item = 0
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	waitHold
 }
@@ -248819,11 +263075,15 @@ script 7 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	waitHold
 }
@@ -248837,7 +263097,9 @@ script 8 mmbn3 {
 		mugshot = MegaMan
 	textSpeed
 		delay = 0
-	"Not enough Zennys…"
+	"""
+	Not enough Zennys…
+	"""
 	keyWait
 	waitHold
 }
@@ -248877,11 +263139,16 @@ script 11 mmbn3 {
 		mugshot = Scientist
 	textSpeed
 		delay = 0
-	"\""
+	"""
+	"
+	"""
 	printNaviCustProgram
 		buffer = 1
 		program = 0
-	"\"?\n"
+	"""
+	"?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -248889,7 +263156,9 @@ script 11 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -248897,7 +263166,9 @@ script 11 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -248927,12 +263198,16 @@ script 12 mmbn3 {
 	printNaviCustProgram
 		buffer = 1
 		program = 0
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	waitHold
 }
 script 13 mmbn3s {
-	" "
+	"""
+	 
+	"""
 	printBuffer
 		buffer = 0
 		minLength = 6
@@ -248946,7 +263221,9 @@ script 14 mmbn3s {
 		minLength = 6
 		padZeros = false
 		padLeft = true
-	"z"
+	"""
+	z
+	"""
 	end
 }
 script 15 mmbn3s {
@@ -248955,21 +263232,28 @@ script 15 mmbn3s {
 		minLength = 6
 		padZeros = false
 		padLeft = true
-	"z"
+	"""
+	z
+	"""
 	end
 }
 script 16 mmbn3s {
 	end
 }
 script 17 mmbn3s {
-	"-------"
+	"""
+	-------
+	"""
 	end
 }
 script 18 mmbn3 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
-	"Are you leaving now?\n"
+	"""
+	Are you leaving now?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -248977,7 +263261,9 @@ script 18 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -248985,7 +263271,9 @@ script 18 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -249009,7 +263297,9 @@ script 19 mmbn3 {
 	printItem
 		buffer = 1
 		item = 0
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	waitHold
 }
@@ -249024,11 +263314,15 @@ script 20 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	waitHold
 }
@@ -249036,7 +263330,9 @@ script 21 mmbn3 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
-	"Insufficient Zennys."
+	"""
+	Insufficient Zennys.
+	"""
 	keyWait
 	waitHold
 }
@@ -249044,7 +263340,9 @@ script 22 mmbn3 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
-	"Can't hold any more."
+	"""
+	Can't hold any more.
+	"""
 	keyWait
 	waitHold
 }
@@ -249059,7 +263357,9 @@ script 23 mmbn3 {
 	printNaviCustProgram
 		buffer = 1
 		program = 0
-	".\""
+	"""
+	."
+	"""
 	keyWait
 	waitHold
 }
@@ -249080,7 +263380,9 @@ script 0 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -249088,7 +263390,9 @@ script 0 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -249140,7 +263444,10 @@ script 2 mmbn3 {
 		delay = 0
 	color
 		palette = 3
-	"Add these 3?\n"
+	"""
+	Add these 3?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -249148,7 +263455,9 @@ script 2 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -249156,7 +263465,9 @@ script 2 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -249174,11 +263485,16 @@ script 2 mmbn3 {
 }
 script 3 mmbn3 {
 	msgOpen
-	"OK!\n"
+	"""
+	OK!
+	
+	"""
 	soundDisableTextSFX
 	soundPlay
 		track = 233
-	"Click-k-k-k… THUNK!"
+	"""
+	Click-k-k-k… THUNK!
+	"""
 	soundEnableTextSFX
 	keyWait
 	clearMsg
@@ -249198,11 +263514,15 @@ script 3 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -249212,7 +263532,10 @@ script 3 mmbn3 {
 	positionText
 		left = 8
 		top = 1
-	"Try again?\n"
+	"""
+	Try again?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -249220,7 +263543,9 @@ script 3 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -249228,7 +263553,9 @@ script 3 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -249279,7 +263606,9 @@ script 6 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -249287,7 +263616,9 @@ script 6 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -249339,7 +263670,10 @@ script 8 mmbn3 {
 		delay = 0
 	color
 		palette = 3
-	"Add these 10?\n"
+	"""
+	Add these 10?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -249347,7 +263681,9 @@ script 8 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -249355,7 +263691,9 @@ script 8 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -249373,11 +263711,16 @@ script 8 mmbn3 {
 }
 script 9 mmbn3 {
 	msgOpen
-	"OK!\n"
+	"""
+	OK!
+	
+	"""
 	soundDisableTextSFX
 	soundPlay
 		track = 233
-	"Click-k-k-k… THUNK!"
+	"""
+	Click-k-k-k… THUNK!
+	"""
 	soundEnableTextSFX
 	keyWait
 	clearMsg
@@ -249397,11 +263740,15 @@ script 9 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -249411,7 +263758,10 @@ script 9 mmbn3 {
 	positionText
 		left = 8
 		top = 1
-	"Try again?\n"
+	"""
+	Try again?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -249419,7 +263769,9 @@ script 9 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -249427,7 +263779,9 @@ script 9 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -249478,7 +263832,9 @@ script 12 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -249486,7 +263842,9 @@ script 12 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -249532,7 +263890,9 @@ script 15 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 150
-	"Grrrr… Growwwwl!"
+	"""
+	Grrrr… Growwwwl!
+	"""
 	soundEnableTextSFX
 	keyWait
 	clearMsg
@@ -249560,11 +263920,15 @@ script 15 mmbn3 {
 	printChip
 		buffer = 1
 		chip = 0
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 2
 		code = A
-	"\"!!"
+	"""
+	"!!
+	"""
 	playerFinish
 	playerReset
 	keyWait
@@ -249578,7 +263942,10 @@ script 15 mmbn3 {
 		flag = 345
 		jumpIfTrue = 18
 		jumpIfFalse = continue
-	"Try again?\n"
+	"""
+	Try again?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -249586,7 +263953,9 @@ script 15 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -249594,7 +263963,9 @@ script 15 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -249633,7 +264004,9 @@ script 17 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 136
-	"Grrrrrr…"
+	"""
+	Grrrrrr…
+	"""
 	soundEnableTextSFX
 	keyWait
 	msgClose
@@ -249649,19 +264022,27 @@ script 18 mmbn3 {
 	soundDisableTextSFX
 	soundPlay
 		track = 150
-	"Growwwwl!"
+	"""
+	Growwwwl!
+	"""
 	wait
 		frames = 60
 	soundEnableTextSFX
 	keyWait
 	clearMsg
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 30
-	"."
+	"""
+	.
+	"""
 	wait
 		frames = 30
 	keyWait
@@ -249677,7 +264058,10 @@ script 18 mmbn3 {
 	keyWait
 	clearMsg
 	mugshotHide
-	"Try again?\n"
+	"""
+	Try again?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -249685,7 +264069,9 @@ script 18 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -249693,7 +264079,9 @@ script 18 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -250022,7 +264410,10 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Accept this job?\n"
+	"""
+	Accept this job?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -250030,7 +264421,9 @@ script 0 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -250038,7 +264431,9 @@ script 0 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -250093,7 +264488,10 @@ script 1 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Accept this job?\n"
+	"""
+	Accept this job?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -250101,7 +264499,9 @@ script 1 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -250109,7 +264509,9 @@ script 1 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -250164,7 +264566,10 @@ script 2 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Accept this job?\n"
+	"""
+	Accept this job?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -250172,7 +264577,9 @@ script 2 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -250180,7 +264587,9 @@ script 2 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -250228,7 +264637,10 @@ script 3 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Accept this job?\n"
+	"""
+	Accept this job?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -250236,7 +264648,9 @@ script 3 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -250244,7 +264658,9 @@ script 3 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -250303,7 +264719,10 @@ script 4 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Accept this job?\n"
+	"""
+	Accept this job?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -250311,7 +264730,9 @@ script 4 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -250319,7 +264740,9 @@ script 4 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -250367,7 +264790,9 @@ script 5 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 122
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = *
@@ -250384,11 +264809,15 @@ script 5 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 122
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = *
-	"\"?"
+	"""
+	"?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -250404,7 +264833,10 @@ script 5 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Accept this job?\n"
+	"""
+	Accept this job?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -250412,7 +264844,9 @@ script 5 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -250420,7 +264854,9 @@ script 5 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -250475,7 +264911,10 @@ script 6 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Accept this job?\n"
+	"""
+	Accept this job?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -250483,7 +264922,9 @@ script 6 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -250491,7 +264932,9 @@ script 6 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -250545,7 +264988,10 @@ script 7 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Accept this job?\n"
+	"""
+	Accept this job?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -250553,7 +264999,9 @@ script 7 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -250561,7 +265009,9 @@ script 7 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -250609,7 +265059,10 @@ script 8 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Accept this job?\n"
+	"""
+	Accept this job?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -250617,7 +265070,9 @@ script 8 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -250625,7 +265080,9 @@ script 8 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -250686,7 +265143,10 @@ script 9 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Accept this job?\n"
+	"""
+	Accept this job?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -250694,7 +265154,9 @@ script 9 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -250702,7 +265164,9 @@ script 9 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -250756,7 +265220,10 @@ script 10 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Accept this job?\n"
+	"""
+	Accept this job?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -250764,7 +265231,9 @@ script 10 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -250772,7 +265241,9 @@ script 10 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -250827,7 +265298,10 @@ script 11 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Accept this job?\n"
+	"""
+	Accept this job?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -250835,7 +265309,9 @@ script 11 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -250843,7 +265319,9 @@ script 11 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -250905,7 +265383,10 @@ script 12 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Accept this job?\n"
+	"""
+	Accept this job?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -250913,7 +265394,9 @@ script 12 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -250921,7 +265404,9 @@ script 12 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -250983,7 +265468,10 @@ script 13 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Accept this job?\n"
+	"""
+	Accept this job?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -250991,7 +265479,9 @@ script 13 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -250999,7 +265489,9 @@ script 13 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -251059,7 +265551,10 @@ script 14 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Accept this job?\n"
+	"""
+	Accept this job?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -251067,7 +265562,9 @@ script 14 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -251075,7 +265572,9 @@ script 14 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -251137,7 +265636,10 @@ script 15 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Accept this job?\n"
+	"""
+	Accept this job?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -251145,7 +265647,9 @@ script 15 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -251153,7 +265657,9 @@ script 15 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -251215,7 +265721,10 @@ script 16 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Accept this job?\n"
+	"""
+	Accept this job?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -251223,7 +265732,9 @@ script 16 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -251231,7 +265742,9 @@ script 16 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -251286,7 +265799,10 @@ script 17 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Accept this job?\n"
+	"""
+	Accept this job?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -251294,7 +265810,9 @@ script 17 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -251302,7 +265820,9 @@ script 17 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -251364,7 +265884,10 @@ script 18 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Accept this job?\n"
+	"""
+	Accept this job?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -251372,7 +265895,9 @@ script 18 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -251380,7 +265905,9 @@ script 18 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -251414,10 +265941,15 @@ script 19 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Come to Hades Isle…"
+	"""
+	Come to Hades Isle…
+	"""
 	keyWait
 	clearMsg
-	"Accept this job?\n"
+	"""
+	Accept this job?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -251425,7 +265957,9 @@ script 19 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -251433,7 +265967,9 @@ script 19 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -251508,7 +266044,10 @@ script 20 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Accept this job?\n"
+	"""
+	Accept this job?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -251516,7 +266055,9 @@ script 20 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -251524,7 +266065,9 @@ script 20 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -251585,7 +266128,10 @@ script 21 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Accept this job?\n"
+	"""
+	Accept this job?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -251593,7 +266139,9 @@ script 21 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -251601,7 +266149,9 @@ script 21 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -251649,7 +266199,10 @@ script 22 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Accept this job?\n"
+	"""
+	Accept this job?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -251657,7 +266210,9 @@ script 22 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -251665,7 +266220,9 @@ script 22 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -251719,7 +266276,10 @@ script 23 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Accept this job?\n"
+	"""
+	Accept this job?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -251727,7 +266287,9 @@ script 23 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -251735,7 +266297,9 @@ script 23 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -251790,7 +266354,10 @@ script 24 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Accept this job?\n"
+	"""
+	Accept this job?
+	
+	"""
 	option
 		left = 1
 		right = 1
@@ -251798,7 +266365,9 @@ script 24 mmbn3 {
 		down = 0
 	space
 		count = 2
-	"Yes "
+	"""
+	Yes 
+	"""
 	option
 		left = 0
 		right = 0
@@ -251806,7 +266375,9 @@ script 24 mmbn3 {
 		down = 1
 	space
 		count = 2
-	"No"
+	"""
+	No
+	"""
 	select
 		default = 0
 		BSeparate = false
@@ -251883,7 +266454,9 @@ script 64 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job accepted."
+	"""
+	Job accepted.
+	"""
 	keyWait
 	waitHold
 }
@@ -251908,7 +266481,9 @@ script 65 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job accepted."
+	"""
+	Job accepted.
+	"""
 	keyWait
 	waitHold
 }
@@ -251933,7 +266508,9 @@ script 66 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job accepted."
+	"""
+	Job accepted.
+	"""
 	keyWait
 	waitHold
 }
@@ -251958,7 +266535,9 @@ script 67 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job accepted."
+	"""
+	Job accepted.
+	"""
 	keyWait
 	waitHold
 }
@@ -251983,7 +266562,9 @@ script 68 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job accepted."
+	"""
+	Job accepted.
+	"""
 	keyWait
 	waitHold
 }
@@ -252008,7 +266589,9 @@ script 69 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job accepted."
+	"""
+	Job accepted.
+	"""
 	keyWait
 	waitHold
 }
@@ -252033,7 +266616,9 @@ script 70 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job accepted."
+	"""
+	Job accepted.
+	"""
 	keyWait
 	waitHold
 }
@@ -252058,7 +266643,9 @@ script 71 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job accepted."
+	"""
+	Job accepted.
+	"""
 	keyWait
 	waitHold
 }
@@ -252083,7 +266670,9 @@ script 72 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job accepted."
+	"""
+	Job accepted.
+	"""
 	keyWait
 	waitHold
 }
@@ -252108,7 +266697,9 @@ script 73 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job accepted."
+	"""
+	Job accepted.
+	"""
 	keyWait
 	waitHold
 }
@@ -252133,7 +266724,9 @@ script 74 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job accepted."
+	"""
+	Job accepted.
+	"""
 	keyWait
 	waitHold
 }
@@ -252158,7 +266751,9 @@ script 75 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job accepted."
+	"""
+	Job accepted.
+	"""
 	keyWait
 	waitHold
 }
@@ -252183,7 +266778,9 @@ script 76 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job accepted."
+	"""
+	Job accepted.
+	"""
 	keyWait
 	waitHold
 }
@@ -252208,7 +266805,9 @@ script 77 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job accepted."
+	"""
+	Job accepted.
+	"""
 	keyWait
 	waitHold
 }
@@ -252233,7 +266832,9 @@ script 78 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job accepted."
+	"""
+	Job accepted.
+	"""
 	keyWait
 	waitHold
 }
@@ -252258,7 +266859,9 @@ script 79 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job accepted."
+	"""
+	Job accepted.
+	"""
 	keyWait
 	waitHold
 }
@@ -252283,7 +266886,9 @@ script 80 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job accepted."
+	"""
+	Job accepted.
+	"""
 	keyWait
 	waitHold
 }
@@ -252308,7 +266913,9 @@ script 81 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job accepted."
+	"""
+	Job accepted.
+	"""
 	keyWait
 	waitHold
 }
@@ -252333,7 +266940,9 @@ script 82 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job accepted."
+	"""
+	Job accepted.
+	"""
 	keyWait
 	waitHold
 }
@@ -252358,7 +266967,9 @@ script 83 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job accepted."
+	"""
+	Job accepted.
+	"""
 	keyWait
 	waitHold
 }
@@ -252383,7 +266994,9 @@ script 84 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job accepted."
+	"""
+	Job accepted.
+	"""
 	keyWait
 	waitHold
 }
@@ -252408,7 +267021,9 @@ script 85 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job accepted."
+	"""
+	Job accepted.
+	"""
 	keyWait
 	waitHold
 }
@@ -252433,7 +267048,9 @@ script 86 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job accepted."
+	"""
+	Job accepted.
+	"""
 	keyWait
 	waitHold
 }
@@ -252458,7 +267075,9 @@ script 87 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job accepted."
+	"""
+	Job accepted.
+	"""
 	keyWait
 	waitHold
 }
@@ -252483,7 +267102,9 @@ script 88 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job accepted."
+	"""
+	Job accepted.
+	"""
 	keyWait
 	waitHold
 }
@@ -253153,7 +267774,9 @@ script 137 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job in progress."
+	"""
+	Job in progress.
+	"""
 	keyWait
 	waitHold
 }
@@ -253170,7 +267793,9 @@ script 138 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job in progress."
+	"""
+	Job in progress.
+	"""
 	keyWait
 	waitHold
 }
@@ -253187,7 +267812,9 @@ script 139 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job in progress."
+	"""
+	Job in progress.
+	"""
 	keyWait
 	waitHold
 }
@@ -253204,7 +267831,9 @@ script 140 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job in progress."
+	"""
+	Job in progress.
+	"""
 	keyWait
 	waitHold
 }
@@ -253221,7 +267850,9 @@ script 141 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job in progress."
+	"""
+	Job in progress.
+	"""
 	keyWait
 	waitHold
 }
@@ -253238,7 +267869,9 @@ script 142 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job in progress."
+	"""
+	Job in progress.
+	"""
 	keyWait
 	waitHold
 }
@@ -253255,7 +267888,9 @@ script 143 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job in progress."
+	"""
+	Job in progress.
+	"""
 	keyWait
 	waitHold
 }
@@ -253272,7 +267907,9 @@ script 144 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job in progress."
+	"""
+	Job in progress.
+	"""
 	keyWait
 	waitHold
 }
@@ -253289,7 +267926,9 @@ script 145 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job in progress."
+	"""
+	Job in progress.
+	"""
 	keyWait
 	waitHold
 }
@@ -253306,7 +267945,9 @@ script 146 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job in progress."
+	"""
+	Job in progress.
+	"""
 	keyWait
 	waitHold
 }
@@ -253323,7 +267964,9 @@ script 147 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job in progress."
+	"""
+	Job in progress.
+	"""
 	keyWait
 	waitHold
 }
@@ -253340,7 +267983,9 @@ script 148 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job in progress."
+	"""
+	Job in progress.
+	"""
 	keyWait
 	waitHold
 }
@@ -253357,7 +268002,9 @@ script 149 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job in progress."
+	"""
+	Job in progress.
+	"""
 	keyWait
 	waitHold
 }
@@ -253374,7 +268021,9 @@ script 150 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job in progress."
+	"""
+	Job in progress.
+	"""
 	keyWait
 	waitHold
 }
@@ -253391,7 +268040,9 @@ script 151 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job in progress."
+	"""
+	Job in progress.
+	"""
 	keyWait
 	waitHold
 }
@@ -253408,7 +268059,9 @@ script 152 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job in progress."
+	"""
+	Job in progress.
+	"""
 	keyWait
 	waitHold
 }
@@ -253425,7 +268078,9 @@ script 153 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job in progress."
+	"""
+	Job in progress.
+	"""
 	keyWait
 	waitHold
 }
@@ -253442,7 +268097,9 @@ script 154 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job in progress."
+	"""
+	Job in progress.
+	"""
 	keyWait
 	waitHold
 }
@@ -253459,7 +268116,9 @@ script 155 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job in progress."
+	"""
+	Job in progress.
+	"""
 	keyWait
 	waitHold
 }
@@ -253476,7 +268135,9 @@ script 156 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job in progress."
+	"""
+	Job in progress.
+	"""
 	keyWait
 	waitHold
 }
@@ -253493,7 +268154,9 @@ script 157 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job in progress."
+	"""
+	Job in progress.
+	"""
 	keyWait
 	waitHold
 }
@@ -253510,7 +268173,9 @@ script 158 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job in progress."
+	"""
+	Job in progress.
+	"""
 	keyWait
 	waitHold
 }
@@ -253527,7 +268192,9 @@ script 159 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Job in progress."
+	"""
+	Job in progress.
+	"""
 	keyWait
 	waitHold
 }
@@ -253951,10 +268618,14 @@ script 170 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"to the Officials."
+	"""
+	to the Officials.
+	"""
 	keyWait
 	clearMsg
-	"-Board Administrator"
+	"""
+	-Board Administrator
+	"""
 	keyWait
 	waitHold
 }
@@ -254246,7 +268917,9 @@ script 179 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Well done…"
+	"""
+	Well done…
+	"""
 	keyWait
 	waitHold
 }
@@ -254417,7 +269090,9 @@ script 184 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Good luck!"
+	"""
+	Good luck!
+	"""
 	keyWait
 	waitHold
 }
@@ -254632,7 +269307,9 @@ script 0 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"I'll be waiting."
+	"""
+	I'll be waiting.
+	"""
 	keyWait
 	waitHold
 }
@@ -254649,7 +269326,9 @@ script 1 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Hi! Miki here!"
+	"""
+	Hi! Miki here!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -254673,7 +269352,9 @@ script 2 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Hey Miki!"
+	"""
+	Hey Miki!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -254897,7 +269578,9 @@ script 7 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"Hi! Mayumi here."
+	"""
+	Hi! Mayumi here.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -255095,7 +269778,9 @@ script 11 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 122
-	",\""
+	"""
+	,"
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -255125,7 +269810,9 @@ script 12 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"packing a \""
+	"""
+	packing a "
+	"""
 	printChip
 		buffer = 0
 		chip = 1
@@ -255326,7 +270013,9 @@ script 16 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"He sure is freaky."
+	"""
+	He sure is freaky.
+	"""
 	keyWait
 	waitHold
 }
@@ -255391,7 +270080,9 @@ script 18 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 25
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = M
@@ -255456,7 +270147,9 @@ script 18 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 25
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = M
@@ -255487,7 +270180,9 @@ script 19 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 25
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = M
@@ -255552,7 +270247,9 @@ script 20 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 40
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = S
@@ -255631,7 +270328,9 @@ script 22 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"For example,you can…"
+	"""
+	For example,you can…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -255938,7 +270637,9 @@ script 30 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"What's going on?!"
+	"""
+	What's going on?!
+	"""
 	keyWait
 	waitHold
 }
@@ -256315,7 +271016,9 @@ script 1 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 5
-	"s,allowing"
+	"""
+	s,allowing
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -256326,11 +271029,15 @@ script 1 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 10
-	" or "
+	"""
+	 or 
+	"""
 	printChip
 		buffer = 0
 		chip = 11
-	"!"
+	"""
+	!
+	"""
 	keyWait
 	waitHold
 }
@@ -256347,11 +271054,15 @@ script 2 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"How to beat "
+	"""
+	How to beat 
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 139
-	"?"
+	"""
+	?
+	"""
 	keyWait
 	waitHold
 }
@@ -256673,19 +271384,29 @@ script 8 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"on sale were\n"
+	"""
+	on sale were
+	
+	"""
 	printNaviCustProgram
 		buffer = 0
 		program = 36
-	","
+	"""
+	,
+	"""
 	printNaviCustProgram
 		buffer = 0
 		program = 41
-	",\n"
+	"""
+	,
+	
+	"""
 	printNaviCustProgram
 		buffer = 0
 		program = 43
-	"…"
+	"""
+	…
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -256702,13 +271423,17 @@ script 8 mmbn3 {
 	printNaviCustProgram
 		buffer = 0
 		program = 36
-	" and"
+	"""
+	 and
+	"""
 	keyWait
 	clearMsg
 	printNaviCustProgram
 		buffer = 0
 		program = 43
-	"! "
+	"""
+	! 
+	"""
 	printNaviCustProgram
 		buffer = 0
 		program = 36
@@ -256719,7 +271444,10 @@ script 8 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"I wanted an\n"
+	"""
+	I wanted an
+	
+	"""
 	printNaviCustProgram
 		buffer = 0
 		program = 41
@@ -256868,7 +271596,9 @@ script 11 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"an "
+	"""
+	an 
+	"""
 	printNaviCustProgram
 		buffer = 0
 		program = 36
@@ -257132,7 +271862,10 @@ script 16 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"of mine used a\n"
+	"""
+	of mine used a
+	
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 208
@@ -257177,7 +271910,9 @@ script 17 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 208
-	" is my"
+	"""
+	 is my
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -257235,7 +271970,9 @@ script 18 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"Can "
+	"""
+	Can 
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 208
@@ -257287,7 +272024,9 @@ script 19 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"and "
+	"""
+	and 
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 208
@@ -257300,11 +272039,16 @@ script 19 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 64
-	" and "
+	"""
+	 and 
+	"""
 	printChip
 		buffer = 0
 		chip = 24
-	"\nfrom "
+	"""
+	
+	from 
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 21
@@ -257350,11 +272094,15 @@ script 20 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 33
-	" and "
+	"""
+	 and 
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 143
-	"?"
+	"""
+	?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -257384,7 +272132,9 @@ script 20 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"I have a "
+	"""
+	I have a 
+	"""
 	printNaviCustProgram
 		buffer = 0
 		program = 6
@@ -257416,7 +272166,9 @@ script 21 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"What's a ModCode?"
+	"""
+	What's a ModCode?
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -257605,15 +272357,22 @@ script 25 mmbn3 {
 	printNaviCustProgram
 		buffer = 0
 		program = 16
-	","
+	"""
+	,
+	"""
 	printNaviCustProgram
 		buffer = 0
 		program = 8
-	",\nand "
+	"""
+	,
+	and 
+	"""
 	printNaviCustProgram
 		buffer = 0
 		program = 48
-	"."
+	"""
+	.
+	"""
 	keyWait
 	waitHold
 }
@@ -257650,7 +272409,10 @@ script 26 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"I don't know about\n"
+	"""
+	I don't know about
+	
+	"""
 	printNaviCustProgram
 		buffer = 0
 		program = 48
@@ -257695,11 +272457,17 @@ script 27 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"I got my "
+	"""
+	I got my 
+	"""
 	printNaviCustProgram
 		buffer = 0
 		program = 48
-	"\nfrom a friend who\nfrequents the Under-"
+	"""
+	
+	from a friend who
+	frequents the Under-
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -257971,7 +272739,9 @@ script 1 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 103
-	"."
+	"""
+	.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -257981,7 +272751,9 @@ script 1 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"What should I do?"
+	"""
+	What should I do?
+	"""
 	keyWait
 	waitHold
 }
@@ -257998,7 +272770,10 @@ script 2 mmbn3 {
 		top = 100
 	msgOpenInvisible
 		unused = 12
-	"The secret to the\n"
+	"""
+	The secret to the
+	
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 103
@@ -258285,7 +273060,9 @@ script 7 mmbn3 {
 	printNaviCustProgram
 		buffer = 0
 		program = 23
-	"!"
+	"""
+	!
+	"""
 	keyWait
 	waitHold
 }
@@ -258546,15 +273323,23 @@ script 12 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"float,don't they?\n"
+	"""
+	float,don't they?
+	
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 29
-	","
+	"""
+	,
+	"""
 	printEnemyName
 		buffer = 0
 		enemy = 155
-	"\nand others just pass"
+	"""
+	
+	and others just pass
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -258600,7 +273385,9 @@ script 13 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 9
-	" that can"
+	"""
+	 that can
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -258618,7 +273405,9 @@ script 13 mmbn3 {
 	printNaviCustProgram
 		buffer = 0
 		program = 29
-	"!"
+	"""
+	!
+	"""
 	keyWait
 	waitHold
 }
@@ -258898,10 +273687,15 @@ script 19 mmbn3 {
 	"""
 	keyWait
 	clearMsg
-	"…is simply suicide."
+	"""
+	…is simply suicide.
+	"""
 	keyWait
 	clearMsg
-	"The ModCode for\n"
+	"""
+	The ModCode for
+	
+	"""
 	printNaviCustProgram
 		buffer = 0
 		program = 5
@@ -259814,11 +274608,15 @@ script 12 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 13
-	" "
+	"""
+	 
+	"""
 	printCode
 		buffer = 0
 		code = *
-	"\"!"
+	"""
+	"!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -259863,7 +274661,9 @@ script 13 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 1
-	"\" chips."
+	"""
+	" chips.
+	"""
 	keyWait
 	waitHold
 }
@@ -260025,7 +274825,9 @@ script 17 mmbn3 {
 	printChip
 		buffer = 0
 		chip = 118
-	"\" chips!"
+	"""
+	" chips!
+	"""
 	keyWait
 	waitHold
 }
@@ -260085,7 +274887,9 @@ script 19 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 1
-	"."
+	"""
+	.
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -260138,7 +274942,9 @@ script 20 mmbn3 {
 	printEnemyName
 		buffer = 0
 		enemy = 91
-	" was there!"
+	"""
+	 was there!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -262182,7 +276988,9 @@ script 2 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"………?!"
+	"""
+	………?!
+	"""
 	keyWait
 	clearMsg
 	"""
@@ -262262,7 +277070,9 @@ script 7 mmbn3 {
 	mugshotShow
 		mugshot = MegaMan
 	msgOpen
-	"………?!"
+	"""
+	………?!
+	"""
 	keyWait
 	clearMsg
 	"""
