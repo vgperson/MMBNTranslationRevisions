@@ -14,7 +14,20 @@ When working with the BN2 Revision scripts, you should replace TextPet's default
 
 ## basepatches folder
 
-The GBA versions of the BN2, BN3, and BN4 revisions make slight edits to the font graphics, with BN2 in particular adding a whole new character. To include these, you must first apply these patches to the unmodified North American ROMs (using an IPS patcher such as Lunar IPS) and use those as your "base" ROMs. If you don't, BN2's ellipses will display as blank spaces, BN3 will keep the original single-pixel period, and BN4 will keep a single-pixel period and weirder-looking "j."
+The GBA versions of the revisions make a handful of edits outside of the message data handled by TextPet. If you want to include these, you should apply the corresponding patch to an unmodified North American ROM (using an IPS patcher such as Lunar IPS), and use that as your "base" ROM for TextPet insertion. This is particularly important for BN2, as otherwise the brand new ellipsis character will appear as a blank space.
+
+#### Changes included in BN2 base patch
+- New ellipsis character in font
+
+#### Changes included in BN3 base patches
+- Font edits: Period made bigger, ellipsis characters moved lower
+- Redone alphabetical chip sorting, addressing some misplaced chips from original, ordering Recov chips by value, and adjusting for YamatoMan name restoration
+- Fixed (displayed) letter codes for two chips in Higsby's chip order; only takes effect on new game, as it gets stored in the save data
+- (Blue only) Edited graphics for Beach Street poster to say "JACK IN" instead of "PLUG IN"
+
+#### Changes included in BN4 base patches
+- Font edits: Period made bigger, lowercase j repositioned, removed off-color pixel above F in chip description font
+- Redone alphabetical chip sorting, addressing some misplaced chips from original
 
 ## Notes on running TextPet scripts
 
