@@ -3656,7 +3656,8 @@ script 198 mmbn4-lc {
 	mugshotShow
 		mugshot = MegaMan
 	"""
-	Delete 
+	Delete entry for
+	
 	"""
 	printEnemy
 		buffer = 1
@@ -3665,8 +3666,7 @@ script 198 mmbn4-lc {
 		buffer = 2
 		name = 0
 	"""
-	's
-	entry?
+	?
 	
 	"""
 	positionOptionHorizontal
@@ -8476,7 +8476,8 @@ script 198 mmbn4-lc {
 	mugshotShow
 		mugshot = MegaMan
 	"""
-	Delete 
+	Delete entry for
+	
 	"""
 	printEnemy
 		buffer = 1
@@ -8485,8 +8486,7 @@ script 198 mmbn4-lc {
 		buffer = 2
 		name = 0
 	"""
-	's
-	entry?
+	?
 	
 	"""
 	positionOptionHorizontal
@@ -10888,6 +10888,8 @@ script 0 mmbn4-lc {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	flagSet
 		flag = 157
 	flagSet
@@ -10985,6 +10987,8 @@ script 1 mmbn4-lc {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 2 mmbn4-lc {
@@ -11005,6 +11009,8 @@ script 2 mmbn4-lc {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 3 mmbn4-lc {
@@ -11042,6 +11048,8 @@ script 3 mmbn4-lc {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 4 mmbn4-lc {
@@ -11071,6 +11079,8 @@ script 4 mmbn4-lc {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 5 mmbn4-lc {
@@ -11127,6 +11137,8 @@ script 5 mmbn4-lc {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 6 mmbn4-lc {
@@ -11148,6 +11160,8 @@ script 6 mmbn4-lc {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 7 mmbn4-lc {
@@ -11199,6 +11213,8 @@ script 7 mmbn4-lc {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 8 mmbn4-lc {
@@ -11241,6 +11257,8 @@ script 8 mmbn4-lc {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 9 mmbn4-lc {
@@ -11278,6 +11296,8 @@ script 9 mmbn4-lc {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 10 mmbn4-lc {
@@ -11328,6 +11348,8 @@ script 10 mmbn4-lc {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 11 mmbn4-lc {
@@ -11386,6 +11408,8 @@ script 11 mmbn4-lc {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 12 mmbn4-lc {
@@ -11560,6 +11584,8 @@ script 12 mmbn4-lc {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	flagSet
 		flag = 131
 	flagSet
@@ -11591,6 +11617,8 @@ script 13 mmbn4-lc {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 14 mmbn4-lc {
@@ -11633,6 +11661,8 @@ script 14 mmbn4-lc {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 15 mmbn4-lc {
@@ -11675,6 +11705,8 @@ script 15 mmbn4-lc {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 16 mmbn4-lc {
@@ -11728,6 +11760,8 @@ script 16 mmbn4-lc {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 17 mmbn4-lc {
@@ -11797,6 +11831,8 @@ script 17 mmbn4-lc {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 18 mmbn4-lc {
@@ -11858,6 +11894,8 @@ script 18 mmbn4-lc {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 19 mmbn4-lc {
@@ -11935,6 +11973,8 @@ script 19 mmbn4-lc {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 20 mmbn4-lc {
@@ -11996,6 +12036,8 @@ script 20 mmbn4-lc {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 21 mmbn4-lc {
@@ -12065,6 +12107,8 @@ script 21 mmbn4-lc {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 22 mmbn4-lc {
@@ -12142,6 +12186,8 @@ script 22 mmbn4-lc {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 23 mmbn4-lc {
@@ -12211,6 +12257,8 @@ script 23 mmbn4-lc {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 24 mmbn4-lc {
@@ -12288,6 +12336,8 @@ script 24 mmbn4-lc {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 25 mmbn4-lc {
@@ -12349,6 +12399,8 @@ script 25 mmbn4-lc {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 26 mmbn4-lc {
@@ -12410,6 +12462,8 @@ script 26 mmbn4-lc {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 27 mmbn4-lc {
@@ -12477,6 +12531,8 @@ script 27 mmbn4-lc {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 28 mmbn4-lc {
@@ -12526,6 +12582,8 @@ script 28 mmbn4-lc {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 29 mmbn4-lc {
@@ -12586,6 +12644,8 @@ script 29 mmbn4-lc {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 30 mmbn4-lc {
@@ -12631,6 +12691,8 @@ script 30 mmbn4-lc {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 31 mmbn4-lc {
@@ -12690,6 +12752,8 @@ script 31 mmbn4-lc {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 32 mmbn4-lc {
@@ -12773,6 +12837,8 @@ script 32 mmbn4-lc {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 33 mmbn4-lc {
@@ -12846,6 +12912,8 @@ script 33 mmbn4-lc {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 50 mmbn4-lc {
@@ -12899,6 +12967,8 @@ script 50 mmbn4-lc {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 51 mmbn4-lc {
@@ -12969,6 +13039,8 @@ script 51 mmbn4-lc {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 100 mmbn4s {
@@ -20903,7 +20975,7 @@ script 241 mmbn4s {
 		minLength = 6
 		padZeros = false
 		padLeft = true
-	"[z]"
+	"z"
 	end
 }
 script 242 mmbn4s {
@@ -38386,7 +38458,7 @@ script 26 mmbn4s {
 	end
 }
 script 27 mmbn4s {
-	"CannBall"
+	"BallMode"
 	end
 }
 script 28 mmbn4s {
@@ -48813,7 +48885,7 @@ script 48 mmbn4-lc {
 	textSpeed
 		delay = 0
 	"""
-	A RedSun
+	Red Sun
 	bombards
 	3 ahead
 	"""
@@ -48883,7 +48955,7 @@ script 53 mmbn4-lc {
 	textSpeed
 		delay = 0
 	"""
-	Blue moon
+	Blue Moon
 	drains
 	3 ahead
 	"""
@@ -60272,8 +60344,8 @@ script 155 mmbn4-lc {
 	msgOpen
 	"""
 	We're finally done
-	training! Let's
-	go see KendoMan!
+	training! Let's go
+	see KendoMan!
 	"""
 	keyWait
 		any = false
@@ -60485,8 +60557,8 @@ script 175 mmbn4-lc {
 	msgOpen
 	"""
 	Jack me in! We have
-	to go to Netopia
-	Area to see ColdMan!
+	to go to Netopia Area
+	to see ColdMan!
 	"""
 	keyWait
 		any = false
@@ -60522,8 +60594,8 @@ script 178 mmbn4-lc {
 		mugshot = MegaMan
 	msgOpen
 	"""
-	Back to Sharo! We
-	have to stop that
+	Back to Sharo!
+	We have to stop that
 	blizzard,or else!
 	"""
 	keyWait
@@ -60536,8 +60608,8 @@ script 181 mmbn4-lc {
 	msgOpen
 	"""
 	Oooh… I can't stand
-	selfish people! To
-	the Colosseum!
+	selfish people!
+	To the Colosseum!
 	"""
 	keyWait
 		any = false
@@ -64580,8 +64652,8 @@ script 155 mmbn4-lc {
 	msgOpen
 	"""
 	We're finally done
-	training! Let's
-	go see KendoMan!
+	training! Let's go
+	see KendoMan!
 	"""
 	keyWait
 		any = false
@@ -64793,8 +64865,8 @@ script 175 mmbn4-lc {
 	msgOpen
 	"""
 	Jack me in! We have
-	to go to Netopia
-	Area to see ColdMan!
+	to go to Netopia Area
+	to see ColdMan!
 	"""
 	keyWait
 		any = false
@@ -64830,8 +64902,8 @@ script 178 mmbn4-lc {
 		mugshot = MegaMan
 	msgOpen
 	"""
-	Back to Sharo! We
-	have to stop that
+	Back to Sharo!
+	We have to stop that
 	blizzard,or else!
 	"""
 	keyWait
@@ -64844,8 +64916,8 @@ script 181 mmbn4-lc {
 	msgOpen
 	"""
 	Oooh… I can't stand
-	selfish people! To
-	the Colosseum!
+	selfish people!
+	To the Colosseum!
 	"""
 	keyWait
 		any = false
@@ -68689,8 +68761,8 @@ script 155 mmbn4-lc {
 	msgOpen
 	"""
 	We're finally done
-	training! Let's
-	go see KendoMan!
+	training! Let's go
+	see KendoMan!
 	"""
 	keyWait
 		any = false
@@ -68902,8 +68974,8 @@ script 175 mmbn4-lc {
 	msgOpen
 	"""
 	Jack me in! We have
-	to go to Netopia
-	Area to see ColdMan!
+	to go to Netopia Area
+	to see ColdMan!
 	"""
 	keyWait
 		any = false
@@ -68939,8 +69011,8 @@ script 178 mmbn4-lc {
 		mugshot = MegaMan
 	msgOpen
 	"""
-	Back to Sharo! We
-	have to stop that
+	Back to Sharo!
+	We have to stop that
 	blizzard,or else!
 	"""
 	keyWait
@@ -68953,8 +69025,8 @@ script 181 mmbn4-lc {
 	msgOpen
 	"""
 	Oooh… I can't stand
-	selfish people! To
-	the Colosseum!
+	selfish people!
+	To the Colosseum!
 	"""
 	keyWait
 		any = false
@@ -71921,8 +71993,8 @@ script 155 mmbn4-lc {
 	msgOpen
 	"""
 	We're finally done
-	training! Let's
-	go see KendoMan!
+	training! Let's go
+	see KendoMan!
 	"""
 	keyWait
 		any = false
@@ -72134,8 +72206,8 @@ script 175 mmbn4-lc {
 	msgOpen
 	"""
 	Jack me in! We have
-	to go to Netopia
-	Area to see ColdMan!
+	to go to Netopia Area
+	to see ColdMan!
 	"""
 	keyWait
 		any = false
@@ -72171,8 +72243,8 @@ script 178 mmbn4-lc {
 		mugshot = MegaMan
 	msgOpen
 	"""
-	Back to Sharo! We
-	have to stop that
+	Back to Sharo!
+	We have to stop that
 	blizzard,or else!
 	"""
 	keyWait
@@ -72185,8 +72257,8 @@ script 181 mmbn4-lc {
 	msgOpen
 	"""
 	Oooh… I can't stand
-	selfish people! To
-	the Colosseum!
+	selfish people!
+	To the Colosseum!
 	"""
 	keyWait
 		any = false
@@ -73943,8 +74015,8 @@ script 155 mmbn4-lc {
 	msgOpen
 	"""
 	We're finally done
-	training! Let's
-	go see KendoMan!
+	training! Let's go
+	see KendoMan!
 	"""
 	keyWait
 		any = false
@@ -74202,8 +74274,8 @@ script 175 mmbn4-lc {
 	msgOpen
 	"""
 	Jack me in! We have
-	to go to Netopia
-	Area to see ColdMan!
+	to go to Netopia Area
+	to see ColdMan!
 	"""
 	keyWait
 		any = false
@@ -74304,8 +74376,8 @@ script 181 mmbn4-lc {
 	msgOpen
 	"""
 	Oooh… I can't stand
-	selfish people! To
-	the Colosseum!
+	selfish people!
+	To the Colosseum!
 	"""
 	keyWait
 		any = false
@@ -74316,8 +74388,8 @@ script 182 mmbn4-lc {
 		mugshot = MegaMan
 	msgOpen
 	"""
-	Back to Sharo! We
-	have to stop that
+	Back to Sharo!
+	We have to stop that
 	blizzard,or else!
 	"""
 	keyWait
@@ -101106,8 +101178,8 @@ script 3 mmbn4-lc {
 script 4 mmbn4-lc {
 	msgOpen
 	"""
-	This stone statue
-	looks like it start
+	This stone statue looks
+	as if it might start
 	moving at any moment.
 	"""
 	keyWait
