@@ -41414,7 +41414,6 @@ script 2 mmbn2-lc {
 		count = 2
 	"""
 	No
-	
 	"""
 	select
 		default = 1
@@ -51697,7 +51696,6 @@ script 161 mmbn2-lc {
 		count = 2
 	"""
 	No
-	
 	"""
 	select
 		default = 1
@@ -63790,7 +63788,6 @@ script 161 mmbn2-lc {
 		count = 2
 	"""
 	No
-	
 	"""
 	select
 		default = 1
@@ -67012,7 +67009,6 @@ script 161 mmbn2-lc {
 		count = 2
 	"""
 	No
-	
 	"""
 	select
 		default = 1
@@ -70693,7 +70689,6 @@ script 161 mmbn2-lc {
 		count = 2
 	"""
 	No
-	
 	"""
 	select
 		default = 1
@@ -73386,7 +73381,6 @@ script 161 mmbn2-lc {
 		count = 2
 	"""
 	No
-	
 	"""
 	select
 		default = 1
@@ -197904,7 +197898,7 @@ script 13 mmbn2-lc {
 	"""
 	doghouse you can
 	jack into! A secret
-	a security system?!
+	security system?!
 	"""
 	keyWait
 	waitHold
@@ -198424,22 +198418,22 @@ script 31 mmbn2-lc {
 script 32 mmbn2-lc {
 	msgOpenQuick
 	"""
-	I just got back from
-	Netopia. I went to
-	Netopia Castle like
+	Just got back from
+	Netopia. I visited
+	Netopia Castle,
 	"""
 	keyWait
 	clearMsg
 	"""
-	you said. I even
-	went shopping in
-	Netopia Town! It was
+	as you said,and went
+	shopping in Netopia
+	Town! It was great!
 	"""
 	keyWait
 	clearMsg
 	"""
-	great! When I grow
-	up,I’m gonna save up
+	When I grow up,
+	I’m gonna save up
 	to go with a friend!
 	"""
 	keyWait
