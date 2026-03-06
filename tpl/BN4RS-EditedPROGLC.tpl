@@ -38126,6 +38126,30 @@ script 194 mmbn4s {
 	"DrkRecov"
 	end
 }
+script 195 mmbn4s {
+	"Extra1"
+	end
+}
+script 196 mmbn4s {
+	"Extra2"
+	end
+}
+script 197 mmbn4s {
+	"Extra3"
+	end
+}
+script 198 mmbn4s {
+	"Extra4"
+	end
+}
+script 199 mmbn4s {
+	"Extra5"
+	end
+}
+script 200 mmbn4s {
+	"Extra6"
+	end
+}
 script 201 mmbn4s {
 	"LifeAura"
 	end
@@ -38489,6 +38513,46 @@ script 34 mmbn4s {
 	"FinalGun"
 	end
 }
+script 35 mmbn4s {
+	"Unused"
+	end
+}
+script 36 mmbn4s {
+	"Unused"
+	end
+}
+script 37 mmbn4s {
+	"Unused"
+	end
+}
+script 38 mmbn4s {
+	"Unused"
+	end
+}
+script 39 mmbn4s {
+	"Unused"
+	end
+}
+script 40 mmbn4s {
+	"Unused"
+	end
+}
+script 41 mmbn4s {
+	"Unused"
+	end
+}
+script 42 mmbn4s {
+	"Unused"
+	end
+}
+script 43 mmbn4s {
+	"Unused"
+	end
+}
+script 44 mmbn4s {
+	"Unused"
+	end
+}
 script 45 mmbn4s {
 	"Bass"
 	end
@@ -38537,6 +38601,34 @@ script 55 mmbn4s {
 script 56 mmbn4s {
 	ereaderName
 		data = 1
+	end
+}
+script 57 mmbn4s {
+	"Unused"
+	end
+}
+script 58 mmbn4s {
+	"Unused"
+	end
+}
+script 59 mmbn4s {
+	"Unused"
+	end
+}
+script 60 mmbn4s {
+	"Unused"
+	end
+}
+script 61 mmbn4s {
+	"Unused"
+	end
+}
+script 62 mmbn4s {
+	"Unused"
+	end
+}
+script 63 mmbn4s {
+	"Unused"
 	end
 }
 script 64 mmbn4s {
@@ -38657,6 +38749,14 @@ script 92 mmbn4s {
 }
 script 93 mmbn4s {
 	"H-Burst"
+	end
+}
+script 94 mmbn4s {
+	"Unused"
+	end
+}
+script 95 mmbn4s {
+	"Unused"
 	end
 }
 script 96 mmbn4s {
@@ -47563,7 +47663,7 @@ script 197 mmbn4-lc {
 		delay = 0
 	"""
 	Treasure-
-	Call1
+	Extra1
 	"""
 	keyWait
 		any = true
@@ -47576,7 +47676,7 @@ script 198 mmbn4-lc {
 		delay = 0
 	"""
 	Treasure-
-	Call2
+	Extra2
 	"""
 	keyWait
 		any = true
@@ -47589,7 +47689,7 @@ script 199 mmbn4-lc {
 		delay = 0
 	"""
 	Treasure-
-	Call3
+	Extra3
 	"""
 	keyWait
 		any = true
@@ -47602,7 +47702,7 @@ script 200 mmbn4-lc {
 		delay = 0
 	"""
 	Treasure-
-	Call4
+	Extra4
 	"""
 	keyWait
 		any = true
@@ -48739,119 +48839,240 @@ script 25 mmbn4-lc {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
+	keyWait
+		any = true
+	end
 	msgCloseQuick
 }
 script 26 mmbn4-lc {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
+	keyWait
+		any = true
+	end
 	msgCloseQuick
 }
 script 27 mmbn4-lc {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
+	keyWait
+		any = true
+	end
 	msgCloseQuick
 }
 script 28 mmbn4-lc {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
+	keyWait
+		any = true
+	end
 	msgCloseQuick
 }
 script 29 mmbn4-lc {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
+	keyWait
+		any = true
+	end
 	msgCloseQuick
 }
 script 30 mmbn4-lc {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
+	keyWait
+		any = true
+	end
 	msgCloseQuick
 }
 script 31 mmbn4-lc {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
+	keyWait
+		any = true
+	end
 	msgCloseQuick
 }
 script 32 mmbn4-lc {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
+	keyWait
+		any = true
+	end
 	msgCloseQuick
 }
 script 33 mmbn4-lc {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
+	keyWait
+		any = true
+	end
 	msgCloseQuick
 }
 script 34 mmbn4-lc {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
+	keyWait
+		any = true
+	end
 	msgCloseQuick
 }
 script 35 mmbn4-lc {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
+	keyWait
+		any = true
+	end
 	msgCloseQuick
 }
 script 36 mmbn4-lc {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
+	keyWait
+		any = true
+	end
 	msgCloseQuick
 }
 script 37 mmbn4-lc {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
+	keyWait
+		any = true
+	end
 	msgCloseQuick
 }
 script 38 mmbn4-lc {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
+	keyWait
+		any = true
+	end
 	msgCloseQuick
 }
 script 39 mmbn4-lc {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
+	keyWait
+		any = true
+	end
 	msgCloseQuick
 }
 script 40 mmbn4-lc {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
+	keyWait
+		any = true
+	end
 	msgCloseQuick
 }
 script 41 mmbn4-lc {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
+	keyWait
+		any = true
+	end
 	msgCloseQuick
 }
 script 42 mmbn4-lc {
+	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
+	keyWait
+		any = true
+	end
 	msgCloseQuick
 }
 script 43 mmbn4-lc {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
+	keyWait
+		any = true
+	end
 	msgCloseQuick
 }
 script 44 mmbn4-lc {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
+	keyWait
+		any = true
+	end
 	msgCloseQuick
 }
 script 45 mmbn4-lc {
@@ -49020,6 +49241,9 @@ script 57 mmbn4-lc {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
 	keyWait
 		any = true
 	end
@@ -49029,6 +49253,9 @@ script 58 mmbn4-lc {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
 	keyWait
 		any = true
 	end
@@ -49038,6 +49265,9 @@ script 59 mmbn4-lc {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
 	keyWait
 		any = true
 	end
@@ -49047,6 +49277,9 @@ script 60 mmbn4-lc {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
 	keyWait
 		any = true
 	end
@@ -49056,6 +49289,9 @@ script 61 mmbn4-lc {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
 	keyWait
 		any = true
 	end
@@ -49065,6 +49301,9 @@ script 62 mmbn4-lc {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
 	keyWait
 		any = true
 	end
@@ -49074,6 +49313,9 @@ script 63 mmbn4-lc {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
 	keyWait
 		any = true
 	end
@@ -49500,12 +49742,24 @@ script 94 mmbn4-lc {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
+	keyWait
+		any = true
+	end
 	msgCloseQuick
 }
 script 95 mmbn4-lc {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
+	keyWait
+		any = true
+	end
 	msgCloseQuick
 }
 script 96 mmbn4-lc {

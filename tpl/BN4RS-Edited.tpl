@@ -2,7 +2,7 @@
 @size 1
 
 script 0 mmbn4s {
-	"[?][?][?][?]"
+	"????"
 	end
 }
 @archive 6DEFFC
@@ -3663,7 +3663,8 @@ script 198 mmbn4 {
 	mugshotShow
 		mugshot = MegaMan
 	"""
-	Delete 
+	Delete entry for
+	
 	"""
 	printEnemy
 		buffer = 1
@@ -3672,8 +3673,7 @@ script 198 mmbn4 {
 		buffer = 2
 		name = 0
 	"""
-	's
-	entry?
+	?
 	
 	"""
 	positionOptionHorizontal
@@ -8483,7 +8483,8 @@ script 198 mmbn4 {
 	mugshotShow
 		mugshot = MegaMan
 	"""
-	Delete 
+	Delete entry for
+	
 	"""
 	printEnemy
 		buffer = 1
@@ -8492,8 +8493,7 @@ script 198 mmbn4 {
 		buffer = 2
 		name = 0
 	"""
-	's
-	entry?
+	?
 	
 	"""
 	positionOptionHorizontal
@@ -10895,6 +10895,8 @@ script 0 mmbn4 {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	flagSet
 		flag = 157
 	flagSet
@@ -11002,6 +11004,8 @@ script 1 mmbn4 {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 2 mmbn4 {
@@ -11022,6 +11026,8 @@ script 2 mmbn4 {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 3 mmbn4 {
@@ -11059,6 +11065,8 @@ script 3 mmbn4 {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 4 mmbn4 {
@@ -11088,6 +11096,8 @@ script 4 mmbn4 {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 5 mmbn4 {
@@ -11144,6 +11154,8 @@ script 5 mmbn4 {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 6 mmbn4 {
@@ -11165,6 +11177,8 @@ script 6 mmbn4 {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 7 mmbn4 {
@@ -11216,6 +11230,8 @@ script 7 mmbn4 {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 8 mmbn4 {
@@ -11258,6 +11274,8 @@ script 8 mmbn4 {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 9 mmbn4 {
@@ -11295,6 +11313,8 @@ script 9 mmbn4 {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 10 mmbn4 {
@@ -11345,6 +11365,8 @@ script 10 mmbn4 {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 11 mmbn4 {
@@ -11403,6 +11425,8 @@ script 11 mmbn4 {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 12 mmbn4 {
@@ -11577,6 +11601,8 @@ script 12 mmbn4 {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	flagSet
 		flag = 131
 	flagSet
@@ -11608,6 +11634,8 @@ script 13 mmbn4 {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 14 mmbn4 {
@@ -11650,6 +11678,8 @@ script 14 mmbn4 {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 15 mmbn4 {
@@ -11692,6 +11722,8 @@ script 15 mmbn4 {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 16 mmbn4 {
@@ -11745,6 +11777,8 @@ script 16 mmbn4 {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 17 mmbn4 {
@@ -11814,6 +11848,8 @@ script 17 mmbn4 {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 18 mmbn4 {
@@ -11875,6 +11911,8 @@ script 18 mmbn4 {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 19 mmbn4 {
@@ -11952,6 +11990,8 @@ script 19 mmbn4 {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 20 mmbn4 {
@@ -12013,6 +12053,8 @@ script 20 mmbn4 {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 21 mmbn4 {
@@ -12082,6 +12124,8 @@ script 21 mmbn4 {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 22 mmbn4 {
@@ -12159,6 +12203,8 @@ script 22 mmbn4 {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 23 mmbn4 {
@@ -12228,6 +12274,8 @@ script 23 mmbn4 {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 24 mmbn4 {
@@ -12305,6 +12353,8 @@ script 24 mmbn4 {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 25 mmbn4 {
@@ -12366,6 +12416,8 @@ script 25 mmbn4 {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 26 mmbn4 {
@@ -12427,6 +12479,8 @@ script 26 mmbn4 {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 27 mmbn4 {
@@ -12495,6 +12549,8 @@ script 27 mmbn4 {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 28 mmbn4 {
@@ -12544,6 +12600,8 @@ script 28 mmbn4 {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 29 mmbn4 {
@@ -12604,6 +12662,8 @@ script 29 mmbn4 {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 30 mmbn4 {
@@ -12649,6 +12709,8 @@ script 30 mmbn4 {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 31 mmbn4 {
@@ -12708,6 +12770,8 @@ script 31 mmbn4 {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 32 mmbn4 {
@@ -12791,6 +12855,8 @@ script 32 mmbn4 {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 33 mmbn4 {
@@ -12864,6 +12930,8 @@ script 33 mmbn4 {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 50 mmbn4 {
@@ -12917,6 +12985,8 @@ script 50 mmbn4 {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 51 mmbn4 {
@@ -12987,6 +13057,8 @@ script 51 mmbn4 {
 	"""
 	keyWait
 		any = false
+	color
+		palette = 0
 	end
 }
 script 100 mmbn4s {
@@ -38057,6 +38129,30 @@ script 194 mmbn4s {
 	"DrkRecov"
 	end
 }
+script 195 mmbn4s {
+	"Extra1"
+	end
+}
+script 196 mmbn4s {
+	"Extra2"
+	end
+}
+script 197 mmbn4s {
+	"Extra3"
+	end
+}
+script 198 mmbn4s {
+	"Extra4"
+	end
+}
+script 199 mmbn4s {
+	"Extra5"
+	end
+}
+script 200 mmbn4s {
+	"Extra6"
+	end
+}
 script 201 mmbn4s {
 	"LifeAura"
 	end
@@ -38389,7 +38485,7 @@ script 26 mmbn4s {
 	end
 }
 script 27 mmbn4s {
-	"CannBall"
+	"BallMode"
 	end
 }
 script 28 mmbn4s {
@@ -38418,6 +38514,46 @@ script 33 mmbn4s {
 }
 script 34 mmbn4s {
 	"FinalGun"
+	end
+}
+script 35 mmbn4s {
+	"Unused"
+	end
+}
+script 36 mmbn4s {
+	"Unused"
+	end
+}
+script 37 mmbn4s {
+	"Unused"
+	end
+}
+script 38 mmbn4s {
+	"Unused"
+	end
+}
+script 39 mmbn4s {
+	"Unused"
+	end
+}
+script 40 mmbn4s {
+	"Unused"
+	end
+}
+script 41 mmbn4s {
+	"Unused"
+	end
+}
+script 42 mmbn4s {
+	"Unused"
+	end
+}
+script 43 mmbn4s {
+	"Unused"
+	end
+}
+script 44 mmbn4s {
+	"Unused"
 	end
 }
 script 45 mmbn4s {
@@ -38468,6 +38604,34 @@ script 55 mmbn4s {
 script 56 mmbn4s {
 	ereaderName
 		data = 1
+	end
+}
+script 57 mmbn4s {
+	"Unused"
+	end
+}
+script 58 mmbn4s {
+	"Unused"
+	end
+}
+script 59 mmbn4s {
+	"Unused"
+	end
+}
+script 60 mmbn4s {
+	"Unused"
+	end
+}
+script 61 mmbn4s {
+	"Unused"
+	end
+}
+script 62 mmbn4s {
+	"Unused"
+	end
+}
+script 63 mmbn4s {
+	"Unused"
 	end
 }
 script 64 mmbn4s {
@@ -38588,6 +38752,14 @@ script 92 mmbn4s {
 }
 script 93 mmbn4s {
 	"H-Burst"
+	end
+}
+script 94 mmbn4s {
+	"Unused"
+	end
+}
+script 95 mmbn4s {
+	"Unused"
 	end
 }
 script 96 mmbn4s {
@@ -47504,7 +47676,7 @@ script 197 mmbn4 {
 		delay = 0
 	"""
 	Treasure-
-	Call1
+	Extra1
 	"""
 	keyWait
 		any = true
@@ -47517,7 +47689,7 @@ script 198 mmbn4 {
 		delay = 0
 	"""
 	Treasure-
-	Call2
+	Extra2
 	"""
 	keyWait
 		any = true
@@ -47530,7 +47702,7 @@ script 199 mmbn4 {
 		delay = 0
 	"""
 	Treasure-
-	Call3
+	Extra3
 	"""
 	keyWait
 		any = true
@@ -47543,7 +47715,7 @@ script 200 mmbn4 {
 		delay = 0
 	"""
 	Treasure-
-	Call4
+	Extra4
 	"""
 	keyWait
 		any = true
@@ -48680,119 +48852,240 @@ script 25 mmbn4 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
+	keyWait
+		any = true
+	end
 	msgCloseQuick
 }
 script 26 mmbn4 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
+	keyWait
+		any = true
+	end
 	msgCloseQuick
 }
 script 27 mmbn4 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
+	keyWait
+		any = true
+	end
 	msgCloseQuick
 }
 script 28 mmbn4 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
+	keyWait
+		any = true
+	end
 	msgCloseQuick
 }
 script 29 mmbn4 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
+	keyWait
+		any = true
+	end
 	msgCloseQuick
 }
 script 30 mmbn4 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
+	keyWait
+		any = true
+	end
 	msgCloseQuick
 }
 script 31 mmbn4 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
+	keyWait
+		any = true
+	end
 	msgCloseQuick
 }
 script 32 mmbn4 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
+	keyWait
+		any = true
+	end
 	msgCloseQuick
 }
 script 33 mmbn4 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
+	keyWait
+		any = true
+	end
 	msgCloseQuick
 }
 script 34 mmbn4 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
+	keyWait
+		any = true
+	end
 	msgCloseQuick
 }
 script 35 mmbn4 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
+	keyWait
+		any = true
+	end
 	msgCloseQuick
 }
 script 36 mmbn4 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
+	keyWait
+		any = true
+	end
 	msgCloseQuick
 }
 script 37 mmbn4 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
+	keyWait
+		any = true
+	end
 	msgCloseQuick
 }
 script 38 mmbn4 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
+	keyWait
+		any = true
+	end
 	msgCloseQuick
 }
 script 39 mmbn4 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
+	keyWait
+		any = true
+	end
 	msgCloseQuick
 }
 script 40 mmbn4 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
+	keyWait
+		any = true
+	end
 	msgCloseQuick
 }
 script 41 mmbn4 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
+	keyWait
+		any = true
+	end
 	msgCloseQuick
 }
 script 42 mmbn4 {
+	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
+	keyWait
+		any = true
+	end
 	msgCloseQuick
 }
 script 43 mmbn4 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
+	keyWait
+		any = true
+	end
 	msgCloseQuick
 }
 script 44 mmbn4 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
+	keyWait
+		any = true
+	end
 	msgCloseQuick
 }
 script 45 mmbn4 {
@@ -48842,7 +49135,7 @@ script 48 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	A RedSun
+	Red Sun
 	bombards
 	3 ahead
 	"""
@@ -48912,7 +49205,7 @@ script 53 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Blue moon
+	Blue Moon
 	drains
 	3 ahead
 	"""
@@ -48961,6 +49254,9 @@ script 57 mmbn4 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
 	keyWait
 		any = true
 	end
@@ -48970,6 +49266,9 @@ script 58 mmbn4 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
 	keyWait
 		any = true
 	end
@@ -48979,6 +49278,9 @@ script 59 mmbn4 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
 	keyWait
 		any = true
 	end
@@ -48988,6 +49290,9 @@ script 60 mmbn4 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
 	keyWait
 		any = true
 	end
@@ -48997,6 +49302,9 @@ script 61 mmbn4 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
 	keyWait
 		any = true
 	end
@@ -49006,6 +49314,9 @@ script 62 mmbn4 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
 	keyWait
 		any = true
 	end
@@ -49015,6 +49326,9 @@ script 63 mmbn4 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
 	keyWait
 		any = true
 	end
@@ -49441,12 +49755,24 @@ script 94 mmbn4 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
+	keyWait
+		any = true
+	end
 	msgCloseQuick
 }
 script 95 mmbn4 {
 	msgOpenQuick
 	textSpeed
 		delay = 0
+	"""
+	Undefined
+	"""
+	keyWait
+		any = true
+	end
 	msgCloseQuick
 }
 script 96 mmbn4 {
@@ -60301,8 +60627,8 @@ script 155 mmbn4 {
 	msgOpen
 	"""
 	We're finally done
-	training! Let's
-	go see KendoMan!
+	training! Let's go
+	see KendoMan!
 	"""
 	keyWait
 		any = false
@@ -60514,8 +60840,8 @@ script 175 mmbn4 {
 	msgOpen
 	"""
 	Jack me in! We have
-	to go to Netopia
-	Area to see ColdMan!
+	to go to Netopia Area
+	to see ColdMan!
 	"""
 	keyWait
 		any = false
@@ -60551,8 +60877,8 @@ script 178 mmbn4 {
 		mugshot = MegaMan
 	msgOpen
 	"""
-	Back to Sharo! We
-	have to stop that
+	Back to Sharo!
+	We have to stop that
 	blizzard,or else!
 	"""
 	keyWait
@@ -60565,8 +60891,8 @@ script 181 mmbn4 {
 	msgOpen
 	"""
 	Oooh… I can't stand
-	selfish people! To
-	the Colosseum!
+	selfish people!
+	To the Colosseum!
 	"""
 	keyWait
 		any = false
@@ -64609,8 +64935,8 @@ script 155 mmbn4 {
 	msgOpen
 	"""
 	We're finally done
-	training! Let's
-	go see KendoMan!
+	training! Let's go
+	see KendoMan!
 	"""
 	keyWait
 		any = false
@@ -64822,8 +65148,8 @@ script 175 mmbn4 {
 	msgOpen
 	"""
 	Jack me in! We have
-	to go to Netopia
-	Area to see ColdMan!
+	to go to Netopia Area
+	to see ColdMan!
 	"""
 	keyWait
 		any = false
@@ -64859,8 +65185,8 @@ script 178 mmbn4 {
 		mugshot = MegaMan
 	msgOpen
 	"""
-	Back to Sharo! We
-	have to stop that
+	Back to Sharo!
+	We have to stop that
 	blizzard,or else!
 	"""
 	keyWait
@@ -64873,8 +65199,8 @@ script 181 mmbn4 {
 	msgOpen
 	"""
 	Oooh… I can't stand
-	selfish people! To
-	the Colosseum!
+	selfish people!
+	To the Colosseum!
 	"""
 	keyWait
 		any = false
@@ -68718,8 +69044,8 @@ script 155 mmbn4 {
 	msgOpen
 	"""
 	We're finally done
-	training! Let's
-	go see KendoMan!
+	training! Let's go
+	see KendoMan!
 	"""
 	keyWait
 		any = false
@@ -68931,8 +69257,8 @@ script 175 mmbn4 {
 	msgOpen
 	"""
 	Jack me in! We have
-	to go to Netopia
-	Area to see ColdMan!
+	to go to Netopia Area
+	to see ColdMan!
 	"""
 	keyWait
 		any = false
@@ -68968,8 +69294,8 @@ script 178 mmbn4 {
 		mugshot = MegaMan
 	msgOpen
 	"""
-	Back to Sharo! We
-	have to stop that
+	Back to Sharo!
+	We have to stop that
 	blizzard,or else!
 	"""
 	keyWait
@@ -68982,8 +69308,8 @@ script 181 mmbn4 {
 	msgOpen
 	"""
 	Oooh… I can't stand
-	selfish people! To
-	the Colosseum!
+	selfish people!
+	To the Colosseum!
 	"""
 	keyWait
 		any = false
@@ -71950,8 +72276,8 @@ script 155 mmbn4 {
 	msgOpen
 	"""
 	We're finally done
-	training! Let's
-	go see KendoMan!
+	training! Let's go
+	see KendoMan!
 	"""
 	keyWait
 		any = false
@@ -72163,8 +72489,8 @@ script 175 mmbn4 {
 	msgOpen
 	"""
 	Jack me in! We have
-	to go to Netopia
-	Area to see ColdMan!
+	to go to Netopia Area
+	to see ColdMan!
 	"""
 	keyWait
 		any = false
@@ -72200,8 +72526,8 @@ script 178 mmbn4 {
 		mugshot = MegaMan
 	msgOpen
 	"""
-	Back to Sharo! We
-	have to stop that
+	Back to Sharo!
+	We have to stop that
 	blizzard,or else!
 	"""
 	keyWait
@@ -72214,8 +72540,8 @@ script 181 mmbn4 {
 	msgOpen
 	"""
 	Oooh… I can't stand
-	selfish people! To
-	the Colosseum!
+	selfish people!
+	To the Colosseum!
 	"""
 	keyWait
 		any = false
@@ -73972,8 +74298,8 @@ script 155 mmbn4 {
 	msgOpen
 	"""
 	We're finally done
-	training! Let's
-	go see KendoMan!
+	training! Let's go
+	see KendoMan!
 	"""
 	keyWait
 		any = false
@@ -74231,8 +74557,8 @@ script 175 mmbn4 {
 	msgOpen
 	"""
 	Jack me in! We have
-	to go to Netopia
-	Area to see ColdMan!
+	to go to Netopia Area
+	to see ColdMan!
 	"""
 	keyWait
 		any = false
@@ -74333,8 +74659,8 @@ script 181 mmbn4 {
 	msgOpen
 	"""
 	Oooh… I can't stand
-	selfish people! To
-	the Colosseum!
+	selfish people!
+	To the Colosseum!
 	"""
 	keyWait
 		any = false
@@ -74345,8 +74671,8 @@ script 182 mmbn4 {
 		mugshot = MegaMan
 	msgOpen
 	"""
-	Back to Sharo! We
-	have to stop that
+	Back to Sharo!
+	We have to stop that
 	blizzard,or else!
 	"""
 	keyWait
@@ -101135,8 +101461,8 @@ script 3 mmbn4 {
 script 4 mmbn4 {
 	msgOpen
 	"""
-	This stone statue
-	looks like it start
+	This stone statue looks
+	as if it might start
 	moving at any moment.
 	"""
 	keyWait
