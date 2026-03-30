@@ -38735,7 +38735,7 @@ script 88 mmbn4s {
 	end
 }
 script 89 mmbn4s {
-	"P.Driver"
+	"PileDrvr"
 	end
 }
 script 90 mmbn4s {
@@ -44973,8 +44973,8 @@ script 4 mmbn4 {
 		delay = 0
 	"""
 	Knocks
-	enemy
-	back 1
+	enmy back
+	1 square
 	"""
 	keyWait
 		any = true
@@ -44987,8 +44987,8 @@ script 5 mmbn4 {
 		delay = 0
 	"""
 	Snowstorm
-	attack!
-	Ice panel
+	atk! Make
+	pnls ice
 	"""
 	keyWait
 		any = true
@@ -45001,8 +45001,8 @@ script 6 mmbn4 {
 		delay = 0
 	"""
 	Firestorm
-	attack!
-	Magma pnl
+	atk! Make
+	pnl magma
 	"""
 	keyWait
 		any = true
@@ -45014,9 +45014,9 @@ script 7 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	MuteAnt
-	to blind
-	enemy
+	Blinds
+	enemies
+	w/ music
 	"""
 	keyWait
 		any = true
@@ -45028,9 +45028,9 @@ script 8 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	8-hit
-	whirlwind
-	2sq ahead
+	8hit strm
+	2 squares
+	ahead
 	"""
 	keyWait
 		any = true
@@ -45126,7 +45126,7 @@ script 15 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	3-shot
+	3-shot,
 	pierces
 	1sq past!
 	"""
@@ -45140,7 +45140,7 @@ script 16 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	5-shot
+	5-shot,
 	pierces
 	1sq past!
 	"""
@@ -45154,7 +45154,7 @@ script 17 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	7-shot
+	7-shot,
 	pierces
 	1sq past!
 	"""
@@ -45168,9 +45168,9 @@ script 18 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Creates
-	a large
+	Makes big
 	explosion
+	on hit
 	"""
 	keyWait
 		any = true
@@ -45183,8 +45183,8 @@ script 19 mmbn4 {
 		delay = 0
 	"""
 	Explodes
-	1 square
-	behind
+	1sq back
+	on hit
 	"""
 	keyWait
 		any = true
@@ -45225,8 +45225,8 @@ script 22 mmbn4 {
 		delay = 0
 	"""
 	Explodes
-	1 square
-	behind
+	1sq back
+	on hit
 	"""
 	keyWait
 		any = true
@@ -45266,8 +45266,8 @@ script 25 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	3-sq atk
-	Powerful
+	3-sq atk,
+	powerful
 	on magma!
 	"""
 	keyWait
@@ -45280,8 +45280,8 @@ script 26 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	3-sq atk
-	Powerful
+	3-sq atk,
+	powerful
 	on ice!
 	"""
 	keyWait
@@ -45294,9 +45294,9 @@ script 27 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	A static
-	blast 2sq
-	ahead
+	Bug-powrd
+	static
+	2sq ahead
 	"""
 	keyWait
 		any = true
@@ -45326,8 +45326,8 @@ script 29 mmbn4 {
 		delay = 0
 	"""
 	Throws a
-	bomb 3
-	squares
+	minibomb
+	3sq ahead
 	"""
 	keyWait
 		any = true
@@ -45409,9 +45409,9 @@ script 35 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Shocks an
+	Pull in
+	and shock
 	enemy
-	ahead
 	"""
 	keyWait
 		any = true
@@ -45423,9 +45423,9 @@ script 36 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Shocks an
+	Pull in
+	and shock
 	enemy
-	ahead
 	"""
 	keyWait
 		any = true
@@ -45437,9 +45437,9 @@ script 37 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Shocks an
+	Pull in
+	and shock
 	enemy
-	ahead
 	"""
 	keyWait
 		any = true
@@ -45451,9 +45451,9 @@ script 38 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Fires a
-	sonic
-	blast
+	Bounces
+	on every
+	2nd panel
 	"""
 	keyWait
 		any = true
@@ -45465,9 +45465,9 @@ script 39 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Fires a
-	sonic
-	blast
+	Bounces
+	on every
+	2nd panel
 	"""
 	keyWait
 		any = true
@@ -45479,9 +45479,9 @@ script 40 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Fires a
-	sonic
-	blast
+	Bounces
+	on every
+	2nd panel
 	"""
 	keyWait
 		any = true
@@ -45508,8 +45508,8 @@ script 42 mmbn4 {
 		delay = 0
 	"""
 	Electric
-	blast!
-	Crack pnl
+	atk! Make
+	pnl crack
 	"""
 	keyWait
 		any = true
@@ -45521,9 +45521,9 @@ script 43 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Radial
-	spores!
-	Grass pnl
+	Spores
+	atk! Make
+	pnl grass
 	"""
 	keyWait
 		any = true
@@ -45689,9 +45689,9 @@ script 55 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	A magical
-	shifting
-	sword
+	Magc swrd
+	w/shiftng
+	range
 	"""
 	keyWait
 		any = true
@@ -45801,9 +45801,9 @@ script 63 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Ricochet
-	attack to
-	right
+	Clockwise
+	ricochet
+	attack
 	"""
 	keyWait
 		any = true
@@ -45815,9 +45815,9 @@ script 64 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Ricochet
-	attack to
-	right
+	Clockwise
+	ricochet
+	attack
 	"""
 	keyWait
 		any = true
@@ -45829,9 +45829,9 @@ script 65 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Ricochet
-	attack to
-	right
+	Clockwise
+	ricochet
+	attack
 	"""
 	keyWait
 		any = true
@@ -46096,7 +46096,7 @@ script 84 mmbn4 {
 		delay = 0
 	"""
 	VacuumFan
-	pulls
+	pulls in
 	enemies
 	"""
 	keyWait
@@ -46237,7 +46237,7 @@ script 94 mmbn4 {
 	"""
 	Cursor
 	destroys
-	panel!
+	panels!
 	"""
 	keyWait
 		any = true
@@ -46319,9 +46319,9 @@ script 100 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Take no
-	dmg for a
-	while
+	Song will
+	prevent
+	damage
 	"""
 	keyWait
 		any = true
@@ -46564,8 +46564,8 @@ script 118 mmbn4 {
 		delay = 0
 	"""
 	Retaliate
-	stolen
-	panels!
+	for panls
+	stolen!
 	"""
 	keyWait
 		any = true
@@ -46578,8 +46578,8 @@ script 119 mmbn4 {
 		delay = 0
 	"""
 	Retaliate
-	stolen
-	panels!
+	for panls
+	stolen!
 	"""
 	keyWait
 		any = true
@@ -46675,8 +46675,8 @@ script 126 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	3-sq atk
-	Powerful
+	3-sq atk,
+	powerful
 	on grass!
 	"""
 	keyWait
@@ -46703,8 +46703,8 @@ script 128 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	3-sq atk
-	Powerful
+	3-sq atk,
+	powerful
 	on pitfal
 	"""
 	keyWait
@@ -46877,7 +46877,7 @@ script 140 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Trap enmy
+	Trap foe:
 	Fire atks
 	punished
 	"""
@@ -46891,7 +46891,7 @@ script 141 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Trap enmy
+	Trap foe:
 	Watr atks
 	punished
 	"""
@@ -46905,7 +46905,7 @@ script 142 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Trap enmy
+	Trap foe:
 	Elec atks
 	punished
 	"""
@@ -46919,7 +46919,7 @@ script 143 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Trap enmy
+	Trap foe:
 	Wood atks
 	punished
 	"""
@@ -46975,9 +46975,9 @@ script 147 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Damages
-	enemy in
-	recovery
+	Trap foe:
+	Recovery
+	does harm
 	"""
 	keyWait
 		any = true
@@ -47004,7 +47004,7 @@ script 149 mmbn4 {
 		delay = 0
 	"""
 	+10 for
-	selected
+	next used
 	atk chip
 	"""
 	keyWait
@@ -47018,7 +47018,7 @@ script 150 mmbn4 {
 		delay = 0
 	"""
 	+20 for
-	selected
+	next used
 	Navi chip
 	"""
 	keyWait
@@ -47115,9 +47115,9 @@ script 157 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Rushing
-	causes an
-	explosion
+	Rush off
+	screen &
+	explode
 	"""
 	keyWait
 		any = true
@@ -47129,9 +47129,9 @@ script 158 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Rushing
-	causes an
-	explosion
+	Rush off
+	screen &
+	explode
 	"""
 	keyWait
 		any = true
@@ -47143,9 +47143,9 @@ script 159 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Rushing
-	causes an
-	explosion
+	Rush off
+	screen &
+	explode
 	"""
 	keyWait
 		any = true
@@ -47158,8 +47158,8 @@ script 160 mmbn4 {
 		delay = 0
 	"""
 	Throws a
-	bomb at
-	the enemy
+	bomb that
+	seeks foe
 	"""
 	keyWait
 		any = true
@@ -47172,8 +47172,8 @@ script 161 mmbn4 {
 		delay = 0
 	"""
 	Throws a
-	bomb at
-	the enemy
+	bomb that
+	seeks foe
 	"""
 	keyWait
 		any = true
@@ -47186,8 +47186,8 @@ script 162 mmbn4 {
 		delay = 0
 	"""
 	Throws a
-	bomb at
-	the enemy
+	bomb that
+	seeks foe
 	"""
 	keyWait
 		any = true
@@ -47325,9 +47325,9 @@ script 172 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	3-shot
-	ball,Atk=
-	HP digits
+	3hit ball
+	atk! Pwr=
+	last 2 HP
 	"""
 	keyWait
 		any = true
@@ -47339,9 +47339,9 @@ script 173 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	4-shot
-	ball,Atk=
-	HP digits
+	4hit ball
+	atk! Pwr=
+	last 2 HP
 	"""
 	keyWait
 		any = true
@@ -47353,9 +47353,9 @@ script 174 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	5-shot
-	ball,Atk=
-	HP digits
+	5hit ball
+	atk! Pwr=
+	last 2 HP
 	"""
 	keyWait
 		any = true
@@ -47367,8 +47367,8 @@ script 175 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Gear
-	crushes
+	Gear that
+	starts in
 	enmy area
 	"""
 	keyWait
@@ -47381,8 +47381,8 @@ script 176 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Gear
-	crushes
+	Gear that
+	starts in
 	enmy area
 	"""
 	keyWait
@@ -47395,8 +47395,8 @@ script 177 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Gear
-	crushes
+	Gear that
+	starts in
 	enmy area
 	"""
 	keyWait
@@ -47409,9 +47409,9 @@ script 178 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Lifts
-	panel and
-	throws it
+	Lift panl
+	in front
+	and throw
 	"""
 	keyWait
 		any = true
@@ -47423,9 +47423,9 @@ script 179 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Throws
-	panels in
+	Lift pnls
 	frnt/back
+	and throw
 	"""
 	keyWait
 		any = true
@@ -47437,9 +47437,9 @@ script 180 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Throws 4
-	srounding
-	panels
+	Lift pnls
+	arnd self
+	and throw
 	"""
 	keyWait
 		any = true
@@ -47727,8 +47727,8 @@ script 201 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Repels
-	all attck
+	Repel all
+	attacks
 	under 200
 	"""
 	keyWait
@@ -47756,7 +47756,7 @@ script 203 mmbn4 {
 		delay = 0
 	"""
 	Statue
-	retaliate
+	punishes
 	when hit
 	"""
 	keyWait
@@ -47784,7 +47784,7 @@ script 205 mmbn4 {
 		delay = 0
 	"""
 	+30 for
-	selected
+	next used
 	atk chip
 	"""
 	keyWait
@@ -47867,9 +47867,9 @@ script 211 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Fires
-	bugs into
-	enmy area
+	Copy your
+	bugs onto
+	enemies
 	"""
 	keyWait
 		any = true
@@ -47910,8 +47910,8 @@ script 214 mmbn4 {
 		delay = 0
 	"""
 	EvilChip!
-	Wings
-	descend
+	Wing atk
+	over enmy
 	"""
 	keyWait
 		any = true
@@ -47923,9 +47923,9 @@ script 215 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Places a
-	stone
-	statue
+	Statue
+	that atks
+	enemy/you
 	"""
 	keyWait
 		any = true
@@ -47937,7 +47937,7 @@ script 216 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Turn your
+	Turns the
 	row into
 	DarkHoles
 	"""
@@ -48053,7 +48053,7 @@ script 224 mmbn4 {
 		delay = 0
 	"""
 	GutsHammr
-	destroys
+	cracks
 	enmy area
 	"""
 	keyWait
@@ -48067,7 +48067,7 @@ script 225 mmbn4 {
 		delay = 0
 	"""
 	GutsHammr
-	destroys
+	cracks
 	enmy area
 	"""
 	keyWait
@@ -48081,7 +48081,7 @@ script 226 mmbn4 {
 		delay = 0
 	"""
 	GutsHammr
-	destroys
+	cracks
 	enmy area
 	"""
 	keyWait
@@ -48178,9 +48178,9 @@ script 233 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Flames
-	pierce
-	forward
+	FireArm
+	burns to
+	back edge
 	"""
 	keyWait
 		any = true
@@ -48192,9 +48192,9 @@ script 234 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Flames
-	pierce
-	forward
+	FireArm
+	burns to
+	back edge
 	"""
 	keyWait
 		any = true
@@ -48206,9 +48206,9 @@ script 235 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Flames
-	pierce
-	forward
+	FireArm
+	burns to
+	back edge
 	"""
 	keyWait
 		any = true
@@ -48430,7 +48430,7 @@ script 251 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Water gun
+	WaterGun
 	sprays
 	2sq ahead
 	"""
@@ -48444,7 +48444,7 @@ script 252 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Water gun
+	WaterGun
 	sprays
 	2sq ahead
 	"""
@@ -48458,7 +48458,7 @@ script 253 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Water gun
+	WaterGun
 	sprays
 	2sq ahead
 	"""
@@ -48643,9 +48643,9 @@ script 10 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Ices over
-	all and
-	slides!
+	Freeze &
+	slide all
+	objects!
 	"""
 	keyWait
 		any = true
@@ -48657,9 +48657,9 @@ script 11 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Ices over
-	all and
-	slides!
+	Freeze &
+	slide all
+	objects!
 	"""
 	keyWait
 		any = true
@@ -48671,9 +48671,9 @@ script 12 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Ices over
-	all and
-	slides!
+	Freeze &
+	slide all
+	objects!
 	"""
 	keyWait
 		any = true
@@ -48729,7 +48729,7 @@ script 16 mmbn4 {
 	"""
 	A laser
 	pierces
-	1 thru!
+	thru row!
 	"""
 	keyWait
 		any = true
@@ -48743,7 +48743,7 @@ script 17 mmbn4 {
 	"""
 	A laser
 	pierces
-	1 thru!
+	thru row!
 	"""
 	keyWait
 		any = true
@@ -48757,7 +48757,7 @@ script 18 mmbn4 {
 	"""
 	A laser
 	pierces
-	1 thru!
+	thru row!
 	"""
 	keyWait
 		any = true
@@ -48811,9 +48811,9 @@ script 22 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Tape slam
-	attack
-	2sq in
+	Tape reel
+	spins 2.5
+	sq ahead
 	"""
 	keyWait
 		any = true
@@ -48825,9 +48825,9 @@ script 23 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Tape slam
-	attack
-	2sq in
+	Tape reel
+	spins 2.5
+	sq ahead
 	"""
 	keyWait
 		any = true
@@ -48839,9 +48839,9 @@ script 24 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Tape slam
-	attack
-	2sq in
+	Tape reel
+	spins 2.5
+	sq ahead
 	"""
 	keyWait
 		any = true
@@ -49353,9 +49353,9 @@ script 65 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Explosion
-	by Wide
-	attack
+	Attcks w/
+	spreading
+	fireball!
 	"""
 	keyWait
 		any = true
@@ -49367,9 +49367,9 @@ script 66 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Bubbles
-	by Wide
-	attack
+	Attcks w/
+	spreading
+	bubbles!
 	"""
 	keyWait
 		any = true
@@ -49381,9 +49381,9 @@ script 67 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	A cannon
-	driven by
-	GigaPower
+	Giga lvl
+	cannon
+	attack!
 	"""
 	keyWait
 		any = true
@@ -49395,9 +49395,9 @@ script 68 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	A cannon
-	driven by
-	GigaPower
+	Giga lvl
+	cannon
+	attack!
 	"""
 	keyWait
 		any = true
@@ -49409,9 +49409,9 @@ script 69 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	A cannon
-	driven by
-	GigaPower
+	Giga lvl
+	cannon
+	attack!
 	"""
 	keyWait
 		any = true
@@ -49423,8 +49423,9 @@ script 70 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	A 3-hit
-	wide shot
+	3-shot
+	piercing
+	WideSht
 	"""
 	keyWait
 		any = true
@@ -49436,8 +49437,9 @@ script 71 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	A 3-hit
-	wide shot
+	3-shot
+	piercing
+	WideSht
 	"""
 	keyWait
 		any = true
@@ -49449,8 +49451,9 @@ script 72 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	A 3-hit
-	wide shot
+	3-shot
+	piercing
+	WideSht
 	"""
 	keyWait
 		any = true
@@ -49463,8 +49466,8 @@ script 73 mmbn4 {
 		delay = 0
 	"""
 	Flames
-	of Hades
-	in cross!
+	burn in
+	a cross!
 	"""
 	keyWait
 		any = true
@@ -49477,8 +49480,8 @@ script 74 mmbn4 {
 		delay = 0
 	"""
 	Flames
-	of Hades
-	in cross!
+	burn in
+	a cross!
 	"""
 	keyWait
 		any = true
@@ -49491,8 +49494,8 @@ script 75 mmbn4 {
 		delay = 0
 	"""
 	Flames
-	of Hades
-	in cross!
+	burn in
+	a cross!
 	"""
 	keyWait
 		any = true
@@ -49548,7 +49551,7 @@ script 79 mmbn4 {
 	"""
 	Onslaught
 	of fangs
-	alongside
+	up/down
 	"""
 	keyWait
 		any = true
@@ -49562,7 +49565,7 @@ script 80 mmbn4 {
 	"""
 	Onslaught
 	of fangs
-	alongside
+	up/down
 	"""
 	keyWait
 		any = true
@@ -49576,7 +49579,7 @@ script 81 mmbn4 {
 	"""
 	Onslaught
 	of fangs
-	alongside
+	up/down
 	"""
 	keyWait
 		any = true
@@ -49588,8 +49591,8 @@ script 82 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Hockey
-	puck
+	Swarm
+	of pucks
 	ricochet
 	"""
 	keyWait
@@ -49602,8 +49605,8 @@ script 83 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Hockey
-	puck
+	Swarm
+	of pucks
 	ricochet
 	"""
 	keyWait
@@ -49616,8 +49619,8 @@ script 84 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Hockey
-	puck
+	Swarm
+	of pucks
 	ricochet
 	"""
 	keyWait
@@ -49630,9 +49633,9 @@ script 85 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Powerful
-	magnet
-	attack!
+	Pull and
+	shock all
+	w/ magnet
 	"""
 	keyWait
 		any = true
@@ -49644,9 +49647,9 @@ script 86 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Powerful
-	magnet
-	attack!
+	Pull and
+	shock all
+	w/ magnet
 	"""
 	keyWait
 		any = true
@@ -49658,9 +49661,9 @@ script 87 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Powerful
-	magnet
-	attack!
+	Pull and
+	shock all
+	w/ magnet
 	"""
 	keyWait
 		any = true
@@ -49673,7 +49676,7 @@ script 88 mmbn4 {
 		delay = 0
 	"""
 	Big sword
-	2 long
+	2 long,
 	3 wide!
 	"""
 	keyWait
@@ -49700,9 +49703,9 @@ script 90 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Sets a
-	strong
-	TimeBom
+	Put Giga
+	TimeBomb
+	near enmy
 	"""
 	keyWait
 		any = true
@@ -49729,8 +49732,8 @@ script 92 mmbn4 {
 		delay = 0
 	"""
 	Assassin
-	who takes
-	out enemy
+	throws
+	ninjastar
 	"""
 	keyWait
 		any = true
@@ -49742,9 +49745,9 @@ script 93 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Explosion
-	spreads
-	by 1sq!
+	Secondary
+	explosion
+	after hit
 	"""
 	keyWait
 		any = true
