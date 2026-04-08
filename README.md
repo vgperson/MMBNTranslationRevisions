@@ -2,7 +2,7 @@
 
 Revised English scripts with many edits and retranslations for some of the Mega Man Battle Network games.
 
-All editing and retranslation work was done by me, vgperson. I claim no ownership of the original text and code - extracted from the original games made by Capcom - that these are based upon.
+All editing and retranslation work (as well as some hacking) was done by me, vgperson. I claim no ownership of the original text and code - extracted from the original games made by Capcom - that these are based upon.
 
 ## tpl folder
 
@@ -28,6 +28,8 @@ The GBA versions of the revisions make a handful of edits outside of the message
 #### Changes included in BN4 base patches
 - Font edits: Period made bigger, lowercase j repositioned, removed off-color pixel above F in chip description font
 - Redone alphabetical chip sorting, addressing some misplaced chips from original
+- Code changes to restore full time display (including minutes) in Records screen
+- Code changes to adjust ID sort order of PrixPowr (so that it goes after other MegaChips and before GigaChips)
 
 ## Notes on running TextPet scripts
 
