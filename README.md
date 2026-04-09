@@ -16,6 +16,8 @@ When working with the BN2 Revision scripts, you should replace TextPet's default
 
 The GBA versions of the revisions make a handful of edits outside of the message data handled by TextPet. If you want to include these, you should apply the corresponding patch to an unmodified North American ROM (using an IPS patcher such as Lunar IPS), and use that as your "base" ROM for TextPet insertion. This is particularly important for BN2, as otherwise the brand new ellipsis character will appear as a blank space.
 
+For in-depth explanation of all changes, refer to the "BasePatchDetails" documentation in the folder.
+
 #### Changes included in BN2 base patch
 - New ellipsis character in font
 
@@ -26,9 +28,10 @@ The GBA versions of the revisions make a handful of edits outside of the message
 - (Blue only) Edited graphics for Beach Street poster to say "JACK IN" instead of "PLUG IN"
 
 #### Changes included in BN4 base patches
-- Font edits: Period made bigger, lowercase j repositioned, removed off-color pixel above F in chip description font
+- Font edits: Period made bigger, ellipses edited, lowercase j repositioned, removed off-color pixel above F in chip description font
 - Redone alphabetical chip sorting, addressing some misplaced chips from original
 - Code changes to restore full time display (including minutes) in Records screen
+- Code change to remove rank requirement for setting Navi record times
 - Code changes to adjust ID sort order of PrixPowr (so that it goes after other MegaChips and before GigaChips)
 
 ## Notes on running TextPet scripts
