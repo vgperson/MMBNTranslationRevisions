@@ -13268,7 +13268,7 @@ script 12 mmbn4-lc {
 script 20 mmbn4s {
 	"""
 	THANK YOU FOR PLAYING!
-	YOU COMPLETED BN4!!
+	 YOU COMPLETED BN4!!
 	"""
 	end
 }
