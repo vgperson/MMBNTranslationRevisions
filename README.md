@@ -30,6 +30,7 @@ For in-depth explanation of all changes, refer to the "BasePatchDetails" documen
 #### Changes included in BN4 base patches
 - Font edits: Period made bigger, ellipses edited, lowercase j repositioned, removed off-color pixel above F in chip description font
 - Redone alphabetical chip sorting, addressing some misplaced chips from original
+- Restored unique tournament background colors from Japanese version (Blue Moon only)
 - Code changes to restore full time display (including minutes) in Records screen
 - Code change to remove rank requirement for setting Navi record times
 - Code changes to adjust ID sort order of PrixPowr (so that it goes after other MegaChips and before GigaChips)
