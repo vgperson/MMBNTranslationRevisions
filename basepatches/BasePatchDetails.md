@@ -443,6 +443,111 @@ Blue Moon Japanese color addresses:
 - 0x6c56c2: 37 54 37 54 58 58 79 58 9a 5c bb 60 dc 60 fd 64 1e 69 5d 69 bd 6d 1d 72 5d 76 bd 7a 1d 7f 00 00 13 44 14 48 15 4c 16 50 -> 20 4a 60 4a 80 4a a0 42 c1 3e e1 3a 01 37 22 37 83 33 e4 2f e9 3f ee 4f f3 5f f8 6f fc 7f 00 00 a0 41 c0 45 00 4a 20 4a
   - Hawk Tournament colors
 
+### Restoring Original Free Tournament/Operation Battle Navi Win Text
+
+In the original English version, the "NUMBERMAN WIN!" text shown when NumberMan wins in a Free Tournament or Operation Battle was shortened to "NUMBRMAN WIN!", possibly for consistency with the "NUMBRMAN DELETED" text (which was shortened as such in the Japanese version as well due to the max length of those popups). In addition, for the text shown when they win Free Tournaments, "NORMAL NAVI WIN" was changed to "NOMLNAVI WIN" and "HEEL NAVI WIN" to "HEALNAVI WIN." There's no good reason for these changes (and "HealNavi" is obviously wrong), so the originals have been restored in this patch.
+
+Each text string of this type is stored as an X/Y position followed by a list of pointers to graphics data, which includes tiles for the left and right edges of the bar, for spaces (AKA bar segment with no letter on it), and for nothing at all (as filler after all the actually-used tiles). Aside from the "nothing at all" tile pointer, these graphics pointers differ between each version; English Blue Moon's graphics pointers are all offset by -0x570 from English Red Sun's.
+
+#### Data for "NUMBRMAN WIN!" at 0x173ec in both English Red Sun and English Blue Moon (differing pointers are given as Red Sun / Blue Moon):
+- 34 40 00 00: Position
+  - **Change to 30 40 00 00** to center properly for added character
+- 40 03 75 08 / d0 fd 74 08: left edge
+- c0 02 75 08 / 50 fd 74 08: Space
+- 80 ff 74 08 / 10 fa 74 08: N
+- 40 01 75 08 / d0 fb 74 08: U
+- 40 ff 74 08 / d0 f9 74 08: M
+- 80 fc 74 08 / 10 f7 74 08: B
+- **Insert 40 fd 74 08 / d0 f7 74 08: E**
+- 80 00 75 08 / 10 fb 74 08: R
+- 40 ff 74 08 / d0 f9 74 08: M
+- 40 fc 74 08 / d0 f6 74 08: A
+- 80 ff 74 08 / 10 fa 74 08: N
+- c0 02 75 08 / 50 fd 74 08: Space
+- c0 01 75 08 / 50 fc 74 08: W
+- 40 fe 74 08 / d0 f8 74 08: I
+- 80 ff 74 08 / 10 fa 74 08: N
+- 00 03 75 08 / 90 fd 74 08: !
+- c0 02 75 08 / 50 fd 74 08: Space
+- 80 03 75 08 / 10 fe 74 08: Right edge
+- 84 7a 01 08: Nothing
+  - One of the nothing tiles gets "overwritten" by addition of new characters
+- 84 7a 01 08: Nothing
+- 84 7a 01 08: Nothing
+
+**Byte changes for Red Sun:**
+- 0x173ec: 30 40 00 00 40 03 75 08 c0 02 75 08 80 ff 74 08 40 01 75 08 40 ff 74 08 80 fc 74 08 40 fd 74 08 80 00 75 08 40 ff 74 08 40 fc 74 08 80 ff 74 08 c0 02 75 08 c0 01 75 08 40 fe 74 08 80 ff 74 08 00 03 75 08 c0 02 75 08 80 03 75 08 84 7a 01 08 84 7a 01 08
+
+**Byte changes for Blue Moon:**
+- 0x173ec: 30 40 00 00 d0 fd 74 08 50 fd 74 08 10 fa 74 08 d0 fb 74 08 d0 f9 74 08 10 f7 74 08 d0 f7 74 08 10 fb 74 08 d0 f9 74 08 d0 f6 74 08 10 fa 74 08 50 fd 74 08 50 fc 74 08 d0 f8 74 08 10 fa 74 08 90 fd 74 08 50 fd 74 08 10 fe 74 08 84 7a 01 08 84 7a 01 08
+
+#### Data for "NOMLNAVI WIN!" at 0x17590 in both English Red Sun and English Blue Moon (differing pointers are given as Red Sun / Blue Moon):
+- 34 40 00 00: Position
+  - **Change to 28 40 00 00** to center properly for added characters
+- 40 03 75 08 / d0 fd 74 08: Left edge
+- c0 02 75 08 / 50 fd 74 08: Space
+- 80 ff 74 08 / 10 fa 74 08: N
+- c0 ff 74 08 / 50 fa 74 08: O
+- **Insert 80 00 75 08 / 10 fb 74 08: R**
+- 40 ff 74 08 / d0 f9 74 08: M
+- **Insert 40 fc 74 08 / d0 f6 74 08: A**
+- 00 ff 74 08 / 90 f9 74 08: L
+- **Insert c0 02 75 08 / 50 fd 74 08: Space**
+- 80 ff 74 08 / 10 fa 74 08: N
+- 40 fc 74 08 / d0 f6 74 08: A
+- 80 01 75 08 / 10 fc 74 08: V
+- 40 fe 74 08 / d0 f8 74 08: I
+- c0 02 75 08 / 50 fd 74 08: Space
+- c0 01 75 08 / 50 fc 74 08: W
+- 40 fe 74 08 / d0 f8 74 08: I
+- 80 ff 74 08 / 10 fa 74 08: N
+- 00 03 75 08 / 90 fd 74 08: !
+- c0 02 75 08 / 50 fd 74 08: Space
+- 80 03 75 08 / 10 fe 74 08: Right edge
+- 84 7a 01 08: Nothing
+- 84 7a 01 08: Nothing
+- 84 7a 01 08: Nothing
+  - All three nothing tiles get "overwritten" by addition of new characters
+
+**Byte changes for Red Sun:**
+- 0x17590: 28 40 00 00 40 03 75 08 c0 02 75 08 80 ff 74 08 c0 ff 74 08 80 00 75 08 40 ff 74 08 40 fc 74 08 00 ff 74 08 c0 02 75 08 80 ff 74 08 40 fc 74 08 80 01 75 08 40 fe 74 08 c0 02 75 08 c0 01 75 08 40 fe 74 08 80 ff 74 08 00 03 75 08 c0 02 75 08 80 03 75 08
+
+**Byte changes for Blue Moon:**
+- 0x17590: 28 40 00 00 d0 fd 74 08 50 fd 74 08 10 fa 74 08 50 fa 74 08 10 fb 74 08 d0 f9 74 08 d0 f6 74 08 90 f9 74 08 50 fd 74 08 10 fa 74 08 d0 f6 74 08 10 fc 74 08 d0 f8 74 08 50 fd 74 08 50 fc 74 08 d0 f8 74 08 10 fa 74 08 90 fd 74 08 50 fd 74 08 10 fe 74 08
+
+#### Data for "HEALNAVI WIN!" at 0x175e4 in both English Red Sun and English Blue Moon (differing pointers are given as Red Sun / Blue Moon):
+- 34 40 00 00: Position (for 17 used tiles out of 20)
+  - **Change to 30 40 00 00** to center properly for added character
+- 40 03 75 08 / d0 fd 74 08: Left edge
+- c0 02 75 08 / 50 fd 74 08: Space
+- 00 fe 74 08 / 90 f8 74 08: H
+- 40 fd 74 08 / d0 f7 74 08: E
+- 40 fc 74 08 / d0 f6 74 08: A
+  - **Change to 40 fc 74 08 / d0 f7 74 08: E**
+- 00 ff 74 08 / 90 f9 74 08: L
+- **Insert c0 02 75 08 / 50 fd 74 08: Space**
+- 80 ff 74 08 / 10 fa 74 08: N
+- 40 fc 74 08 / d0 f6 74 08: A
+- 80 01 75 08 / 10 fc 74 08: V
+- 40 fe 74 08 / d0 f8 74 08: I
+- c0 02 75 08 / 50 fd 74 08: Space
+- c0 01 75 08 / 50 fc 74 08: W
+- 40 fe 74 08 / d0 f8 74 08: I
+- 80 ff 74 08 / 10 fa 74 08: N
+- 00 03 75 08 / 90 fd 74 08: !
+- c0 02 75 08 / 50 fd 74 08: Space
+- 80 03 75 08 / 10 fe 74 08: Right edge
+- 84 7a 01 08: Nothing
+  - One of the nothing tiles gets "overwritten" by addition of new characters
+- 84 7a 01 08: Nothing
+- 84 7a 01 08: Nothing
+
+**Byte changes for Red Sun:**
+- 0x175e4: 30 40 00 00 40 03 75 08 c0 02 75 08 00 fe 74 08 40 fd 74 08 40 fc 74 08 00 ff 74 08 c0 02 75 08 80 ff 74 08 40 fc 74 08 80 01 75 08 40 fe 74 08 c0 02 75 08 c0 01 75 08 40 fe 74 08 80 ff 74 08 00 03 75 08 c0 02 75 08 80 03 75 08 84 7a 01 08 84 7a 01 08
+
+**Byte changes for Blue Moon:**
+- 0x175e4: 30 40 00 00 d0 fd 74 08 50 fd 74 08 90 f8 74 08 d0 f7 74 08 d0 f7 74 08 90 f9 74 08 50 fd 74 08 10 fa 74 08 d0 f6 74 08 10 fc 74 08 d0 f8 74 08 50 fd 74 08 50 fc 74 08 d0 f8 74 08 10 fa 74 08 90 fd 74 08 50 fd 74 08 10 fe 74 08 84 7a 01 08 84 7a 01 08
+
 ### Font Changes
 
 - 0x6960fe - 0x696155 (Red Sun), 0x695ee6 - 0x695f3d (Blue Moon)
