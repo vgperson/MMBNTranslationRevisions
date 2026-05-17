@@ -9774,13 +9774,13 @@ script 0 mmbn4s {
 }
 script 1 mmbn4s {
 	"""
-	Network Duel
+	Network
 	"""
 	end
 }
 script 2 mmbn4s {
 	"""
-	Instructions
+	Explain
 	"""
 	end
 }
@@ -9801,9 +9801,9 @@ script 3 mmbn4-lc {
 	mugshotShow
 		mugshot = MrFamous
 	"""
-	1P Practice Mode.
-	Features continuous
-	battles with Navis.
+	1P Training Mode.
+	Fight continuous
+	battles with Navis!
 	"""
 	waitHold
 }
@@ -10216,9 +10216,9 @@ script 16 mmbn4-lc {
 		any = false
 	clearMsg
 	"""
-	Last up is [SwitchL]…
-	But I'll let you figure
-	that one out yourself!
+	Oh,and pressing [SwitchL]…
+	Well,I won't spoil it.
+	Work it out yourself!
 	"""
 	keyWait
 		any = false
@@ -39720,7 +39720,7 @@ script 10 mmbn4-lc {
 	space
 		count = 1
 	"""
-	Use the RollArrow
+	RollArrow
 	
 	"""
 	positionOptionVertical
@@ -39787,7 +39787,7 @@ script 11 mmbn4-lc {
 	space
 		count = 1
 	"""
-	Use the RollArrow
+	RollArrow
 	
 	"""
 	positionOptionVertical
@@ -39952,7 +39952,7 @@ script 14 mmbn4-lc {
 	space
 		count = 1
 	"""
-	Use the GutsHammer
+	GutsHammer
 	
 	"""
 	positionOptionVertical
@@ -40019,7 +40019,7 @@ script 15 mmbn4-lc {
 	space
 		count = 1
 	"""
-	Use the GutsHammer
+	GutsHammer
 	
 	"""
 	positionOptionVertical
@@ -40416,7 +40416,7 @@ script 22 mmbn4-lc {
 	space
 		count = 1
 	"""
-	Use the ScopeGun
+	ScopeGun
 	
 	"""
 	positionOptionVertical
@@ -40483,7 +40483,7 @@ script 23 mmbn4-lc {
 	space
 		count = 1
 	"""
-	Use the ScopeGun
+	ScopeGun
 	
 	"""
 	positionOptionVertical
@@ -40648,7 +40648,7 @@ script 26 mmbn4-lc {
 	space
 		count = 1
 	"""
-	Use the FireArm
+	FireArm
 	
 	"""
 	positionOptionVertical
@@ -40715,7 +40715,7 @@ script 27 mmbn4-lc {
 	space
 		count = 1
 	"""
-	Use the FireArm
+	FireArm
 	
 	"""
 	positionOptionVertical
@@ -40880,7 +40880,7 @@ script 30 mmbn4-lc {
 	space
 		count = 1
 	"""
-	Use the ElecBeam
+	ElecBeam
 	
 	"""
 	positionOptionVertical
@@ -40947,7 +40947,7 @@ script 31 mmbn4-lc {
 	space
 		count = 1
 	"""
-	Use the ElecBeam
+	ElecBeam
 	
 	"""
 	positionOptionVertical
@@ -41344,7 +41344,7 @@ script 38 mmbn4-lc {
 	space
 		count = 1
 	"""
-	Use the shield!
+	Shield
 	
 	"""
 	positionOptionVertical
@@ -41411,7 +41411,7 @@ script 39 mmbn4-lc {
 	space
 		count = 1
 	"""
-	Use the shield!
+	Shield
 	
 	"""
 	positionOptionVertical
@@ -41576,7 +41576,7 @@ script 42 mmbn4-lc {
 	space
 		count = 1
 	"""
-	Use the MetalBlade
+	MetalBlade
 	
 	"""
 	positionOptionVertical
@@ -41643,7 +41643,7 @@ script 43 mmbn4-lc {
 	space
 		count = 1
 	"""
-	Use the MetalBlade
+	MetalBlade
 	
 	"""
 	positionOptionVertical
@@ -41808,7 +41808,7 @@ script 46 mmbn4-lc {
 	space
 		count = 1
 	"""
-	Use the JunkPress
+	JunkPress
 	
 	"""
 	positionOptionVertical
@@ -41875,7 +41875,7 @@ script 47 mmbn4-lc {
 	space
 		count = 1
 	"""
-	Use the JunkPress
+	JunkPress
 	
 	"""
 	positionOptionVertical
@@ -42040,7 +42040,7 @@ script 50 mmbn4-lc {
 	space
 		count = 1
 	"""
-	Use the AquaShot
+	AquaShot
 	
 	"""
 	positionOptionVertical
@@ -42107,7 +42107,7 @@ script 51 mmbn4-lc {
 	space
 		count = 1
 	"""
-	Use the AquaShot
+	AquaShot
 	
 	"""
 	positionOptionVertical
@@ -42272,7 +42272,7 @@ script 54 mmbn4-lc {
 	space
 		count = 1
 	"""
-	Use DeathForest
+	DeathForest
 	
 	"""
 	positionOptionVertical
@@ -42339,7 +42339,7 @@ script 55 mmbn4-lc {
 	space
 		count = 1
 	"""
-	Use DeathForest
+	DeathForest
 	
 	"""
 	positionOptionVertical
