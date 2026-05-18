@@ -10161,8 +10161,8 @@ script 16 mmbn4-lc {
 	clearMsg
 	"""
 	The gauge's color
-	determines what type
-	of chips you can send.
+	indicates what level
+	of chip you can send.
 	"""
 	keyWait
 		any = false
