@@ -9787,7 +9787,7 @@ script 1 mmbn4s {
 }
 script 2 mmbn4s {
 	"""
-	Explain
+	Help
 	"""
 	end
 }
@@ -39595,8 +39595,8 @@ script 8 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	The enemy's changing
-	strategies! Should we?
+	They changed tactics!
+	Should we change too?
 	
 	"""
 	positionOptionHorizontal
@@ -39693,7 +39693,8 @@ script 10 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	What should I use?
+	Hmm,I wonder what I
+	should use…?
 	"""
 	keyWait
 		any = false
@@ -39760,7 +39761,8 @@ script 11 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	What should I use?
+	Hmm,I wonder what I
+	should use…?
 	"""
 	keyWait
 		any = false
@@ -39827,8 +39829,8 @@ script 12 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	The enemy's changing
-	strategies! Should we?
+	The enemy's changin'
+	it up! Should we,haw?
 	
 	"""
 	positionOptionHorizontal
@@ -39925,7 +39927,8 @@ script 14 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	What should I use?
+	You thinkin' I should
+	use somethin'?
 	"""
 	keyWait
 		any = false
@@ -39992,7 +39995,8 @@ script 15 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	What should I use?
+	You thinkin' I should
+	use somethin'?
 	"""
 	keyWait
 		any = false
@@ -40059,8 +40063,8 @@ script 16 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	The enemy's changing
-	strategies! Should we?
+	Our foe is changing
+	tactics. Should we?
 	
 	"""
 	positionOptionHorizontal
@@ -40157,7 +40161,8 @@ script 18 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	What should I use?
+	Hmm,now what way
+	should the wind blow…?
 	"""
 	keyWait
 		any = false
@@ -40187,7 +40192,7 @@ script 18 mmbn4 {
 	space
 		count = 1
 	"""
-	Hit them with Wind
+	Blow away with Wind
 	
 	"""
 	positionOptionVertical
@@ -40224,7 +40229,8 @@ script 19 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	What should I use?
+	Hmm,now what way
+	should the wind blow…?
 	"""
 	keyWait
 		any = false
@@ -40254,7 +40260,7 @@ script 19 mmbn4 {
 	space
 		count = 1
 	"""
-	Hit them with Wind
+	Blow away with Wind
 	
 	"""
 	positionOptionVertical
@@ -40291,8 +40297,8 @@ script 20 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	The enemy's changing
-	strategies! Should we?
+	Enemy switching plans.
+	Should we follow suit?
 	
 	"""
 	positionOptionHorizontal
@@ -40339,7 +40345,7 @@ script 21 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	I await orders.
+	Awaiting orders.
 	
 	"""
 	positionOptionVertical
@@ -40389,7 +40395,7 @@ script 22 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	What shall I use?
+	Weaponry directives?
 	"""
 	keyWait
 		any = false
@@ -40456,7 +40462,7 @@ script 23 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	What shall I use?
+	Weaponry directives?
 	"""
 	keyWait
 		any = false
@@ -40524,7 +40530,7 @@ script 24 mmbn4 {
 		delay = 0
 	"""
 	The enemy's changing
-	strategies! Should we?
+	tactics. Should we?
 	
 	"""
 	positionOptionHorizontal
@@ -40621,7 +40627,8 @@ script 26 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	What should I use?
+	What should I
+	burn 'em up with?!
 	"""
 	keyWait
 		any = false
@@ -40688,7 +40695,8 @@ script 27 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	What should I use?
+	What should I
+	burn 'em up with?!
 	"""
 	keyWait
 		any = false
@@ -40755,8 +40763,8 @@ script 28 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	The enemy's changing
-	strategies! Should we?
+	Changing strategy,hm…
+	Shall we do the same?
 	
 	"""
 	positionOptionHorizontal
@@ -40853,7 +40861,8 @@ script 30 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	What should I use?
+	In what way shall I
+	bring down judgment?
 	"""
 	keyWait
 		any = false
@@ -40920,7 +40929,8 @@ script 31 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	What should I use?
+	In what way shall I
+	bring down judgment?
 	"""
 	keyWait
 		any = false
@@ -40987,8 +40997,8 @@ script 32 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	The enemy's changing
-	strategies! Should we?
+	Enemy is changing
+	strategies. Shall we?
 	
 	"""
 	positionOptionHorizontal
@@ -41085,7 +41095,7 @@ script 34 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	What should I equip?
+	What shall I equip?
 	"""
 	keyWait
 		any = false
@@ -41152,7 +41162,7 @@ script 35 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	What should I equip?
+	What shall I equip?
 	"""
 	keyWait
 		any = false
@@ -41317,7 +41327,8 @@ script 38 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	What shall I use?
+	What would you
+	suggest I use?
 	"""
 	keyWait
 		any = false
@@ -41384,7 +41395,8 @@ script 39 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	What shall I use?
+	What would you
+	suggest I use?
 	"""
 	keyWait
 		any = false
@@ -41451,8 +41463,8 @@ script 40 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	The enemy's changing
-	strategies! Should we?
+	Enemy's changing their
+	tactics. Will we,too?
 	
 	"""
 	positionOptionHorizontal
@@ -41549,7 +41561,8 @@ script 42 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	What should I equip?
+	What should I use
+	to crush 'em?
 	"""
 	keyWait
 		any = false
@@ -41616,7 +41629,8 @@ script 43 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	What should I equip?
+	What should I use
+	to crush 'em?
 	"""
 	keyWait
 		any = false
@@ -41684,7 +41698,7 @@ script 44 mmbn4 {
 		delay = 0
 	"""
 	The enemy's changing
-	strategies! Should we?
+	tactics. How about us?
 	
 	"""
 	positionOptionHorizontal
@@ -41781,7 +41795,7 @@ script 46 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	What should I equip?
+	What do I equip?
 	"""
 	keyWait
 		any = false
@@ -41848,7 +41862,7 @@ script 47 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	What should I equip?
+	What do I equip?
 	"""
 	keyWait
 		any = false
@@ -41915,8 +41929,8 @@ script 48 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	The enemy's changing
-	strategies! Should we?
+	Enemy tactics changing!
+	Should we change,drip?
 	
 	"""
 	positionOptionHorizontal
@@ -42013,7 +42027,8 @@ script 50 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Pick equipment,drip!
+	Pick some equipment
+	for me,drip!
 	"""
 	keyWait
 		any = false
@@ -42080,7 +42095,8 @@ script 51 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	Pick equipment,drip!
+	Pick some equipment
+	for me,drip!
 	"""
 	keyWait
 		any = false
@@ -42147,8 +42163,8 @@ script 52 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	The enemy's changing
-	strategies! Should we?
+	Our foe is changing
+	strategies… Shall we?
 	
 	"""
 	positionOptionHorizontal
@@ -42245,7 +42261,8 @@ script 54 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	What should I equip?
+	What would be suitable
+	equipment…?
 	"""
 	keyWait
 		any = false
@@ -42312,7 +42329,8 @@ script 55 mmbn4 {
 	textSpeed
 		delay = 0
 	"""
-	What should I equip?
+	What would be suitable
+	equipment…?
 	"""
 	keyWait
 		any = false
