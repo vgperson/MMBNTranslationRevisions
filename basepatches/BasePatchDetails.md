@@ -192,6 +192,7 @@ These functions ultimately affect the chip IDs as follows:
   - Duo: ID 292 (24 01) -> 293 (25 01)
 
 **Ultimately, all these code changes translate to the following byte changes:**
+
 - RS 0x30248, BM 0x3024c: a8 8b 03 f1 d1 fa 20 60
   - Inserts function call into PACK_WORKSPACE_SET_ID
 - RS 0x30540, BM 0x30544: a8 8b 03 f1 55 f9 20 60
@@ -371,6 +372,7 @@ Shift the X coordinates for the header sprites ("MY," "RECORD," "RS," "RECORD," 
   - "ATK" X position
 
 **Ultimately, all of this translates to the following byte changes:**
+
 - RS 0x3c08e, BM 0x3C096: a8 -> c4
   - My Record tile data size for initialization
 - RS 0x3c0be, BM 0x3C0C6: a8 -> c4
@@ -423,6 +425,7 @@ A very simple change: just replace the instruction responsible (which skips the 
     08021ec0 00 00   mov   r0,r0
 
 **Byte changes:**
+
 - RS 0x21ec0, BM 0x21ec4: 21 dd -> 00 00
 
 ### Restoring City/Hawk Tournament Board Backgrounds (Blue Moon Only)
@@ -438,6 +441,7 @@ Blue Moon Japanese color addresses:
 - 0x6c57aa - 0x6c57d1: Hawk Tournament (jade-green to light-green gradient)
 
 **Byte changes:**
+
 - 0x6c5642: c0 0a e1 12 01 1f 22 2b 43 2f 63 33 64 37 85 3f 85 47 86 4b a7 53 a7 5b c8 5f c9 67 ea 6f 00 00 40 06 60 06 80 0a a0 0a -> 19 30 59 34 ba 3c fb 44 5c 4d bc 55 fd 5d 5e 66 bf 6e df 6a 1f 67 5f 67 7f 63 bf 5f ff 5f 00 00 35 3c 35 3c 56 40 77 44
   - City Battle Tournament colors
 - 0x6c56c2: 37 54 37 54 58 58 79 58 9a 5c bb 60 dc 60 fd 64 1e 69 5d 69 bd 6d 1d 72 5d 76 bd 7a 1d 7f 00 00 13 44 14 48 15 4c 16 50 -> 20 4a 60 4a 80 4a a0 42 c1 3e e1 3a 01 37 22 37 83 33 e4 2f e9 3f ee 4f f3 5f f8 6f fc 7f 00 00 a0 41 c0 45 00 4a 20 4a
@@ -445,11 +449,14 @@ Blue Moon Japanese color addresses:
 
 ### Restoring Original Free Tournament/Operation Battle Navi Win Text
 
-In the original English version, the "NUMBERMAN WIN!" text shown when NumberMan wins in a Free Tournament or Operation Battle was shortened to "NUMBRMAN WIN!", possibly for consistency with the "NUMBRMAN DELETED" text (which was shortened as such in the Japanese version as well due to the max length of those popups). In addition, for the text shown when they win Free Tournaments, "NORMAL NAVI WIN" was changed to "NOMLNAVI WIN" and "HEEL NAVI WIN" to "HEALNAVI WIN." There's no good reason for these changes (and "HealNavi" is obviously wrong), so the originals have been restored in this patch.
+In the original English version, the "NUMBERMAN WIN!" text shown when NumberMan wins in a Free Tournament or Operation Battle was shortened to "NUMBRMAN WIN!", possibly for consistency with the "NUMBRMAN DELETED" text (which was shortened as such in the Japanese version as well). In addition, for the text shown when they win Free Tournaments, "NORMAL NAVI WIN" was changed to "NOMLNAVI WIN" and "HEEL NAVI WIN" to "HEALNAVI WIN."
+
+There's no good reason for these changes (and "HealNavi" is obviously wrong), so the originals have been restored in this patch. I also changed it to "NUMBERMAN DELETED," which can fit the internal width limit if the spaces on the sides are removed; this was done for other long Navi names, but not that one for some reason.
 
 Each text string of this type is stored as an X/Y position followed by a list of pointers to graphics data, which includes tiles for the left and right edges of the bar, for spaces (AKA bar segment with no letter on it), and for nothing at all (as filler after all the actually-used tiles). Aside from the "nothing at all" tile pointer, these graphics pointers differ between each version; English Blue Moon's graphics pointers are all offset by -0x570 from English Red Sun's.
 
 #### Data for "NUMBRMAN WIN!" at 0x173ec in both English Red Sun and English Blue Moon (differing pointers are given as Red Sun / Blue Moon):
+
 - 34 40 00 00: Position
   - **Change to 30 40 00 00** to center properly for added character
 - 40 03 75 08 / d0 fd 74 08: left edge
@@ -476,12 +483,15 @@ Each text string of this type is stored as an X/Y position followed by a list of
 - 84 7a 01 08: Nothing
 
 **Byte changes for Red Sun:**
+
 - 0x173ec: 30 40 00 00 40 03 75 08 c0 02 75 08 80 ff 74 08 40 01 75 08 40 ff 74 08 80 fc 74 08 40 fd 74 08 80 00 75 08 40 ff 74 08 40 fc 74 08 80 ff 74 08 c0 02 75 08 c0 01 75 08 40 fe 74 08 80 ff 74 08 00 03 75 08 c0 02 75 08 80 03 75 08 84 7a 01 08 84 7a 01 08
 
 **Byte changes for Blue Moon:**
+
 - 0x173ec: 30 40 00 00 d0 fd 74 08 50 fd 74 08 10 fa 74 08 d0 fb 74 08 d0 f9 74 08 10 f7 74 08 d0 f7 74 08 10 fb 74 08 d0 f9 74 08 d0 f6 74 08 10 fa 74 08 50 fd 74 08 50 fc 74 08 d0 f8 74 08 10 fa 74 08 90 fd 74 08 50 fd 74 08 10 fe 74 08 84 7a 01 08 84 7a 01 08
 
 #### Data for "NOMLNAVI WIN!" at 0x17590 in both English Red Sun and English Blue Moon (differing pointers are given as Red Sun / Blue Moon):
+
 - 34 40 00 00: Position
   - **Change to 28 40 00 00** to center properly for added characters
 - 40 03 75 08 / d0 fd 74 08: Left edge
@@ -510,12 +520,15 @@ Each text string of this type is stored as an X/Y position followed by a list of
   - All three nothing tiles get "overwritten" by addition of new characters
 
 **Byte changes for Red Sun:**
+
 - 0x17590: 28 40 00 00 40 03 75 08 c0 02 75 08 80 ff 74 08 c0 ff 74 08 80 00 75 08 40 ff 74 08 40 fc 74 08 00 ff 74 08 c0 02 75 08 80 ff 74 08 40 fc 74 08 80 01 75 08 40 fe 74 08 c0 02 75 08 c0 01 75 08 40 fe 74 08 80 ff 74 08 00 03 75 08 c0 02 75 08 80 03 75 08
 
 **Byte changes for Blue Moon:**
+
 - 0x17590: 28 40 00 00 d0 fd 74 08 50 fd 74 08 10 fa 74 08 50 fa 74 08 10 fb 74 08 d0 f9 74 08 d0 f6 74 08 90 f9 74 08 50 fd 74 08 10 fa 74 08 d0 f6 74 08 10 fc 74 08 d0 f8 74 08 50 fd 74 08 50 fc 74 08 d0 f8 74 08 10 fa 74 08 90 fd 74 08 50 fd 74 08 10 fe 74 08
 
 #### Data for "HEALNAVI WIN!" at 0x175e4 in both English Red Sun and English Blue Moon (differing pointers are given as Red Sun / Blue Moon):
+
 - 34 40 00 00: Position (for 17 used tiles out of 20)
   - **Change to 30 40 00 00** to center properly for added character
 - 40 03 75 08 / d0 fd 74 08: Left edge
@@ -543,10 +556,103 @@ Each text string of this type is stored as an X/Y position followed by a list of
 - 84 7a 01 08: Nothing
 
 **Byte changes for Red Sun:**
+
 - 0x175e4: 30 40 00 00 40 03 75 08 c0 02 75 08 00 fe 74 08 40 fd 74 08 40 fc 74 08 00 ff 74 08 c0 02 75 08 80 ff 74 08 40 fc 74 08 80 01 75 08 40 fe 74 08 c0 02 75 08 c0 01 75 08 40 fe 74 08 80 ff 74 08 00 03 75 08 c0 02 75 08 80 03 75 08 84 7a 01 08 84 7a 01 08
 
 **Byte changes for Blue Moon:**
+
 - 0x175e4: 30 40 00 00 d0 fd 74 08 50 fd 74 08 90 f8 74 08 d0 f7 74 08 d0 f7 74 08 90 f9 74 08 50 fd 74 08 10 fa 74 08 d0 f6 74 08 10 fc 74 08 d0 f8 74 08 50 fd 74 08 50 fc 74 08 d0 f8 74 08 10 fa 74 08 90 fd 74 08 50 fd 74 08 10 fe 74 08 84 7a 01 08 84 7a 01 08
+
+#### Data for "NUMBRMAN DELETED" at 0x17884 in both English Red Sun and English Blue Moon (differing pointers are given as Red Sun / Blue Moon):
+
+- 28 40 00 00: Position (for 20 used tiles out of 20)
+  - **Change to 2c 40 00 00** to center properly for fewer used tiles
+- 40 03 75 08 / d0 fd 74 08: Left edge
+- c0 02 75 08 / 50 fd 74 08: Space
+  - **Remove to make room**
+- 80 ff 74 08 / 10 fa 74 08: N
+- 40 01 75 08 / d0 fb 74 08: U
+- 40 ff 74 08 / d0 f9 74 08: M
+- 80 fc 74 08 / 10 f7 74 08: B
+- **Insert 40 fd 74 08 / d0 f7 74 08: E**
+- 80 00 75 08 / 10 fb 74 08: R
+- 40 ff 74 08 / d0 f9 74 08: M
+- 40 fc 74 08 / d0 f6 74 08: A
+- 80 ff 74 08 / 10 fa 74 08: N
+- c0 02 75 08 / 50 fd 74 08: Space
+- 00 fd 74 08 / 90 f7 74 08: D
+- 40 fd 74 08 / d0 f7 74 08: E
+- 00 ff 74 08 / 90 f9 74 08: L
+- 40 fd 74 08 / d0 f7 74 08: E
+- 00 01 75 08 / 90 fb 74 08: T
+- 40 fd 74 08 / d0 f7 74 08: E
+- 00 fd 74 08 / 90 f7 74 08: D
+- c0 02 75 08 / 50 fd 74 08: Space
+  - **Remove to make room**
+- 80 03 75 08 / 10 fe 74 08: Right edge
+- **Insert 84 7a 01 08 / 84 7a 01 08: Nothing**
+  - To fill space, since one less tile is used overall
+
+**Byte changes for Red Sun:**
+
+- 0x17884: 2c 40 00 00 40 03 75 08 80 ff 74 08 40 01 75 08 40 ff 74 08 80 fc 74 08 40 fd 74 08 80 00 75 08 40 ff 74 08 40 fc 74 08 80 ff 74 08 c0 02 75 08 00 fd 74 08 40 fd 74 08 00 ff 74 08 40 fd 74 08 00 01 75 08 40 fd 74 08 00 fd 74 08 80 03 75 08 84 7a 01 08
+
+**Byte changes for Blue Moon:**
+
+- 0x17884: 2c 40 00 00 d0 fd 74 08 10 fa 74 08 d0 fb 74 08 d0 f9 74 08 10 f7 74 08 d0 f7 74 08 10 fb 74 08 d0 f9 74 08 d0 f6 74 08 10 fa 74 08 50 fd 74 08 90 f7 74 08 d0 f7 74 08 90 f9 74 08 d0 f7 74 08 90 fb 74 08 d0 f7 74 08 90 f7 74 08 10 fe 74 08 84 7a 01 08
+
+### Editing PET Menu Headers
+
+This patch changes the headers for the WaitingRoom menus from "RGSTRATION" and "AWAY GAME" to "RECEPTION" and "DISPATCH."
+
+These are stored as lists of tile numbers (which remain the same between Red Sun and Blue Moon) used to create the background. Each letter is assembled from two tiles, top and bottom; the letter tiles aren't in much of an order, and some tiles are usable for the top or bottom of multiple letters, so it's a bit hard to illustrate the logic - you'll just have to trust these are the ones to use for these letters.
+
+The tile data for the background that contains "RGSTRATION" starts at 0x6db01c in Red Sun and 0x6dab10 in Blue Moon.
+
+- Tile row 1:
+  - 01 00 02 00 02 00 (Tiles for the left window border and two leading spaces)
+  - 0f 00 5d 00 09 00 0a 00 0f 00 04 00 0a 00 06 00 0b 00 03 00 (Tiles for the top half of "RGSTRATION")
+  - 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 (Filler spaces)
+  - 10 00 (Tile for the right window border)
+- Tile row 2:
+  - 31 00 32 00 32 00 (Tiles for the left window border and two leading spaces; these are different tiles from row 1 because they contain both the darker-colored "header" area and a bit of the lighter-colored "body" area)
+  - 3a 00 38 00 99 00 35 00 3a 00 6d 00 35 00 35 00 38 00 18 01 (Tiles for the bottom half of "RGSTRATION")
+  - 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 (Filler spaces)
+  - 3B 00 (Tile for the right window border)
+
+The tile data for the background that contains "AWAY GAME" starts at 0x6db4cc in Red Sun and 0x6dafc0 in Blue Moon.
+
+- Tile row 1:
+  - 01 00 02 00 02 00 (Tiles for the left window border and two leading spaces)
+  - 04 00 17 01 04 00 11 01 02 00 5d 00 04 00 0c 00 0e 00 (Tiles for the top half of "AWAY GAME")
+  - 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 (Filler spaces)
+  - 10 00 (Tile for the right window border)
+- Tile row 2:
+  - 31 00 32 00 32 00 (Tiles for the left window border and two leading spaces; these are different tiles from row 1 because they contain both the darker-colored "header" area and a bit of the lighter-colored "body" area)
+  - 6d 00 19 01 6d 00 35 00 32 00 38 00 6d 00 6e 00 33 00 (Tiles for the bottom half of "AWAY GAME")
+  - 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 (Filler spaces)
+  - 3B 00 (Tile for the right window border)
+  
+Obviously the important part to replace is the tiles corresponding to letters (though keep in mind the number of filler spaces may also change), so here they are for "RECEPTION":
+
+- Tile row 1:
+  - 0f 00 0e 00 07 00 0e 00 03 00 0a 00 06 00 0b 00 03 00
+- Tile row 2:
+  - 3a 00 33 00 33 00 33 00 36 00 35 00 35 00 38 00 18 01
+
+And here they are for "DISPATCH":
+
+- Tile row 1:
+  - 30 00 06 00 09 00 03 00 04 00 0a 00 07 00 08 00
+- Tile row 2:
+  - 39 00 35 00 99 00 36 00 6d 00 35 00 33 00 34 00
+
+**Byte changes:**
+
+- RS 0x6db01c, BM 0x6dab10: 01 00 02 00 02 00 0f 00 0e 00 07 00 0e 00 03 00 0a 00 06 00 0b 00 03 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 10 00 31 00 32 00 32 00 3a 00 33 00 33 00 33 00 36 00 35 00 35 00 38 00 18 01 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 3b 00
+  - First two tile rows for "RECEPTION"
+- RS 0x6db4cc, BM 0x6dafc0: 01 00 02 00 02 00 30 00 06 00 09 00 03 00 04 00 0a 00 07 00 08 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 10 00 31 00 32 00 32 00 39 00 35 00 99 00 36 00 6d 00 35 00 33 00 34 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 3b 00
+  - First two tile rows for "DISPATCH"
 
 ### Font Changes
 
