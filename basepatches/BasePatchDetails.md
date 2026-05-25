@@ -654,6 +654,16 @@ And here they are for "DISPATCH":
 - RS 0x6db4cc, BM 0x6dafc0: 01 00 02 00 02 00 30 00 06 00 09 00 03 00 04 00 0a 00 07 00 08 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 02 00 10 00 31 00 32 00 32 00 39 00 35 00 99 00 36 00 6d 00 35 00 33 00 34 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 32 00 3b 00
   - First two tile rows for "DISPATCH"
 
+### Fix Unset Record-Holder Names Being Invisible
+
+If Navi deletion record times are hacked in without a record-holder name being properly set, the default name uses characters that were dashes in Japanese, but are invisible in the English version.
+
+The default name is stored as 82 82 82; changing it to 49 49 49 will make it use English-version dashes. Note that this only applies on starting a new game, as afterward, the names are stored in the save file.
+
+**Byte changes:**
+
+- RS 0x3c590, BM 0x3c598: 82 82 82 -> 49 49 49
+
 ### Font Changes
 
 - 0x6960fe - 0x696155 (Red Sun), 0x695ee6 - 0x695f3d (Blue Moon)
