@@ -2448,13 +2448,7 @@ script 152 mmbn4-lc {
 	mugshotShow
 		mugshot = MegaMan
 	"""
-	BM Record: 
-	"""
-	printRecordName
-		buffer = 4
-		name = 0
-	"""
-	
+	The BM Record is
 	
 	"""
 	printBuffer
@@ -2479,7 +2473,13 @@ script 152 mmbn4-lc {
 		padZeros = true
 		padLeft = true
 	"""
-	
+	,by 
+	"""
+	printRecordName
+		buffer = 4
+		name = 0
+	"""
+	!
 	
 	"""
 	positionOptionFromCenter
@@ -2532,8 +2532,8 @@ script 153 mmbn4-lc {
 	mugshotShow
 		mugshot = MegaMan
 	"""
-	BM Record:
-	Lan:
+	The BM Record is
+	your time,Lan:
 	
 	"""
 	printBuffer
@@ -2557,6 +2557,9 @@ script 153 mmbn4-lc {
 		minLength = 2
 		padZeros = true
 		padLeft = true
+	"""
+	!
+	"""
 	keyWait
 		any = false
 	waitHold
@@ -3237,13 +3240,7 @@ script 171 mmbn4-lc {
 	mugshotShow
 		mugshot = MegaMan
 	"""
-	RS Record: 
-	"""
-	printRecordName
-		buffer = 4
-		name = 0
-	"""
-	
+	The RS Record is
 	
 	"""
 	printBuffer
@@ -3268,7 +3265,13 @@ script 171 mmbn4-lc {
 		padZeros = true
 		padLeft = true
 	"""
-	
+	,by 
+	"""
+	printRecordName
+		buffer = 4
+		name = 0
+	"""
+	!
 	
 	"""
 	positionOptionFromCenter
@@ -3324,8 +3327,8 @@ script 172 mmbn4-lc {
 	mugshotShow
 		mugshot = MegaMan
 	"""
-	RS Record:
-	Lan:
+	The RS Record is
+	your time,Lan:
 	
 	"""
 	printBuffer
@@ -3349,6 +3352,9 @@ script 172 mmbn4-lc {
 		minLength = 2
 		padZeros = true
 		padLeft = true
+	"""
+	!
+	"""
 	keyWait
 		any = false
 	waitHold
@@ -7268,13 +7274,7 @@ script 152 mmbn4-lc {
 	mugshotShow
 		mugshot = MegaMan
 	"""
-	BM Record: 
-	"""
-	printRecordName
-		buffer = 4
-		name = 0
-	"""
-	
+	The BM Record is
 	
 	"""
 	printBuffer
@@ -7299,7 +7299,13 @@ script 152 mmbn4-lc {
 		padZeros = true
 		padLeft = true
 	"""
-	
+	,by 
+	"""
+	printRecordName
+		buffer = 4
+		name = 0
+	"""
+	!
 	
 	"""
 	positionOptionFromCenter
@@ -7352,8 +7358,8 @@ script 153 mmbn4-lc {
 	mugshotShow
 		mugshot = MegaMan
 	"""
-	BM Record:
-	Lan:
+	The BM Record is
+	your time,Lan:
 	
 	"""
 	printBuffer
@@ -7377,6 +7383,9 @@ script 153 mmbn4-lc {
 		minLength = 2
 		padZeros = true
 		padLeft = true
+	"""
+	!
+	"""
 	keyWait
 		any = false
 	waitHold
@@ -8057,13 +8066,7 @@ script 171 mmbn4-lc {
 	mugshotShow
 		mugshot = MegaMan
 	"""
-	RS Record: 
-	"""
-	printRecordName
-		buffer = 4
-		name = 0
-	"""
-	
+	The RS Record is
 	
 	"""
 	printBuffer
@@ -8088,7 +8091,13 @@ script 171 mmbn4-lc {
 		padZeros = true
 		padLeft = true
 	"""
-	
+	,by 
+	"""
+	printRecordName
+		buffer = 4
+		name = 0
+	"""
+	!
 	
 	"""
 	positionOptionFromCenter
@@ -8144,8 +8153,8 @@ script 172 mmbn4-lc {
 	mugshotShow
 		mugshot = MegaMan
 	"""
-	RS Record:
-	Lan:
+	The RS Record is
+	your time,Lan:
 	
 	"""
 	printBuffer
@@ -8169,6 +8178,9 @@ script 172 mmbn4-lc {
 		minLength = 2
 		padZeros = true
 		padLeft = true
+	"""
+	!
+	"""
 	keyWait
 		any = false
 	waitHold
@@ -9188,6 +9200,9 @@ script 231 mmbn4-lc {
 		enemy = 0
 	printShortString
 		bufferOffset = 1
+	"""
+	!
+	"""
 	keyWait
 		any = false
 	waitHold
