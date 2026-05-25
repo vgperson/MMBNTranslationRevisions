@@ -32,6 +32,7 @@ For in-depth explanation of all changes, refer to the "BasePatchDetails" documen
 - Redone alphabetical chip sorting, addressing some misplaced chips from original
 - Restored unique tournament background colors from Japanese version (Blue Moon only)
 - Restored full spellings of "NUMBERMAN," "NORMAL NAVI," and "HEEL NAVI" when they win a Free Tournament (or Operation Battle) match
+- Changed WaitingRoom menu headers to "RECEPTION" and "DISPATCH"
 - Code changes to restore full time display (including minutes) in Records screen
 - Code change to remove rank requirement for setting Navi record times
 - Code changes to adjust ID sort order of PrixPowr (so that it goes after other MegaChips and before GigaChips)
