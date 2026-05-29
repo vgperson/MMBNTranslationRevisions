@@ -428,24 +428,34 @@ A very simple change: just replace the instruction responsible (which skips the 
 
 - RS 0x21ec0, BM 0x21ec4: 21 dd -> 00 00
 
-### Restoring City/Hawk Tournament Board Backgrounds (Blue Moon Only)
+### Restoring City/Hawk Tournament Board Colors (Blue Moon Only)
 
-In the original English release of Blue Moon (fixed in Legacy Collection), the City and Hawk tournament boards used the same colors as their Red Sun equivalents. The Japanese ones have been restored in this patch.
+In the original English release of Blue Moon, the City and Hawk tournament boards used the same colors as their Red Sun equivalents. The Japanese background colors, and appropriately matching header colors, have been restored in this patch.
 
 Blue Moon English color addresses:
-- 0x6c5642 - 0x6c5669: City Battle Tournament (green to light-blue gradient, same as Red Sun's Den Battle Tournament)
-- 0x6c56c2 - 0x6c56e9: Hawk Tournament (purple to pink gradient, same as Red Sun's Eagle Battle Tournament)
 
-Blue Moon Japanese color addresses:
+- 0x6c5642 - 0x6c567f: City Battle Tournament (green to light-blue gradient, orange bar, yellow text, same as Red Sun's Den Battle Tournament)
+- 0x6c56c2 - 0x6c56ff: Hawk Tournament (purple to pink gradient, blue bar, yellow text, same as Red Sun's Eagle Battle Tournament)
+
+Blue Moon Japanese color addresses (for background gradient only; headers are objects in this version instead of being part of background, so palette for them is separate):
+
 - 0x6c572a - 0x6c5751: City Battle Tournament (magenta to coral-yellow gradient)
 - 0x6c57aa - 0x6c57d1: Hawk Tournament (jade-green to light-green gradient)
+
+Since the styling of the headers differs between English and Japanese, I went with the closest-matching header colors that already existed in the English versions.
 
 **Byte changes:**
 
 - 0x6c5642: c0 0a e1 12 01 1f 22 2b 43 2f 63 33 64 37 85 3f 85 47 86 4b a7 53 a7 5b c8 5f c9 67 ea 6f 00 00 40 06 60 06 80 0a a0 0a -> 19 30 59 34 ba 3c fb 44 5c 4d bc 55 fd 5d 5e 66 bf 6e df 6a 1f 67 5f 67 7f 63 bf 5f ff 5f 00 00 35 3c 35 3c 56 40 77 44
-  - City Battle Tournament colors
+  - City Battle Tournament gradient colors (green/light-blue to magenta/coral-yellow)
+- 0x6c5678: bf 02 1f 01 f6 18 53 14 -> 28 7f 07 76 47 59 43 49
+  - City Battle Tournament header bar colors (orange to blue)
 - 0x6c56c2: 37 54 37 54 58 58 79 58 9a 5c bb 60 dc 60 fd 64 1e 69 5d 69 bd 6d 1d 72 5d 76 bd 7a 1d 7f 00 00 13 44 14 48 15 4c 16 50 -> 20 4a 60 4a 80 4a a0 42 c1 3e e1 3a 01 37 22 37 83 33 e4 2f e9 3f ee 4f f3 5f f8 6f fc 7f 00 00 a0 41 c0 45 00 4a 20 4a
-  - Hawk Tournament colors
+  - Hawk Tournament gradient colors (purple/pink to jade-green/light-green)
+- 0x6c56ea: b9 6f fc 77 d9 3b d7 03 52 0b cc 12 24 29 -> fd 7f ff 67 bf 37 7e 0f fc 16 17 1a ca 14
+  - Hawk Tournament text colors (green to yellow)
+- 0x6c56f8: 28 7f 07 76 47 59 43 49 -> de 64 3b 50 72 20 0f 18
+  - Hawk Tournament header bar colors (blue to purple)
 
 ### Restoring Original Free Tournament/Operation Battle Navi Win Text
 
