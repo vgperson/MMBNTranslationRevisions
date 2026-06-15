@@ -49,7 +49,7 @@ The Higsby's Chip Order initial inventory data starts at 0x45130 in Blue and 0x4
 
 - Large replacement from around 0x4b92bc to 0x4bba38
 
-The compressed tile graphics for Beach Street were edited to localize the poster that said "PLUG IN" to say "JACK IN" (only in Blue, as it's a different poster entirely in White). A small change, but it resulted in a lot of changed bytes on account of the entire tile sheet being one compressed image. (This was done with GBA Graphics Editor, which calls the Beach Street tiles in question "compressed image 105.")
+The compressed tile graphics for Beach Street were edited to localize the poster that said "PLUG IN" to say "JACK IN" (only in Blue, as it's a different poster entirely in White). A small change, but it resulted in a lot of changed bytes on account of the entire tile sheet being one compressed image. (This was done by using GBA Graphics Editor to replace the compressed Beach Street graphics at offset 4b9200, or "image 105.")
 
 ### Font Changes
 
@@ -673,6 +673,12 @@ The default name is stored as 82 82 82; changing it to 49 49 49 will make it use
 **Byte changes:**
 
 - RS 0x3c590, BM 0x3c598: 82 82 82 -> 49 49 49
+
+### Shifting Misaligned Eagle Tournament Banner Text (Red Sun Only)
+
+- Large replacement from around 0x6c4e41 to 0x6c5abb
+
+The tile graphics for tournament boards were edited to shift the "Tournament" in the Eagle Tournament banner (only in Red Sun) up one pixel, as it was misaligned. This resulted in a lot of changed bytes on account of the graphics for tournament boards being one compressed image. (This was done by using GBA Graphics Editor to replace the compressed tournament board graphics at offset 6c4e40.)
 
 ### Font Changes
 
