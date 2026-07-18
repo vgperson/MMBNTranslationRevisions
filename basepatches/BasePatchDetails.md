@@ -444,7 +444,7 @@ Blue Moon Japanese color addresses (for background gradient only; headers are ob
 
 Since the styling of the headers differs between English and Japanese, I went with the closest-matching header colors that already existed in the English versions.
 
-**Byte changes:**
+**Byte changes (for Blue Moon only):**
 
 - 0x6c5642: c0 0a e1 12 01 1f 22 2b 43 2f 63 33 64 37 85 3f 85 47 86 4b a7 53 a7 5b c8 5f c9 67 ea 6f 00 00 40 06 60 06 80 0a a0 0a -> 19 30 59 34 ba 3c fb 44 5c 4d bc 55 fd 5d 5e 66 bf 6e df 6a 1f 67 5f 67 7f 63 bf 5f ff 5f 00 00 35 3c 35 3c 56 40 77 44
   - City Battle Tournament gradient colors (green/light-blue to magenta/coral-yellow)
@@ -676,9 +676,9 @@ The default name is stored as 82 82 82; changing it to 49 49 49 will make it use
 
 ### Shifting Misaligned Eagle Tournament Banner Text (Red Sun Only)
 
-- Large replacement from around 0x6c4e41 to 0x6c5abb
+- Large replacement from around 0x6c4e41 to 0x6c5aef
 
-The tile graphics for tournament boards were edited to shift the "Tournament" in the Eagle Tournament banner (only in Red Sun) up one pixel, as it was misaligned. This resulted in a lot of changed bytes on account of the graphics for tournament boards being one compressed image. (This was done by using GBA Graphics Editor to replace the compressed tournament board graphics at offset 6c4e40.)
+The tile graphics for tournament boards were edited to shift the "Tournament" in the Eagle Tournament banner (only in Red Sun) up one pixel, as it was misaligned. This resulted in a lot of changed bytes on account of the graphics for tournament boards being one compressed image. (This was done by using GBA Graphics Editor to replace the compressed tournament board graphics at offset 6c4e40. Notably, the program's auto-detection seems to cut the tiles off slightly early (leaving out part of the Free Tournament banner, making it partly corrupted after re-importing), so I had to add them in semi-manually.)
 
 ### Font Changes
 
