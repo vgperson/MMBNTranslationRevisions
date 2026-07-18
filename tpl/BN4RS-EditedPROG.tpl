@@ -13934,7 +13934,7 @@ script 24 mmbn4 {
 		mugshot = MegaMan
 	"""
 	It's a rare goldbug!
-	This one's female!
+	This one's a female!
 	She's totally still…
 	"""
 	waitHold
@@ -17582,7 +17582,7 @@ script 30 mmbn4 {
 		top = 141
 	"""
 	THIS PROGRAM CHANGES
-	SUNLIGHT INTO ENERGY.
+	SUNLIGHT TO ENERGY.
 	"""
 	waitHold
 }
